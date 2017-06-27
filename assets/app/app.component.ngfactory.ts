@@ -8,19 +8,26 @@
 
 import * as i0 from './app.component.css.shim.ngstyle';
 import * as i1 from '@angular/core';
-import * as i2 from './app.component';
+import * as i2 from './components/sidenav/sidenav.component.ngfactory';
+import * as i3 from './components/sidenav/sidenav.component';
+import * as i4 from '@angular/material';
+import * as i5 from './app.component';
 const styles_AppComponent:any[] = [i0.styles];
 export const RenderType_AppComponent:i1.RendererType2 = i1.ɵcrt({encapsulation:0,styles:styles_AppComponent,
     data:{}});
 export function View_AppComponent_0(_l:any):i1.ɵViewDefinition {
-  return i1.ɵvid(0,([] as any[]),(null as any),(null as any));
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'app-sidenav',
+      ([] as any[]),(null as any),(null as any),(null as any),i2.View_SidenavComponent_0,
+      i2.RenderType_SidenavComponent)),i1.ɵdid(49152,(null as any),0,i3.SidenavComponent,
+      [i4.MdDialog],(null as any),(null as any)),(_l()(),i1.ɵted((null as any),['\n']))],
+      (null as any),(null as any));
 }
 export function View_AppComponent_Host_0(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'my-app',([] as any[]),
       (null as any),(null as any),(null as any),View_AppComponent_0,RenderType_AppComponent)),
-      i1.ɵdid(49152,(null as any),0,i2.AppComponent,([] as any[]),(null as any),(null as any))],
+      i1.ɵdid(49152,(null as any),0,i5.AppComponent,([] as any[]),(null as any),(null as any))],
       (null as any),(null as any));
 }
-export const AppComponentNgFactory:i1.ComponentFactory<i2.AppComponent> = i1.ɵccf('my-app',
-    i2.AppComponent,View_AppComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvYXBwLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9DOi9Vc2Vycy9TaGVyaW4vT3ptZW50YTJLMTcvYXNzZXRzL2FwcC9hcHAuY29tcG9uZW50LnRzIiwibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvYXBwLmNvbXBvbmVudC50cy5BcHBDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8bXktYXBwPjwvbXktYXBwPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7OztvQkNBQTtNQUFBO2FBQUE7Ozs7In0=
+export const AppComponentNgFactory:i1.ComponentFactory<i5.AppComponent> = i1.ɵccf('my-app',
+    i5.AppComponent,View_AppComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvYXBwLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9DOi9Vc2Vycy9TaGVyaW4vT3ptZW50YTJLMTcvYXNzZXRzL2FwcC9hcHAuY29tcG9uZW50LnRzIiwibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvYXBwLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvYXBwLmNvbXBvbmVudC50cy5BcHBDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8YXBwLXNpZGVuYXY+PC9hcHAtc2lkZW5hdj5cclxuIiwiPG15LWFwcD48L215LWFwcD4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7b0JDQUE7TUFBQTtvQ0FBQSxVQUFBO01BQUEsMkNBQTJCOzs7O29CQ0EzQjtNQUFBO2FBQUE7Ozs7In0=

@@ -10,7 +10,7 @@ module.exports = webpackMerge(commonConfig, {
         path: path.resolve(__dirname + '/public/js/app'),
         publicPath: "/js/app/",
         filename: 'bundle.js',
-        publicPath: '/js/app/',
+        publicPath: "/js/app",
         chunkFilename: '[id].chunk.js'
     },
     module: {

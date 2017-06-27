@@ -10,8 +10,8 @@
     </md-input-container>
     <md-input-container class="app-full-width">
       <input type="email" mdInput placeholder="Email" formControlName="email">
-      <md-hint class="app-alert" *ngIf="(rForm.controls['email'].pristine || rForm.controls['email'].value == '') && rForm.controls['email'].touched">This field is required</md-hint>
-      <md-hint class="app-alert" *ngIf="!rForm.controls['email'].pristine && !rForm.controls['email'].value == '' && rForm.controls['email'].touched && !rForm.controls['email'].valid">Invalid Email Address</md-hint>
+      <md-hint class="app-alert" *ngIf="(rForm.controls['email'].pristine || rForm.controls['email'].value ) && rForm.controls['email'].touched">This field is required</md-hint>
+      <md-hint class="app-alert" *ngIf="!rForm.controls['email'].pristine && !rForm.controls['email'].value && rForm.controls['email'].touched && !rForm.controls['email'].valid">Invalid Email Address</md-hint>
     </md-input-container>
     <br>
     <md-input-container class="app-full-width">

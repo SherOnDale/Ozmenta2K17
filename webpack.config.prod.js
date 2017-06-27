@@ -35,3 +35,4 @@ module.exports = webpackMerge.smart(commonConfig, {
         })
     ]
 });
+
