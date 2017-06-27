@@ -1,5 +1,5 @@
 import { LoginComponent } from './../login/login.component';
-import { MdDialog, MdDialogRef } from '@angular/material';
+import { MdDialog } from '@angular/material';
 import { RegisterComponent } from './../register/register.component';
 import { Component } from '@angular/core';
 

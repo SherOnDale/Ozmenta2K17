@@ -1,1 +1,31 @@
-This is a registration form
+<div class="container">
+  <form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)">
+    <md-input-container class="app-half-width">
+      <input mdInput placeholder="First Name" formControlName="fname">
+      <md-hint class="app-alert" *ngIf="!rForm.controls['fname'].valid && rForm.controls['fname'].touched">This field is required</md-hint>
+    </md-input-container>
+    <md-input-container class="app-half-width">
+      <input mdInput placeholder="Last Name" formControlName="sname">
+      <md-hint class="app-alert" *ngIf="!rForm.controls['sname'].valid && rForm.controls['sname'].touched">This field is required</md-hint>
+    </md-input-container>
+    <md-input-container class="app-full-width">
+      <input type="email" mdInput placeholder="Email" formControlName="email">
+      <md-hint class="app-alert" *ngIf="(rForm.controls['email'].pristine || rForm.controls['email'].value == '') && rForm.controls['email'].touched">This field is required</md-hint>
+      <md-hint class="app-alert" *ngIf="!rForm.controls['email'].pristine && !rForm.controls['email'].value == '' && rForm.controls['email'].touched && !rForm.controls['email'].valid">Invalid Email Address</md-hint>
+    </md-input-container>
+    <br>
+    <md-input-container class="app-full-width">
+      <input type="number" #phno min="1000000000" max="9999999999" mdInput placeholder="Mobile Number" formControlName="phno">
+      <md-hint align="end">{{phno.value.length}} / 10</md-hint>
+      <md-hint class="app-alert" *ngIf="!rForm.controls['phno'].valid && rForm.controls['phno'].touched">This field is required</md-hint>
+    </md-input-container>
+    <md-input-container class="app-full-width">
+      <input type="password" mdInput placeholder="Password" formControlName="password">
+      <md-hint class="app-alert" *ngIf="(rForm.controls['password'].pristine || rForm.controls['password'].value == '') && rForm.controls['password'].touched">This field is required</md-hint>
+    </md-input-container>
+    <br>
+    <br>
+    <button type="submit" md-raised-button color="primary" [disabled]="!rForm.valid" (click)="openAlert()">Submit</button>
+    <button md-raised-button color="warn" (click)="dialogRef.close()">Cancel</button>
+  </form>
+</div>
