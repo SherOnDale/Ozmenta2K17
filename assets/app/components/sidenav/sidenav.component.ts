@@ -1,3 +1,4 @@
+import { LoginComponent } from './../login/login.component';
 import { MdDialog, MdDialogRef } from '@angular/material';
 import { RegisterComponent } from './../register/register.component';
 import { Component } from '@angular/core';
@@ -13,13 +14,14 @@ export class SidenavComponent {
 }
 
     openRegisterForm() {
-        const regDialogRef = this.dialog.open(RegisterComponent);
-        regDialogRef.afterClosed().subscribe(result => {
-            console.log(result);
+        let dialogRef = this.dialog.open(RegisterComponent);
+        dialogRef.afterClosed().subscribe(result => {
         });
     }
-
+    
     openLoginForm() {
-
+        let dialogRef = this.dialog.open(LoginComponent);
+        dialogRef.afterClosed().subscribe(result => {
+        });
     }
 }

@@ -1,4 +1,4 @@
-import { Component, Optional } from '@angular/core';
+import { Component } from '@angular/core';
 import {NgForm} from '@angular/forms';
 import {MdDialogRef} from '@angular/material';
 @Component({
@@ -8,9 +8,5 @@ import {MdDialogRef} from '@angular/material';
 })
 
 export class RegisterComponent {
-  constructor(@Optional() public dialogRef: MdDialogRef<RegisterComponent>) { }
-  onSubmit(form: NgForm) {
-    console.log(form.value.email);
-    form.resetForm();
-  }
+  constructor(public dialogRef: MdDialogRef<RegisterComponent>) { }
 }
