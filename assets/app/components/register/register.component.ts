@@ -23,7 +23,9 @@ export class RegisterComponent {
       'fname': [null, Validators.required],
       'sname': [null, Validators.required],
       'email': [null, Validators.email],
-      'phno': [null, Validators.pattern(this.numberPattern)],
+      'phno': [null, Validators.compose([
+        Validators.pattern(this.numberPattern),
+        Validators.required])],
       'password': [null, Validators.required]
     });
   }
