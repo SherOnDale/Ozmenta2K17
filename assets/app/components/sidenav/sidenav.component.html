@@ -2,25 +2,25 @@
     <md-sidenav #sidenav mode="side" class="app-sidenav">
         <md-list>
             <md-list-item>
-                <a md-button>
+                <a md-button [routerLink]="['/']">
                     <md-icon>home</md-icon>
                     <span>Home</span>
                 </a>
             </md-list-item>
             <md-list-item>
-                <a md-button>
+                <a md-button [routerLink]="['/events']">
                     <md-icon>event</md-icon>
                     <span>Events</span>
                 </a>
             </md-list-item>
             <md-list-item>
-                <a md-button>
+                <a md-button [routerLink]="['/workshops']">
                     <md-icon>class</md-icon>
                     <span>Workshops</span>
                 </a>
             </md-list-item>
             <md-list-item>
-                <a md-button>
+                <a md-button [routerLink]="['/contacts']">
                     <md-icon>contacts</md-icon>
                     <span>Contacts</span>
                 </a>
@@ -44,4 +44,5 @@
             <span>Register</span>
         </button>
     </md-menu>
+    <router-outlet></router-outlet>
 </md-sidenav-container>

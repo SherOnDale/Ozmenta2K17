@@ -1,3 +1,5 @@
+import { ContactsPageComponent } from './components/contactspage/contactspage.component';
+import { WorkshopPageComponent } from './components/workshoppage/workshoppage.component';
 import { RegisterComponent } from './components/register/register.component';
 import { LoginComponent } from './components/login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -14,7 +16,7 @@ import 'hammerjs';
 
 @NgModule({
     entryComponents: [LoginComponent, RegisterComponent],
-    declarations: [AppComponent, SidenavComponent, HomePageComponent, EventPageComponent, RegisterComponent, LoginComponent],
+    declarations: [AppComponent, SidenavComponent, HomePageComponent, EventPageComponent, RegisterComponent, LoginComponent, WorkshopPageComponent, ContactsPageComponent],
     imports: [ MaterialModule, BrowserModule, FormsModule, BrowserAnimationsModule, ReactiveFormsModule, routing],
     bootstrap: [AppComponent]
 })
