@@ -16,13 +16,14 @@ export class RegisterComponent {
   email: string = '';
   phno: number;
   password: string = '';
+  numberPattern: RegExp = /^\d{10}$/;
 
   constructor(public dialogRef: MdDialogRef<RegisterComponent>, private fb: FormBuilder, private snackBar: MdSnackBar) {
     this.rForm = fb.group({
       'fname': [null, Validators.required],
       'sname': [null, Validators.required],
       'email': [null, Validators.email],
-      'phno': [null, Validators.required],
+      'phno': [null, Validators.pattern(this.numberPattern)],
       'password': [null, Validators.required]
     });
   }

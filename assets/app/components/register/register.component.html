@@ -15,7 +15,7 @@
     </md-input-container>
     <br>
     <md-input-container class="app-full-width">
-      <input type="number" #phno min="1000000000" max="9999999999" mdInput placeholder="Mobile Number" formControlName="phno">
+      <input mdInput #phno placeholder="Mobile Number" formControlName="phno">
       <md-hint align="end">{{phno.value.length}} / 10</md-hint>
       <md-hint class="app-alert" *ngIf="!rForm.controls['phno'].valid && rForm.controls['phno'].touched">This field is required</md-hint>
     </md-input-container>
