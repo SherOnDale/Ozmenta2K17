@@ -4,9 +4,10 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+const mongoose = require('mongoose');
 
 const indexRoutes = require('./routes/index');
-
+mongoose.connect('mongodb://127.0.0.1:27017/Ozmenta2K17');
 var app = express();
 
 // view engine setup

@@ -1,16 +1,16 @@
 <div class="container">
   <form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)">
     <md-input-container class="app-half-width">
-      <input mdInput placeholder="First Name" formControlName="fname">
-      <md-hint class="app-alert" *ngIf="!rForm.controls['fname'].valid && rForm.controls['fname'].touched">This field is required</md-hint>
+      <input mdInput placeholder="First Name" formControlName="fName">
+      <md-hint class="app-alert" *ngIf="!rForm.controls['fName'].valid && rForm.controls['fName'].touched">This field is required</md-hint>
     </md-input-container>
     <md-input-container class="app-half-width">
-      <input mdInput placeholder="Last Name" formControlName="sname">
-      <md-hint class="app-alert" *ngIf="!rForm.controls['sname'].valid && rForm.controls['sname'].touched">This field is required</md-hint>
+      <input mdInput placeholder="Last Name" formControlName="lName">
+      <md-hint class="app-alert" *ngIf="!rForm.controls['lName'].valid && rForm.controls['lName'].touched">This field is required</md-hint>
     </md-input-container>
     <md-input-container class="app-full-width">
       <input type="email" mdInput placeholder="Email" formControlName="email">
-      <md-hint class="app-alert" *ngIf="(rForm.controls['email'].pristine || rForm.controls['email'].value ) && rForm.controls['email'].touched">This field is required</md-hint>
+      <md-hint class="app-alert" *ngIf="(rForm.controls['email'].pristine || !rForm.controls['email'].value ) && rForm.controls['email'].touched">This field is required</md-hint>
       <md-hint class="app-alert" *ngIf="!rForm.controls['email'].pristine && !rForm.controls['email'].value && rForm.controls['email'].touched && !rForm.controls['email'].valid">Invalid Email Address</md-hint>
     </md-input-container>
     <br>
@@ -25,7 +25,7 @@
     </md-input-container>
     <br>
     <br>
-    <button type="submit" md-raised-button color="primary" [disabled]="!rForm.valid" (click)="openAlert()">Submit</button>
-    <button md-raised-button color="warn" (click)="dialogRef.close()">Cancel</button>
+    <button type="submit" md-raised-button color="primary" [disabled]="!rForm.valid">Submit</button>
+    <button type="reset" md-raised-button color="warn" (click)="dialogRef.close()">Cancel</button>
   </form>
 </div>

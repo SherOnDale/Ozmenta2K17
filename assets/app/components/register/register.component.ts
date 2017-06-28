@@ -1,3 +1,4 @@
+import { UserService } from './../../services/user.service';
 import { Component } from '@angular/core';
 import { NgForm, FormGroup, Validators, FormBuilder } from '@angular/forms';
 import { MdDialogRef, MdSnackBar } from '@angular/material';
@@ -11,17 +12,17 @@ export class RegisterComponent {
 
   rForm: FormGroup;
   post: any;
-  fname: string = '';
-  sname: string = '';
+  fName: string = '';
+  lName: string = '';
   email: string = '';
   phno: number;
   password: string = '';
   numberPattern: RegExp = /^\d{10}$/;
 
-  constructor(public dialogRef: MdDialogRef<RegisterComponent>, private fb: FormBuilder, private snackBar: MdSnackBar) {
+  constructor(public dialogRef: MdDialogRef<RegisterComponent>, private fb: FormBuilder, private snackBar: MdSnackBar, public userService: UserService) {
     this.rForm = fb.group({
-      'fname': [null, Validators.required],
-      'sname': [null, Validators.required],
+      'fName': [null, Validators.required],
+      'lName': [null, Validators.required],
       'email': [null, Validators.email],
       'phno': [null, Validators.compose([
         Validators.pattern(this.numberPattern),
@@ -30,14 +31,14 @@ export class RegisterComponent {
     });
   }
   addPost(post) {
-    this.fname = post.fname;
-    this.sname = post.sname;
-    this.email = post.email;
-    this.phno = post.phno;
-    this.password = post.password;
-  }
-  
-  openAlert() {
-    this.snackBar.open('Registration is not open yet', 'OK');
+    this.userService.registerUser(post)
+      .subscribe(
+        data => {
+          this.snackBar.open(`${data.message}`, 'OK');
+        },
+        error => {
+          this.snackBar.open(`${error.message}`, 'OK');
+        }
+      );
   }
 }

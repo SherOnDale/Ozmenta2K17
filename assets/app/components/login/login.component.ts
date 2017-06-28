@@ -1,3 +1,4 @@
+import { UserService } from './../../services/user.service';
 import { MdDialogRef, MdSnackBar } from '@angular/material';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Component } from '@angular/core';
@@ -15,20 +16,23 @@ export class LoginComponent {
   password: string = '';
   remember: boolean = false;
 
-  constructor(public dialogRef: MdDialogRef<LoginComponent>, private fb: FormBuilder, private snackBar: MdSnackBar) {
+  constructor(public dialogRef: MdDialogRef<LoginComponent>, private fb: FormBuilder, private snackBar: MdSnackBar, public userService: UserService) {
     this.rForm = fb.group({
       'email': [null, Validators.email],
       'password': [null, Validators.required],
       'remember': ''
     });
   }
-  addPost(post) {
-    this.email = post.email;
-    this.password = post.password;
-    this.remember = post.remember;
-  }
   
-  openAlert() {
-    this.snackBar.open('Registration is not open yet', 'OK');
+  loginUser(loginDetails) {
+    this.userService.loginUser(loginDetails)
+      .subscribe(
+        data => {
+          this.snackBar.open(data.message, 'OK');
+        },
+        error => {
+          this.snackBar.open(error.message, 'OK');
+        }
+      );
   }
 }

@@ -1,26 +1,28 @@
 const mongoose = require('mongoose');
-const Schema = mongoose.schema;
+const Schema = mongoose.Schema;
 const mongooseUniqueValidator = require('mongoose-unique-validator');
 
 const userSchema = new Schema({
-  firstName: {
-    type: string,
+  fName: {
+    type: String,
     required: true
   },
-  lastName: {
-    type: string,
+  lName: {
+    type: String,
     required: true
   },
   email: {
-    type: string,
-    required: true
+    type: String,
+    required: true,
+    unique: true
   },
   phno: {
-    type: number,
-    required: true
+    type: Number,
+    required: true,
+    unique: true
   },
   password: {
-    type: string,
+    type: String,
     required: true
   }
 });
