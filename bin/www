@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-var app = require('../app');
+var app = require('../application');
 var debug = require('debug')('angular2-nodejs:server');
 var http = require('http');
 

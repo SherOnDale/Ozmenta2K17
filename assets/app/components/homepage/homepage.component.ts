@@ -1,5 +1,4 @@
 import { Component, OnInit} from '@angular/core';
-import Parallax from './parallax.js';
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
@@ -14,8 +13,5 @@ export class HomePageComponent implements OnInit{
   }
 
   ngOnInit() {
-    this.scene = document.getElementById('scene');
-    console.log(this.scene);
-    const parallax = new Parallax(this.scene);
   }
 }
