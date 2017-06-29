@@ -1,12 +1,17 @@
+import { NTEventPageComponent } from './components/nteventpage/nteventpage.component';
 import { ContactsPageComponent } from './components/contactspage/contactspage.component';
 import { HomePageComponent } from './components/homepage/homepage.component';
-import { EventPageComponent } from './components/eventpage/eventpage.component';
+import { TEventPageComponent } from './components/teventpage/teventpage.component';
 import {WorkshopPageComponent} from './components/workshoppage/workshoppage.component';
 import {Routes, RouterModule} from '@angular/router';
 const APP_ROUTES: Routes = [
   {
-    path: 'events',
-    component: EventPageComponent
+    path: 'tevents',
+    component: TEventPageComponent
+  },
+  {
+    path: 'ntevents',
+    component: NTEventPageComponent
   },
   {
     path: 'workshops',
