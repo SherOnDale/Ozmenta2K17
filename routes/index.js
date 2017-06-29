@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
 const User = require('../models/users');
+const bcrypt = require('bcryptjs');
+const jwt = require('jsonwebtoken');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -13,7 +15,7 @@ router.post('/registerUser', (req, res, next) => {
     lName: req.body.lName,
     email: req.body.email,
     phno: req.body.phno,
-    password: req.body.password
+    password: bcrypt.hashSync(req.body.password, 10)
   });
   user.save((err) => {
     if(err) {
@@ -30,20 +32,32 @@ router.post('/registerUser', (req, res, next) => {
 });
 
 router.post('/loginUser', (req, res, next) => {
-  console.log(req.body.email, req.body.password);
-  User.findOne({email: req.body.email,
-                password: req.body.password}, (err, doc) => {
+  User.findOne({email: req.body.email}, (err, doc) => {
     if(err) {
-      console.log('There is an error');
       return res.status(500).json({
         message: 'Unable to log you in. Please try again later',
         error: err
       });
     }
-    console.log('There is not an error');
+    if(!doc) {
+      return res.status(401).json({
+        message: 'Unable to log you in . Please try again later'
+      });
+    }
+    if(!bcrypt.compareSync(req.body.password, doc.password)) {
+      return res.status(401).json({
+        message: 'Unable to log you in . Please try again later'
+      });
+    }
+    const token = jwt.sign({
+      user: doc.email
+    }, 'ozmenta2k17velammalengineeringcollege', {
+      expiresIn: 3600
+    });
     res.status(201).json({
       message: 'Successfully logged in',
-      obj: doc
+      token: token,
+      userId: doc._id
     });
   });
 });

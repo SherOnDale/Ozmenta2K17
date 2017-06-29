@@ -6,7 +6,8 @@ import {Observable} from 'rxjs';
 
 @Injectable()
 export class UserService {
-  private activeUser: User = {
+  public loggedIn: Boolean = false;
+  public activeUser: User = {
     email: '',
     password: '',
     fName: '',
@@ -27,11 +28,11 @@ export class UserService {
   }
 
   addUser(user: User) {
-    this.email = user.email;
-    this.password = user.password;
-    this.fName = user.fName;
-    this.lName = user.lName;
-    this.phno = user.phno;
+    this.activeUser.email = user.email;
+    this.activeUser.password = user.password;
+    this.activeUser.fName = user.fName;
+    this.activeUser.lName = user.lName;
+    this.activeUser.phno = user.phno;
   }
 
   loginUser({email, password}) {
@@ -47,10 +48,11 @@ export class UserService {
       .catch((error: Response) => Observable.throw(error));
   }
 
-  removeUser() {
-    this.activeUser.email = '';
-    this.activeUser.password = '';
-    this.activeUser.fName = '';
-    this.activeUser.lName = '';
+  logoutUser() {
+    localStorage.clear();
+  }
+
+  isLoggedIn() {
+    return localStorage.getItem('token') != null;
   }
 }

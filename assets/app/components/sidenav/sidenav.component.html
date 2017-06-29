@@ -41,13 +41,17 @@
         <button md-mini-fab [mdMenuTriggerFor]="menu"><md-icon>add</md-icon></button>
     </md-toolbar>
     <md-menu #menu="mdMenu">
-        <button md-menu-item (click)="openLoginForm()">
+        <button md-menu-item (click)="openLoginForm()" *ngIf="!isLoggedIn()">
             <md-icon>account_circle</md-icon>
             <span>Login</span>
         </button>
-        <button md-menu-item (click)="openRegisterForm()">
+        <button md-menu-item (click)="openRegisterForm()" *ngIf="!isLoggedIn()">
             <md-icon>account_circle</md-icon>
             <span>Register</span>
+        </button>
+        <button md-menu-item (click)="logout()" *ngIf="isLoggedIn()">
+            <md-icon>account_circle</md-icon>
+            <span>Logout</span>
         </button>
     </md-menu>
     <router-outlet></router-outlet>

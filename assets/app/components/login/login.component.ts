@@ -28,10 +28,13 @@ export class LoginComponent {
     this.userService.loginUser(loginDetails)
       .subscribe(
         data => {
-          this.userService.addUser(data.obj);
+          localStorage.setItem('token', data.token);
+          localStorage.setItem('userId', data.userId);
+          this.dialogRef.close();
           this.snackBar.open(data.message, 'OK');
         },
         error => {
+          this.rForm.reset();
           this.snackBar.open(error.message, 'OK');
         }
       );
