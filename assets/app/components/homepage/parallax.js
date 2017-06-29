@@ -151,7 +151,7 @@ const MAGIC_NUMBER = 30,
         onReady: null
       }
 
-class Parallax {
+export class Parallax {
   constructor(element, options) {
 
     this.element = element
@@ -561,4 +561,6 @@ class Parallax {
 
 }
 
-module.exports = Parallax
+export default Parallax;
+
+// module.exports = Parallax
