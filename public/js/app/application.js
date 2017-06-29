@@ -6,8 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var indexRoutes = require('./routes/index');
-// mongoose.connect('mongodb://SherOnDale13:temppassword69@ds143532.mlab.com:43532/ozmenta2k17');
-mongoose.connect('mongodb://127.0.0.1:27017/Ozmenta2K17');
+mongoose.connect('mongodb://SherOnDale13:temppassword69@ds143532.mlab.com:43532/ozmenta2k17');
 var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
