@@ -8,13 +8,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ozmenta 2K17</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic" rel="stylesheet"> 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link rel="stylesheet" href="/stylesheets/style.css">
-    <link rel="stylesheet" href="/stylesheets/deeppurple-amber.css">
+    <link rel="stylesheet" href="/stylesheets/purple-green.css">
     <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
 </head>
-<body>
-<my-app></my-app>
+<body onload="preload()">
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+<my-app>
+</my-app>
 <script src="/js/app/bundle.js"></script>
+<script src="/js/parallax.min.js"></script>
+<script>
+    function preload() {
+        setTimeout(function() {
+            document.body.classList.add('loaded');
+        }, 3000);
+    }
+</script>
 </body>
 </html>

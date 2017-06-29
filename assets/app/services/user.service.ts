@@ -9,8 +9,8 @@ export class UserService {
   private activeUser: User = {
     email: '',
     password: '',
-    fname: '',
-    lname: '',
+    fName: '',
+    lName: '',
     phno: undefined
   };
 
@@ -26,8 +26,12 @@ export class UserService {
       .catch((error: Response) => Observable.throw(error));
   }
 
-  getUser() {
-    return this.activeUser;
+  addUser(user: User) {
+    this.email = user.email;
+    this.password = user.password;
+    this.fName = user.fName;
+    this.lName = user.lName;
+    this.phno = user.phno;
   }
 
   loginUser({email, password}) {
@@ -46,7 +50,7 @@ export class UserService {
   removeUser() {
     this.activeUser.email = '';
     this.activeUser.password = '';
-    this.activeUser.fname = '';
-    this.activeUser.lname = '';
+    this.activeUser.fName = '';
+    this.activeUser.lName = '';
   }
 }

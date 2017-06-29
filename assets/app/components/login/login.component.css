@@ -3,7 +3,7 @@
 }
 
 .app-alert {
-  color: red;
+  color: yellow;
   animation: 1s hintAnim forwards;
 }
 

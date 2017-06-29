@@ -28,6 +28,7 @@ export class LoginComponent {
     this.userService.loginUser(loginDetails)
       .subscribe(
         data => {
+          this.userService.addUser(data.obj);
           this.snackBar.open(data.message, 'OK');
         },
         error => {
