@@ -18,7 +18,7 @@ var styles_TEventPageComponent = [i0.styles];
 export var RenderType_TEventPageComponent = i1.ɵcrt({ encapsulation: 0,
     styles: styles_TEventPageComponent, data: {} });
 export function View_TEventPageComponent_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 356, 'div', [['class',
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 299, 'div', [['class',
                 'container']], null, null, null, null, null)),
         i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers,
             i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
@@ -35,12 +35,10 @@ export function View_TEventPageComponent_0(_l) {
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
             i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Paper Presentation'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Dog Breed'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/tevents.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 6, 'md-card-content', [['class', 'mat-card-content']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Techie Raft'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Complete the Code'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'],
+            ['md-card-image', ''], ['src', '/images/tevents.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 6, 'md-card-content', [['class',
+                'mat-card-content']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardContent, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)),
         (_l()(), i1.ɵted(null, ['\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus unde nostrum possimus facere labore recusandae iste,\n            itaque quod nisi harum libero quae dolore, quos dolores necessitatibus reiciendis, inventore quaerat beatae fugiat\n            blanditiis.\n          '])),
         (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
@@ -62,8 +60,8 @@ export function View_TEventPageComponent_0(_l) {
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
             i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Paper Presentation'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Dog Breed'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Bug Wizard'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Debugging'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
         (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
                 ''], ['src', '/images/tevents.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
         (_l()(), i1.ɵeld(0, null, 0, 6, 'md-card-content', [['class', 'mat-card-content']], null, null, null, null, null)),
@@ -97,12 +95,10 @@ export function View_TEventPageComponent_0(_l) {
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
             i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Paper Presentation'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Dog Breed'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/tevents.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 6, 'md-card-content', [['class', 'mat-card-content']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Idea Express'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Paper Presentation'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'],
+            ['md-card-image', ''], ['src', '/images/tevents.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 6, 'md-card-content', [['class',
+                'mat-card-content']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardContent, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)),
         (_l()(), i1.ɵted(null, ['\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus unde nostrum possimus facere labore recusandae iste,\n            itaque quod nisi harum libero quae dolore, quos dolores necessitatibus reiciendis, inventore quaerat beatae fugiat\n            blanditiis.\n          '])),
         (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
@@ -124,12 +120,10 @@ export function View_TEventPageComponent_0(_l) {
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
             i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Paper Presentation'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Dog Breed'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/tevents.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 6, 'md-card-content', [['class', 'mat-card-content']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Conquer It'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Capture the Flag'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'],
+            ['md-card-image', ''], ['src', '/images/tevents.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 6, 'md-card-content', [['class',
+                'mat-card-content']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardContent, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)),
         (_l()(), i1.ɵted(null, ['\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus unde nostrum possimus facere labore recusandae iste,\n            itaque quod nisi harum libero quae dolore, quos dolores necessitatibus reiciendis, inventore quaerat beatae fugiat\n            blanditiis.\n          '])),
         (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
@@ -143,7 +137,7 @@ export function View_TEventPageComponent_0(_l) {
             i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdButton, [i1.Renderer2, i1.ElementRef, i8.Platform, i8.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])),
         (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])),
         (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n  '])),
-        (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 116, 'div', [['fxFlexs', ''], ['fxLayout', 'row'], ['fxLayout.sm', 'column'], ['fxLayout.xs',
+        (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 59, 'div', [['fxFlexs', ''], ['fxLayout', 'row'], ['fxLayout.sm', 'column'], ['fxLayout.xs',
                 'column']], null, null, null, null, null)),
         i1.ɵdid(737280, null, 0, i4.LayoutDirective, [i3.MediaMonitor, i1.ElementRef,
             i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 55, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
@@ -159,39 +153,9 @@ export function View_TEventPageComponent_0(_l) {
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
             i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Paper Presentation'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Dog Breed'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/tevents.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 6, 'md-card-content', [['class', 'mat-card-content']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardContent, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)),
-        (_l()(), i1.ɵted(null, ['\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus unde nostrum possimus facere labore recusandae iste,\n            itaque quod nisi harum libero quae dolore, quos dolores necessitatibus reiciendis, inventore quaerat beatae fugiat\n            blanditiis.\n          '])),
-        (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'], ['md-button', '']], [[8, 'disabled', 0]], null, null, i7.View_MdButton_0, i7.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdButton, [i1.Renderer2, i1.ElementRef, i8.Platform, i8.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['REGISTER'])),
-        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'], ['md-button', '']], [[8, 'disabled',
-                0]], null, null, i7.View_MdButton_0, i7.RenderType_MdButton)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdButton, [i1.Renderer2, i1.ElementRef, i8.Platform, i8.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])),
-        (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])),
-        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])),
-        (_l()(), i1.ɵeld(0, null, null, 55, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2,
-            [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 51, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
-            ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
-                'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Paper Presentation'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Dog Breed'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/tevents.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 6, 'md-card-content', [['class', 'mat-card-content']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Dummy App'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Mobile App Mock-Up'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'],
+            ['md-card-image', ''], ['src', '/images/tevents.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 6, 'md-card-content', [['class',
+                'mat-card-content']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardContent, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)),
         (_l()(), i1.ɵted(null, ['\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus unde nostrum possimus facere labore recusandae iste,\n            itaque quod nisi harum libero quae dolore, quos dolores necessitatibus reiciendis, inventore quaerat beatae fugiat\n            blanditiis.\n          '])),
         (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
@@ -250,12 +214,6 @@ export function View_TEventPageComponent_0(_l) {
         _ck(_v, 248, 0, currVal_31);
         var currVal_32 = 'header-image';
         _ck(_v, 256, 0, currVal_32);
-        var currVal_35 = '';
-        _ck(_v, 300, 0, currVal_35);
-        var currVal_36 = 'card';
-        _ck(_v, 305, 0, currVal_36);
-        var currVal_37 = 'header-image';
-        _ck(_v, 313, 0, currVal_37);
     }, function (_ck, _v) {
         var currVal_7 = (i1.ɵnov(_v, 50).disabled || null);
         _ck(_v, 48, 0, currVal_7);
@@ -277,10 +235,6 @@ export function View_TEventPageComponent_0(_l) {
         _ck(_v, 284, 0, currVal_33);
         var currVal_34 = (i1.ɵnov(_v, 292).disabled || null);
         _ck(_v, 290, 0, currVal_34);
-        var currVal_38 = (i1.ɵnov(_v, 343).disabled || null);
-        _ck(_v, 341, 0, currVal_38);
-        var currVal_39 = (i1.ɵnov(_v, 349).disabled || null);
-        _ck(_v, 347, 0, currVal_39);
     });
 }
 export function View_TEventPageComponent_Host_0(_l) {

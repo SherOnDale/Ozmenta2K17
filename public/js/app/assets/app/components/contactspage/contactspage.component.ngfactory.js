@@ -22,33 +22,35 @@ export function View_ContactsPageComponent_0(_l) {
                 'container']], null, null, null, null, null)),
         i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers,
             i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
-                'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n  \n	'])),
+                'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n\n  '])),
         (_l()(), i1.ɵeld(0, null, null, 149, 'div', [['fxFlexs', ''], ['fxLayout',
                 'row'], ['fxLayout.sm', 'column'], ['fxLayout.xs', 'column']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i4.LayoutDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null),
         (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor,
-            i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n  '])),
+            i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n      '])),
         (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
         i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Vijay Aditya G V'])), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'],
-            ['md-card-image', ''], ['src', '/images/joel.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class',
-                'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
-                'mat-button'], ['href', 'mailto:athithavijay@gmail.com'], ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null,
-                'click']], function (_v, en, $event) {
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Vijay Aditya G V'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class',
+                'mat-card-image'], ['md-card-image', ''], ['src', '/images/avatar2.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class', 'mat-button'], ['href', 'mailto:athithavijay@gmail.com'],
+            ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex',
+                0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
                 var pd_0 = (i1.ɵnov(_v, 42)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
+        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
                 'mat-button'], ['href', 'tel:+919626580963'], ['md-button', '']], [[1, 'disabled',
                 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
@@ -59,34 +61,35 @@ export function View_ContactsPageComponent_0(_l) {
             return ad;
         }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor,
             i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(),
-            i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(),
-            i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex',
-                '']], null, null, null, null, null)),
-        i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef,
-            i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0,
-                'flex'] }, null), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(),
-            i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
+            i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(),
+            i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor,
+            i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n      '])),
+        (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
         i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Joel Jasper A'])), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'],
-            ['md-card-image', ''], ['src', '/images/joel.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class',
-                'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
-                'mat-button'], ['href', 'mailto:iamjoel1996@gmail.com'], ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null,
-                'click']], function (_v, en, $event) {
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Vaishnavi P'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class',
+                'mat-card-image'], ['md-card-image', ''], ['src', '/images/avatar.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class', 'mat-button'], ['href', 'mailto:vaishnaviparameswaran.16@gmail.com'],
+            ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex',
+                0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
                 var pd_0 = (i1.ɵnov(_v, 91)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
-                'mat-button'], ['href', 'tel:+919944007900'], ['md-button', '']], [[1, 'disabled',
+        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
+                'mat-button'], ['href', 'tel:+919585869955'], ['md-button', '']], [[1, 'disabled',
                 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
@@ -96,76 +99,76 @@ export function View_ContactsPageComponent_0(_l) {
             return ad;
         }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor,
             i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(),
-            i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(),
-            i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex',
-                '']], null, null, null, null, null)),
-        i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef,
-            i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0,
-                'flex'] }, null), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(),
-            i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
+            i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(),
+            i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor,
+            i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n      '])),
+        (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
         i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Udhaya Kumar E'])), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'],
-            ['md-card-image', ''], ['src', '/images/udhay.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class',
-                'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
-                'mat-button'], ['href', 'mailto:udhayakumarkz530@gmail.com'], ['md-button',
-                '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null,
-                'click']], function (_v, en, $event) {
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Subathra Srinivas'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class',
+                'mat-card-image'], ['md-card-image', ''], ['src', '/images/avatar.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class', 'mat-button'], ['href', 'mailto:subathrasrinivas5@gmail.com'],
+            ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex',
+                0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
                 var pd_0 = (i1.ɵnov(_v, 140)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
+        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
+                'mat-button'], ['href', 'tel:+91893943113'], ['md-button', '']], [[1, 'disabled',
+                0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 146)._haltDisabledEvents($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
         }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor,
             i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(),
-            i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(),
-            i1.ɵeld(0, null, null, 4, 'a', [['class', 'mat-button'], ['href',
-                    'tel:+918110876877'], ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled',
-                    0], [8, 'tabIndex', 0]], [[null, 'click']], function (_v, en, $event) {
-                var ad = true;
-                if (('click' === en)) {
-                    var pd_0 = (i1.ɵnov(_v, 146)._haltDisabledEvents($event) !== false);
-                    ad = (pd_0 && ad);
-                }
-                return ad;
-            }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n	'])), (_l()(), i1.ɵted(null, ['\n  	'])), (_l()(), i1.ɵeld(0, null, null, 149, 'div', [['fxFlexs',
-                ''], ['fxLayout', 'row'], ['fxLayout.sm', 'column'], ['fxLayout.xs', 'column']], null, null, null, null, null)),
-        i1.ɵdid(737280, null, 0, i4.LayoutDirective, [i3.MediaMonitor, i1.ElementRef,
-            i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
-            [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
-            i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
-        i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null),
-        i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers,
-            i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
-                'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)),
+            i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(),
+            i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])),
+        (_l()(), i1.ɵeld(0, null, null, 149, 'div', [['fxFlexs', ''], ['fxLayout',
+                'row'], ['fxLayout.sm', 'column'], ['fxLayout.xs', 'column']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i4.LayoutDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null),
+        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor,
+            i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n      '])),
+        (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
         i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Vijay Aditya G V'])), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'],
-            ['md-card-image', ''], ['src', '/images/joel.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class',
-                'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
-                'mat-button'], ['href', 'mailto:athithavijay@gmail.com'], ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null,
-                'click']], function (_v, en, $event) {
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Udhaya Kumar E'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class',
+                'mat-card-image'], ['md-card-image', ''], ['src', '/images/udhay.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class', 'mat-button'], ['href', 'mailto:udhayakumarkz530@gmail.com'],
+            ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex',
+                0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
                 var pd_0 = (i1.ɵnov(_v, 193)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
-                'mat-button'], ['href', 'tel:+919626580963'], ['md-button', '']], [[1, 'disabled',
+        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
+                'mat-button'], ['href', 'tel:+918110876877'], ['md-button', '']], [[1, 'disabled',
                 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
@@ -175,34 +178,34 @@ export function View_ContactsPageComponent_0(_l) {
             return ad;
         }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor,
             i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(),
-            i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(),
-            i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex',
-                '']], null, null, null, null, null)),
-        i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef,
-            i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0,
-                'flex'] }, null), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(),
-            i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
+            i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(),
+            i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor,
+            i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n      '])),
+        (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
         i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Joel Jasper A'])), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'],
-            ['md-card-image', ''], ['src', '/images/joel.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class',
-                'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
-                'mat-button'], ['href', 'mailto:iamjoel1996@gmail.com'], ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null,
-                'click']], function (_v, en, $event) {
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Raghavi'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class',
+                'mat-card-image'], ['md-card-image', ''], ['src', '/images/udhay.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class', 'mat-button'], ['href', 'mailto:raghavi6997@gmail.com'],
+            ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex',
+                0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
                 var pd_0 = (i1.ɵnov(_v, 242)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
-                'mat-button'], ['href', 'tel:+919944007900'], ['md-button', '']], [[1, 'disabled',
+        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
+                'mat-button'], ['href', 'tel:+919940091599'], ['md-button', '']], [[1, 'disabled',
                 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
@@ -212,47 +215,47 @@ export function View_ContactsPageComponent_0(_l) {
             return ad;
         }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor,
             i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(),
-            i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(),
-            i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex',
-                '']], null, null, null, null, null)),
-        i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef,
-            i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0,
-                'flex'] }, null), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(),
-            i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
+            i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(),
+            i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor,
+            i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n      '])),
+        (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
         i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Udhaya Kumar E'])), (_l()(), i1.ɵted(2, ['\n      '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'],
-            ['md-card-image', ''], ['src', '/images/udhay.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class',
-                'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
-                'mat-button'], ['href', 'mailto:udhayakumarkz530@gmail.com'], ['md-button',
-                '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null,
-                'click']], function (_v, en, $event) {
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Joel Jasper A'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class',
+                'mat-card-image'], ['md-card-image', ''], ['src', '/images/joel.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class', 'mat-button'], ['href', 'mailto:iamjoel1996@gmail.com'],
+            ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex',
+                0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
                 var pd_0 = (i1.ɵnov(_v, 291)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
+        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
+                'mat-button'], ['href', 'tel:+919944007900'], ['md-button', '']], [[1, 'disabled',
+                0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 297)._haltDisabledEvents($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
         }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor,
             i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(),
-            i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n      '])), (_l()(),
-            i1.ɵeld(0, null, null, 4, 'a', [['class', 'mat-button'], ['href',
-                    'tel:+918110876877'], ['md-button', '']], [[1, 'disabled', 0], [1, 'aria-disabled',
-                    0], [8, 'tabIndex', 0]], [[null, 'click']], function (_v, en, $event) {
-                var ad = true;
-                if (('click' === en)) {
-                    var pd_0 = (i1.ɵnov(_v, 297)._haltDisabledEvents($event) !== false);
-                    ad = (pd_0 && ad);
-                }
-                return ad;
-            }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n	'])), (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
+            i1.ɵted(0, ['CALL'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(),
+            i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(),
+            i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
         var currVal_0 = 'container';
         _ck(_v, 1, 0, currVal_0);
         var currVal_1 = 'row';
