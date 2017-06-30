@@ -1,3 +1,4 @@
+import { User } from './../../models/user.model';
 import { UserService } from './../../services/user.service';
 import { Component } from '@angular/core';
 import { NgForm, FormGroup, Validators, FormBuilder } from '@angular/forms';
@@ -30,11 +31,21 @@ export class RegisterComponent {
       'password': [null, Validators.required]
     });
   }
-  addPost(post) {
-    this.userService.registerUser(post)
+  addPost(post: {email: string, password: string, fName: string, lName: string, phno: number}) {
+    const user: User = {
+      email: post.email,
+      password: post.password,
+      fName: post.fName,
+      lName: post.lName,
+      phno: post.phno
+    }
+    const email = user.email;
+    const password = user.password;
+    this.userService.registerUser(user)
       .subscribe(
         data => {
           this.snackBar.open(`${data.message}`, 'OK');
+          this.userService.loginUser({email, password});
         },
         error => {
           this.snackBar.open(`${error.message}`, 'OK');

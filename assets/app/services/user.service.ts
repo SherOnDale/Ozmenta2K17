@@ -36,10 +36,10 @@ export class UserService {
     this.activeUser.phno = user.phno;
   }
 
-  loginUser({email, password}) {
+  loginUser(loginUser: {email: string, password: string}) {
     const user = {
-      email: email,
-      password: password
+      email: loginUser.email,
+      password: loginUser.password
     };
     const headers = new Headers({'Content-Type': 'application/json'});
     // return this.http.post('http://localhost:3000/loginUser', user, {

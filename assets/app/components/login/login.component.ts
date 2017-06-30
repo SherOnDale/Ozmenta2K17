@@ -35,7 +35,7 @@ export class LoginComponent {
         },
         error => {
           this.rForm.reset();
-          this.snackBar.open(error.message, 'OK');
+          this.snackBar.open('Invalid Username/Password', 'OK');
         }
       );
   }
