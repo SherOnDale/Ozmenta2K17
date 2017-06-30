@@ -1,0 +1,9 @@
+.card {
+  margin: 15px;
+  width: 400px;
+}
+
+.header-image {
+  background-image: url('/images/ntevents-header.jpg');
+  background-size: cover;
+}
