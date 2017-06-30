@@ -21,7 +21,7 @@ export class UserService {
     const body = JSON.stringify(newUser);
     const headers = new Headers({'Content-Type': 'application/json'});
     // return this.http.post('http://localhost:3000/registerUser', body, {
-    return this.http.post('https://ozmenta2k17.herokuapp.com/registerUser2', body, {
+    return this.http.post('https://ozmenta2k17.herokuapp.com/loginUser', body, {
       headers: headers
     })
       .map((response: Response) => response.json())
