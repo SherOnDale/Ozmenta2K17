@@ -10,7 +10,6 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/registerUser', (req, res, next) => {
-    console.log(JSON.stringify(req.body));
   const user = new User({
     fName: req.body.fName,
     lName: req.body.lName,
@@ -25,9 +24,15 @@ router.post('/registerUser', (req, res, next) => {
         error: err
       });
     }
+    const token = jwt.sign({
+      user: user.email
+    }, 'ozmenta2k17velammalengineeringcollege', {
+      expiresIn: 3600
+    });
     res.status(201).json({
       message: 'Successfully registered',
-      obj: user
+      token: token,
+      userId: user.email
     });
   });
 });
@@ -58,7 +63,7 @@ router.post('/loginUser', (req, res, next) => {
     res.status(201).json({
       message: 'Successfully logged in',
       token: token,
-      userId: doc._id
+      userId: doc.email
     });
   });
 });

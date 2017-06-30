@@ -26,8 +26,8 @@ var UserService = (function () {
     UserService.prototype.registerUser = function (newUser) {
         var body = JSON.stringify(newUser);
         var headers = new Headers({ 'Content-Type': 'application/json' });
-        // return this.http.post('http://localhost:3000/registerUser', body, {
-        return this.http.post('https://ozmenta2k17.herokuapp.com/registerUser', body, {
+        return this.http.post('http://localhost:3000/registerUser', body, {
+            // return this.http.post('https://ozmenta2k17.herokuapp.com/registerUser', body, {
             headers: headers
         })
             .map(function (response) { return response.json(); })
@@ -40,15 +40,15 @@ var UserService = (function () {
         this.activeUser.lName = user.lName;
         this.activeUser.phno = user.phno;
     };
-    UserService.prototype.loginUser = function (_a) {
-        var email = _a.email, password = _a.password;
+    UserService.prototype.loginUser = function (loginUser) {
+        alert('this function is called');
         var user = {
-            email: email,
-            password: password
+            email: loginUser.email,
+            password: loginUser.password
         };
         var headers = new Headers({ 'Content-Type': 'application/json' });
-        // return this.http.post('http://localhost:3000/loginUser', user, {
-        return this.http.post('https://ozmenta2k17.herokuapp.com/loginUser', user, {
+        return this.http.post('http://localhost:3000/loginUser', user, {
+            // return this.http.post('https://ozmenta2k17.herokuapp.com/loginUser', user, {
             headers: headers
         })
             .map(function (response) { return response.json(); })

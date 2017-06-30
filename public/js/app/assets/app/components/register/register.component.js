@@ -35,11 +35,23 @@ var RegisterComponent = (function () {
     }
     RegisterComponent.prototype.addPost = function (post) {
         var _this = this;
-        this.userService.registerUser(post)
+        var user = {
+            email: post.email,
+            password: post.password,
+            fName: post.fName,
+            lName: post.lName,
+            phno: post.phno
+        };
+        var email = user.email;
+        var password = user.password;
+        this.userService.registerUser(user)
             .subscribe(function (data) {
-            _this.snackBar.open("" + data.message, 'OK');
+            localStorage.setItem('token', data.token);
+            localStorage.setItem('userId', data.userId);
+            _this.dialogRef.close();
+            _this.snackBar.open(data.message, 'OK');
         }, function (error) {
-            _this.snackBar.open("" + error.message, 'OK');
+            _this.snackBar.open(error.message, 'OK');
         });
     };
     return RegisterComponent;

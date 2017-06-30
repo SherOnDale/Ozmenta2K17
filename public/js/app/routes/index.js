@@ -22,9 +22,15 @@ router.post('/registerUser', function (req, res, next) {
                 error: err
             });
         }
+        var token = jwt.sign({
+            user: user.email
+        }, 'ozmenta2k17velammalengineeringcollege', {
+            expiresIn: 3600
+        });
         res.status(201).json({
             message: 'Successfully registered',
-            obj: user
+            token: token,
+            userId: user.email
         });
     });
 });
@@ -54,7 +60,7 @@ router.post('/loginUser', function (req, res, next) {
         res.status(201).json({
             message: 'Successfully logged in',
             token: token,
-            userId: doc._id
+            userId: doc.email
         });
     });
 });

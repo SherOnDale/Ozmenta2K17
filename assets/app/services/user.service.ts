@@ -20,8 +20,8 @@ export class UserService {
   registerUser(newUser: User) {
     const body = JSON.stringify(newUser);
     const headers = new Headers({'Content-Type': 'application/json'});
-    // return this.http.post('http://localhost:3000/registerUser', body, {
-    return this.http.post('https://ozmenta2k17.herokuapp.com/registerUser', body, {
+    return this.http.post('http://localhost:3000/registerUser', body, {
+    // return this.http.post('https://ozmenta2k17.herokuapp.com/registerUser', body, {
       headers: headers
     })
       .map((response: Response) => response.json())
@@ -37,13 +37,14 @@ export class UserService {
   }
 
   loginUser(loginUser: {email: string, password: string}) {
+    alert('this function is called');
     const user = {
       email: loginUser.email,
       password: loginUser.password
     };
     const headers = new Headers({'Content-Type': 'application/json'});
-    // return this.http.post('http://localhost:3000/loginUser', user, {
-    return this.http.post('https://ozmenta2k17.herokuapp.com/loginUser', user, {
+    return this.http.post('http://localhost:3000/loginUser', user, {
+    // return this.http.post('https://ozmenta2k17.herokuapp.com/loginUser', user, {
       headers: headers
     })
       .map((response: Response) => response.json())

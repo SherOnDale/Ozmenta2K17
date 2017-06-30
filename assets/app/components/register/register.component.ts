@@ -44,12 +44,14 @@ export class RegisterComponent {
     this.userService.registerUser(user)
       .subscribe(
         data => {
-          this.snackBar.open(`${data.message}`, 'OK');
-          this.userService.loginUser({email, password});
+          localStorage.setItem('token', data.token);
+          localStorage.setItem('userId', data.userId);
+          this.dialogRef.close();
+          this.snackBar.open(data.message, 'OK');
         },
         error => {
-          this.snackBar.open(`${error.message}`, 'OK');
+          this.snackBar.open(error.message, 'OK');
         }
-      );
+      );  
   }
 }

@@ -36,7 +36,7 @@ var LoginComponent = (function () {
             _this.snackBar.open(data.message, 'OK');
         }, function (error) {
             _this.rForm.reset();
-            _this.snackBar.open(error.message, 'OK');
+            _this.snackBar.open('Invalid Username/Password', 'OK');
         });
     };
     return LoginComponent;
