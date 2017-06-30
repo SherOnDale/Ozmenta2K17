@@ -41,7 +41,6 @@ var UserService = (function () {
         this.activeUser.phno = user.phno;
     };
     UserService.prototype.loginUser = function (loginUser) {
-        alert('this function is called');
         var user = {
             email: loginUser.email,
             password: loginUser.password

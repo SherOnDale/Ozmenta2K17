@@ -112,7 +112,7 @@ export function View_SidenavComponent_0(_l) {
     return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 176, 'md-sidenav-container', [['class', 'mat-sidenav-container'], ['fullscreen', '']], [[2, 'mat-sidenav-transition',
                 null]], null, null, i2.View_MdSidenavContainer_0, i2.RenderType_MdSidenavContainer)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
         i1.ɵdid(1097728, null, 1, i3.MdSidenavContainer, [[2, i3.Dir], i1.ElementRef,
-            i1.Renderer2, i1.NgZone], null, null), i1.ɵqud(603979776, 1, { _sidenavs: 1 }), (_l()(), i1.ɵted(1, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 125, 'md-sidenav', [['class', 'app-sidenav mat-sidenav'], ['mode', 'side'],
+            i1.Renderer2, i1.NgZone], null, null), i1.ɵqud(603979776, 1, { _sidenavs: 1 }), (_l()(), i1.ɵted(1, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 125, 'md-sidenav', [['class', 'app-sidenav mat-sidenav'], ['mode', 'push'],
             ['tabIndex', '-1']], [[1, 'align', 0], [2, 'mat-sidenav-closed', null],
             [2, 'mat-sidenav-closing', null], [2, 'mat-sidenav-end', null],
             [2, 'mat-sidenav-opened', null], [2, 'mat-sidenav-opening', null],
@@ -317,7 +317,7 @@ export function View_SidenavComponent_0(_l) {
         (_l()(), i1.ɵeld(16777216, null, 1, 1, 'router-outlet', [], null, null, null, null, null)), i1.ɵdid(212992, null, 0, i7.RouterOutlet, [i7.ChildrenOutletContexts, i1.ViewContainerRef,
             i1.ComponentFactoryResolver, [8, null], i1.ChangeDetectorRef], null, null), (_l()(), i1.ɵted(1, ['\n']))], function (_ck, _v) {
         var _co = _v.component;
-        var currVal_10 = 'side';
+        var currVal_10 = 'push';
         _ck(_v, 7, 0, currVal_10);
         var currVal_11 = 'app-sidenav';
         _ck(_v, 8, 0, currVal_11);

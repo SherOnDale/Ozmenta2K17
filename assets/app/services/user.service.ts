@@ -37,7 +37,6 @@ export class UserService {
   }
 
   loginUser(loginUser: {email: string, password: string}) {
-    alert('this function is called');
     const user = {
       email: loginUser.email,
       password: loginUser.password
