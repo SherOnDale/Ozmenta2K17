@@ -12,6 +12,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MaterialModule} from '@angular/material';
 import { AppComponent } from "./app.component";
+import {FlexLayoutModule} from '@angular/flex-layout';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {routing} from './app.routing';
 import 'hammerjs';
@@ -20,7 +21,7 @@ import {HttpModule} from "@angular/http";
 @NgModule({
     entryComponents: [LoginComponent, RegisterComponent],
     declarations: [AppComponent, SidenavComponent, HomePageComponent, TEventPageComponent, RegisterComponent, LoginComponent, WorkshopPageComponent, ContactsPageComponent, NTEventPageComponent],
-    imports: [ MaterialModule, BrowserModule, FormsModule, BrowserAnimationsModule, ReactiveFormsModule, HttpModule, routing],
+    imports: [ MaterialModule, BrowserModule, FormsModule, BrowserAnimationsModule, ReactiveFormsModule, HttpModule, routing, FlexLayoutModule],
     providers: [UserService],
     bootstrap: [AppComponent]
 })

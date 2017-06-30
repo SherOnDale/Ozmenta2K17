@@ -2,31 +2,31 @@
     <md-sidenav #sidenav mode="side" class="app-sidenav">
         <md-list>
             <md-list-item>
-                <button md-button [routerLink]="['/']">
+                <button md-button [routerLink]="['/']" (click)="sidenav.toggle()">
                     <md-icon>home</md-icon>
                     <span>Home</span>
                 </button>
             </md-list-item>
             <md-list-item>
-                <button md-button [routerLink]="['/tevents']">
+                <button md-button [routerLink]="['/tevents']" (click)="sidenav.toggle()">
                     <md-icon>code</md-icon>
                     <span>Technical Events</span>
                 </button>
             </md-list-item>
             <md-list-item>
-                <button md-button [routerLink]="['/ntevents']">
+                <button md-button [routerLink]="['/ntevents']" (click)="sidenav.toggle()">
                     <md-icon>event</md-icon>
                     <span>Non-Technical Events</span>
                 </button>
             </md-list-item>
             <md-list-item>
-                <button md-button [routerLink]="['/workshops']">
+                <button md-button [routerLink]="['/workshops']" (click)="sidenav.toggle()">
                     <md-icon>class</md-icon>
                     <span>Workshops</span>
                 </button>
             </md-list-item>
             <md-list-item>
-                <button md-button [routerLink]="['/contacts']">
+                <button md-button [routerLink]="['/contacts']" (click)="sidenav.toggle()">
                     <md-icon>contacts</md-icon>
                     <span>Contacts</span>
                 </button>
