@@ -10,6 +10,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/registerUser', (req, res, next) => {
+    console.log(JSON.stringify(req.body));
   const user = new User({
     fName: req.body.fName,
     lName: req.body.lName,
