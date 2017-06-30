@@ -192,7 +192,7 @@ export function View_ContactsPageComponent_0(_l) {
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['Raghavi'])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['Symposium Co-ordinator'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(),
             i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class',
-                'mat-card-image'], ['md-card-image', ''], ['src', '/images/udhay.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null),
+                'mat-card-image'], ['md-card-image', ''], ['src', '/images/avatar.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null),
         (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
         i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null),
         (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class', 'mat-button'], ['href', 'mailto:raghavi6997@gmail.com'],
