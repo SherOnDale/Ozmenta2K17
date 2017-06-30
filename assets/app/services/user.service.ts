@@ -21,7 +21,7 @@ export class UserService {
     const body = JSON.stringify(newUser);
     const headers = new Headers({'Content-Type': 'application/json'});
     // return this.http.post('http://localhost:3000/registerUser', body, {
-    return this.http.post('https://ozmenta2k17.com/registerUser', body, {
+    return this.http.post('http://www,ozmenta2k17.com/registerUser', body, {
       headers: headers
     })
       .map((response: Response) => response.json())
@@ -43,7 +43,7 @@ export class UserService {
     };
     const headers = new Headers({'Content-Type': 'application/json'});
     // return this.http.post('http://localhost:3000/loginUser', user, {
-    return this.http.post('https://ozmenta2k17.com/loginUser', user, {
+    return this.http.post('http://www.ozmenta2k17.com/loginUser', user, {
       headers: headers
     })
       .map((response: Response) => response.json())
