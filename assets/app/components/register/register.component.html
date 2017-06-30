@@ -1,13 +1,19 @@
 <div class="container">
   <form [formGroup]="rForm" (ngSubmit)="addPost(rForm.value)">
+   <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlexs>
+    <div fxFlex>
     <md-input-container class="app-half-width">
       <input mdInput placeholder="First Name" formControlName="fName">
       <md-hint class="app-alert" *ngIf="!rForm.controls['fName'].valid && rForm.controls['fName'].touched">This field is required</md-hint>
     </md-input-container>
+    </div>
+    <div fxFlex>
     <md-input-container class="app-half-width">
       <input mdInput placeholder="Last Name" formControlName="lName">
       <md-hint class="app-alert" *ngIf="!rForm.controls['lName'].valid && rForm.controls['lName'].touched">This field is required</md-hint>
     </md-input-container>
+    </div>
+   </div>
     <md-input-container class="app-full-width">
       <input type="email" mdInput placeholder="Email" formControlName="email">
       <md-hint class="app-alert" *ngIf="(rForm.controls['email'].pristine || !rForm.controls['email'].value ) && rForm.controls['email'].touched">This field is required</md-hint>

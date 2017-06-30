@@ -1,4 +1,4 @@
-html {
+/*html {
     min-height: 100vh;
     height: 100vh;
 }
@@ -9,7 +9,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-}
+}*/
 
 #loader-wrapper {
     position: fixed;
