@@ -26,6 +26,7 @@ var UserService = (function () {
     UserService.prototype.registerUser = function (newUser) {
         var body = JSON.stringify(newUser);
         var headers = new Headers({ 'Content-Type': 'application/json' });
+        // return this.http.post('http://localhost:3000/registerUser', body, {
         return this.http.post('https://ozmenta2k17.herokuapp.com/registerUser', body, {
             headers: headers
         })
@@ -46,6 +47,7 @@ var UserService = (function () {
             password: password
         };
         var headers = new Headers({ 'Content-Type': 'application/json' });
+        // return this.http.post('http://localhost:3000/loginUser', user, {
         return this.http.post('https://ozmenta2k17.herokuapp.com/loginUser', user, {
             headers: headers
         })
