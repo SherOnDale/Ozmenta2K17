@@ -1,1 +1,41 @@
-<h1>Welcome to Ozmenta 2K17</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<section id="home" data-type="background" data-speed="10" class="pages">
+    <article><h3 id="strip">Department of Computer Science and Engineering of VEC <br>proudly presents <br>
+        <label id="heading">OZmenta 2K17</label></h3>
+    </article>
+</section>
+
+<section id="about" data-type="background" data-speed="10" class="pages">
+    <article><h3>List of Events</h3></article>
+</section>
+
+<section id="sponsors" data-type="background" data-speed="10" class="pages">
+    <article><h3>List of sponsors</h3></article>
+</section>
+</body>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('section[data-type="background"]').each(function () {
+            var $bgobj = $(this); // assigning the object
+
+            $(window).scroll(function () {
+                var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+
+// Put together our final background position
+                var coords = '50% ' + yPos + 'px';
+
+// Move the background
+                $bgobj.css({backgroundPosition: coords});
+            });
+        });
+    });
+</script>
+</html>

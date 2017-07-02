@@ -25,98 +25,67 @@
     -moz-backface-visibility: hidden;
     backface-visibility: hidden; }
 
-.background {
-  background: url(/images/background.jpg) no-repeat 50% 100%;
-  bottom: 96px;
-  background-size: cover;
-  position: absolute;
-  width: 110%;
-  height: 100%;
-  left: -5%;
-  top: -5%; }
 
-  .light {
-  margin: -120px -120px;
-  background-size: 240px 240px;
-  height: 240px;
-  width: 240px;
-  background-repeat: no-repeat;
-  bottom: 112px;
-  position: absolute;
-  left: 50%; }
-  .light.orange {
-    background-image: url(/images/light-orange.png); }
-  .light.purple {
-    background-image: url(/images/light-purple.png); }
-  .light.a {
-    bottom: 80px;
-    left: 20%; }
-  .light.b {
-    bottom: 80px;
-    left: 30%; }
-  .light.c {
-    bottom: 112px;
-    left: 45%; }
-  .light.d {
-    bottom: 96px;
-    left: 60%; }
-  .light.e {
-    bottom: 112px;
-    left: 75%; }
-  .light.f {
-    bottom: 64px;
-    left: 80%; }
-  .light.phase-1 {
-    -webkit-animation: phase 20s 0.1s infinite linear;
-    -moz-animation: phase 20s 0.1s infinite linear;
-    animation: phase 20s 0.1s infinite linear; }
-  .light.phase-2 {
-    -webkit-animation: phase 18s 0.1s infinite linear;
-    -moz-animation: phase 18s 0.1s infinite linear;
-    animation: phase 18s 0.1s infinite linear; }
-  .light.phase-3 {
-    -webkit-animation: phase 16s 0.1s infinite linear;
-    -moz-animation: phase 16s 0.1s infinite linear;
-    animation: phase 16s 0.1s infinite linear; }
-  .light.phase-4 {
-    -webkit-animation: phase 14s 0.1s infinite linear;
-    -moz-animation: phase 14s 0.1s infinite linear;
-    animation: phase 14s 0.1s infinite linear; }
-  .light.phase-5 {
-    -webkit-animation: phase 12s 0.1s infinite linear;
-    -moz-animation: phase 12s 0.1s infinite linear;
-    animation: phase 12s 0.1s infinite linear; }
-  .light.phase-6 {
-    -webkit-animation: phase 10s 0.1s infinite linear;
-    -moz-animation: phase 10s 0.1s infinite linear;
-    animation: phase 10s 0.1s infinite linear; }
-
-  .light {
-    margin: -140px -140px;
-    background-size: 280px 280px;
-    height: 280px;
-    width: 280px; }
-    .light.a {
-      bottom: 144px; }
-    .light.b {
-      bottom: 144px; }
-    .light.c {
-      bottom: 192px; }
-    .light.d {
-      bottom: 160px; }
-    .light.e {
-      bottom: 192px; }
-    .light.f {
-      bottom: 128px; }
-
-    .light {
-    margin: -200px -200px;
-    background-size: 400px 400px;
-    height: 400px;
-    width: 400px; }
-
-.rope {
-  width: 120%;
+#home {
+  background: url("/images/image.jpeg") 50% 0 repeat fixed; min-height: 700px;
+  height: 700px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
   position: relative;
-  left: -10%;
-  position: relative; }
+}
+
+#home article {
+  font-family: Helvetica;
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+
+}
+
+#about {
+  background: url("/images/image.jpeg") 50% 0 repeat fixed; min-height: 700px;
+  height: 700px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#about article {
+  font-family: Helvetica;
+  height: 458px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+}
+
+#heading{
+font-size: xx-large;
+}
+
+#sponsors {
+  background: url("/images/image.jpeg") 50% 0 repeat fixed; min-height: 500px;
+  height: 500px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#sponsors article {
+  font-family: Helvetica;
+  height: 258px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+}
+
