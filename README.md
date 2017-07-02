@@ -6,12 +6,19 @@ Completed Tasks:
 
 Check List for contributers :   
   Front End:
-    1. Forms Design      
+  
+    1. Forms Design     
+    
     2. Attractive Fonts
+    
     3. Homepage Design
     
   Back End:
+  
     1. Mail Verification
+    
     2. Event Registration
+    
     3. Payment
+    
     4. Registration Form Validation
