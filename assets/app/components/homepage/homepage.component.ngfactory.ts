@@ -8,23 +8,83 @@
 
 import * as i0 from './homepage.component.css.shim.ngstyle';
 import * as i1 from '@angular/core';
-import * as i2 from './homepage.component';
+import * as i2 from '@angular/flex-layout/flexbox/api/class';
+import * as i3 from '@angular/flex-layout/media-query/media-monitor';
+import * as i4 from './homepage.component';
 const styles_HomePageComponent:any[] = [i0.styles];
 export const RenderType_HomePageComponent:i1.RendererType2 = i1.ɵcrt({encapsulation:0,
     styles:styles_HomePageComponent,data:{}});
 export function View_HomePageComponent_0(_l:any):i1.ɵViewDefinition {
-  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'h1',([] as any[]),
-      (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
-      i1.ɵted((null as any),['Welcome to Ozmenta 2K17']))],(null as any),(null as any));
+  return i1.ɵvid(0,[(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵeld(0,(null as any),
+      (null as any),43,'html',[['lang','en']],(null as any),(null as any),(null as any),
+      (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),
+      i1.ɵeld(0,(null as any),(null as any),6,'head',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+      ['\n    '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),0,'meta',[['charset',
+      'UTF-8']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          1,'title',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i1.ɵted((null as any),['Home'])),(_l()(),i1.ɵted((null as any),
+          ['\n\n'])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵeld(0,(null as any),
+          (null as any),32,'body',([] as any[]),(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),
+          i1.ɵeld(0,(null as any),(null as any),13,'section',[['class','pages'],['data-speed',
+              '10'],['data-type','background'],['id','home']],(null as any),(null as any),
+              (null as any),(null as any),(null as any))),i1.ɵdid(933888,(null as any),
+          0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,i1.KeyValueDiffers,
+              i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,'classBase']},
+          (null as any)),(_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),9,'article',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i1.ɵeld(0,(null as any),
+          (null as any),7,'h3',[['id','strip']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['Department of Computer Science and Engineering of VEC '])),
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),0,'br',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+          ['proudly presents '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),0,
+          'br',([] as any[]),(null as any),(null as any),(null as any),(null as any),
+          (null as any))),(_l()(),i1.ɵted((null as any),['\n        '])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),1,'label',[['id','heading']],(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+          ['OZmenta 2K17'])),(_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵted((null as any),
+          ['\n'])),(_l()(),i1.ɵted((null as any),['\n\n'])),(_l()(),i1.ɵeld(0,(null as any),
+          (null as any),6,'section',[['class','pages'],['data-speed','10'],['data-type',
+              'background'],['id','about']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),i1.ɵdid(933888,(null as any),0,i2.ClassDirective,
+          [i3.MediaMonitor,i1.IterableDiffers,i1.KeyValueDiffers,i1.ElementRef,i1.Renderer,
+              i1.Renderer2],{classBase:[0,'classBase']},(null as any)),(_l()(),i1.ɵted((null as any),
+          ['\n    '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),2,'article',([] as any[]),
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),1,'h3',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+          ['List of Events'])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵted((null as any),
+          ['\n\n'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),6,'section',[['class',
+          'pages'],['data-speed','10'],['data-type','background'],['id','sponsors']],
+          (null as any),(null as any),(null as any),(null as any),(null as any))),
+      i1.ɵdid(933888,(null as any),0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,
+          i1.KeyValueDiffers,i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,
+          'classBase']},(null as any)),(_l()(),i1.ɵted((null as any),['\n    '])),
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),2,'article',([] as any[]),(null as any),
+          (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),1,'h3',([] as any[]),(null as any),(null as any),
+          (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
+          ['List of sponsors'])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵted((null as any),
+          ['\n'])),(_l()(),i1.ɵted((null as any),['\n']))],(_ck,_v) => {
+    const currVal_0:any = 'pages';
+    _ck(_v,14,0,currVal_0);
+    const currVal_1:any = 'pages';
+    _ck(_v,29,0,currVal_1);
+    const currVal_2:any = 'pages';
+    _ck(_v,37,0,currVal_2);
+  },(null as any));
 }
 export function View_HomePageComponent_Host_0(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'app-homepage',
       ([] as any[]),(null as any),(null as any),(null as any),View_HomePageComponent_0,
-      RenderType_HomePageComponent)),i1.ɵdid(114688,(null as any),0,i2.HomePageComponent,
+      RenderType_HomePageComponent)),i1.ɵdid(114688,(null as any),0,i4.HomePageComponent,
       ([] as any[]),(null as any),(null as any))],(_ck,_v) => {
     _ck(_v,1,0);
   },(null as any));
 }
-export const HomePageComponentNgFactory:i1.ComponentFactory<i2.HomePageComponent> = i1.ɵccf('app-homepage',
-    i2.HomePageComponent,View_HomePageComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQudHMiLCJuZzovLy9DOi9Vc2Vycy9TaGVyaW4vT3ptZW50YTJLMTcvYXNzZXRzL2FwcC9jb21wb25lbnRzL2hvbWVwYWdlL2hvbWVwYWdlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQudHMuSG9tZVBhZ2VDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8aDE+V2VsY29tZSB0byBPem1lbnRhIDJLMTc8L2gxPiIsIjxhcHAtaG9tZXBhZ2U+PC9hcHAtaG9tZXBhZ2U+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7O29CQ0FBO01BQUEsd0VBQUk7YUFBQTs7O29CQ0FKO01BQUE7a0NBQUEsVUFBQTtNQUFBO0lBQUE7Ozs7In0=
+export const HomePageComponentNgFactory:i1.ComponentFactory<i4.HomePageComponent> = i1.ɵccf('app-homepage',
+    i4.HomePageComponent,View_HomePageComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQudHMiLCJuZzovLy9DOi9Vc2Vycy9TaGVyaW4vT3ptZW50YTJLMTcvYXNzZXRzL2FwcC9jb21wb25lbnRzL2hvbWVwYWdlL2hvbWVwYWdlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQudHMuSG9tZVBhZ2VDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8IURPQ1RZUEUgaHRtbD5cclxuPGh0bWwgbGFuZz1cImVuXCI+XHJcbjxoZWFkPlxyXG4gICAgPG1ldGEgY2hhcnNldD1cIlVURi04XCI+XHJcbiAgICA8dGl0bGU+SG9tZTwvdGl0bGU+XHJcblxyXG48L2hlYWQ+XHJcbjxib2R5PlxyXG48c2VjdGlvbiBpZD1cImhvbWVcIiBkYXRhLXR5cGU9XCJiYWNrZ3JvdW5kXCIgZGF0YS1zcGVlZD1cIjEwXCIgY2xhc3M9XCJwYWdlc1wiPlxyXG4gICAgPGFydGljbGU+PGgzIGlkPVwic3RyaXBcIj5EZXBhcnRtZW50IG9mIENvbXB1dGVyIFNjaWVuY2UgYW5kIEVuZ2luZWVyaW5nIG9mIFZFQyA8YnI+cHJvdWRseSBwcmVzZW50cyA8YnI+XHJcbiAgICAgICAgPGxhYmVsIGlkPVwiaGVhZGluZ1wiPk9abWVudGEgMksxNzwvbGFiZWw+PC9oMz5cclxuICAgIDwvYXJ0aWNsZT5cclxuPC9zZWN0aW9uPlxyXG5cclxuPHNlY3Rpb24gaWQ9XCJhYm91dFwiIGRhdGEtdHlwZT1cImJhY2tncm91bmRcIiBkYXRhLXNwZWVkPVwiMTBcIiBjbGFzcz1cInBhZ2VzXCI+XHJcbiAgICA8YXJ0aWNsZT48aDM+TGlzdCBvZiBFdmVudHM8L2gzPjwvYXJ0aWNsZT5cclxuPC9zZWN0aW9uPlxyXG5cclxuPHNlY3Rpb24gaWQ9XCJzcG9uc29yc1wiIGRhdGEtdHlwZT1cImJhY2tncm91bmRcIiBkYXRhLXNwZWVkPVwiMTBcIiBjbGFzcz1cInBhZ2VzXCI+XHJcbiAgICA8YXJ0aWNsZT48aDM+TGlzdCBvZiBzcG9uc29yczwvaDM+PC9hcnRpY2xlPlxyXG48L3NlY3Rpb24+XHJcbjwvYm9keT5cclxuPC9odG1sPiIsIjxhcHAtaG9tZXBhZ2U+PC9hcHAtaG9tZXBhZ2U+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7b0JDQWUsdUNBQ2Y7TUFBQTtNQUFBLDhCQUFnQix1Q0FDaEI7YUFBQTtVQUFBLDRDQUFNO01BQUEsYUFDRjtNQUFBO01BQXNCLDJDQUN0QjtVQUFBO1VBQUEsZ0JBQU8seUNBQVk7VUFBQSxXQUVoQix1Q0FDUDtVQUFBO1VBQUEsOEJBQU0sdUNBQ047aUJBQUE7Y0FBQTtjQUFBLG1EQUFBO1VBQUE7b0RBQUE7VUFBQSxlQUF3RSwyQ0FDcEU7VUFBQTtVQUFBLDRDQUFTO1VBQUE7VUFBQSw4QkFBZTtNQUFzRDtVQUFBLDBEQUFJO1VBQUEsd0JBQWlCO1VBQUE7VUFBQSxnQkFBSSwrQ0FDbkc7VUFBQTtVQUFBLDRDQUFvQjtVQUFBLG1CQUF5QiwyQ0FDdkM7VUFBQSxTQUNKLHlDQUVWO1VBQUE7Y0FBQTtVQUFBLHFDQUFBO1VBQUE7MEJBQUEsNkNBQXlFO1VBQUEsYUFDckU7VUFBQTtNQUFTO1VBQUEsMERBQUk7VUFBQSxxQkFBNkIsdUNBQ3BDO1VBQUEsV0FFVjtVQUFBO1VBQUE7YUFBQTttRUFBQTtVQUFBLDZCQUE0RTtNQUN4RTtVQUFBLDBEQUFTO1VBQUE7VUFBQSw0Q0FBSTtVQUFBLHVCQUErQix1Q0FDdEM7VUFBQSxTQUNIO0lBYm1EO0lBQTFELFlBQTBELFNBQTFEO0lBTTJEO0lBQTNELFlBQTJELFNBQTNEO0lBSThEO0lBQTlELFlBQThELFNBQTlEOzs7O29CQ2xCQTtNQUFBO2tDQUFBLFVBQUE7TUFBQTtJQUFBOzs7OyJ9
