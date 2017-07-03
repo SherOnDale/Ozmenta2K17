@@ -22,5 +22,11 @@ module.exports = {
         ],
         exprContextCritical: false
 
-    }
+    },
+    plugins: [
+        new webpack.ProvidePlugin({
+            $: 'jquery',
+            jQuery: 'jquery'
+        })
+    ]
 };

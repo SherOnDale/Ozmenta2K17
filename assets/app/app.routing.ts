@@ -1,3 +1,4 @@
+import { ActivateUserComponent } from './components/activateuser/activateuser.component';
 import { NTEventPageComponent } from './components/nteventpage/nteventpage.component';
 import { ContactsPageComponent } from './components/contactspage/contactspage.component';
 import { HomePageComponent } from './components/homepage/homepage.component';
@@ -20,6 +21,10 @@ const APP_ROUTES: Routes = [
   {
     path: 'contacts',
     component: ContactsPageComponent
+  },
+  {
+    path: 'activate/:token',
+    component: ActivateUserComponent
   },
   {
     path: '',

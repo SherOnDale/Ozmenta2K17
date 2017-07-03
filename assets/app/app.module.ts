@@ -1,3 +1,4 @@
+import { ActivateUserComponent } from './components/activateuser/activateuser.component';
 import { NTEventPageComponent } from './components/nteventpage/nteventpage.component';
 import { UserService } from './services/user.service';
 import { ContactsPageComponent } from './components/contactspage/contactspage.component';
@@ -20,7 +21,7 @@ import {HttpModule} from "@angular/http";
 
 @NgModule({
     entryComponents: [LoginComponent, RegisterComponent],
-    declarations: [AppComponent, SidenavComponent, HomePageComponent, TEventPageComponent, RegisterComponent, LoginComponent, WorkshopPageComponent, ContactsPageComponent, NTEventPageComponent],
+    declarations: [AppComponent, SidenavComponent, HomePageComponent, TEventPageComponent, RegisterComponent, LoginComponent, WorkshopPageComponent, ContactsPageComponent, NTEventPageComponent, ActivateUserComponent],
     imports: [ MaterialModule, BrowserModule, FormsModule, BrowserAnimationsModule, ReactiveFormsModule, HttpModule, routing, FlexLayoutModule],
     providers: [UserService],
     bootstrap: [AppComponent]
