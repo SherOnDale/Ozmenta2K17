@@ -1,4 +1,6 @@
 //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
+//client id -  365217442910-3qfi84kavgkdbcr3quqc21tv523tlmho.apps.googleusercontent.com 
+//client secret -  IBkkls4UIR3VIilvDzkiFuLH 
 var express = require('express');
 var router = express.Router();
 const User = require('../models/users');
@@ -23,7 +25,7 @@ router.get('/', function (req, res, next) {
 
 router.post('/registerUser', (req, res, next) => {
   const token = jwt.sign({
-    user: user.email
+    user: req.body.email
   }, 'ozmenta2k17velammalengineeringcollege');
   const user = new User({
     fName: req.body.fName,
