@@ -6,3 +6,7 @@
   background-image: url('/images/tevents-header.png');
   background-size: cover;
 }
+
+.p-link {
+  color: orange;
+}

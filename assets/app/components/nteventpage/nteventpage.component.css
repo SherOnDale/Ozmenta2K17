@@ -6,3 +6,7 @@
   background-image: url('/images/ntevents-header.jpg');
   background-size: cover;
 }
+
+.p-link {
+  color: orange;
+}
