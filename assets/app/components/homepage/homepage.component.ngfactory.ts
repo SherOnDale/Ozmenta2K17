@@ -10,81 +10,232 @@ import * as i0 from './homepage.component.css.shim.ngstyle';
 import * as i1 from '@angular/core';
 import * as i2 from '@angular/flex-layout/flexbox/api/class';
 import * as i3 from '@angular/flex-layout/media-query/media-monitor';
-import * as i4 from './homepage.component';
+import * as i4 from '@angular/flex-layout/flexbox/api/layout';
+import * as i5 from '@angular/flex-layout/flexbox/api/flex';
+import * as i6 from '@angular/flex-layout/flexbox/api/layout-wrap';
+import * as i7 from '../../../../node_modules/@angular/material/typings/index.ngfactory';
+import * as i8 from '@angular/material';
+import * as i9 from './homepage.component';
 const styles_HomePageComponent:any[] = [i0.styles];
 export const RenderType_HomePageComponent:i1.RendererType2 = i1.ɵcrt({encapsulation:0,
     styles:styles_HomePageComponent,data:{}});
 export function View_HomePageComponent_0(_l:any):i1.ɵViewDefinition {
-  return i1.ɵvid(0,[(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵeld(0,(null as any),
-      (null as any),43,'html',[['lang','en']],(null as any),(null as any),(null as any),
-      (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),
-      i1.ɵeld(0,(null as any),(null as any),6,'head',([] as any[]),(null as any),(null as any),
-          (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-      ['\n    '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),0,'meta',[['charset',
-      'UTF-8']],(null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-          1,'title',([] as any[]),(null as any),(null as any),(null as any),(null as any),
-          (null as any))),(_l()(),i1.ɵted((null as any),['Home'])),(_l()(),i1.ɵted((null as any),
-          ['\n\n'])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵeld(0,(null as any),
-          (null as any),32,'body',([] as any[]),(null as any),(null as any),(null as any),
-          (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),
-          i1.ɵeld(0,(null as any),(null as any),13,'section',[['class','pages'],['data-speed',
-              '10'],['data-type','background'],['id','home']],(null as any),(null as any),
-              (null as any),(null as any),(null as any))),i1.ɵdid(933888,(null as any),
-          0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,i1.KeyValueDiffers,
-              i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,'classBase']},
-          (null as any)),(_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵeld(0,
-          (null as any),(null as any),9,'article',([] as any[]),(null as any),(null as any),
-          (null as any),(null as any),(null as any))),(_l()(),i1.ɵeld(0,(null as any),
-          (null as any),7,'h3',[['id','strip']],(null as any),(null as any),(null as any),
-          (null as any),(null as any))),(_l()(),i1.ɵted((null as any),['Department of Computer Science and Engineering of VEC '])),
-      (_l()(),i1.ɵeld(0,(null as any),(null as any),0,'br',([] as any[]),(null as any),
-          (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          ['proudly presents '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),0,
-          'br',([] as any[]),(null as any),(null as any),(null as any),(null as any),
-          (null as any))),(_l()(),i1.ɵted((null as any),['\n        '])),(_l()(),i1.ɵeld(0,
-          (null as any),(null as any),1,'label',[['id','heading']],(null as any),(null as any),
-          (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          ['OZmenta 2K17'])),(_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵted((null as any),
-          ['\n'])),(_l()(),i1.ɵted((null as any),['\n\n'])),(_l()(),i1.ɵeld(0,(null as any),
-          (null as any),6,'section',[['class','pages'],['data-speed','10'],['data-type',
-              'background'],['id','about']],(null as any),(null as any),(null as any),
-          (null as any),(null as any))),i1.ɵdid(933888,(null as any),0,i2.ClassDirective,
-          [i3.MediaMonitor,i1.IterableDiffers,i1.KeyValueDiffers,i1.ElementRef,i1.Renderer,
-              i1.Renderer2],{classBase:[0,'classBase']},(null as any)),(_l()(),i1.ɵted((null as any),
-          ['\n    '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),2,'article',([] as any[]),
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i1.ɵeld(0,(null as any),(null as any),1,'h3',([] as any[]),(null as any),
-          (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          ['List of Events'])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵted((null as any),
-          ['\n\n'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),6,'section',[['class',
-          'pages'],['data-speed','10'],['data-type','background'],['id','sponsors']],
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
+  return i1.ɵvid(0,[(_l()(),i1.ɵted((null as any),[' '])),(_l()(),i1.ɵted((null as any),
+      ['\n\n '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),2,'div',[['class',
+      'home']],(null as any),(null as any),(null as any),(null as any),(null as any))),
       i1.ɵdid(933888,(null as any),0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,
           i1.KeyValueDiffers,i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,
-          'classBase']},(null as any)),(_l()(),i1.ɵted((null as any),['\n    '])),
-      (_l()(),i1.ɵeld(0,(null as any),(null as any),2,'article',([] as any[]),(null as any),
-          (null as any),(null as any),(null as any),(null as any))),(_l()(),i1.ɵeld(0,
-          (null as any),(null as any),1,'h3',([] as any[]),(null as any),(null as any),
-          (null as any),(null as any),(null as any))),(_l()(),i1.ɵted((null as any),
-          ['List of sponsors'])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵted((null as any),
-          ['\n'])),(_l()(),i1.ɵted((null as any),['\n']))],(_ck,_v) => {
-    const currVal_0:any = 'pages';
-    _ck(_v,14,0,currVal_0);
-    const currVal_1:any = 'pages';
-    _ck(_v,29,0,currVal_1);
-    const currVal_2:any = 'pages';
-    _ck(_v,37,0,currVal_2);
-  },(null as any));
+          'classBase']},(null as any)),(_l()(),i1.ɵted((null as any),['\n     OZMENTA 2K17\n     A National Level Technical Symposium\n     Velammal Engineering College\n     Department of Computer Science and Engineering\n '])),
+      (_l()(),i1.ɵted((null as any),['\n\n'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          82,'div',[['class','uniq']],(null as any),(null as any),(null as any),(null as any),
+          (null as any))),i1.ɵdid(933888,(null as any),0,i2.ClassDirective,[i3.MediaMonitor,
+          i1.IterableDiffers,i1.KeyValueDiffers,i1.ElementRef,i1.Renderer,i1.Renderer2],
+          {classBase:[0,'classBase']},(null as any)),(_l()(),i1.ɵted((null as any),
+          ['\n    Uniq Technologies\n    '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          78,'div',[['fxFlexs',''],['fxLayout','row'],['fxLayout.sm','row'],['fxLayout.xs',
+              'column']],(null as any),(null as any),(null as any),(null as any),(null as any))),
+      i1.ɵdid(737280,(null as any),0,i4.LayoutDirective,[i3.MediaMonitor,i1.ElementRef,
+          i1.Renderer2],{layout:[0,'layout'],layoutXs:[1,'layoutXs'],layoutSm:[2,'layoutSm']},
+          (null as any)),(_l()(),i1.ɵted((null as any),['   \n    '])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),17,'div',[['fxFlex','']],(null as any),(null as any),
+          (null as any),(null as any),(null as any))),i1.ɵdid(737280,(null as any),
+          0,i5.FlexDirective,[i3.MediaMonitor,i1.ElementRef,i1.Renderer2,[3,i4.LayoutDirective],
+              [3,i6.LayoutWrapDirective]],{flex:[0,'flex']},(null as any)),(_l()(),
+          i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          13,'md-card',[['class','card mat-card']],(null as any),(null as any),(null as any),
+          i7.View_MdCard_0,i7.RenderType_MdCard)),i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,
+          [[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],(null as any),(null as any)),
+      i1.ɵdid(49152,(null as any),0,i8.MdCard,([] as any[]),(null as any),(null as any)),
+      i1.ɵdid(933888,(null as any),0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,
+          i1.KeyValueDiffers,i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,
+          'classBase']},(null as any)),(_l()(),i1.ɵted(0,['\n    '])),(_l()(),i1.ɵeld(0,
+          (null as any),0,7,'a',[['class','mat-fab'],['href','http://inplanttraininginchennai.org.in/'],
+              ['md-fab','']],[[1,'disabled',0],[1,'aria-disabled',0],[8,'tabIndex',
+              0]],[[(null as any),'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i1.ɵnov(_v,22)._haltDisabledEvents($event)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },i7.View_MdAnchor_0,i7.RenderType_MdAnchor)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(180224,(null as any),0,i8.MdAnchor,
+          [i8.Platform,i8.FocusOriginMonitor,i1.ElementRef,i1.Renderer2],(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i8.MdFab,[[8,(null as any)],
+          [2,i8.MdAnchor]],(null as any),(null as any)),(_l()(),i1.ɵeld(0,(null as any),
+          0,3,'md-icon',[['class','mat-icon'],['role','img']],(null as any),(null as any),
+          (null as any),i7.View_MdIcon_0,i7.RenderType_MdIcon)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(638976,(null as any),0,i8.MdIcon,[i1.Renderer2,
+          i1.ElementRef,i8.MdIconRegistry,[8,(null as any)]],(null as any),(null as any)),
+      (_l()(),i1.ɵted(0,['domain'])),(_l()(),i1.ɵted(0,['\n    '])),(_l()(),i1.ɵted((null as any),
+          ['\n    '])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵeld(0,(null as any),
+          (null as any),17,'div',[['fxFlex','']],(null as any),(null as any),(null as any),
+          (null as any),(null as any))),i1.ɵdid(737280,(null as any),0,i5.FlexDirective,
+          [i3.MediaMonitor,i1.ElementRef,i1.Renderer2,[3,i4.LayoutDirective],[3,i6.LayoutWrapDirective]],
+          {flex:[0,'flex']},(null as any)),(_l()(),i1.ɵted((null as any),['\n    '])),
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),13,'md-card',[['class','card mat-card']],
+          (null as any),(null as any),(null as any),i7.View_MdCard_0,i7.RenderType_MdCard)),
+      i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
+          i1.ElementRef],(null as any),(null as any)),i1.ɵdid(49152,(null as any),
+          0,i8.MdCard,([] as any[]),(null as any),(null as any)),i1.ɵdid(933888,(null as any),
+          0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,i1.KeyValueDiffers,
+              i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,'classBase']},
+          (null as any)),(_l()(),i1.ɵted(0,['\n    '])),(_l()(),i1.ɵeld(0,(null as any),
+          0,7,'a',[['class','mat-fab'],['href','http://www.internshipinchennai.com/'],
+              ['md-fab','']],[[1,'disabled',0],[1,'aria-disabled',0],[8,'tabIndex',
+              0]],[[(null as any),'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i1.ɵnov(_v,41)._haltDisabledEvents($event)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },i7.View_MdAnchor_0,i7.RenderType_MdAnchor)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(180224,(null as any),0,i8.MdAnchor,
+          [i8.Platform,i8.FocusOriginMonitor,i1.ElementRef,i1.Renderer2],(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i8.MdFab,[[8,(null as any)],
+          [2,i8.MdAnchor]],(null as any),(null as any)),(_l()(),i1.ɵeld(0,(null as any),
+          0,3,'md-icon',[['class','mat-icon'],['role','img']],(null as any),(null as any),
+          (null as any),i7.View_MdIcon_0,i7.RenderType_MdIcon)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(638976,(null as any),0,i8.MdIcon,[i1.Renderer2,
+          i1.ElementRef,i8.MdIconRegistry,[8,(null as any)]],(null as any),(null as any)),
+      (_l()(),i1.ɵted(0,['fitness_center'])),(_l()(),i1.ɵted(0,['\n    '])),(_l()(),
+          i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),
+          i1.ɵeld(0,(null as any),(null as any),17,'div',[['fxFlex','']],(null as any),
+              (null as any),(null as any),(null as any),(null as any))),i1.ɵdid(737280,
+          (null as any),0,i5.FlexDirective,[i3.MediaMonitor,i1.ElementRef,i1.Renderer2,
+              [3,i4.LayoutDirective],[3,i6.LayoutWrapDirective]],{flex:[0,'flex']},
+          (null as any)),(_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),13,'md-card',[['class','card mat-card']],(null as any),
+          (null as any),(null as any),i7.View_MdCard_0,i7.RenderType_MdCard)),i1.ɵdid(16384,
+          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
+              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(49152,(null as any),
+          0,i8.MdCard,([] as any[]),(null as any),(null as any)),i1.ɵdid(933888,(null as any),
+          0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,i1.KeyValueDiffers,
+              i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,'classBase']},
+          (null as any)),(_l()(),i1.ɵted(0,['\n    '])),(_l()(),i1.ɵeld(0,(null as any),
+          0,7,'a',[['class','mat-fab'],['href','http://www.ieeefinalyearprojects.org/'],
+              ['md-fab','']],[[1,'disabled',0],[1,'aria-disabled',0],[8,'tabIndex',
+              0]],[[(null as any),'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i1.ɵnov(_v,60)._haltDisabledEvents($event)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },i7.View_MdAnchor_0,i7.RenderType_MdAnchor)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(180224,(null as any),0,i8.MdAnchor,
+          [i8.Platform,i8.FocusOriginMonitor,i1.ElementRef,i1.Renderer2],(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i8.MdFab,[[8,(null as any)],
+          [2,i8.MdAnchor]],(null as any),(null as any)),(_l()(),i1.ɵeld(0,(null as any),
+          0,3,'md-icon',[['class','mat-icon'],['role','img']],(null as any),(null as any),
+          (null as any),i7.View_MdIcon_0,i7.RenderType_MdIcon)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(638976,(null as any),0,i8.MdIcon,[i1.Renderer2,
+          i1.ElementRef,i8.MdIconRegistry,[8,(null as any)]],(null as any),(null as any)),
+      (_l()(),i1.ɵted(0,['local_library'])),(_l()(),i1.ɵted(0,['\n    '])),(_l()(),
+          i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),
+          i1.ɵeld(0,(null as any),(null as any),17,'div',[['fxFlex','']],(null as any),
+              (null as any),(null as any),(null as any),(null as any))),i1.ɵdid(737280,
+          (null as any),0,i5.FlexDirective,[i3.MediaMonitor,i1.ElementRef,i1.Renderer2,
+              [3,i4.LayoutDirective],[3,i6.LayoutWrapDirective]],{flex:[0,'flex']},
+          (null as any)),(_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),13,'md-card',[['class','card mat-card']],(null as any),
+          (null as any),(null as any),i7.View_MdCard_0,i7.RenderType_MdCard)),i1.ɵdid(16384,
+          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
+              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(49152,(null as any),
+          0,i8.MdCard,([] as any[]),(null as any),(null as any)),i1.ɵdid(933888,(null as any),
+          0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,i1.KeyValueDiffers,
+              i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,'classBase']},
+          (null as any)),(_l()(),i1.ɵted(0,['\n    '])),(_l()(),i1.ɵeld(0,(null as any),
+          0,7,'a',[['class','mat-fab'],['href','http://www.androidtraininginchennai.com/'],
+              ['md-fab','']],[[1,'disabled',0],[1,'aria-disabled',0],[8,'tabIndex',
+              0]],[[(null as any),'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>i1.ɵnov(_v,79)._haltDisabledEvents($event)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },i7.View_MdAnchor_0,i7.RenderType_MdAnchor)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(180224,(null as any),0,i8.MdAnchor,
+          [i8.Platform,i8.FocusOriginMonitor,i1.ElementRef,i1.Renderer2],(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i8.MdFab,[[8,(null as any)],
+          [2,i8.MdAnchor]],(null as any),(null as any)),(_l()(),i1.ɵeld(0,(null as any),
+          0,3,'md-icon',[['class','mat-icon'],['role','img']],(null as any),(null as any),
+          (null as any),i7.View_MdIcon_0,i7.RenderType_MdIcon)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(638976,(null as any),0,i8.MdIcon,[i1.Renderer2,
+          i1.ElementRef,i8.MdIconRegistry,[8,(null as any)]],(null as any),(null as any)),
+      (_l()(),i1.ɵted(0,['adb'])),(_l()(),i1.ɵted(0,['\n    '])),(_l()(),i1.ɵted((null as any),
+          ['\n    '])),(_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵted((null as any),
+          ['\n'])),(_l()(),i1.ɵted((null as any),['\n\n '])),(_l()(),i1.ɵeld(0,(null as any),
+          (null as any),2,'div',[['class','sponsors']],(null as any),(null as any),
+          (null as any),(null as any),(null as any))),i1.ɵdid(933888,(null as any),
+          0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,i1.KeyValueDiffers,
+              i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,'classBase']},
+          (null as any)),(_l()(),i1.ɵted((null as any),['\n ']))],(_ck,_v) => {
+    const currVal_0:any = 'home';
+    _ck(_v,3,0,currVal_0);
+    const currVal_1:any = 'uniq';
+    _ck(_v,7,0,currVal_1);
+    const currVal_2:any = 'row';
+    const currVal_3:any = 'column';
+    const currVal_4:any = 'row';
+    _ck(_v,10,0,currVal_2,currVal_3,currVal_4);
+    const currVal_5:any = '';
+    _ck(_v,13,0,currVal_5);
+    const currVal_6:any = 'card';
+    _ck(_v,18,0,currVal_6);
+    _ck(_v,26,0);
+    const currVal_10:any = '';
+    _ck(_v,32,0,currVal_10);
+    const currVal_11:any = 'card';
+    _ck(_v,37,0,currVal_11);
+    _ck(_v,45,0);
+    const currVal_15:any = '';
+    _ck(_v,51,0,currVal_15);
+    const currVal_16:any = 'card';
+    _ck(_v,56,0,currVal_16);
+    _ck(_v,64,0);
+    const currVal_20:any = '';
+    _ck(_v,70,0,currVal_20);
+    const currVal_21:any = 'card';
+    _ck(_v,75,0,currVal_21);
+    _ck(_v,83,0);
+    const currVal_25:any = 'sponsors';
+    _ck(_v,91,0,currVal_25);
+  },(_ck,_v) => {
+    const currVal_7:any = (i1.ɵnov(_v,22).disabled || (null as any));
+    const currVal_8:any = i1.ɵnov(_v,22)._isAriaDisabled;
+    const currVal_9:any = i1.ɵnov(_v,22).tabIndex;
+    _ck(_v,20,0,currVal_7,currVal_8,currVal_9);
+    const currVal_12:any = (i1.ɵnov(_v,41).disabled || (null as any));
+    const currVal_13:any = i1.ɵnov(_v,41)._isAriaDisabled;
+    const currVal_14:any = i1.ɵnov(_v,41).tabIndex;
+    _ck(_v,39,0,currVal_12,currVal_13,currVal_14);
+    const currVal_17:any = (i1.ɵnov(_v,60).disabled || (null as any));
+    const currVal_18:any = i1.ɵnov(_v,60)._isAriaDisabled;
+    const currVal_19:any = i1.ɵnov(_v,60).tabIndex;
+    _ck(_v,58,0,currVal_17,currVal_18,currVal_19);
+    const currVal_22:any = (i1.ɵnov(_v,79).disabled || (null as any));
+    const currVal_23:any = i1.ɵnov(_v,79)._isAriaDisabled;
+    const currVal_24:any = i1.ɵnov(_v,79).tabIndex;
+    _ck(_v,77,0,currVal_22,currVal_23,currVal_24);
+  });
 }
 export function View_HomePageComponent_Host_0(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'app-homepage',
       ([] as any[]),(null as any),(null as any),(null as any),View_HomePageComponent_0,
-      RenderType_HomePageComponent)),i1.ɵdid(114688,(null as any),0,i4.HomePageComponent,
-      ([] as any[]),(null as any),(null as any))],(_ck,_v) => {
-    _ck(_v,1,0);
-  },(null as any));
+      RenderType_HomePageComponent)),i1.ɵdid(49152,(null as any),0,i9.HomePageComponent,
+      ([] as any[]),(null as any),(null as any))],(null as any),(null as any));
 }
-export const HomePageComponentNgFactory:i1.ComponentFactory<i4.HomePageComponent> = i1.ɵccf('app-homepage',
-    i4.HomePageComponent,View_HomePageComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQudHMiLCJuZzovLy9DOi9Vc2Vycy9TaGVyaW4vT3ptZW50YTJLMTcvYXNzZXRzL2FwcC9jb21wb25lbnRzL2hvbWVwYWdlL2hvbWVwYWdlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9ob21lcGFnZS9ob21lcGFnZS5jb21wb25lbnQudHMuSG9tZVBhZ2VDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8IURPQ1RZUEUgaHRtbD5cclxuPGh0bWwgbGFuZz1cImVuXCI+XHJcbjxoZWFkPlxyXG4gICAgPG1ldGEgY2hhcnNldD1cIlVURi04XCI+XHJcbiAgICA8dGl0bGU+SG9tZTwvdGl0bGU+XHJcblxyXG48L2hlYWQ+XHJcbjxib2R5PlxyXG48c2VjdGlvbiBpZD1cImhvbWVcIiBkYXRhLXR5cGU9XCJiYWNrZ3JvdW5kXCIgZGF0YS1zcGVlZD1cIjEwXCIgY2xhc3M9XCJwYWdlc1wiPlxyXG4gICAgPGFydGljbGU+PGgzIGlkPVwic3RyaXBcIj5EZXBhcnRtZW50IG9mIENvbXB1dGVyIFNjaWVuY2UgYW5kIEVuZ2luZWVyaW5nIG9mIFZFQyA8YnI+cHJvdWRseSBwcmVzZW50cyA8YnI+XHJcbiAgICAgICAgPGxhYmVsIGlkPVwiaGVhZGluZ1wiPk9abWVudGEgMksxNzwvbGFiZWw+PC9oMz5cclxuICAgIDwvYXJ0aWNsZT5cclxuPC9zZWN0aW9uPlxyXG5cclxuPHNlY3Rpb24gaWQ9XCJhYm91dFwiIGRhdGEtdHlwZT1cImJhY2tncm91bmRcIiBkYXRhLXNwZWVkPVwiMTBcIiBjbGFzcz1cInBhZ2VzXCI+XHJcbiAgICA8YXJ0aWNsZT48aDM+TGlzdCBvZiBFdmVudHM8L2gzPjwvYXJ0aWNsZT5cclxuPC9zZWN0aW9uPlxyXG5cclxuPHNlY3Rpb24gaWQ9XCJzcG9uc29yc1wiIGRhdGEtdHlwZT1cImJhY2tncm91bmRcIiBkYXRhLXNwZWVkPVwiMTBcIiBjbGFzcz1cInBhZ2VzXCI+XHJcbiAgICA8YXJ0aWNsZT48aDM+TGlzdCBvZiBzcG9uc29yczwvaDM+PC9hcnRpY2xlPlxyXG48L3NlY3Rpb24+XHJcbjwvYm9keT5cclxuPC9odG1sPiIsIjxhcHAtaG9tZXBhZ2U+PC9hcHAtaG9tZXBhZ2U+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7b0JDQWUsdUNBQ2Y7TUFBQTtNQUFBLDhCQUFnQix1Q0FDaEI7YUFBQTtVQUFBLDRDQUFNO01BQUEsYUFDRjtNQUFBO01BQXNCLDJDQUN0QjtVQUFBO1VBQUEsZ0JBQU8seUNBQVk7VUFBQSxXQUVoQix1Q0FDUDtVQUFBO1VBQUEsOEJBQU0sdUNBQ047aUJBQUE7Y0FBQTtjQUFBLG1EQUFBO1VBQUE7b0RBQUE7VUFBQSxlQUF3RSwyQ0FDcEU7VUFBQTtVQUFBLDRDQUFTO1VBQUE7VUFBQSw4QkFBZTtNQUFzRDtVQUFBLDBEQUFJO1VBQUEsd0JBQWlCO1VBQUE7VUFBQSxnQkFBSSwrQ0FDbkc7VUFBQTtVQUFBLDRDQUFvQjtVQUFBLG1CQUF5QiwyQ0FDdkM7VUFBQSxTQUNKLHlDQUVWO1VBQUE7Y0FBQTtVQUFBLHFDQUFBO1VBQUE7MEJBQUEsNkNBQXlFO1VBQUEsYUFDckU7VUFBQTtNQUFTO1VBQUEsMERBQUk7VUFBQSxxQkFBNkIsdUNBQ3BDO1VBQUEsV0FFVjtVQUFBO1VBQUE7YUFBQTttRUFBQTtVQUFBLDZCQUE0RTtNQUN4RTtVQUFBLDBEQUFTO1VBQUE7VUFBQSw0Q0FBSTtVQUFBLHVCQUErQix1Q0FDdEM7VUFBQSxTQUNIO0lBYm1EO0lBQTFELFlBQTBELFNBQTFEO0lBTTJEO0lBQTNELFlBQTJELFNBQTNEO0lBSThEO0lBQTlELFlBQThELFNBQTlEOzs7O29CQ2xCQTtNQUFBO2tDQUFBLFVBQUE7TUFBQTtJQUFBOzs7OyJ9
+export const HomePageComponentNgFactory:i1.ComponentFactory<i9.HomePageComponent> = i1.ɵccf('app-homepage',
+    i9.HomePageComponent,View_HomePageComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvaG9tZXBhZ2UvaG9tZXBhZ2UuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0M6L1VzZXJzL3ByaW5jL0Rlc2t0b3Avb3ptZW50YTJrMTcvYXNzZXRzL2FwcC9jb21wb25lbnRzL2hvbWVwYWdlL2hvbWVwYWdlLmNvbXBvbmVudC50cyIsIm5nOi8vL0M6L1VzZXJzL3ByaW5jL0Rlc2t0b3Avb3ptZW50YTJrMTcvYXNzZXRzL2FwcC9jb21wb25lbnRzL2hvbWVwYWdlL2hvbWVwYWdlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvaG9tZXBhZ2UvaG9tZXBhZ2UuY29tcG9uZW50LnRzLkhvbWVQYWdlQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiIDwhLS0gPGRpdiBpZD1cImhvbWVcIiA+XHJcbiAgICA8YXJ0aWNsZT48aDMgaWQ9XCJzdHJpcFwiPkRlcGFydG1lbnQgb2YgQ29tcHV0ZXIgU2NpZW5jZSBhbmQgRW5naW5lZXJpbmcgb2YgVkVDIDxicj5wcm91ZGx5IHByZXNlbnRzIDxicj5cclxuICAgICAgICA8bGFiZWwgaWQ9XCJoZWFkaW5nXCI+T1ptZW50YSAySzE3PC9sYWJlbD48L2gzPlxyXG4gICAgPC9hcnRpY2xlPlxyXG48L2Rpdj5cclxuIDxkaXYgaWQ9XCJhYm91dFwiPlxyXG4gICAgPGFydGljbGU+PGgzPlVuaXEgVGVjaG5vbG9naWVzPC9oMz48L2FydGljbGU+XHJcbjwvZGl2PiBcclxuPGRpdiBpZD1cInNwb25zb3JzXCI+XHJcbiAgICA8YXJ0aWNsZT48aDM+T3VyIFNwb25zb3JzPC9oMz48L2FydGljbGU+XHJcbiA8L2Rpdj4gIC0tPlxyXG5cclxuIDxkaXYgY2xhc3M9XCJob21lXCI+XHJcbiAgICAgT1pNRU5UQSAySzE3XHJcbiAgICAgQSBOYXRpb25hbCBMZXZlbCBUZWNobmljYWwgU3ltcG9zaXVtXHJcbiAgICAgVmVsYW1tYWwgRW5naW5lZXJpbmcgQ29sbGVnZVxyXG4gICAgIERlcGFydG1lbnQgb2YgQ29tcHV0ZXIgU2NpZW5jZSBhbmQgRW5naW5lZXJpbmdcclxuIDwvZGl2PlxyXG5cclxuPGRpdiBjbGFzcz1cInVuaXFcIj5cclxuICAgIFVuaXEgVGVjaG5vbG9naWVzXHJcbiAgICA8ZGl2IGZ4TGF5b3V0PVwicm93XCIgZnhMYXlvdXQueHM9XCJjb2x1bW5cIiBmeExheW91dC5zbT1cInJvd1wiIGZ4RmxleHM+ICAgXHJcbiAgICA8ZGl2IGZ4RmxleD5cclxuICAgIDxtZC1jYXJkIGNsYXNzPVwiY2FyZFwiPlxyXG4gICAgPGEgbWQtZmFiIGhyZWY9XCJodHRwOi8vaW5wbGFudHRyYWluaW5naW5jaGVubmFpLm9yZy5pbi9cIj48bWQtaWNvbj5kb21haW48L21kLWljb24+PC9hPlxyXG4gICAgPC9tZC1jYXJkPlxyXG4gICAgPC9kaXY+XHJcbjxkaXYgZnhGbGV4PlxyXG4gICAgPG1kLWNhcmQgY2xhc3M9XCJjYXJkXCI+XHJcbiAgICA8YSBtZC1mYWIgaHJlZj1cImh0dHA6Ly93d3cuaW50ZXJuc2hpcGluY2hlbm5haS5jb20vXCI+PG1kLWljb24+Zml0bmVzc19jZW50ZXI8L21kLWljb24+PC9hPlxyXG4gICAgPC9tZC1jYXJkPlxyXG48L2Rpdj5cclxuPGRpdiBmeEZsZXg+XHJcbiAgICA8bWQtY2FyZCBjbGFzcz1cImNhcmRcIj5cclxuICAgIDxhIG1kLWZhYiBocmVmPVwiaHR0cDovL3d3dy5pZWVlZmluYWx5ZWFycHJvamVjdHMub3JnL1wiPjxtZC1pY29uPmxvY2FsX2xpYnJhcnk8L21kLWljb24+PC9hPlxyXG4gICAgPC9tZC1jYXJkPlxyXG48L2Rpdj5cclxuPGRpdiBmeEZsZXg+XHJcbiAgICA8bWQtY2FyZCBjbGFzcz1cImNhcmRcIj5cclxuICAgIDxhIG1kLWZhYiBocmVmPVwiaHR0cDovL3d3dy5hbmRyb2lkdHJhaW5pbmdpbmNoZW5uYWkuY29tL1wiPjxtZC1pY29uPmFkYjwvbWQtaWNvbj48L2E+XHJcbiAgICA8L21kLWNhcmQ+XHJcbiAgICA8L2Rpdj5cclxuPC9kaXY+XHJcbjwvZGl2PlxyXG5cclxuIDxkaXYgY2xhc3M9XCJzcG9uc29yc1wiPlxyXG4gPC9kaXY+IiwiPGFwcC1ob21lcGFnZT48L2FwcC1ob21lcGFnZT4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O29CQ0FBLHNDQVVZO01BQUEsWUFFWDtNQUFBO2FBQUE7bUVBQUE7VUFBQSw2QkFBa0I7TUFLWix5Q0FFUDtVQUFBO1VBQUEsdUJBQUE7c0ZBQUE7VUFBQSwyQ0FBa0I7VUFBQSxvQ0FFZDtVQUFBO2NBQUE7YUFBQTtzQkFBQTtVQUFBLGVBQW1FLDhDQUNuRTtVQUFBO1VBQUEsbURBQUE7VUFBQTtjQUFBLDZEQUFZO2lCQUFBLDRCQUNaO1VBQUE7K0NBQUEsVUFBQTtVQUFBO2FBQUE7YUFBQTttRUFBQTtVQUFBLDZCQUFzQiwrQkFDdEI7VUFBQTtjQUFBO2NBQUE7WUFBQTtZQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7VUFBQSxxREFBQTtVQUFBO1VBQUEsb0NBQUE7VUFBQTtVQUFBLHNCQUFBO1VBQUEsOENBQXlEO1VBQUE7VUFBQSw2REFBQTtVQUFBO1VBQUEsb0NBQUE7MENBQUE7TUFBUywrQkFBb0IsK0JBQzVFO1VBQUEsYUFDSix1Q0FDVjtVQUFBO1VBQUEscUNBQUE7VUFBQTtVQUFBLGlDQUFZO01BQ1I7VUFBQTthQUFBO3VCQUFBLHNDQUFBO1VBQUEsOERBQUE7VUFBQTtvREFBQTtVQUFBLGVBQXNCLCtCQUN0QjtVQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHFEQUFBO1VBQUE7VUFBQSxvQ0FBQTtVQUFBO1VBQUEsc0JBQUE7VUFBQSw4Q0FBcUQ7VUFBQTtVQUFBLDZEQUFBO1VBQUE7VUFBQSxvQ0FBQTswQ0FBQTtNQUFTLHVDQUE0QiwrQkFDaEY7aUJBQUEsd0JBQ1IsdUNBQ047aUJBQUE7Y0FBQSxpRUFBQTtVQUFBO2NBQUE7VUFBQSxlQUFZLDJDQUNSO1VBQUE7VUFBQSwyRUFBQTtVQUFBOzJCQUFBLHNDQUFBO1VBQUEsOERBQUE7VUFBQTtvREFBQTtVQUFBLGVBQXNCLCtCQUN0QjtVQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHFEQUFBO1VBQUE7VUFBQSxvQ0FBQTtVQUFBO1VBQUEsc0JBQUE7VUFBQSw4Q0FBdUQ7VUFBQTtVQUFBLDZEQUFBO1VBQUE7VUFBQSxvQ0FBQTswQ0FBQTtNQUFTLHNDQUEyQiwrQkFDakY7aUJBQUEsd0JBQ1IsdUNBQ047aUJBQUE7Y0FBQSxpRUFBQTtVQUFBO2NBQUE7VUFBQSxlQUFZLDJDQUNSO1VBQUE7VUFBQSwyRUFBQTtVQUFBOzJCQUFBLHNDQUFBO1VBQUEsOERBQUE7VUFBQTtvREFBQTtVQUFBLGVBQXNCLCtCQUN0QjtVQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHFEQUFBO1VBQUE7VUFBQSxvQ0FBQTtVQUFBO1VBQUEsc0JBQUE7VUFBQSw4Q0FBMEQ7VUFBQTtVQUFBLDZEQUFBO1VBQUE7VUFBQSxvQ0FBQTswQ0FBQTtNQUFTLDRCQUFpQiwrQkFDMUU7VUFBQSxhQUNKLHVDQUNKO1VBQUEsU0FDQSwwQ0FFTDtVQUFBO1VBQUEsbURBQUE7VUFBQTtvREFBQTtVQUFBLGVBQXNCO0lBakNqQjtJQUFMLFdBQUssU0FBTDtJQU9JO0lBQUwsV0FBSyxTQUFMO0lBRVM7SUFBZTtJQUFxQjtJQUF6QyxZQUFLLFVBQWUsVUFBcUIsU0FBekM7SUFDSztJQUFMLFlBQUssU0FBTDtJQUNTO0lBQVQsWUFBUyxTQUFUO0lBQ3lEO0lBR3hEO0lBQUwsWUFBSyxVQUFMO0lBQ2E7SUFBVCxZQUFTLFVBQVQ7SUFDcUQ7SUFHcEQ7SUFBTCxZQUFLLFVBQUw7SUFDYTtJQUFULFlBQVMsVUFBVDtJQUN1RDtJQUd0RDtJQUFMLFlBQUssVUFBTDtJQUNhO0lBQVQsWUFBUyxVQUFUO0lBQzBEO0lBTXhEO0lBQUwsWUFBSyxVQUFMOztJQXJCRztJQUFBO0lBQUE7SUFBQSxZQUFBLDZCQUFBO0lBS0E7SUFBQTtJQUFBO0lBQUEsWUFBQSxnQ0FBQTtJQUtBO0lBQUE7SUFBQTtJQUFBLFlBQUEsZ0NBQUE7SUFLQTtJQUFBO0lBQUE7SUFBQSxZQUFBLGdDQUFBOzs7O29CQ3ZDSjtNQUFBO2tDQUFBLFVBQUE7TUFBQTs7OyJ9

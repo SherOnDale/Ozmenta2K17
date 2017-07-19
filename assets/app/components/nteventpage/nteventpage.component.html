@@ -5,18 +5,13 @@
       <md-card class="card">
         <md-card-header>
           <div md-card-avatar class="header-image"></div>
-          <md-card-title>Steady Shot</md-card-title>
-          <md-card-subtitle>Photography</md-card-subtitle>
+          <md-card-title>{{data[0].name}}</md-card-title>
+          <md-card-subtitle>{{data[0].type}}</md-card-subtitle>
         </md-card-header>
         <img md-card-image src="/images/photo.jpg">
-        <md-card-content>
-          <p>
-            Master your aperture & freeze the juncture based on the given theme:<br>1.Beauty of Chennai<br>2.Wildlife<br>3.Natural Sceneries<br>4.Indoor Photography<br>Mail your photograph with name, college name and department to <a class="p-link" href="mailto:photosub@ozmenta2k17.com">photosub@ozmenta2k17.com</a> or DM your photographs to <a class="p-link" href="http://www.facebook.com/ozmenta2k17">OZmenta2K17 FB Page</a><br>Last date for submission is August 3
-          </p>
-        </md-card-content>
         <md-card-actions>
-          <button md-button>REGISTER</button>
-          <button md-button>MORE</button>
+          <button md-button (click)="openConfirmation()">REGISTER</button>
+          <button md-button (click)="openDialog(data[0].description)">MORE</button>
         </md-card-actions>
       </md-card>
     </div>
@@ -24,58 +19,27 @@
       <md-card class="card">
         <md-card-header>
           <div md-card-avatar class="header-image"></div>
-          <md-card-title>Connexions</md-card-title>
-          <md-card-subtitle>Non-Technical Events</md-card-subtitle>
+          <md-card-title>{{data[1].name}}</md-card-title>
+          <md-card-subtitle>{{data[1].type}}</md-card-subtitle>
         </md-card-header>
         <img md-card-image src="/images/connex.jpg">
-        <md-card-content>
-          <p>
-            Syntax:  	&#123;Clue1, Clue2.. Clue n&#125; -> Eureka!<br>Example:  Committed -> Couch Potato => Bae_Calls_Me_Potato<br>Sounds familiar? Then, drop in with your mate to crack these clues.<br>PS: You dont have to be committed to participate :P
-          </p>
-        </md-card-content>
         <md-card-actions>
-          <button md-button>REGISTER</button>
-          <button md-button>MORE</button>
+          <button md-button (click)="openConfirmation()">REGISTER</button>
+          <button md-button (click)="openDialog(data[1].description)">MORE</button>
         </md-card-actions>
       </md-card>
     </div>
-  </div>
-  <div fxLayout="row" fxLayout.xs="column" fxLayout.sm="column" fxFlexs>
     <div fxFlex>
       <md-card class="card">
         <md-card-header>
           <div md-card-avatar class="header-image"></div>
-          <md-card-title>Meme Creation</md-card-title>
-          <md-card-subtitle>Non-Technical Event</md-card-subtitle>
+          <md-card-title>{{data[2].name}}</md-card-title>
+          <md-card-subtitle>{{data[2].type}}</md-card-subtitle>
         </md-card-header>
         <img md-card-image src="/images/meme.jpg">
-        <md-card-content>
-          <p>
-            Gear Up to showcase your Meme creation talent on OZmenta2K17<br>Three rounds will be conducted and the winners get exciting prizes
-          </p>
-        </md-card-content>
         <md-card-actions>
-          <button md-button>REGISTER</button>
-          <button md-button>MORE</button>
-        </md-card-actions>
-      </md-card>
-    </div>
-    <div fxFlex>
-      <md-card class="card">
-        <md-card-header>
-          <div md-card-avatar class="header-image"></div>
-          <md-card-title>Race 2 Destiny</md-card-title>
-          <md-card-subtitle>Gaming</md-card-subtitle>
-        </md-card-header>
-        <img md-card-image src="/images/gaming.jpg">
-        <md-card-content>
-          <p>
-            Are you a gamer? Are you up for some real challenges? Then enroll to this event and win attractive prizes!<br>PC Games: <br>1. FIFA 17<br>2. Call of Duty<br>3. Blur<br>4. NFS Most Wanted<br>Mobile Games: <br>1. Mini Miltia<br>Indoor Games: <br>1. Box Cricket<br>Entry fees for each game is 50 Rupees.<br>Entery fees for Box Cricket is 100 Rupees.<br>League-wise winners will be announced in Box Cricket 
-          </p>
-        </md-card-content>
-        <md-card-actions>
-          <button md-button>REGISTER</button>
-          <button md-button>MORE</button>
+          <button md-button (click)="openConfirmation()">REGISTER</button>
+          <button md-button (click)="openDialog(data[2].description)">MORE</button>
         </md-card-actions>
       </md-card>
     </div>
@@ -85,18 +49,13 @@
       <md-card class="card">
         <md-card-header>
           <div md-card-avatar class="header-image"></div>
-          <md-card-title>Pictionary</md-card-title>
-          <md-card-subtitle>Non-Technical Event</md-card-subtitle>
+          <md-card-title>{{data[3].name}}</md-card-title>
+          <md-card-subtitle>{{data[3].type}}</md-card-subtitle>
         </md-card-header>
-        <img md-card-image src="/images/pictionary.jpg">
-        <md-card-content>
-          <p>
-            Members: 3 <br> Description: Time to unleash the Picaso in you. Here's the opportunity where you can have all the fun in one place and prove your artistic talent too ;) (Not to worry if you're an amateur artist, you can still win :D)
-          </p>
-        </md-card-content>
+        <img md-card-image src="/images/gaming.jpg">
         <md-card-actions>
-          <button md-button>REGISTER</button>
-          <button md-button>MORE</button>
+          <button md-button (click)="openConfirmation()">REGISTER</button>
+          <button md-button (click)="openDialog(data[3].description)">MORE</button>
         </md-card-actions>
       </md-card>
     </div>
@@ -104,18 +63,27 @@
       <md-card class="card">
         <md-card-header>
           <div md-card-avatar class="header-image"></div>
-          <md-card-title>Surprise Event</md-card-title>
-          <md-card-subtitle>Non-Technical Event</md-card-subtitle>
+          <md-card-title>{{data[4].name}}</md-card-title>
+          <md-card-subtitle>{{data[4].type}}</md-card-subtitle>
+        </md-card-header>
+        <img md-card-image src="/images/pictionary.jpg">
+        <md-card-actions>
+          <button md-button (click)="openConfirmation()">REGISTER</button>
+          <button md-button (click)="openDialog(data[4].description)">MORE</button>
+        </md-card-actions>
+      </md-card>
+    </div>
+    <div fxFlex>
+      <md-card class="card">
+        <md-card-header>
+          <div md-card-avatar class="header-image"></div>
+          <md-card-title>{{data[5].name}}</md-card-title>
+          <md-card-subtitle>{{data[5].type}}</md-card-subtitle>
         </md-card-header>
         <img md-card-image src="/images/surprise.jpg">
-        <md-card-content>
-          <p>
-            Surpise!!!<br>Surprise!!!<br>Surprise!!!<br>Get ready to face our surprise tasks in front of Eruma Sani fame Vijay and Harija
-          </p>
-        </md-card-content>
         <md-card-actions>
-          <button md-button>REGISTER</button>
-          <button md-button>MORE</button>
+          <button md-button (click)="openConfirmation()">REGISTER</button>
+          <button md-button (click)="openDialog(data[5].description)">MORE</button>
         </md-card-actions>
       </md-card>
     </div>

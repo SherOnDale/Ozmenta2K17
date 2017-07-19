@@ -1,0 +1,11 @@
+<h1 md-dialog-title *ngIf="isLoggedIn">Confirmation</h1>
+<div md-dialog-content *ngIf="isLoggedIn">Please confirm that you want to register to this event</div>
+<div md-dialog-actions *ngIf="isLoggedIn">
+  <button md-button md-dialog-close="confirm">Confirm</button>
+  <button md-button md-dialog-close="cancel">Cancel</button>
+</div>
+<h1 md-dialog-title *ngIf="!isLoggedIn">Validation</h1>
+<div md-dialog-content *ngIf="!isLoggedIn">Please login to register to this event</div>
+<div md-dialog-actions *ngIf="!isLoggedIn">
+  <button md-button md-dialog-close="ok">OK</button>
+</div>

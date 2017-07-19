@@ -33,7 +33,84 @@ const userSchema = new Schema({
   token: {
     type: String,
     required: true
+  },
+  eventsRegistered: {
+  e11: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e12: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e13: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e21: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e22: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e23: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e24: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e25: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e26: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e31: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e32: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e33: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e34: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e35: {
+    type: Boolean,
+    required: true,
+    default: false
+  },
+  e36: {
+    type: Boolean,
+    required: true,
+    default: false
   }
+}
 });
 
 userSchema.plugin(mongooseUniqueValidator);

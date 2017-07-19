@@ -7,21 +7,24 @@ const User = require('../models/users');
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 var nodemailer = require('nodemailer');
-var sgTransport = require('nodemailer-sendgrid-transport');
+const smtpTransport = require('nodemailer-smtp-transport');
 
-var options = {
-  auth: {
-    api_user: 'SherOnDale13',
-    api_key: 'temppassword69'
-  }
-}
-
-var client = nodemailer.createTransport(sgTransport(options));
+    var transport = nodemailer.createTransport(smtpTransport({
+      service: 'gmail',
+      tls: {
+        rejectUnauthorized: false
+      },
+      auth: {
+          user: 'ozmenta2k17@gmail.com',
+          pass: 'TempPassword13'
+      }
+    }));
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index');
 });
+
 
 router.post('/registerUser', (req, res, next) => {
   const token = jwt.sign({
@@ -42,39 +45,25 @@ router.post('/registerUser', (req, res, next) => {
         error: err
       });
     }
-    var email = {
-      from: 'awesome@bar.com',
-      to: 'mr.walrus@foo.com',
-      subject: 'Hello',
-      text: 'Hello world',
-      html: '<b>Hello world</b>'
-    };
 
-    client.sendMail(email, function (err, info) {
-      if (err) {
-        console.log(error);
-      } else {
-        console.log('Message sent: ' + info.response);
-      }
-    });
     var email = {
       from: 'support@ozmenta2k17.com',
       to: user.email,
       subject: 'Ozmenta2K17 Account Activation Link',
       text: `Hello ${user.fName} ${user.lName}, Thank you for registering at Ozmenta2K17.com. Please click on the following link to complete your registration: http://www.ozmenta2k17.com/activate/${user.token}`,
-      html: `Hello <strong>${user.fName} ${user.lName}</strong>, Thank you for registering at Ozmenta2K17.com. Please click on the link below to complete your registration:<br></br><a href="http://www.ozmenta2k17.com/acti.com`,
-      to: user.email,
-      subject: 'Ozmenta2K17 Account Activation Link',
-      text: `Hello ${user.fName} ${user.lName}, Thank you for registering at Ozmenta2K17.com. Please click on the following link to complete your registration: http://www.ozmenta2k17.com/activate/${user.token}`,
       html: `Hello <strong>${user.fName} ${user.lName}</strong>, Thank you for registering at Ozmenta2K17.com. Please click on the link below to complete your registration:<br></br><a href="http://www.ozmenta2k17.com/activate/${user.token}">http://www,ozmenta2k17.com/activate</a>`
     };
-    client.sendMail(email, function (err, info) {
-      if (err) {
+
+    transport.sendMail(email, (error, response) => {
+    if(error){
         console.log(error);
-      } else {
-        console.log('Message sent: ' + info.response);
-      }
-    });
+    }else{
+        console.log("Message sent: " + response.message);
+    }
+
+    transport.close();
+});
+
     res.status(201).json({
       message: 'Email verification sent',
       token: token,
@@ -95,13 +84,18 @@ router.post('/loginUser', (req, res, next) => {
     }
     if (!doc) {
       return res.status(401).json({
-        message: 'Unable to log you in . Please try again later'
+        message: 'Unable to log you in. Please try again later'
       });
     }
     if (!bcrypt.compareSync(req.body.password, doc.password)) {
       return res.status(401).json({
-        message: 'Unable to log you in . Please try again later'
+        message: 'Unable to log you in. Please try again later'
       });
+    }
+    if(doc.active == false) {
+      return res.status(401).json({
+        message: 'Unable to log you in. Please try again later'
+      })
     }
     const token = jwt.sign({
       user: doc.email
@@ -116,36 +110,58 @@ router.post('/loginUser', (req, res, next) => {
   });
 });
 
-router.post('/activateUser', (req, res, next) => {
+ router.post('/activateUser', (req, res, next) => {
+   User.findOne({
+     token: req.body.token
+   }, (err, doc) => {
+     if (err) {
+       return res.status(500);
+     } else if (!doc) {
+       return res.status(401);
+     }
+      console.log(doc);
+     doc.active = true;
+     doc.save((err) => {
+       if (err)
+         return res.status(500);
+       var email = {
+         from: 'support@ozmenta2k17.com',
+         to: doc.email,
+         subject: 'Ozmenta2K17 Account Successfully Activated',
+         text: `Hello ${doc.fName} ${doc.lName}, Thank you for registering at Ozmenta2K17.com. Your account has been successfully activated`,
+         html: `Hello <strong>${doc.fName} ${doc.lName}</strong>, Thank you for registering at Ozmenta2K17.com. Your account has been successfylly activated`,
+       };
+     transport.sendMail(email, function(error, response){
+     if(error){
+         console.log(error);
+     }else{
+         console.log("Message sent: " + response);
+     }
+     });
+     return res.status(200);
+   });
+   });
+ });
+
+ router.post('/registerEvent', (req, res, next) => {
   User.findOne({
     token: req.body.token
   }, (err, doc) => {
-    if (err) {
-      return res.status(500);
-    } else if (!doc) {
-      return res.status(401);
-    }
-    doc.active = true;
-    doc.save((err) => {
-      if (err)
-        return res.status(500);
-      var email = {
-        from: 'support@ozmenta2k17.com',
-        to: doc.email,
-        subject: 'Ozmenta2K17 Account Successfully Activated',
-        text: `Hello ${user.fName} ${user.lName}, Thank you for registering at Ozmenta2K17.com. Your account has been successfully activated`,
-        html: `Hello <strong>${user.fName} ${user.lName}</strong>, Thank you for registering at Ozmenta2K17.com. Your account has been successfylly activated`,
-      };
-      client.sendMail(email, function (err, info) {
-        if (err) {
-          console.log(error);
-        } else {
-          console.log('Message sent: ' + info.response);
-        }
-      });
-    })
-    return res.status(200);
-  });
-})
+     if (err) {
+       return res.status(500);
+     } else if (!doc) {
+       return res.status(401);
+     }
+      console.log(doc);
+      doc.eventsRegistered[req.body.eventId] = true;
+     doc.save((err) => {
+       if (err)
+         return res.status(500);
+     return res.status(200).json({
+       message: 'Successfully Registered'
+     });
+   });
+  })
+ })
 
 module.exports = router;

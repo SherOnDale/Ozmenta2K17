@@ -16,26 +16,28 @@ import * as i6 from '@angular/flex-layout/flexbox/api/layout-wrap';
 import * as i7 from '../../../../node_modules/@angular/material/typings/index.ngfactory';
 import * as i8 from '@angular/material';
 import * as i9 from './workshoppage.component';
+import * as i10 from '../../services/more.service';
+import * as i11 from '../../services/user.service';
 const styles_WorkshopPageComponent:any[] = [i0.styles];
 export const RenderType_WorkshopPageComponent:i1.RendererType2 = i1.ɵcrt({encapsulation:0,
     styles:styles_WorkshopPageComponent,data:{}});
 export function View_WorkshopPageComponent_0(_l:any):i1.ɵViewDefinition {
-  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),177,'div',[['class',
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),153,'div',[['class',
       'container']],(null as any),(null as any),(null as any),(null as any),(null as any))),
       i1.ɵdid(933888,(null as any),0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,
           i1.KeyValueDiffers,i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,
           'classBase']},(null as any)),(_l()(),i1.ɵted((null as any),['\n\n  '])),
-      (_l()(),i1.ɵeld(0,(null as any),(null as any),173,'div',[['fxFlexs',''],['fxLayout',
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),149,'div',[['fxFlexs',''],['fxLayout',
           'row'],['fxLayout.sm','column'],['fxLayout.xs','column']],(null as any),
           (null as any),(null as any),(null as any),(null as any))),i1.ɵdid(737280,
           (null as any),0,i4.LayoutDirective,[i3.MediaMonitor,i1.ElementRef,i1.Renderer2],
           {layout:[0,'layout'],layoutXs:[1,'layoutXs'],layoutSm:[2,'layoutSm']},(null as any)),
       (_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-          55,'div',[['fxFlex','']],(null as any),(null as any),(null as any),(null as any),
+          47,'div',[['fxFlex','']],(null as any),(null as any),(null as any),(null as any),
           (null as any))),i1.ɵdid(737280,(null as any),0,i5.FlexDirective,[i3.MediaMonitor,
           i1.ElementRef,i1.Renderer2,[3,i4.LayoutDirective],[3,i6.LayoutWrapDirective]],
           {flex:[0,'flex']},(null as any)),(_l()(),i1.ɵted((null as any),['\n      '])),
-      (_l()(),i1.ɵeld(0,(null as any),(null as any),51,'md-card',[['class','card mat-card']],
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),43,'md-card',[['class','card mat-card']],
           (null as any),(null as any),(null as any),i7.View_MdCard_0,i7.RenderType_MdCard)),
       i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
           i1.ElementRef],(null as any),(null as any)),i1.ɵdid(49152,(null as any),
@@ -59,66 +61,72 @@ export function View_WorkshopPageComponent_0(_l:any):i1.ɵViewDefinition {
           (null as any))),i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
           i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
           0,i8.MdCardTitle,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['Paper Presentation'])),(_l()(),i1.ɵted(2,['\n          '])),(_l()(),i1.ɵeld(0,
-          (null as any),1,3,'md-card-subtitle',[['class','mat-card-subtitle ']],(null as any),
-          (null as any),(null as any),(null as any),(null as any))),i1.ɵdid(16384,
-          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
-          0,i8.MdCardSubtitle,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['Dog Breed'])),(_l()(),i1.ɵted(2,['\n        '])),(_l()(),i1.ɵted(0,['\n        '])),
+          ['',''])),(_l()(),i1.ɵted(2,['\n          '])),(_l()(),i1.ɵeld(0,(null as any),
+          1,3,'md-card-subtitle',[['class','mat-card-subtitle ']],(null as any),(null as any),
+          (null as any),(null as any),(null as any))),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i8.MdCardSubtitle,
+          ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
+          ['',''])),(_l()(),i1.ɵted(2,['\n        '])),(_l()(),i1.ɵted(0,['\n        '])),
       (_l()(),i1.ɵeld(0,(null as any),0,1,'img',[['class','mat-card-image'],['md-card-image',
-          ''],['src','/images/joel.jpg']],(null as any),(null as any),(null as any),
+          ''],['src','/images/uxui.jpg']],(null as any),(null as any),(null as any),
           (null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i8.MdCardImage,
           ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted(0,['\n        '])),
-      (_l()(),i1.ɵeld(0,(null as any),0,6,'md-card-content',[['class','mat-card-content']],
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-          i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
-          0,i8.MdCardContent,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['\n          '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i1.ɵted((null as any),['\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus unde nostrum possimus facere labore recusandae iste,\n            itaque quod nisi harum libero quae dolore, quos dolores necessitatibus reiciendis, inventore quaerat beatae fugiat\n            blanditiis.\n          '])),
-      (_l()(),i1.ɵted((null as any),['\n        '])),(_l()(),i1.ɵted(0,['\n        '])),
       (_l()(),i1.ɵeld(0,(null as any),0,15,'md-card-actions',[['class','mat-card-actions']],
           (null as any),(null as any),(null as any),(null as any),(null as any))),
       i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
           i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
           0,i8.MdCardActions,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
           ['\n          '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),4,'button',
-          [['class','mat-button'],['md-button','']],[[8,'disabled',0]],(null as any),
-          (null as any),i7.View_MdButton_0,i7.RenderType_MdButton)),i1.ɵdid(16384,
-          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(180224,(null as any),
-          0,i8.MdButton,[i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],
-          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,
-          ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted(0,['REGISTER'])),
-      (_l()(),i1.ɵted((null as any),['\n          '])),(_l()(),i1.ɵeld(0,(null as any),
-          (null as any),4,'button',[['class','mat-button'],['md-button','']],[[8,'disabled',
-              0]],(null as any),(null as any),i7.View_MdButton_0,i7.RenderType_MdButton)),
+          [['class','mat-button'],['md-button','']],[[8,'disabled',0]],[[(null as any),
+              'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            var _co:i9.WorkshopPageComponent = _v.component;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>_co.openConfirmation(_co.data[0].id)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },i7.View_MdButton_0,i7.RenderType_MdButton)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(180224,(null as any),0,i8.MdButton,
+          [i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,([] as any[]),
+          (null as any),(null as any)),(_l()(),i1.ɵted(0,['REGISTER'])),(_l()(),i1.ɵted((null as any),
+          ['\n          '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),4,'button',
+          [['class','mat-button'],['md-button','']],[[8,'disabled',0]],[[(null as any),
+              'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            var _co:i9.WorkshopPageComponent = _v.component;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>_co.openDialog(_co.data[0].description)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },i7.View_MdButton_0,i7.RenderType_MdButton)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(180224,(null as any),0,i8.MdButton,
+          [i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,([] as any[]),
+          (null as any),(null as any)),(_l()(),i1.ɵted(0,['MORE'])),(_l()(),i1.ɵted((null as any),
+          ['\n        '])),(_l()(),i1.ɵted(0,['\n      '])),(_l()(),i1.ɵted((null as any),
+          ['\n    '])),(_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),47,'div',[['fxFlex','']],(null as any),(null as any),
+          (null as any),(null as any),(null as any))),i1.ɵdid(737280,(null as any),
+          0,i5.FlexDirective,[i3.MediaMonitor,i1.ElementRef,i1.Renderer2,[3,i4.LayoutDirective],
+              [3,i6.LayoutWrapDirective]],{flex:[0,'flex']},(null as any)),(_l()(),
+          i1.ɵted((null as any),['\n      '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          43,'md-card',[['class','card mat-card']],(null as any),(null as any),(null as any),
+          i7.View_MdCard_0,i7.RenderType_MdCard)),i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,
+          [[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],(null as any),(null as any)),
+      i1.ɵdid(49152,(null as any),0,i8.MdCard,([] as any[]),(null as any),(null as any)),
+      i1.ɵdid(933888,(null as any),0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,
+          i1.KeyValueDiffers,i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,
+          'classBase']},(null as any)),(_l()(),i1.ɵted(0,['\n        '])),(_l()(),
+          i1.ɵeld(0,(null as any),0,17,'md-card-header',[['class','mat-card-header']],
+              (null as any),(null as any),(null as any),i7.View_MdCardHeader_0,i7.RenderType_MdCardHeader)),
       i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-          i1.ElementRef],(null as any),(null as any)),i1.ɵdid(180224,(null as any),
-          0,i8.MdButton,[i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],
-          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,
-          ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted(0,['MORE'])),
-      (_l()(),i1.ɵted((null as any),['\n        '])),(_l()(),i1.ɵted(0,['\n      '])),
-      (_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵted((null as any),['\n    '])),
-      (_l()(),i1.ɵeld(0,(null as any),(null as any),55,'div',[['fxFlex','']],(null as any),
-          (null as any),(null as any),(null as any),(null as any))),i1.ɵdid(737280,
-          (null as any),0,i5.FlexDirective,[i3.MediaMonitor,i1.ElementRef,i1.Renderer2,
-              [3,i4.LayoutDirective],[3,i6.LayoutWrapDirective]],{flex:[0,'flex']},
-          (null as any)),(_l()(),i1.ɵted((null as any),['\n      '])),(_l()(),i1.ɵeld(0,
-          (null as any),(null as any),51,'md-card',[['class','card mat-card']],(null as any),
-          (null as any),(null as any),i7.View_MdCard_0,i7.RenderType_MdCard)),i1.ɵdid(16384,
-          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(49152,(null as any),
-          0,i8.MdCard,([] as any[]),(null as any),(null as any)),i1.ɵdid(933888,(null as any),
-          0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,i1.KeyValueDiffers,
-              i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,'classBase']},
-          (null as any)),(_l()(),i1.ɵted(0,['\n        '])),(_l()(),i1.ɵeld(0,(null as any),
-          0,17,'md-card-header',[['class','mat-card-header']],(null as any),(null as any),
-          (null as any),i7.View_MdCardHeader_0,i7.RenderType_MdCardHeader)),i1.ɵdid(16384,
-          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(49152,(null as any),
+          i1.ElementRef],(null as any),(null as any)),i1.ɵdid(49152,(null as any),
           0,i8.MdCardHeader,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted(2,
           ['\n          '])),(_l()(),i1.ɵeld(0,(null as any),0,2,'div',[['class','header-image mat-card-avatar'],
           ['md-card-avatar','']],(null as any),(null as any),(null as any),(null as any),
@@ -131,66 +139,72 @@ export function View_WorkshopPageComponent_0(_l:any):i1.ɵViewDefinition {
           (null as any))),i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
           i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
           0,i8.MdCardTitle,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['Paper Presentation'])),(_l()(),i1.ɵted(2,['\n          '])),(_l()(),i1.ɵeld(0,
-          (null as any),1,3,'md-card-subtitle',[['class','mat-card-subtitle ']],(null as any),
-          (null as any),(null as any),(null as any),(null as any))),i1.ɵdid(16384,
-          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
-          0,i8.MdCardSubtitle,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['Dog Breed'])),(_l()(),i1.ɵted(2,['\n        '])),(_l()(),i1.ɵted(0,['\n        '])),
+          ['',''])),(_l()(),i1.ɵted(2,['\n          '])),(_l()(),i1.ɵeld(0,(null as any),
+          1,3,'md-card-subtitle',[['class','mat-card-subtitle ']],(null as any),(null as any),
+          (null as any),(null as any),(null as any))),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i8.MdCardSubtitle,
+          ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
+          ['',''])),(_l()(),i1.ɵted(2,['\n        '])),(_l()(),i1.ɵted(0,['\n        '])),
       (_l()(),i1.ɵeld(0,(null as any),0,1,'img',[['class','mat-card-image'],['md-card-image',
-          ''],['src','/images/joel.jpg']],(null as any),(null as any),(null as any),
+          ''],['src','/images/cpws.jpg']],(null as any),(null as any),(null as any),
           (null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i8.MdCardImage,
           ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted(0,['\n        '])),
-      (_l()(),i1.ɵeld(0,(null as any),0,6,'md-card-content',[['class','mat-card-content']],
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-          i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
-          0,i8.MdCardContent,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['\n          '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i1.ɵted((null as any),['\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus unde nostrum possimus facere labore recusandae iste,\n            itaque quod nisi harum libero quae dolore, quos dolores necessitatibus reiciendis, inventore quaerat beatae fugiat\n            blanditiis.\n          '])),
-      (_l()(),i1.ɵted((null as any),['\n        '])),(_l()(),i1.ɵted(0,['\n        '])),
       (_l()(),i1.ɵeld(0,(null as any),0,15,'md-card-actions',[['class','mat-card-actions']],
           (null as any),(null as any),(null as any),(null as any),(null as any))),
       i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
           i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
           0,i8.MdCardActions,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
           ['\n          '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),4,'button',
-          [['class','mat-button'],['md-button','']],[[8,'disabled',0]],(null as any),
-          (null as any),i7.View_MdButton_0,i7.RenderType_MdButton)),i1.ɵdid(16384,
-          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(180224,(null as any),
-          0,i8.MdButton,[i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],
-          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,
-          ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted(0,['REGISTER'])),
-      (_l()(),i1.ɵted((null as any),['\n          '])),(_l()(),i1.ɵeld(0,(null as any),
-          (null as any),4,'button',[['class','mat-button'],['md-button','']],[[8,'disabled',
-              0]],(null as any),(null as any),i7.View_MdButton_0,i7.RenderType_MdButton)),
+          [['class','mat-button'],['md-button','']],[[8,'disabled',0]],[[(null as any),
+              'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            var _co:i9.WorkshopPageComponent = _v.component;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>_co.openConfirmation(_co.data[1].id)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },i7.View_MdButton_0,i7.RenderType_MdButton)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(180224,(null as any),0,i8.MdButton,
+          [i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,([] as any[]),
+          (null as any),(null as any)),(_l()(),i1.ɵted(0,['REGISTER'])),(_l()(),i1.ɵted((null as any),
+          ['\n          '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),4,'button',
+          [['class','mat-button'],['md-button','']],[[8,'disabled',0]],[[(null as any),
+              'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            var _co:i9.WorkshopPageComponent = _v.component;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>_co.openDialog(_co.data[1].description)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },i7.View_MdButton_0,i7.RenderType_MdButton)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(180224,(null as any),0,i8.MdButton,
+          [i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,([] as any[]),
+          (null as any),(null as any)),(_l()(),i1.ɵted(0,['MORE'])),(_l()(),i1.ɵted((null as any),
+          ['\n        '])),(_l()(),i1.ɵted(0,['\n      '])),(_l()(),i1.ɵted((null as any),
+          ['\n    '])),(_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵeld(0,
+          (null as any),(null as any),47,'div',[['fxFlex','']],(null as any),(null as any),
+          (null as any),(null as any),(null as any))),i1.ɵdid(737280,(null as any),
+          0,i5.FlexDirective,[i3.MediaMonitor,i1.ElementRef,i1.Renderer2,[3,i4.LayoutDirective],
+              [3,i6.LayoutWrapDirective]],{flex:[0,'flex']},(null as any)),(_l()(),
+          i1.ɵted((null as any),['\n      '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
+          43,'md-card',[['class','card mat-card']],(null as any),(null as any),(null as any),
+          i7.View_MdCard_0,i7.RenderType_MdCard)),i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,
+          [[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],(null as any),(null as any)),
+      i1.ɵdid(49152,(null as any),0,i8.MdCard,([] as any[]),(null as any),(null as any)),
+      i1.ɵdid(933888,(null as any),0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,
+          i1.KeyValueDiffers,i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,
+          'classBase']},(null as any)),(_l()(),i1.ɵted(0,['\n        '])),(_l()(),
+          i1.ɵeld(0,(null as any),0,17,'md-card-header',[['class','mat-card-header']],
+              (null as any),(null as any),(null as any),i7.View_MdCardHeader_0,i7.RenderType_MdCardHeader)),
       i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-          i1.ElementRef],(null as any),(null as any)),i1.ɵdid(180224,(null as any),
-          0,i8.MdButton,[i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],
-          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,
-          ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted(0,['MORE'])),
-      (_l()(),i1.ɵted((null as any),['\n        '])),(_l()(),i1.ɵted(0,['\n      '])),
-      (_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵted((null as any),['\n    '])),
-      (_l()(),i1.ɵeld(0,(null as any),(null as any),55,'div',[['fxFlex','']],(null as any),
-          (null as any),(null as any),(null as any),(null as any))),i1.ɵdid(737280,
-          (null as any),0,i5.FlexDirective,[i3.MediaMonitor,i1.ElementRef,i1.Renderer2,
-              [3,i4.LayoutDirective],[3,i6.LayoutWrapDirective]],{flex:[0,'flex']},
-          (null as any)),(_l()(),i1.ɵted((null as any),['\n      '])),(_l()(),i1.ɵeld(0,
-          (null as any),(null as any),51,'md-card',[['class','card mat-card']],(null as any),
-          (null as any),(null as any),i7.View_MdCard_0,i7.RenderType_MdCard)),i1.ɵdid(16384,
-          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(49152,(null as any),
-          0,i8.MdCard,([] as any[]),(null as any),(null as any)),i1.ɵdid(933888,(null as any),
-          0,i2.ClassDirective,[i3.MediaMonitor,i1.IterableDiffers,i1.KeyValueDiffers,
-              i1.ElementRef,i1.Renderer,i1.Renderer2],{classBase:[0,'classBase']},
-          (null as any)),(_l()(),i1.ɵted(0,['\n        '])),(_l()(),i1.ɵeld(0,(null as any),
-          0,17,'md-card-header',[['class','mat-card-header']],(null as any),(null as any),
-          (null as any),i7.View_MdCardHeader_0,i7.RenderType_MdCardHeader)),i1.ɵdid(16384,
-          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(49152,(null as any),
+          i1.ElementRef],(null as any),(null as any)),i1.ɵdid(49152,(null as any),
           0,i8.MdCardHeader,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted(2,
           ['\n          '])),(_l()(),i1.ɵeld(0,(null as any),0,2,'div',[['class','header-image mat-card-avatar'],
           ['md-card-avatar','']],(null as any),(null as any),(null as any),(null as any),
@@ -203,50 +217,57 @@ export function View_WorkshopPageComponent_0(_l:any):i1.ɵViewDefinition {
           (null as any))),i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
           i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
           0,i8.MdCardTitle,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['Paper Presentation'])),(_l()(),i1.ɵted(2,['\n          '])),(_l()(),i1.ɵeld(0,
-          (null as any),1,3,'md-card-subtitle',[['class','mat-card-subtitle ']],(null as any),
-          (null as any),(null as any),(null as any),(null as any))),i1.ɵdid(16384,
-          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
-          0,i8.MdCardSubtitle,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['Dog Breed'])),(_l()(),i1.ɵted(2,['\n        '])),(_l()(),i1.ɵted(0,['\n        '])),
+          ['',''])),(_l()(),i1.ɵted(2,['\n          '])),(_l()(),i1.ɵeld(0,(null as any),
+          1,3,'md-card-subtitle',[['class','mat-card-subtitle ']],(null as any),(null as any),
+          (null as any),(null as any),(null as any))),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i8.MdCardSubtitle,
+          ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
+          ['',''])),(_l()(),i1.ɵted(2,['\n        '])),(_l()(),i1.ɵted(0,['\n        '])),
       (_l()(),i1.ɵeld(0,(null as any),0,1,'img',[['class','mat-card-image'],['md-card-image',
-          ''],['src','/images/joel.jpg']],(null as any),(null as any),(null as any),
+          ''],['src','/images/flask.jpg']],(null as any),(null as any),(null as any),
           (null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i8.MdCardImage,
           ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted(0,['\n        '])),
-      (_l()(),i1.ɵeld(0,(null as any),0,6,'md-card-content',[['class','mat-card-content']],
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-          i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
-          0,i8.MdCardContent,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
-          ['\n          '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'p',([] as any[]),
-          (null as any),(null as any),(null as any),(null as any),(null as any))),
-      (_l()(),i1.ɵted((null as any),['\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus unde nostrum possimus facere labore recusandae iste,\n            itaque quod nisi harum libero quae dolore, quos dolores necessitatibus reiciendis, inventore quaerat beatae fugiat\n            blanditiis.\n          '])),
-      (_l()(),i1.ɵted((null as any),['\n        '])),(_l()(),i1.ɵted(0,['\n        '])),
       (_l()(),i1.ɵeld(0,(null as any),0,15,'md-card-actions',[['class','mat-card-actions']],
           (null as any),(null as any),(null as any),(null as any),(null as any))),
       i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
           i1.ElementRef],(null as any),(null as any)),i1.ɵdid(16384,(null as any),
           0,i8.MdCardActions,([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),
           ['\n          '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),4,'button',
-          [['class','mat-button'],['md-button','']],[[8,'disabled',0]],(null as any),
-          (null as any),i7.View_MdButton_0,i7.RenderType_MdButton)),i1.ɵdid(16384,
-          (null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-              i1.ElementRef],(null as any),(null as any)),i1.ɵdid(180224,(null as any),
-          0,i8.MdButton,[i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],
-          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,
-          ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted(0,['REGISTER'])),
-      (_l()(),i1.ɵted((null as any),['\n          '])),(_l()(),i1.ɵeld(0,(null as any),
-          (null as any),4,'button',[['class','mat-button'],['md-button','']],[[8,'disabled',
-              0]],(null as any),(null as any),i7.View_MdButton_0,i7.RenderType_MdButton)),
-      i1.ɵdid(16384,(null as any),0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],
-          i1.ElementRef],(null as any),(null as any)),i1.ɵdid(180224,(null as any),
-          0,i8.MdButton,[i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],
-          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,
-          ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted(0,['MORE'])),
-      (_l()(),i1.ɵted((null as any),['\n        '])),(_l()(),i1.ɵted(0,['\n      '])),
-      (_l()(),i1.ɵted((null as any),['\n    '])),(_l()(),i1.ɵted((null as any),['\n  '])),
-      (_l()(),i1.ɵted((null as any),['\n']))],(_ck,_v) => {
+          [['class','mat-button'],['md-button','']],[[8,'disabled',0]],[[(null as any),
+              'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            var _co:i9.WorkshopPageComponent = _v.component;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>_co.openConfirmation(_co.data[2].id)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },i7.View_MdButton_0,i7.RenderType_MdButton)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(180224,(null as any),0,i8.MdButton,
+          [i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,([] as any[]),
+          (null as any),(null as any)),(_l()(),i1.ɵted(0,['REGISTER'])),(_l()(),i1.ɵted((null as any),
+          ['\n          '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),4,'button',
+          [['class','mat-button'],['md-button','']],[[8,'disabled',0]],[[(null as any),
+              'click']],(_v,en,$event) => {
+            var ad:boolean = true;
+            var _co:i9.WorkshopPageComponent = _v.component;
+            if (('click' === en)) {
+              const pd_0:any = ((<any>_co.openDialog(_co.data[2].description)) !== false);
+              ad = (pd_0 && ad);
+            }
+            return ad;
+          },i7.View_MdButton_0,i7.RenderType_MdButton)),i1.ɵdid(16384,(null as any),
+          0,i8.MdPrefixRejector,[[2,i8.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
+          (null as any),(null as any)),i1.ɵdid(180224,(null as any),0,i8.MdButton,
+          [i1.Renderer2,i1.ElementRef,i8.Platform,i8.FocusOriginMonitor],(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i8.MdButtonCssMatStyler,([] as any[]),
+          (null as any),(null as any)),(_l()(),i1.ɵted(0,['MORE'])),(_l()(),i1.ɵted((null as any),
+          ['\n        '])),(_l()(),i1.ɵted(0,['\n      '])),(_l()(),i1.ɵted((null as any),
+          ['\n    '])),(_l()(),i1.ɵted((null as any),['\n  '])),(_l()(),i1.ɵted((null as any),
+          ['\n']))],(_ck,_v) => {
     const currVal_0:any = 'container';
     _ck(_v,1,0,currVal_0);
     const currVal_1:any = 'row';
@@ -259,39 +280,55 @@ export function View_WorkshopPageComponent_0(_l:any):i1.ɵViewDefinition {
     _ck(_v,12,0,currVal_5);
     const currVal_6:any = 'header-image';
     _ck(_v,20,0,currVal_6);
-    const currVal_9:any = '';
-    _ck(_v,64,0,currVal_9);
-    const currVal_10:any = 'card';
-    _ck(_v,69,0,currVal_10);
-    const currVal_11:any = 'header-image';
-    _ck(_v,77,0,currVal_11);
-    const currVal_14:any = '';
-    _ck(_v,121,0,currVal_14);
-    const currVal_15:any = 'card';
-    _ck(_v,126,0,currVal_15);
-    const currVal_16:any = 'header-image';
-    _ck(_v,134,0,currVal_16);
+    const currVal_11:any = '';
+    _ck(_v,56,0,currVal_11);
+    const currVal_12:any = 'card';
+    _ck(_v,61,0,currVal_12);
+    const currVal_13:any = 'header-image';
+    _ck(_v,69,0,currVal_13);
+    const currVal_18:any = '';
+    _ck(_v,105,0,currVal_18);
+    const currVal_19:any = 'card';
+    _ck(_v,110,0,currVal_19);
+    const currVal_20:any = 'header-image';
+    _ck(_v,118,0,currVal_20);
   },(_ck,_v) => {
-    const currVal_7:any = (i1.ɵnov(_v,50).disabled || (null as any));
-    _ck(_v,48,0,currVal_7);
-    const currVal_8:any = (i1.ɵnov(_v,56).disabled || (null as any));
-    _ck(_v,54,0,currVal_8);
-    const currVal_12:any = (i1.ɵnov(_v,107).disabled || (null as any));
-    _ck(_v,105,0,currVal_12);
-    const currVal_13:any = (i1.ɵnov(_v,113).disabled || (null as any));
-    _ck(_v,111,0,currVal_13);
-    const currVal_17:any = (i1.ɵnov(_v,164).disabled || (null as any));
-    _ck(_v,162,0,currVal_17);
-    const currVal_18:any = (i1.ɵnov(_v,170).disabled || (null as any));
-    _ck(_v,168,0,currVal_18);
+    var _co:i9.WorkshopPageComponent = _v.component;
+    const currVal_7:any = _co.data[0].name;
+    _ck(_v,25,0,currVal_7);
+    const currVal_8:any = _co.data[0].type;
+    _ck(_v,30,0,currVal_8);
+    const currVal_9:any = (i1.ɵnov(_v,42).disabled || (null as any));
+    _ck(_v,40,0,currVal_9);
+    const currVal_10:any = (i1.ɵnov(_v,48).disabled || (null as any));
+    _ck(_v,46,0,currVal_10);
+    const currVal_14:any = _co.data[1].name;
+    _ck(_v,74,0,currVal_14);
+    const currVal_15:any = _co.data[1].type;
+    _ck(_v,79,0,currVal_15);
+    const currVal_16:any = (i1.ɵnov(_v,91).disabled || (null as any));
+    _ck(_v,89,0,currVal_16);
+    const currVal_17:any = (i1.ɵnov(_v,97).disabled || (null as any));
+    _ck(_v,95,0,currVal_17);
+    const currVal_21:any = _co.data[2].name;
+    _ck(_v,123,0,currVal_21);
+    const currVal_22:any = _co.data[2].type;
+    _ck(_v,128,0,currVal_22);
+    const currVal_23:any = (i1.ɵnov(_v,140).disabled || (null as any));
+    _ck(_v,138,0,currVal_23);
+    const currVal_24:any = (i1.ɵnov(_v,146).disabled || (null as any));
+    _ck(_v,144,0,currVal_24);
   });
 }
 export function View_WorkshopPageComponent_Host_0(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'app-workshoppage',
       ([] as any[]),(null as any),(null as any),(null as any),View_WorkshopPageComponent_0,
-      RenderType_WorkshopPageComponent)),i1.ɵdid(49152,(null as any),0,i9.WorkshopPageComponent,
-      ([] as any[]),(null as any),(null as any))],(null as any),(null as any));
+      RenderType_WorkshopPageComponent)),i1.ɵdid(114688,(null as any),0,i9.WorkshopPageComponent,
+      [i10.MoreService,i8.MdDialog,i8.MdSnackBar,i11.UserService],(null as any),(null as any))],
+      (_ck,_v) => {
+        _ck(_v,1,0);
+      },(null as any));
 }
 export const WorkshopPageComponentNgFactory:i1.ComponentFactory<i9.WorkshopPageComponent> = i1.ɵccf('app-workshoppage',
     i9.WorkshopPageComponent,View_WorkshopPageComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy93b3Jrc2hvcHBhZ2Uvd29ya3Nob3BwYWdlLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9DOi9Vc2Vycy9TaGVyaW4vT3ptZW50YTJLMTcvYXNzZXRzL2FwcC9jb21wb25lbnRzL3dvcmtzaG9wcGFnZS93b3Jrc2hvcHBhZ2UuY29tcG9uZW50LnRzIiwibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy93b3Jrc2hvcHBhZ2Uvd29ya3Nob3BwYWdlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy93b3Jrc2hvcHBhZ2Uvd29ya3Nob3BwYWdlLmNvbXBvbmVudC50cy5Xb3Jrc2hvcFBhZ2VDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8ZGl2IGNsYXNzPVwiY29udGFpbmVyXCI+XHJcblxyXG4gIDxkaXYgZnhMYXlvdXQ9XCJyb3dcIiBmeExheW91dC54cz1cImNvbHVtblwiIGZ4TGF5b3V0LnNtPVwiY29sdW1uXCIgZnhGbGV4cz5cclxuICAgIDxkaXYgZnhGbGV4PlxyXG4gICAgICA8bWQtY2FyZCBjbGFzcz1cImNhcmRcIj5cclxuICAgICAgICA8bWQtY2FyZC1oZWFkZXI+XHJcbiAgICAgICAgICA8ZGl2IG1kLWNhcmQtYXZhdGFyIGNsYXNzPVwiaGVhZGVyLWltYWdlXCI+PC9kaXY+XHJcbiAgICAgICAgICA8bWQtY2FyZC10aXRsZT5QYXBlciBQcmVzZW50YXRpb248L21kLWNhcmQtdGl0bGU+XHJcbiAgICAgICAgICA8bWQtY2FyZC1zdWJ0aXRsZT5Eb2cgQnJlZWQ8L21kLWNhcmQtc3VidGl0bGU+XHJcbiAgICAgICAgPC9tZC1jYXJkLWhlYWRlcj5cclxuICAgICAgICA8aW1nIG1kLWNhcmQtaW1hZ2Ugc3JjPVwiL2ltYWdlcy9qb2VsLmpwZ1wiPlxyXG4gICAgICAgIDxtZC1jYXJkLWNvbnRlbnQ+XHJcbiAgICAgICAgICA8cD5cclxuICAgICAgICAgICAgTG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2ljaW5nIGVsaXQuIFJlcGVsbGVuZHVzIHVuZGUgbm9zdHJ1bSBwb3NzaW11cyBmYWNlcmUgbGFib3JlIHJlY3VzYW5kYWUgaXN0ZSxcclxuICAgICAgICAgICAgaXRhcXVlIHF1b2QgbmlzaSBoYXJ1bSBsaWJlcm8gcXVhZSBkb2xvcmUsIHF1b3MgZG9sb3JlcyBuZWNlc3NpdGF0aWJ1cyByZWljaWVuZGlzLCBpbnZlbnRvcmUgcXVhZXJhdCBiZWF0YWUgZnVnaWF0XHJcbiAgICAgICAgICAgIGJsYW5kaXRpaXMuXHJcbiAgICAgICAgICA8L3A+XHJcbiAgICAgICAgPC9tZC1jYXJkLWNvbnRlbnQ+XHJcbiAgICAgICAgPG1kLWNhcmQtYWN0aW9ucz5cclxuICAgICAgICAgIDxidXR0b24gbWQtYnV0dG9uPlJFR0lTVEVSPC9idXR0b24+XHJcbiAgICAgICAgICA8YnV0dG9uIG1kLWJ1dHRvbj5NT1JFPC9idXR0b24+XHJcbiAgICAgICAgPC9tZC1jYXJkLWFjdGlvbnM+XHJcbiAgICAgIDwvbWQtY2FyZD5cclxuICAgIDwvZGl2PlxyXG4gICAgPGRpdiBmeEZsZXg+XHJcbiAgICAgIDxtZC1jYXJkIGNsYXNzPVwiY2FyZFwiPlxyXG4gICAgICAgIDxtZC1jYXJkLWhlYWRlcj5cclxuICAgICAgICAgIDxkaXYgbWQtY2FyZC1hdmF0YXIgY2xhc3M9XCJoZWFkZXItaW1hZ2VcIj48L2Rpdj5cclxuICAgICAgICAgIDxtZC1jYXJkLXRpdGxlPlBhcGVyIFByZXNlbnRhdGlvbjwvbWQtY2FyZC10aXRsZT5cclxuICAgICAgICAgIDxtZC1jYXJkLXN1YnRpdGxlPkRvZyBCcmVlZDwvbWQtY2FyZC1zdWJ0aXRsZT5cclxuICAgICAgICA8L21kLWNhcmQtaGVhZGVyPlxyXG4gICAgICAgIDxpbWcgbWQtY2FyZC1pbWFnZSBzcmM9XCIvaW1hZ2VzL2pvZWwuanBnXCI+XHJcbiAgICAgICAgPG1kLWNhcmQtY29udGVudD5cclxuICAgICAgICAgIDxwPlxyXG4gICAgICAgICAgICBMb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCwgY29uc2VjdGV0dXIgYWRpcGlzaWNpbmcgZWxpdC4gUmVwZWxsZW5kdXMgdW5kZSBub3N0cnVtIHBvc3NpbXVzIGZhY2VyZSBsYWJvcmUgcmVjdXNhbmRhZSBpc3RlLFxyXG4gICAgICAgICAgICBpdGFxdWUgcXVvZCBuaXNpIGhhcnVtIGxpYmVybyBxdWFlIGRvbG9yZSwgcXVvcyBkb2xvcmVzIG5lY2Vzc2l0YXRpYnVzIHJlaWNpZW5kaXMsIGludmVudG9yZSBxdWFlcmF0IGJlYXRhZSBmdWdpYXRcclxuICAgICAgICAgICAgYmxhbmRpdGlpcy5cclxuICAgICAgICAgIDwvcD5cclxuICAgICAgICA8L21kLWNhcmQtY29udGVudD5cclxuICAgICAgICA8bWQtY2FyZC1hY3Rpb25zPlxyXG4gICAgICAgICAgPGJ1dHRvbiBtZC1idXR0b24+UkVHSVNURVI8L2J1dHRvbj5cclxuICAgICAgICAgIDxidXR0b24gbWQtYnV0dG9uPk1PUkU8L2J1dHRvbj5cclxuICAgICAgICA8L21kLWNhcmQtYWN0aW9ucz5cclxuICAgICAgPC9tZC1jYXJkPlxyXG4gICAgPC9kaXY+XHJcbiAgICA8ZGl2IGZ4RmxleD5cclxuICAgICAgPG1kLWNhcmQgY2xhc3M9XCJjYXJkXCI+XHJcbiAgICAgICAgPG1kLWNhcmQtaGVhZGVyPlxyXG4gICAgICAgICAgPGRpdiBtZC1jYXJkLWF2YXRhciBjbGFzcz1cImhlYWRlci1pbWFnZVwiPjwvZGl2PlxyXG4gICAgICAgICAgPG1kLWNhcmQtdGl0bGU+UGFwZXIgUHJlc2VudGF0aW9uPC9tZC1jYXJkLXRpdGxlPlxyXG4gICAgICAgICAgPG1kLWNhcmQtc3VidGl0bGU+RG9nIEJyZWVkPC9tZC1jYXJkLXN1YnRpdGxlPlxyXG4gICAgICAgIDwvbWQtY2FyZC1oZWFkZXI+XHJcbiAgICAgICAgPGltZyBtZC1jYXJkLWltYWdlIHNyYz1cIi9pbWFnZXMvam9lbC5qcGdcIj5cclxuICAgICAgICA8bWQtY2FyZC1jb250ZW50PlxyXG4gICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgIExvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNpY2luZyBlbGl0LiBSZXBlbGxlbmR1cyB1bmRlIG5vc3RydW0gcG9zc2ltdXMgZmFjZXJlIGxhYm9yZSByZWN1c2FuZGFlIGlzdGUsXHJcbiAgICAgICAgICAgIGl0YXF1ZSBxdW9kIG5pc2kgaGFydW0gbGliZXJvIHF1YWUgZG9sb3JlLCBxdW9zIGRvbG9yZXMgbmVjZXNzaXRhdGlidXMgcmVpY2llbmRpcywgaW52ZW50b3JlIHF1YWVyYXQgYmVhdGFlIGZ1Z2lhdFxyXG4gICAgICAgICAgICBibGFuZGl0aWlzLlxyXG4gICAgICAgICAgPC9wPlxyXG4gICAgICAgIDwvbWQtY2FyZC1jb250ZW50PlxyXG4gICAgICAgIDxtZC1jYXJkLWFjdGlvbnM+XHJcbiAgICAgICAgICA8YnV0dG9uIG1kLWJ1dHRvbj5SRUdJU1RFUjwvYnV0dG9uPlxyXG4gICAgICAgICAgPGJ1dHRvbiBtZC1idXR0b24+TU9SRTwvYnV0dG9uPlxyXG4gICAgICAgIDwvbWQtY2FyZC1hY3Rpb25zPlxyXG4gICAgICA8L21kLWNhcmQ+XHJcbiAgICA8L2Rpdj5cclxuICA8L2Rpdj5cclxuPC9kaXY+IiwiPGFwcC13b3Jrc2hvcHBhZ2U+PC9hcHAtd29ya3Nob3BwYWdlPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7b0JDQUE7TUFBQTthQUFBO21FQUFBO1VBQUEsNkJBQXVCO01BRXJCO1VBQUE7VUFBQSxpRUFBQTtVQUFBO1VBQUE7TUFBc0UsMkNBQ3BFO1VBQUE7VUFBQSx1QkFBQTtxQ0FBQTtV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
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvd29ya3Nob3BwYWdlL3dvcmtzaG9wcGFnZS5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvd29ya3Nob3BwYWdlL3dvcmtzaG9wcGFnZS5jb21wb25lbnQudHMiLCJuZzovLy9DOi9Vc2Vycy9wcmluYy9EZXNrdG9wL296bWVudGEyazE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy93b3Jrc2hvcHBhZ2Uvd29ya3Nob3BwYWdlLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvd29ya3Nob3BwYWdlL3dvcmtzaG9wcGFnZS5jb21wb25lbnQudHMuV29ya3Nob3BQYWdlQ29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGRpdiBjbGFzcz1cImNvbnRhaW5lclwiPlxyXG5cclxuICA8ZGl2IGZ4TGF5b3V0PVwicm93XCIgZnhMYXlvdXQueHM9XCJjb2x1bW5cIiBmeExheW91dC5zbT1cImNvbHVtblwiIGZ4RmxleHM+XHJcbiAgICA8ZGl2IGZ4RmxleD5cclxuICAgICAgPG1kLWNhcmQgY2xhc3M9XCJjYXJkXCI+XHJcbiAgICAgICAgPG1kLWNhcmQtaGVhZGVyPlxyXG4gICAgICAgICAgPGRpdiBtZC1jYXJkLWF2YXRhciBjbGFzcz1cImhlYWRlci1pbWFnZVwiPjwvZGl2PlxyXG4gICAgICAgICAgPG1kLWNhcmQtdGl0bGU+e3tkYXRhWzBdLm5hbWV9fTwvbWQtY2FyZC10aXRsZT5cclxuICAgICAgICAgIDxtZC1jYXJkLXN1YnRpdGxlPnt7ZGF0YVswXS50eXBlfX08L21kLWNhcmQtc3VidGl0bGU+XHJcbiAgICAgICAgPC9tZC1jYXJkLWhlYWRlcj5cclxuICAgICAgICA8aW1nIG1kLWNhcmQtaW1hZ2Ugc3JjPVwiL2ltYWdlcy91eHVpLmpwZ1wiPlxyXG4gICAgICAgIDxtZC1jYXJkLWFjdGlvbnM+XHJcbiAgICAgICAgICA8YnV0dG9uIG1kLWJ1dHRvbiAoY2xpY2spPVwib3BlbkNvbmZpcm1hdGlvbihkYXRhWzBdLmlkKVwiPlJFR0lTVEVSPC9idXR0b24+XHJcbiAgICAgICAgICA8YnV0dG9uIG1kLWJ1dHRvbiAoY2xpY2spPVwib3BlbkRpYWxvZyhkYXRhWzBdLmRlc2NyaXB0aW9uKVwiPk1PUkU8L2J1dHRvbj5cclxuICAgICAgICA8L21kLWNhcmQtYWN0aW9ucz5cclxuICAgICAgPC9tZC1jYXJkPlxyXG4gICAgPC9kaXY+XHJcbiAgICA8ZGl2IGZ4RmxleD5cclxuICAgICAgPG1kLWNhcmQgY2xhc3M9XCJjYXJkXCI+XHJcbiAgICAgICAgPG1kLWNhcmQtaGVhZGVyPlxyXG4gICAgICAgICAgPGRpdiBtZC1jYXJkLWF2YXRhciBjbGFzcz1cImhlYWRlci1pbWFnZVwiPjwvZGl2PlxyXG4gICAgICAgICAgPG1kLWNhcmQtdGl0bGU+e3tkYXRhWzFdLm5hbWV9fTwvbWQtY2FyZC10aXRsZT5cclxuICAgICAgICAgIDxtZC1jYXJkLXN1YnRpdGxlPnt7ZGF0YVsxXS50eXBlfX08L21kLWNhcmQtc3VidGl0bGU+XHJcbiAgICAgICAgPC9tZC1jYXJkLWhlYWRlcj5cclxuICAgICAgICA8aW1nIG1kLWNhcmQtaW1hZ2Ugc3JjPVwiL2ltYWdlcy9jcHdzLmpwZ1wiPlxyXG4gICAgICAgIDxtZC1jYXJkLWFjdGlvbnM+XHJcbiAgICAgICAgICA8YnV0dG9uIG1kLWJ1dHRvbiAoY2xpY2spPVwib3BlbkNvbmZpcm1hdGlvbihkYXRhWzFdLmlkKVwiPlJFR0lTVEVSPC9idXR0b24+XHJcbiAgICAgICAgICA8YnV0dG9uIG1kLWJ1dHRvbiAoY2xpY2spPVwib3BlbkRpYWxvZyhkYXRhWzFdLmRlc2NyaXB0aW9uKVwiPk1PUkU8L2J1dHRvbj5cclxuICAgICAgICA8L21kLWNhcmQtYWN0aW9ucz5cclxuICAgICAgPC9tZC1jYXJkPlxyXG4gICAgPC9kaXY+XHJcbiAgICA8ZGl2IGZ4RmxleD5cclxuICAgICAgPG1kLWNhcmQgY2xhc3M9XCJjYXJkXCI+XHJcbiAgICAgICAgPG1kLWNhcmQtaGVhZGVyPlxyXG4gICAgICAgICAgPGRpdiBtZC1jYXJkLWF2YXRhciBjbGFzcz1cImhlYWRlci1pbWFnZVwiPjwvZGl2PlxyXG4gICAgICAgICAgPG1kLWNhcmQtdGl0bGU+e3tkYXRhWzJdLm5hbWV9fTwvbWQtY2FyZC10aXRsZT5cclxuICAgICAgICAgIDxtZC1jYXJkLXN1YnRpdGxlPnt7ZGF0YVsyXS50eXBlfX08L21kLWNhcmQtc3VidGl0bGU+XHJcbiAgICAgICAgPC9tZC1jYXJkLWhlYWRlcj5cclxuICAgICAgICA8aW1nIG1kLWNhcmQtaW1hZ2Ugc3JjPVwiL2ltYWdlcy9mbGFzay5qcGdcIj5cclxuICAgICAgICA8bWQtY2FyZC1hY3Rpb25zPlxyXG4gICAgICAgICAgPGJ1dHRvbiBtZC1idXR0b24gKGNsaWNrKT1cIm9wZW5Db25maXJtYXRpb24oZGF0YVsyXS5pZClcIj5SRUdJU1RFUjwvYnV0dG9uPlxyXG4gICAgICAgICAgPGJ1dHRvbiBtZC1idXR0b24gKGNsaWNrKT1cIm9wZW5EaWFsb2coZGF0YVsyXS5kZXNjcmlwdGlvbilcIj5NT1JFPC9idXR0b24+XHJcbiAgICAgICAgPC9tZC1jYXJkLWFjdGlvbnM+XHJcbiAgICAgIDwvbWQtY2FyZD5cclxuICAgIDwvZGl2PlxyXG4gIDwvZGl2PlxyXG48L2Rpdj4iLCI8YXBwLXdvcmtzaG9wcGFnZT48L2FwcC13b3Jrc2hvcHBhZ2U+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O29CQ0FBO01BQUE7YUFBQTttRUFBQTtVQUFBLDZCQUF1QjtNQUVyQjtVQUFBO1VBQUEsaUVBQUE7VUFBQTtVQUFBO01BQXNFLDJDQUNwRTtVQUFBO1VBQUEsdUJBQUE7cUNBQUE7VUFBQSxpQ0FBWTtNQUNWO1VBQUE7YUFBQTt1QkFBQSxzQ0FBQTtVQUFBLDhEQUFBO1VBQUE7b0RBQUE7VUFBQSxlQUFzQixtQ0FDcEI7VUFBQTtVQUFBLHlFQUFBO1VBQUE7MkJBQUEsc0NBQUE7VUFBQSw2REFBZ0I7VUFBQSxtQkFDZDtVQUFBO1VBQUEsdUJBQUE7VUFBQSxvQ0FBQTtVQUFBOzBCQUFBLDZDQUErQztVQUFBLG1CQUMvQztVQUFBO1VBQUEsdUJBQUE7dUJBQUEsc0NBQUE7VUFBQSw0REFBZTtVQUFBLFVBQWdDLHFDQUMvQztVQUFBO1VBQUEsbURBQUE7VUFBQTtVQUFBLG9DQUFBO1VBQUEsMkNBQWtCO1VBQUEsVUFBbUMsbUNBQ3RDO01BQ2pCO1VBQUE7VUFBQSxxQ0FBQTtVQUFBLDJDQUEwQztNQUMxQztVQUFBO2FBQUE7dUJBQUEsc0NBQUE7VUFBQSw4REFBaUI7VUFBQSxtQkFDZjtVQUFBO2NBQUE7WUFBQTtZQUFBO1lBQWtCO2NBQUE7Y0FBQTtZQUFBO1lBQWxCO1VBQUEscURBQUE7VUFBQTtVQUFBLG9DQUFBO1VBQUE7VUFBQSxzQkFBQTtVQUFBLDZCQUF5RCxpQ0FBaUI7VUFBQSxtQkFDMUU7VUFBQTtjQUFBO1lBQUE7WUFBQTtZQUFrQjtjQUFBO2NBQUE7WUFBQTtZQUFsQjtVQUFBLHFEQUFBO1VBQUE7VUFBQSxvQ0FBQTtVQUFBO1VBQUEsc0JBQUE7VUFBQSw2QkFBNEQsNkJBQWE7VUFBQSxpQkFDekQsaUNBQ1Y7VUFBQSxhQUNOLDJDQUNOO1VBQUE7VUFBQSxtREFBQTtVQUFBO2NBQUEsNkRBQVk7aUJBQUEsOEJBQ1Y7VUFBQTsrQ0FBQSxVQUFBO1VBQUE7YUFBQTthQUFBO21FQUFBO1VBQUEsNkJBQXNCLG1DQUNwQjtpQkFBQTtjQUFBO2FBQUE7dUJBQUEsc0NBQUE7VUFBQSw2REFBZ0I7VUFBQSxtQkFDZDtVQUFBO1VBQUEsdUJBQUE7VUFBQSxvQ0FBQTtVQUFBOzBCQUFBLDZDQUErQztVQUFBLG1CQUMvQztVQUFBO1VBQUEsdUJBQUE7dUJBQUEsc0NBQUE7VUFBQSw0REFBZTtVQUFBLFVBQWdDLHFDQUMvQztVQUFBO1VBQUEsbURBQUE7VUFBQTtVQUFBLG9DQUFBO1VBQUEsMkNBQWtCO1VBQUEsVUFBbUMsbUNBQ3RDO01BQ2pCO1VBQUE7VUFBQSxxQ0FBQTtVQUFBLDJDQUEwQztNQUMxQztVQUFBO2FBQUE7dUJBQUEsc0NBQUE7VUFBQSw4REFBaUI7VUFBQSxtQkFDZjtVQUFBO2NBQUE7WUFBQTtZQUFBO1lBQWtCO2NBQUE7Y0FBQTtZQUFBO1lBQWxCO1VBQUEscURBQUE7VUFBQTtVQUFBLG9DQUFBO1VBQUE7VUFBQSxzQkFBQTtVQUFBLDZCQUF5RCxpQ0FBaUI7VUFBQSxtQkFDMUU7VUFBQTtjQUFBO1lBQUE7WUFBQTtZQUFrQjtjQUFBO2NBQUE7WUFBQTtZQUFsQjtVQUFBLHFEQUFBO1VBQUE7VUFBQSxvQ0FBQTtVQUFBO1VBQUEsc0JBQUE7VUFBQSw2QkFBNEQsNkJBQWE7VUFBQSxpQkFDekQsaUNBQ1Y7VUFBQSxhQUNOLDJDQUNOO1VBQUE7VUFBQSxtREFBQTtVQUFBO2NBQUEsNkRBQVk7aUJBQUEsOEJBQ1Y7VUFBQTsrQ0FBQSxVQUFBO1VBQUE7YUFBQTthQUFBO21FQUFBO1VBQUEsNkJBQXNCLG1DQUNwQjtpQkFBQTtjQUFBO2FBQUE7dUJBQUEsc0NBQUE7VUFBQSw2REFBZ0I7VUFBQSxtQkFDZDtVQUFBO1VBQUEsdUJBQUE7VUFBQSxvQ0FBQTtVQUFBOzBCQUFBLDZDQUErQztVQUFBLG1CQUMvQztVQUFBO1VBQUEsdUJBQUE7dUJBQUEsc0NBQUE7VUFBQSw0REFBZTtVQUFBLFVBQWdDLHFDQUMvQztVQUFBO1VBQUEsbURBQUE7VUFBQTtVQUFBLG9DQUFBO1VBQUEsMkNBQWtCO1VBQUEsVUFBbUMsbUNBQ3RDO01BQ2pCO1VBQUE7VUFBQSxxQ0FBQTtVQUFBLDJDQUEyQztNQUMzQztVQUFBO2FBQUE7dUJBQUEsc0NBQUE7VUFBQSw4REFBaUI7VUFBQSxtQkFDZjtVQUFBO2NBQUE7WUFBQTtZQUFBO1lBQWtCO2NBQUE7Y0FBQTtZQUFBO1lBQWxCO1VBQUEscURBQUE7VUFBQTtVQUFBLG9DQUFBO1VBQUE7VUFBQSxzQkFBQTtVQUFBLDZCQUF5RCxpQ0FBaUI7VUFBQSxtQkFDMUU7VUFBQTtjQUFBO1lBQUE7WUFBQTtZQUFrQjtjQUFBO2NBQUE7WUFBQTtZQUFsQjtVQUFBLHFEQUFBO1VBQUE7VUFBQSxvQ0FBQTtVQUFBO1VBQUEsc0JBQUE7VUFBQSw2QkFBNEQsNkJBQWE7VUFBQSxpQkFDekQsaUNBQ1Y7VUFBQSxhQUNOLHlDQUNGO1VBQUE7SUE3Q0g7SUFBTCxXQUFLLFNBQUw7SUFFTztJQUFlO0lBQXFCO0lBQXpDLFdBQUssVUFBZSxVQUFxQixTQUF6QztJQUNPO0lBQUwsV0FBSyxTQUFMO0lBQ1c7SUFBVCxZQUFTLFNBQVQ7SUFFd0I7SUFBcEIsWUFBb0IsU0FBcEI7SUFXRDtJQUFMLFlBQUssVUFBTDtJQUNXO0lBQVQsWUFBUyxVQUFUO0lBRXdCO0lBQXBCLFlBQW9CLFVBQXBCO0lBV0Q7SUFBTCxhQUFLLFVBQUw7SUFDVztJQUFULGFBQVMsVUFBVDtJQUV3QjtJQUFwQixhQUFvQixVQUFwQjs7O0lBM0JlO0lBQUE7SUFDRztJQUFBO0lBSWxCO0lBQUEsWUFBQSxTQUFBO0lBQ0E7SUFBQSxZQUFBLFVBQUE7SUFRZTtJQUFBO0lBQ0c7SUFBQTtJQUlsQjtJQUFBLFlBQUEsVUFBQTtJQUNBO0lBQUEsWUFBQSxVQUFBO0lBUWU7SUFBQTtJQUNHO0lBQUE7SUFJbEI7SUFBQSxhQUFBLFVBQUE7SUFDQTtJQUFBLGFBQUEsVUFBQTs7OztvQkN6Q1Y7TUFBQTtzQ0FBQSxVQUFBO01BQUE7O1FBQUE7Ozs7In0=

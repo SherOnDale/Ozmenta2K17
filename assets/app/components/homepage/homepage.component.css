@@ -1,4 +1,4 @@
-#home {
+  /* #home {
   background: url("/images/image.jpeg") 50% 0 repeat fixed; min-height: 700px;
   height: 700px;
   margin: 0 auto;
@@ -17,8 +17,8 @@
 
 }
 
-#about {
-  background: url("/images/image.jpeg") 50% 0 repeat fixed; min-height: 700px;
+ #about {
+  background: url("/images/gaming.jpg") 50% 0 repeat fixed; min-height: 700px;
   height: 700px;
   margin: 0 auto;
   width: 100%;
@@ -35,13 +35,14 @@
   text-align: center;
   top: 150px;
   width: 100%;
-}
+} 
 
 #heading{
 font-size: xx-large;
 }
 
 #sponsors {
+  background-color: white;
   background: url("/images/image.jpeg") 50% 0 repeat fixed; min-height: 500px;
   height: 500px;
   margin: 0 auto;
@@ -60,4 +61,21 @@ font-size: xx-large;
   top: 150px;
   width: 100%;
 }
+   */
 
+   .home {
+  background-image: url("/images/logo.jpg");
+  min-height: 650px;     
+   }
+   .sponsors {
+  background-image: url("/images/image.jpeg");     
+     height: 500px;
+   }
+   .uniq {
+  background-image: url("/images/image.jpeg");     
+     height: 500px;
+   }
+
+   .card {
+     margin: 5vw;
+   }

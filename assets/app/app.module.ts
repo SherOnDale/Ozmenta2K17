@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TEventPageComponent } from './components/teventpage/teventpage.component';
 import { HomePageComponent } from './components/homepage/homepage.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
+import {RegisterEventComponent} from './components/registerevent/registerevent.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { MaterialModule} from '@angular/material';
@@ -18,12 +19,14 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {routing} from './app.routing';
 import 'hammerjs';
 import {HttpModule} from "@angular/http";
+import {MoreService} from './services/more.service';
+import {MoreComponent} from './components/more/more.component';
 
 @NgModule({
-    entryComponents: [LoginComponent, RegisterComponent],
-    declarations: [AppComponent, SidenavComponent, HomePageComponent, TEventPageComponent, RegisterComponent, LoginComponent, WorkshopPageComponent, ContactsPageComponent, NTEventPageComponent, ActivateUserComponent],
+    entryComponents: [LoginComponent, RegisterComponent, MoreComponent, RegisterEventComponent],
+    declarations: [AppComponent, SidenavComponent, HomePageComponent, RegisterEventComponent, TEventPageComponent, RegisterComponent, LoginComponent, WorkshopPageComponent, ContactsPageComponent, NTEventPageComponent, ActivateUserComponent, MoreComponent],
     imports: [ MaterialModule, BrowserModule, FormsModule, BrowserAnimationsModule, ReactiveFormsModule, HttpModule, routing, FlexLayoutModule],
-    providers: [UserService],
+    providers: [UserService, MoreService],
     bootstrap: [AppComponent]
 })
 export class AppModule {

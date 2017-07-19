@@ -16,19 +16,17 @@ const styles_ActivateUserComponent:any[] = [i0.styles];
 export const RenderType_ActivateUserComponent:i1.RendererType2 = i1.ɵcrt({encapsulation:0,
     styles:styles_ActivateUserComponent,data:{}});
 export function View_ActivateUserComponent_0(_l:any):i1.ɵViewDefinition {
-  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'h1',([] as any[]),
-      (null as any),(null as any),(null as any),(null as any),(null as any))),(_l()(),
-      i1.ɵted((null as any),['This is a component']))],(null as any),(null as any));
+  return i1.ɵvid(0,([] as any[]),(null as any),(null as any));
 }
 export function View_ActivateUserComponent_Host_0(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'app-activateuser',
       ([] as any[]),(null as any),(null as any),(null as any),View_ActivateUserComponent_0,
       RenderType_ActivateUserComponent)),i1.ɵdid(114688,(null as any),0,i2.ActivateUserComponent,
-      [i3.ActivatedRoute,i4.Http,i5.MdSnackBar],(null as any),(null as any))],(_ck,
-      _v) => {
-    _ck(_v,1,0);
-  },(null as any));
+      [i3.ActivatedRoute,i4.Http,i5.MdSnackBar,i3.Router],(null as any),(null as any))],
+      (_ck,_v) => {
+        _ck(_v,1,0);
+      },(null as any));
 }
 export const ActivateUserComponentNgFactory:i1.ComponentFactory<i2.ActivateUserComponent> = i1.ɵccf('app-activateuser',
     i2.ActivateUserComponent,View_ActivateUserComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9hY3RpdmF0ZXVzZXIvYWN0aXZhdGV1c2VyLmNvbXBvbmVudC5uZ2ZhY3RvcnkudHMiLCJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJuZzovLy9DOi9Vc2Vycy9TaGVyaW4vT3ptZW50YTJLMTcvYXNzZXRzL2FwcC9jb21wb25lbnRzL2FjdGl2YXRldXNlci9hY3RpdmF0ZXVzZXIuY29tcG9uZW50LnRzIiwibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9hY3RpdmF0ZXVzZXIvYWN0aXZhdGV1c2VyLmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvU2hlcmluL096bWVudGEySzE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9hY3RpdmF0ZXVzZXIvYWN0aXZhdGV1c2VyLmNvbXBvbmVudC50cy5BY3RpdmF0ZVVzZXJDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8aDE+VGhpcyBpcyBhIGNvbXBvbmVudDwvaDE+IiwiPGFwcC1hY3RpdmF0ZXVzZXI+PC9hcHAtYWN0aXZhdGV1c2VyPiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7OztvQkNBQTtNQUFBLHdFQUFJO2FBQUE7OztvQkNBSjtNQUFBO3NDQUFBLFVBQUE7TUFBQTs7SUFBQTs7OzsifQ==
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvYWN0aXZhdGV1c2VyL2FjdGl2YXRldXNlci5jb21wb25lbnQubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvYWN0aXZhdGV1c2VyL2FjdGl2YXRldXNlci5jb21wb25lbnQudHMiLCJuZzovLy9DOi9Vc2Vycy9wcmluYy9EZXNrdG9wL296bWVudGEyazE3L2Fzc2V0cy9hcHAvY29tcG9uZW50cy9hY3RpdmF0ZXVzZXIvYWN0aXZhdGV1c2VyLmNvbXBvbmVudC50cy5BY3RpdmF0ZVVzZXJDb21wb25lbnRfSG9zdC5odG1sIl0sInNvdXJjZXNDb250ZW50IjpbIiAiLCI8YXBwLWFjdGl2YXRldXNlcj48L2FwcC1hY3RpdmF0ZXVzZXI+Il0sIm1hcHBpbmdzIjoiQUFBQTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O29CQ0FBO01BQUE7c0NBQUEsVUFBQTtNQUFBOztRQUFBOzs7OyJ9

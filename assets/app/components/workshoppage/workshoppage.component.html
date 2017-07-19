@@ -5,18 +5,13 @@
       <md-card class="card">
         <md-card-header>
           <div md-card-avatar class="header-image"></div>
-          <md-card-title>Technical Workshop</md-card-title>
-          <md-card-subtitle>UI/UX Workshop</md-card-subtitle>
+          <md-card-title>{{data[0].name}}</md-card-title>
+          <md-card-subtitle>{{data[0].type}}</md-card-subtitle>
         </md-card-header>
         <img md-card-image src="/images/uxui.jpg">
-        <md-card-content>
-          <p>
-            The workshop will focus on the basics of UI and UX design, the tools used and demos will be presented. We will further discuss on the industry standards, scope for UI/UX artists, the future of the domain, etc. It will be a fun-filled interative workshop conducted by the alumni of VEC.
-          </p>
-        </md-card-content>
         <md-card-actions>
-          <button md-button>REGISTER</button>
-          <button md-button>MORE</button>
+          <button md-button (click)="openConfirmation(data[0].id)">REGISTER</button>
+          <button md-button (click)="openDialog(data[0].description)">MORE</button>
         </md-card-actions>
       </md-card>
     </div>
@@ -24,18 +19,13 @@
       <md-card class="card">
         <md-card-header>
           <div md-card-avatar class="header-image"></div>
-          <md-card-title>Technical Workshop</md-card-title>
-          <md-card-subtitle>Competitive Programming</md-card-subtitle>
+          <md-card-title>{{data[1].name}}</md-card-title>
+          <md-card-subtitle>{{data[1].type}}</md-card-subtitle>
         </md-card-header>
         <img md-card-image src="/images/cpws.jpg">
-        <md-card-content>
-          <p>
-            Looking to excel in competitive programming and crack your dream company job, this program will give you all the tools and tips to get into competitive programming conducted by Manit Kapoor currently ranked 1 worldwide in <a class="p-link" href="https://www.hackerearth.com/codearena/leaderboard/">CodeArena</a> in HackerEarth.
-          </p>
-        </md-card-content>
         <md-card-actions>
-          <button md-button>REGISTER</button>
-          <button md-button>MORE</button>
+          <button md-button (click)="openConfirmation(data[1].id)">REGISTER</button>
+          <button md-button (click)="openDialog(data[1].description)">MORE</button>
         </md-card-actions>
       </md-card>
     </div>
@@ -43,18 +33,13 @@
       <md-card class="card">
         <md-card-header>
           <div md-card-avatar class="header-image"></div>
-          <md-card-title>Technical Workshop</md-card-title>
-          <md-card-subtitle>Web Development using Flask Micro Framework </md-card-subtitle>
+          <md-card-title>{{data[2].name}}</md-card-title>
+          <md-card-subtitle>{{data[2].type}}</md-card-subtitle>
         </md-card-header>
         <img md-card-image src="/images/flask.jpg">
-        <md-card-content>
-          <p>
-            Flask is a lightweight micro framework used to develop websites in python based on Werkzeug and Jinja 2 template. Flask has a built-in development server and debugger. Flask is a cross-platform framework with extensions supporting object relational mapper and several common framework related tools.<br> Prerequisites: Handful experience in HTML, Python, JavaScript
-          </p>
-        </md-card-content>
         <md-card-actions>
-          <button md-button>REGISTER</button>
-          <button md-button>MORE</button>
+          <button md-button (click)="openConfirmation(data[2].id)">REGISTER</button>
+          <button md-button (click)="openDialog(data[2].description)">MORE</button>
         </md-card-actions>
       </md-card>
     </div>
