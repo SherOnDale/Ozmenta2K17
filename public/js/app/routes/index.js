@@ -89,14 +89,9 @@ router.post('/loginUser', function (req, res, next) {
                 message: 'Unable to log you in. Please try again later'
             });
         }
-        var token = jwt.sign({
-            user: doc.email
-        }, 'ozmenta2k17velammalengineeringcollege', {
-            expiresIn: 3600
-        });
         res.status(201).json({
             message: 'Successfully logged in',
-            token: token,
+            token: doc.token,
             userId: doc.email
         });
     });
@@ -136,6 +131,7 @@ router.post('/activateUser', function (req, res, next) {
     });
 });
 router.post('/registerEvent', function (req, res, next) {
+    console.log(req.body);
     User.findOne({
         token: req.body.token
     }, function (err, doc) {

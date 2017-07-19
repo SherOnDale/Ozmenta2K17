@@ -97,14 +97,9 @@ router.post('/loginUser', (req, res, next) => {
         message: 'Unable to log you in. Please try again later'
       })
     }
-    const token = jwt.sign({
-      user: doc.email
-    }, 'ozmenta2k17velammalengineeringcollege', {
-      expiresIn: 3600
-    });
     res.status(201).json({
       message: 'Successfully logged in',
-      token: token,
+      token: doc.token,
       userId: doc.email
     });
   });
@@ -144,6 +139,7 @@ router.post('/loginUser', (req, res, next) => {
  });
 
  router.post('/registerEvent', (req, res, next) => {
+   console.log(req.body);
   User.findOne({
     token: req.body.token
   }, (err, doc) => {
