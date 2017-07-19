@@ -26,7 +26,7 @@ var UserService = (function () {
         var body = JSON.stringify(newUser);
         var headers = new Headers({ 'Content-Type': 'application/json' });
         // return this.http.post('http://localhost:3000/registerUser', body, {
-        return this.http.post('http://www,ozmenta2k17.com/registerUser', body, {
+        return this.http.post('http://www.ozmenta2k17.com/registerUser', body, {
             headers: headers
         })
             .map(function (response) { return response.json(); })
