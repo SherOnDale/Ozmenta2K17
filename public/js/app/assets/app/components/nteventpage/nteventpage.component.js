@@ -31,6 +31,14 @@ var NTEventPageComponent = (function () {
     }
     NTEventPageComponent.prototype.ngOnInit = function () {
         this.data = this.moreService.getNMore();
+        if (localStorage.getItem('token')) {
+            this.nteventsRegistered.e31 = JSON.parse(localStorage.getItem('e31'));
+            this.nteventsRegistered.e32 = JSON.parse(localStorage.getItem('e32'));
+            this.nteventsRegistered.e33 = JSON.parse(localStorage.getItem('e33'));
+            this.nteventsRegistered.e34 = JSON.parse(localStorage.getItem('e34'));
+            this.nteventsRegistered.e35 = JSON.parse(localStorage.getItem('e35'));
+            this.nteventsRegistered.e36 = JSON.parse(localStorage.getItem('e36'));
+        }
     };
     NTEventPageComponent.prototype.openConfirmation = function (eventId) {
         var _this = this;
@@ -43,7 +51,21 @@ var NTEventPageComponent = (function () {
                 };
                 _this.userService.registerEvent(body)
                     .subscribe(function (data) {
-                    localStorage.setItem('eventsRegistered', data.eventsRegistered);
+                    localStorage.setItem('e11', data.eventsRegistered.e11);
+                    localStorage.setItem('e12', data.eventsRegistered.e12);
+                    localStorage.setItem('e13', data.eventsRegistered.e13);
+                    localStorage.setItem('e21', data.eventsRegistered.e21);
+                    localStorage.setItem('e22', data.eventsRegistered.e22);
+                    localStorage.setItem('e23', data.eventsRegistered.e23);
+                    localStorage.setItem('e24', data.eventsRegistered.e24);
+                    localStorage.setItem('e25', data.eventsRegistered.e25);
+                    localStorage.setItem('e26', data.eventsRegistered.e26);
+                    localStorage.setItem('e31', data.eventsRegistered.e31);
+                    localStorage.setItem('e32', data.eventsRegistered.e32);
+                    localStorage.setItem('e33', data.eventsRegistered.e33);
+                    localStorage.setItem('e34', data.eventsRegistered.e34);
+                    localStorage.setItem('e35', data.eventsRegistered.e35);
+                    localStorage.setItem('e36', data.eventsRegistered.e36);
                     _this.nteventsRegistered.e31 = data.eventsRegistered.e31;
                     _this.nteventsRegistered.e32 = data.eventsRegistered.e32;
                     _this.nteventsRegistered.e33 = data.eventsRegistered.e33;

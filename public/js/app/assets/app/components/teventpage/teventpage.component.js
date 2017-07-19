@@ -31,6 +31,14 @@ var TEventPageComponent = (function () {
     }
     TEventPageComponent.prototype.ngOnInit = function () {
         this.data = this.moreService.getTMore();
+        if (localStorage.getItem('token')) {
+            this.nteventsRegistered.e21 = JSON.parse(localStorage.getItem('e21'));
+            this.nteventsRegistered.e22 = JSON.parse(localStorage.getItem('e22'));
+            this.nteventsRegistered.e23 = JSON.parse(localStorage.getItem('e23'));
+            this.nteventsRegistered.e24 = JSON.parse(localStorage.getItem('e24'));
+            this.nteventsRegistered.e25 = JSON.parse(localStorage.getItem('e25'));
+            this.nteventsRegistered.e26 = JSON.parse(localStorage.getItem('e26'));
+        }
     };
     TEventPageComponent.prototype.openDialog = function (data) {
         var config = new MdDialogConfig();
@@ -48,7 +56,21 @@ var TEventPageComponent = (function () {
                 };
                 _this.userService.registerEvent(body)
                     .subscribe(function (data) {
-                    localStorage.setItem('eventsRegistered', data.eventsRegistered);
+                    localStorage.setItem('e11', data.eventsRegistered.e11);
+                    localStorage.setItem('e12', data.eventsRegistered.e12);
+                    localStorage.setItem('e13', data.eventsRegistered.e13);
+                    localStorage.setItem('e21', data.eventsRegistered.e21);
+                    localStorage.setItem('e22', data.eventsRegistered.e22);
+                    localStorage.setItem('e23', data.eventsRegistered.e23);
+                    localStorage.setItem('e24', data.eventsRegistered.e24);
+                    localStorage.setItem('e25', data.eventsRegistered.e25);
+                    localStorage.setItem('e26', data.eventsRegistered.e26);
+                    localStorage.setItem('e31', data.eventsRegistered.e31);
+                    localStorage.setItem('e32', data.eventsRegistered.e32);
+                    localStorage.setItem('e33', data.eventsRegistered.e33);
+                    localStorage.setItem('e34', data.eventsRegistered.e34);
+                    localStorage.setItem('e35', data.eventsRegistered.e35);
+                    localStorage.setItem('e36', data.eventsRegistered.e36);
                     _this.nteventsRegistered.e21 = data.eventsRegistered.e21;
                     _this.nteventsRegistered.e22 = data.eventsRegistered.e22;
                     _this.nteventsRegistered.e23 = data.eventsRegistered.e23;
