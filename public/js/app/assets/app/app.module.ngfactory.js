@@ -18,97 +18,98 @@ import * as i10 from './components/login/login.component.ngfactory';
 import * as i11 from './components/register/register.component.ngfactory';
 import * as i12 from './components/more/more.component.ngfactory';
 import * as i13 from './components/registerevent/registerevent.component.ngfactory';
-import * as i14 from './app.component.ngfactory';
-import * as i15 from '@angular/material';
-import * as i16 from '@angular/common';
-import * as i17 from '@angular/forms';
-import * as i18 from '@angular/http';
-import * as i19 from '@angular/platform-browser';
-import * as i20 from '@angular/animations/browser';
-import * as i21 from '@angular/platform-browser/animations';
-import * as i22 from '@angular/animations';
-import * as i23 from '@angular/flex-layout/media-query/breakpoints/break-points-token';
-import * as i24 from '@angular/flex-layout/media-query/breakpoints/break-points-provider';
-import * as i25 from '@angular/flex-layout/media-query/breakpoints/break-point-registry';
-import * as i26 from '@angular/flex-layout/media-query/match-media';
-import * as i27 from '@angular/flex-layout/media-query/media-monitor';
-import * as i28 from '@angular/flex-layout/media-query/media-monitor-provider';
-import * as i29 from '@angular/flex-layout/media-query/observable-media';
-import * as i30 from '@angular/flex-layout/media-query/observable-media-provider';
-import * as i31 from '@angular/router';
-import * as i32 from './services/user.service';
-import * as i33 from './services/more.service';
-import * as i34 from './components/teventpage/teventpage.component';
-import * as i35 from './components/nteventpage/nteventpage.component';
-import * as i36 from './components/workshoppage/workshoppage.component';
-import * as i37 from './components/contactspage/contactspage.component';
-import * as i38 from './components/activateuser/activateuser.component';
-import * as i39 from './components/homepage/homepage.component';
-import * as i40 from '@angular/flex-layout/media-query/_module';
-import * as i41 from '@angular/flex-layout/flexbox/_module';
+import * as i14 from './components/cancelevent/cancelevent.component.ngfactory';
+import * as i15 from './app.component.ngfactory';
+import * as i16 from '@angular/material';
+import * as i17 from '@angular/common';
+import * as i18 from '@angular/forms';
+import * as i19 from '@angular/http';
+import * as i20 from '@angular/platform-browser';
+import * as i21 from '@angular/animations/browser';
+import * as i22 from '@angular/platform-browser/animations';
+import * as i23 from '@angular/animations';
+import * as i24 from '@angular/flex-layout/media-query/breakpoints/break-points-token';
+import * as i25 from '@angular/flex-layout/media-query/breakpoints/break-points-provider';
+import * as i26 from '@angular/flex-layout/media-query/breakpoints/break-point-registry';
+import * as i27 from '@angular/flex-layout/media-query/match-media';
+import * as i28 from '@angular/flex-layout/media-query/media-monitor';
+import * as i29 from '@angular/flex-layout/media-query/media-monitor-provider';
+import * as i30 from '@angular/flex-layout/media-query/observable-media';
+import * as i31 from '@angular/flex-layout/media-query/observable-media-provider';
+import * as i32 from '@angular/router';
+import * as i33 from './services/user.service';
+import * as i34 from './services/more.service';
+import * as i35 from './components/teventpage/teventpage.component';
+import * as i36 from './components/nteventpage/nteventpage.component';
+import * as i37 from './components/workshoppage/workshoppage.component';
+import * as i38 from './components/contactspage/contactspage.component';
+import * as i39 from './components/activateuser/activateuser.component';
+import * as i40 from './components/homepage/homepage.component';
+import * as i41 from '@angular/flex-layout/media-query/_module';
+import * as i42 from '@angular/flex-layout/flexbox/_module';
 export var AppModuleNgFactory = i0.ɵcmf(i1.AppModule, [i2.AppComponent], function (_l) {
     return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i3.MdDialogContainerNgFactory, i3.MdDatepickerContentNgFactory, i3.MdSnackBarContainerNgFactory,
                     i3.SimpleSnackBarNgFactory, i3.TooltipComponentNgFactory, i4.TEventPageComponentNgFactory,
                     i5.NTEventPageComponentNgFactory, i6.WorkshopPageComponentNgFactory, i7.ContactsPageComponentNgFactory,
                     i8.ActivateUserComponentNgFactory, i9.HomePageComponentNgFactory, i10.LoginComponentNgFactory,
                     i11.RegisterComponentNgFactory, i12.MoreComponentNgFactory, i13.RegisterEventComponentNgFactory,
-                    i14.AppComponentNgFactory]], [3, i0.ComponentFactoryResolver], i0.NgModuleRef]),
-        i0.ɵmpd(4608, i15.Platform, i15.Platform, []), i0.ɵmpd(5120, i15.ScrollDispatcher, i15.ɵf, [[3, i15.ScrollDispatcher], i0.NgZone, i15.Platform]), i0.ɵmpd(5120, i15.ViewportRuler, i15.ɵd, [[3, i15.ViewportRuler], i15.ScrollDispatcher]),
-        i0.ɵmpd(4608, i15.ScrollStrategyOptions, i15.ScrollStrategyOptions, [i15.ScrollDispatcher,
-            i15.ViewportRuler]), i0.ɵmpd(5120, i0.LOCALE_ID, i0.ɵm, [[3, i0.LOCALE_ID]]),
-        i0.ɵmpd(4608, i16.NgLocalization, i16.NgLocaleLocalization, [i0.LOCALE_ID]),
-        i0.ɵmpd(5120, i15.OverlayContainer, i15.ɵb, [[3, i15.OverlayContainer]]), i0.ɵmpd(4608, i15.ɵv, i15.ɵv, [i15.ViewportRuler]), i0.ɵmpd(4608, i15.Overlay, i15.Overlay, [i15.ScrollStrategyOptions, i15.OverlayContainer, i0.ComponentFactoryResolver,
-            i15.ɵv, i0.ApplicationRef, i0.Injector, i0.NgZone]), i0.ɵmpd(5120, i15.FocusOriginMonitor, i15.FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY, [[3, i15.FocusOriginMonitor],
-            i0.NgZone, i15.Platform]), i0.ɵmpd(4608, i17.ɵi, i17.ɵi, []),
-        i0.ɵmpd(5120, i15.UniqueSelectionDispatcher, i15.ɵj, [[3, i15.UniqueSelectionDispatcher]]),
-        i0.ɵmpd(4608, i15.ɵa, i15.ɵa, []), i0.ɵmpd(4608, i15.InteractivityChecker, i15.InteractivityChecker, [i15.Platform]), i0.ɵmpd(4608, i15.FocusTrapFactory, i15.FocusTrapFactory, [i15.InteractivityChecker, i15.Platform, i0.NgZone]),
-        i0.ɵmpd(5120, i15.LiveAnnouncer, i15.ɵi, [[3, i15.LiveAnnouncer], [2, i15.LIVE_ANNOUNCER_ELEMENT_TOKEN],
-            i15.Platform]), i0.ɵmpd(4608, i15.MdDialog, i15.MdDialog, [i15.Overlay, i0.Injector,
-            [2, i16.Location], [3, i15.MdDialog]]), i0.ɵmpd(4608, i15.MdDatepickerIntl, i15.MdDatepickerIntl, []), i0.ɵmpd(4608, i18.BrowserXhr, i18.BrowserXhr, []), i0.ɵmpd(4608, i18.ResponseOptions, i18.BaseResponseOptions, []), i0.ɵmpd(5120, i18.XSRFStrategy, i18.ɵb, []), i0.ɵmpd(4608, i18.XHRBackend, i18.XHRBackend, [i18.BrowserXhr, i18.ResponseOptions, i18.XSRFStrategy]),
-        i0.ɵmpd(4608, i18.RequestOptions, i18.BaseRequestOptions, []), i0.ɵmpd(5120, i18.Http, i18.ɵc, [i18.XHRBackend, i18.RequestOptions]), i0.ɵmpd(4608, i19.DomSanitizer, i19.ɵe, [i19.DOCUMENT]), i0.ɵmpd(5120, i15.MdIconRegistry, i15.ICON_REGISTRY_PROVIDER_FACTORY, [[3, i15.MdIconRegistry], [2, i18.Http], i19.DomSanitizer]), i0.ɵmpd(4608, i19.HAMMER_GESTURE_CONFIG, i19.HammerGestureConfig, []), i0.ɵmpd(4608, i15.MdSnackBar, i15.MdSnackBar, [i15.Overlay, i15.LiveAnnouncer, [3, i15.MdSnackBar]]),
+                    i14.CancelEventComponentNgFactory, i15.AppComponentNgFactory]], [3, i0.ComponentFactoryResolver],
+            i0.NgModuleRef]), i0.ɵmpd(4608, i16.Platform, i16.Platform, []),
+        i0.ɵmpd(5120, i16.ScrollDispatcher, i16.ɵf, [[3, i16.ScrollDispatcher], i0.NgZone,
+            i16.Platform]), i0.ɵmpd(5120, i16.ViewportRuler, i16.ɵd, [[3, i16.ViewportRuler],
+            i16.ScrollDispatcher]), i0.ɵmpd(4608, i16.ScrollStrategyOptions, i16.ScrollStrategyOptions, [i16.ScrollDispatcher, i16.ViewportRuler]), i0.ɵmpd(5120, i0.LOCALE_ID, i0.ɵm, [[3, i0.LOCALE_ID]]), i0.ɵmpd(4608, i17.NgLocalization, i17.NgLocaleLocalization, [i0.LOCALE_ID]), i0.ɵmpd(5120, i16.OverlayContainer, i16.ɵb, [[3, i16.OverlayContainer]]),
+        i0.ɵmpd(4608, i16.ɵv, i16.ɵv, [i16.ViewportRuler]), i0.ɵmpd(4608, i16.Overlay, i16.Overlay, [i16.ScrollStrategyOptions, i16.OverlayContainer, i0.ComponentFactoryResolver,
+            i16.ɵv, i0.ApplicationRef, i0.Injector, i0.NgZone]), i0.ɵmpd(5120, i16.FocusOriginMonitor, i16.FOCUS_ORIGIN_MONITOR_PROVIDER_FACTORY, [[3, i16.FocusOriginMonitor],
+            i0.NgZone, i16.Platform]), i0.ɵmpd(4608, i18.ɵi, i18.ɵi, []),
+        i0.ɵmpd(5120, i16.UniqueSelectionDispatcher, i16.ɵj, [[3, i16.UniqueSelectionDispatcher]]),
+        i0.ɵmpd(4608, i16.ɵa, i16.ɵa, []), i0.ɵmpd(4608, i16.InteractivityChecker, i16.InteractivityChecker, [i16.Platform]), i0.ɵmpd(4608, i16.FocusTrapFactory, i16.FocusTrapFactory, [i16.InteractivityChecker, i16.Platform, i0.NgZone]),
+        i0.ɵmpd(5120, i16.LiveAnnouncer, i16.ɵi, [[3, i16.LiveAnnouncer], [2, i16.LIVE_ANNOUNCER_ELEMENT_TOKEN],
+            i16.Platform]), i0.ɵmpd(4608, i16.MdDialog, i16.MdDialog, [i16.Overlay, i0.Injector,
+            [2, i17.Location], [3, i16.MdDialog]]), i0.ɵmpd(4608, i16.MdDatepickerIntl, i16.MdDatepickerIntl, []), i0.ɵmpd(4608, i19.BrowserXhr, i19.BrowserXhr, []), i0.ɵmpd(4608, i19.ResponseOptions, i19.BaseResponseOptions, []), i0.ɵmpd(5120, i19.XSRFStrategy, i19.ɵb, []), i0.ɵmpd(4608, i19.XHRBackend, i19.XHRBackend, [i19.BrowserXhr, i19.ResponseOptions, i19.XSRFStrategy]),
+        i0.ɵmpd(4608, i19.RequestOptions, i19.BaseRequestOptions, []), i0.ɵmpd(5120, i19.Http, i19.ɵc, [i19.XHRBackend, i19.RequestOptions]), i0.ɵmpd(4608, i20.DomSanitizer, i20.ɵe, [i20.DOCUMENT]), i0.ɵmpd(5120, i16.MdIconRegistry, i16.ICON_REGISTRY_PROVIDER_FACTORY, [[3, i16.MdIconRegistry], [2, i19.Http], i20.DomSanitizer]), i0.ɵmpd(4608, i20.HAMMER_GESTURE_CONFIG, i20.HammerGestureConfig, []), i0.ɵmpd(4608, i16.MdSnackBar, i16.MdSnackBar, [i16.Overlay, i16.LiveAnnouncer, [3, i16.MdSnackBar]]),
         i0.ɵmpd(5120, i0.APP_ID, i0.ɵf, []), i0.ɵmpd(5120, i0.IterableDiffers, i0.ɵk, []), i0.ɵmpd(5120, i0.KeyValueDiffers, i0.ɵl, []),
-        i0.ɵmpd(6144, i0.Sanitizer, null, [i19.DomSanitizer]), i0.ɵmpd(5120, i19.EVENT_MANAGER_PLUGINS, function (p0_0, p1_0, p2_0, p2_1) {
-            return [new i19.ɵDomEventsPlugin(p0_0), new i19.ɵKeyEventsPlugin(p1_0),
-                new i19.ɵHammerGesturesPlugin(p2_0, p2_1)];
-        }, [i19.DOCUMENT, i19.DOCUMENT, i19.DOCUMENT, i19.HAMMER_GESTURE_CONFIG]),
-        i0.ɵmpd(4608, i19.EventManager, i19.EventManager, [i19.EVENT_MANAGER_PLUGINS,
-            i0.NgZone]), i0.ɵmpd(135680, i19.ɵDomSharedStylesHost, i19.ɵDomSharedStylesHost, [i19.DOCUMENT]), i0.ɵmpd(4608, i19.ɵDomRendererFactory2, i19.ɵDomRendererFactory2, [i19.EventManager, i19.ɵDomSharedStylesHost]), i0.ɵmpd(5120, i20.AnimationDriver, i21.ɵc, []), i0.ɵmpd(5120, i20.ɵAnimationStyleNormalizer, i21.ɵd, []), i0.ɵmpd(4608, i20.ɵAnimationEngine, i21.ɵb, [i20.AnimationDriver,
-            i20.ɵAnimationStyleNormalizer]), i0.ɵmpd(5120, i0.RendererFactory2, i21.ɵe, [i19.ɵDomRendererFactory2, i20.ɵAnimationEngine, i0.NgZone]), i0.ɵmpd(6144, i19.ɵSharedStylesHost, null, [i19.ɵDomSharedStylesHost]), i0.ɵmpd(4608, i0.Testability, i0.Testability, [i0.NgZone]), i0.ɵmpd(4608, i19.Meta, i19.Meta, [i19.DOCUMENT]), i0.ɵmpd(4608, i19.Title, i19.Title, [i19.DOCUMENT]), i0.ɵmpd(4608, i22.AnimationBuilder, i21.ɵBrowserAnimationBuilder, [i0.RendererFactory2]),
-        i0.ɵmpd(4608, i17.FormBuilder, i17.FormBuilder, []), i0.ɵmpd(5120, i23.BREAKPOINTS, i24.DEFAULT_BREAKPOINTS_PROVIDER_FACTORY, []),
-        i0.ɵmpd(4608, i25.BreakPointRegistry, i25.BreakPointRegistry, [i23.BREAKPOINTS]),
-        i0.ɵmpd(4608, i26.MatchMedia, i26.MatchMedia, [i0.NgZone]), i0.ɵmpd(5120, i27.MediaMonitor, i28.MEDIA_MONITOR_PROVIDER_FACTORY, [[3, i27.MediaMonitor], i25.BreakPointRegistry,
-            i26.MatchMedia]), i0.ɵmpd(5120, i29.ObservableMedia, i30.OBSERVABLE_MEDIA_PROVIDER_FACTORY, [[3, i29.ObservableMedia], i26.MatchMedia, i25.BreakPointRegistry]), i0.ɵmpd(5120, i31.ActivatedRoute, i31.ɵf, [i31.Router]), i0.ɵmpd(4608, i31.NoPreloading, i31.NoPreloading, []), i0.ɵmpd(6144, i31.PreloadingStrategy, null, [i31.NoPreloading]), i0.ɵmpd(135680, i31.RouterPreloader, i31.RouterPreloader, [i31.Router, i0.NgModuleFactoryLoader, i0.Compiler,
-            i0.Injector, i31.PreloadingStrategy]), i0.ɵmpd(4608, i31.PreloadAllModules, i31.PreloadAllModules, []), i0.ɵmpd(5120, i31.ROUTER_INITIALIZER, i31.ɵi, [i31.ɵg]), i0.ɵmpd(5120, i0.APP_BOOTSTRAP_LISTENER, function (p0_0) {
+        i0.ɵmpd(6144, i0.Sanitizer, null, [i20.DomSanitizer]), i0.ɵmpd(5120, i20.EVENT_MANAGER_PLUGINS, function (p0_0, p1_0, p2_0, p2_1) {
+            return [new i20.ɵDomEventsPlugin(p0_0), new i20.ɵKeyEventsPlugin(p1_0),
+                new i20.ɵHammerGesturesPlugin(p2_0, p2_1)];
+        }, [i20.DOCUMENT, i20.DOCUMENT, i20.DOCUMENT, i20.HAMMER_GESTURE_CONFIG]),
+        i0.ɵmpd(4608, i20.EventManager, i20.EventManager, [i20.EVENT_MANAGER_PLUGINS,
+            i0.NgZone]), i0.ɵmpd(135680, i20.ɵDomSharedStylesHost, i20.ɵDomSharedStylesHost, [i20.DOCUMENT]), i0.ɵmpd(4608, i20.ɵDomRendererFactory2, i20.ɵDomRendererFactory2, [i20.EventManager, i20.ɵDomSharedStylesHost]), i0.ɵmpd(5120, i21.AnimationDriver, i22.ɵc, []), i0.ɵmpd(5120, i21.ɵAnimationStyleNormalizer, i22.ɵd, []), i0.ɵmpd(4608, i21.ɵAnimationEngine, i22.ɵb, [i21.AnimationDriver,
+            i21.ɵAnimationStyleNormalizer]), i0.ɵmpd(5120, i0.RendererFactory2, i22.ɵe, [i20.ɵDomRendererFactory2, i21.ɵAnimationEngine, i0.NgZone]), i0.ɵmpd(6144, i20.ɵSharedStylesHost, null, [i20.ɵDomSharedStylesHost]), i0.ɵmpd(4608, i0.Testability, i0.Testability, [i0.NgZone]), i0.ɵmpd(4608, i20.Meta, i20.Meta, [i20.DOCUMENT]), i0.ɵmpd(4608, i20.Title, i20.Title, [i20.DOCUMENT]), i0.ɵmpd(4608, i23.AnimationBuilder, i22.ɵBrowserAnimationBuilder, [i0.RendererFactory2]),
+        i0.ɵmpd(4608, i18.FormBuilder, i18.FormBuilder, []), i0.ɵmpd(5120, i24.BREAKPOINTS, i25.DEFAULT_BREAKPOINTS_PROVIDER_FACTORY, []),
+        i0.ɵmpd(4608, i26.BreakPointRegistry, i26.BreakPointRegistry, [i24.BREAKPOINTS]),
+        i0.ɵmpd(4608, i27.MatchMedia, i27.MatchMedia, [i0.NgZone]), i0.ɵmpd(5120, i28.MediaMonitor, i29.MEDIA_MONITOR_PROVIDER_FACTORY, [[3, i28.MediaMonitor], i26.BreakPointRegistry,
+            i27.MatchMedia]), i0.ɵmpd(5120, i30.ObservableMedia, i31.OBSERVABLE_MEDIA_PROVIDER_FACTORY, [[3, i30.ObservableMedia], i27.MatchMedia, i26.BreakPointRegistry]), i0.ɵmpd(5120, i32.ActivatedRoute, i32.ɵf, [i32.Router]), i0.ɵmpd(4608, i32.NoPreloading, i32.NoPreloading, []), i0.ɵmpd(6144, i32.PreloadingStrategy, null, [i32.NoPreloading]), i0.ɵmpd(135680, i32.RouterPreloader, i32.RouterPreloader, [i32.Router, i0.NgModuleFactoryLoader, i0.Compiler,
+            i0.Injector, i32.PreloadingStrategy]), i0.ɵmpd(4608, i32.PreloadAllModules, i32.PreloadAllModules, []), i0.ɵmpd(5120, i32.ROUTER_INITIALIZER, i32.ɵi, [i32.ɵg]), i0.ɵmpd(5120, i0.APP_BOOTSTRAP_LISTENER, function (p0_0) {
             return [p0_0];
-        }, [i31.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i32.UserService, i32.UserService, [i18.Http]), i0.ɵmpd(4608, i33.MoreService, i33.MoreService, []),
-        i0.ɵmpd(512, i15.CompatibilityModule, i15.CompatibilityModule, []),
-        i0.ɵmpd(256, i15.MATERIAL_SANITY_CHECKS, true, []), i0.ɵmpd(512, i15.MdCommonModule, i15.MdCommonModule, [[2, i19.DOCUMENT], [2, i15.MATERIAL_SANITY_CHECKS]]),
-        i0.ɵmpd(512, i15.PlatformModule, i15.PlatformModule, []), i0.ɵmpd(512, i15.ScrollDispatchModule, i15.ScrollDispatchModule, []), i0.ɵmpd(512, i15.MdRippleModule, i15.MdRippleModule, []), i0.ɵmpd(512, i16.CommonModule, i16.CommonModule, []), i0.ɵmpd(512, i15.MdSelectionModule, i15.MdSelectionModule, []), i0.ɵmpd(512, i15.MdOptionModule, i15.MdOptionModule, []),
-        i0.ɵmpd(512, i15.PortalModule, i15.PortalModule, []), i0.ɵmpd(512, i15.OverlayModule, i15.OverlayModule, []), i0.ɵmpd(512, i15.MdAutocompleteModule, i15.MdAutocompleteModule, []), i0.ɵmpd(512, i15.StyleModule, i15.StyleModule, []), i0.ɵmpd(512, i15.MdButtonModule, i15.MdButtonModule, []), i0.ɵmpd(512, i17.ɵba, i17.ɵba, []), i0.ɵmpd(512, i17.FormsModule, i17.FormsModule, []), i0.ɵmpd(512, i15.MdButtonToggleModule, i15.MdButtonToggleModule, []), i0.ɵmpd(512, i15.MdCardModule, i15.MdCardModule, []), i0.ɵmpd(512, i15.MdChipsModule, i15.MdChipsModule, []), i0.ɵmpd(512, i15.ObserveContentModule, i15.ObserveContentModule, []), i0.ɵmpd(512, i15.MdCheckboxModule, i15.MdCheckboxModule, []), i0.ɵmpd(512, i15.A11yModule, i15.A11yModule, []),
-        i0.ɵmpd(512, i15.MdDialogModule, i15.MdDialogModule, []), i0.ɵmpd(512, i15.MdDatepickerModule, i15.MdDatepickerModule, []), i0.ɵmpd(512, i15.MdExpansionModule, i15.MdExpansionModule, []), i0.ɵmpd(512, i15.MdLineModule, i15.MdLineModule, []), i0.ɵmpd(512, i15.MdGridListModule, i15.MdGridListModule, []), i0.ɵmpd(512, i15.MdIconModule, i15.MdIconModule, []), i0.ɵmpd(512, i15.MdInputModule, i15.MdInputModule, []),
-        i0.ɵmpd(512, i15.MdListModule, i15.MdListModule, []), i0.ɵmpd(512, i15.MdMenuModule, i15.MdMenuModule, []), i0.ɵmpd(512, i15.MdProgressBarModule, i15.MdProgressBarModule, []), i0.ɵmpd(512, i15.MdProgressSpinnerModule, i15.MdProgressSpinnerModule, []), i0.ɵmpd(512, i15.MdRadioModule, i15.MdRadioModule, []), i0.ɵmpd(512, i15.MdSelectModule, i15.MdSelectModule, []), i0.ɵmpd(512, i15.MdSidenavModule, i15.MdSidenavModule, []),
-        i0.ɵmpd(512, i15.RtlModule, i15.RtlModule, []), i0.ɵmpd(512, i15.MdSliderModule, i15.MdSliderModule, []), i0.ɵmpd(512, i15.MdSlideToggleModule, i15.MdSlideToggleModule, []), i0.ɵmpd(512, i15.MdSnackBarModule, i15.MdSnackBarModule, []), i0.ɵmpd(512, i15.MdTabsModule, i15.MdTabsModule, []), i0.ɵmpd(512, i15.MdToolbarModule, i15.MdToolbarModule, []),
-        i0.ɵmpd(512, i15.MdTooltipModule, i15.MdTooltipModule, []), i0.ɵmpd(512, i15.MaterialModule, i15.MaterialModule, []), i0.ɵmpd(1024, i0.ErrorHandler, i19.ɵa, []), i0.ɵmpd(1024, i0.NgProbeToken, function () {
-            return [i31.ɵb()];
-        }, []), i0.ɵmpd(512, i31.ɵg, i31.ɵg, [i0.Injector]), i0.ɵmpd(1024, i0.APP_INITIALIZER, function (p0_0, p0_1, p1_0) {
-            return [i19.ɵc(p0_0, p0_1), i31.ɵh(p1_0)];
-        }, [[2, i19.NgProbeToken], [2, i0.NgProbeToken], i31.ɵg]), i0.ɵmpd(512, i0.ApplicationInitStatus, i0.ApplicationInitStatus, [[2, i0.APP_INITIALIZER]]), i0.ɵmpd(131584, i0.ɵe, i0.ɵe, [i0.NgZone, i0.ɵConsole, i0.Injector, i0.ErrorHandler, i0.ComponentFactoryResolver,
+        }, [i32.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i33.UserService, i33.UserService, [i19.Http]), i0.ɵmpd(4608, i34.MoreService, i34.MoreService, []),
+        i0.ɵmpd(512, i16.CompatibilityModule, i16.CompatibilityModule, []),
+        i0.ɵmpd(256, i16.MATERIAL_SANITY_CHECKS, true, []), i0.ɵmpd(512, i16.MdCommonModule, i16.MdCommonModule, [[2, i20.DOCUMENT], [2, i16.MATERIAL_SANITY_CHECKS]]),
+        i0.ɵmpd(512, i16.PlatformModule, i16.PlatformModule, []), i0.ɵmpd(512, i16.ScrollDispatchModule, i16.ScrollDispatchModule, []), i0.ɵmpd(512, i16.MdRippleModule, i16.MdRippleModule, []), i0.ɵmpd(512, i17.CommonModule, i17.CommonModule, []), i0.ɵmpd(512, i16.MdSelectionModule, i16.MdSelectionModule, []), i0.ɵmpd(512, i16.MdOptionModule, i16.MdOptionModule, []),
+        i0.ɵmpd(512, i16.PortalModule, i16.PortalModule, []), i0.ɵmpd(512, i16.OverlayModule, i16.OverlayModule, []), i0.ɵmpd(512, i16.MdAutocompleteModule, i16.MdAutocompleteModule, []), i0.ɵmpd(512, i16.StyleModule, i16.StyleModule, []), i0.ɵmpd(512, i16.MdButtonModule, i16.MdButtonModule, []), i0.ɵmpd(512, i18.ɵba, i18.ɵba, []), i0.ɵmpd(512, i18.FormsModule, i18.FormsModule, []), i0.ɵmpd(512, i16.MdButtonToggleModule, i16.MdButtonToggleModule, []), i0.ɵmpd(512, i16.MdCardModule, i16.MdCardModule, []), i0.ɵmpd(512, i16.MdChipsModule, i16.MdChipsModule, []), i0.ɵmpd(512, i16.ObserveContentModule, i16.ObserveContentModule, []), i0.ɵmpd(512, i16.MdCheckboxModule, i16.MdCheckboxModule, []), i0.ɵmpd(512, i16.A11yModule, i16.A11yModule, []),
+        i0.ɵmpd(512, i16.MdDialogModule, i16.MdDialogModule, []), i0.ɵmpd(512, i16.MdDatepickerModule, i16.MdDatepickerModule, []), i0.ɵmpd(512, i16.MdExpansionModule, i16.MdExpansionModule, []), i0.ɵmpd(512, i16.MdLineModule, i16.MdLineModule, []), i0.ɵmpd(512, i16.MdGridListModule, i16.MdGridListModule, []), i0.ɵmpd(512, i16.MdIconModule, i16.MdIconModule, []), i0.ɵmpd(512, i16.MdInputModule, i16.MdInputModule, []),
+        i0.ɵmpd(512, i16.MdListModule, i16.MdListModule, []), i0.ɵmpd(512, i16.MdMenuModule, i16.MdMenuModule, []), i0.ɵmpd(512, i16.MdProgressBarModule, i16.MdProgressBarModule, []), i0.ɵmpd(512, i16.MdProgressSpinnerModule, i16.MdProgressSpinnerModule, []), i0.ɵmpd(512, i16.MdRadioModule, i16.MdRadioModule, []), i0.ɵmpd(512, i16.MdSelectModule, i16.MdSelectModule, []), i0.ɵmpd(512, i16.MdSidenavModule, i16.MdSidenavModule, []),
+        i0.ɵmpd(512, i16.RtlModule, i16.RtlModule, []), i0.ɵmpd(512, i16.MdSliderModule, i16.MdSliderModule, []), i0.ɵmpd(512, i16.MdSlideToggleModule, i16.MdSlideToggleModule, []), i0.ɵmpd(512, i16.MdSnackBarModule, i16.MdSnackBarModule, []), i0.ɵmpd(512, i16.MdTabsModule, i16.MdTabsModule, []), i0.ɵmpd(512, i16.MdToolbarModule, i16.MdToolbarModule, []),
+        i0.ɵmpd(512, i16.MdTooltipModule, i16.MdTooltipModule, []), i0.ɵmpd(512, i16.MaterialModule, i16.MaterialModule, []), i0.ɵmpd(1024, i0.ErrorHandler, i20.ɵa, []), i0.ɵmpd(1024, i0.NgProbeToken, function () {
+            return [i32.ɵb()];
+        }, []), i0.ɵmpd(512, i32.ɵg, i32.ɵg, [i0.Injector]), i0.ɵmpd(1024, i0.APP_INITIALIZER, function (p0_0, p0_1, p1_0) {
+            return [i20.ɵc(p0_0, p0_1), i32.ɵh(p1_0)];
+        }, [[2, i20.NgProbeToken], [2, i0.NgProbeToken], i32.ɵg]), i0.ɵmpd(512, i0.ApplicationInitStatus, i0.ApplicationInitStatus, [[2, i0.APP_INITIALIZER]]), i0.ɵmpd(131584, i0.ɵe, i0.ɵe, [i0.NgZone, i0.ɵConsole, i0.Injector, i0.ErrorHandler, i0.ComponentFactoryResolver,
             i0.ApplicationInitStatus]), i0.ɵmpd(2048, i0.ApplicationRef, null, [i0.ɵe]), i0.ɵmpd(512, i0.ApplicationModule, i0.ApplicationModule, [i0.ApplicationRef]),
-        i0.ɵmpd(512, i19.BrowserModule, i19.BrowserModule, [[3, i19.BrowserModule]]),
-        i0.ɵmpd(512, i21.BrowserAnimationsModule, i21.BrowserAnimationsModule, []),
-        i0.ɵmpd(512, i17.ReactiveFormsModule, i17.ReactiveFormsModule, []),
-        i0.ɵmpd(512, i18.HttpModule, i18.HttpModule, []), i0.ɵmpd(1024, i31.ɵa, i31.ɵd, [[3, i31.Router]]), i0.ɵmpd(512, i31.UrlSerializer, i31.DefaultUrlSerializer, []), i0.ɵmpd(512, i31.ChildrenOutletContexts, i31.ChildrenOutletContexts, []), i0.ɵmpd(256, i31.ROUTER_CONFIGURATION, {}, []),
-        i0.ɵmpd(1024, i16.LocationStrategy, i31.ɵc, [i16.PlatformLocation, [2, i16.APP_BASE_HREF],
-            i31.ROUTER_CONFIGURATION]), i0.ɵmpd(512, i16.Location, i16.Location, [i16.LocationStrategy]),
+        i0.ɵmpd(512, i20.BrowserModule, i20.BrowserModule, [[3, i20.BrowserModule]]),
+        i0.ɵmpd(512, i22.BrowserAnimationsModule, i22.BrowserAnimationsModule, []),
+        i0.ɵmpd(512, i18.ReactiveFormsModule, i18.ReactiveFormsModule, []),
+        i0.ɵmpd(512, i19.HttpModule, i19.HttpModule, []), i0.ɵmpd(1024, i32.ɵa, i32.ɵd, [[3, i32.Router]]), i0.ɵmpd(512, i32.UrlSerializer, i32.DefaultUrlSerializer, []), i0.ɵmpd(512, i32.ChildrenOutletContexts, i32.ChildrenOutletContexts, []), i0.ɵmpd(256, i32.ROUTER_CONFIGURATION, {}, []),
+        i0.ɵmpd(1024, i17.LocationStrategy, i32.ɵc, [i17.PlatformLocation, [2, i17.APP_BASE_HREF],
+            i32.ROUTER_CONFIGURATION]), i0.ɵmpd(512, i17.Location, i17.Location, [i17.LocationStrategy]),
         i0.ɵmpd(512, i0.Compiler, i0.Compiler, []), i0.ɵmpd(512, i0.NgModuleFactoryLoader, i0.SystemJsNgModuleLoader, [i0.Compiler, [2, i0.SystemJsNgModuleLoaderConfig]]),
-        i0.ɵmpd(1024, i31.ROUTES, function () {
-            return [[{ path: 'tevents', component: i34.TEventPageComponent }, { path: 'ntevents',
-                        component: i35.NTEventPageComponent }, { path: 'workshops', component: i36.WorkshopPageComponent },
-                    { path: 'contacts', component: i37.ContactsPageComponent }, { path: 'activate/:token',
-                        component: i38.ActivateUserComponent }, { path: '', component: i39.HomePageComponent,
+        i0.ɵmpd(1024, i32.ROUTES, function () {
+            return [[{ path: 'tevents', component: i35.TEventPageComponent }, { path: 'ntevents',
+                        component: i36.NTEventPageComponent }, { path: 'workshops', component: i37.WorkshopPageComponent },
+                    { path: 'contacts', component: i38.ContactsPageComponent }, { path: 'activate/:token',
+                        component: i39.ActivateUserComponent }, { path: '', component: i40.HomePageComponent,
                         pathMatch: 'full' }]];
-        }, []), i0.ɵmpd(1024, i31.Router, i31.ɵe, [i0.ApplicationRef, i31.UrlSerializer,
-            i31.ChildrenOutletContexts, i16.Location, i0.Injector, i0.NgModuleFactoryLoader,
-            i0.Compiler, i31.ROUTES, i31.ROUTER_CONFIGURATION, [2, i31.UrlHandlingStrategy],
-            [2, i31.RouteReuseStrategy]]), i0.ɵmpd(512, i31.RouterModule, i31.RouterModule, [[2, i31.ɵa], [2, i31.Router]]), i0.ɵmpd(512, i40.MediaQueriesModule, i40.MediaQueriesModule, []), i0.ɵmpd(512, i41.FlexLayoutModule, i41.FlexLayoutModule, []), i0.ɵmpd(512, i1.AppModule, i1.AppModule, [])]);
+        }, []), i0.ɵmpd(1024, i32.Router, i32.ɵe, [i0.ApplicationRef, i32.UrlSerializer,
+            i32.ChildrenOutletContexts, i17.Location, i0.Injector, i0.NgModuleFactoryLoader,
+            i0.Compiler, i32.ROUTES, i32.ROUTER_CONFIGURATION, [2, i32.UrlHandlingStrategy],
+            [2, i32.RouteReuseStrategy]]), i0.ɵmpd(512, i32.RouterModule, i32.RouterModule, [[2, i32.ɵa], [2, i32.Router]]), i0.ɵmpd(512, i41.MediaQueriesModule, i41.MediaQueriesModule, []), i0.ɵmpd(512, i42.FlexLayoutModule, i42.FlexLayoutModule, []), i0.ɵmpd(512, i1.AppModule, i1.AppModule, [])]);
 });

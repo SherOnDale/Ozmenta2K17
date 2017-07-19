@@ -10,7 +10,8 @@
         </md-card-header>
         <img md-card-image src="/images/uxui.jpg">
         <md-card-actions>
-          <button md-button (click)="openConfirmation(data[0].id)">REGISTER</button>
+          <button md-button (click)="openConfirmation(data[0].id)" *ngIf="!nteventsRegistered.e11">REGISTER</button>
+          <button md-button (click)="cancelRegistration(data[0].id)" *ngIf="nteventsRegistered.e11">CANCEL</button>
           <button md-button (click)="openDialog(data[0].description)">MORE</button>
         </md-card-actions>
       </md-card>
@@ -19,13 +20,16 @@
       <md-card class="card">
         <md-card-header>
           <div md-card-avatar class="header-image"></div>
-          <md-card-title>{{data[1].name}}</md-card-title>
-          <md-card-subtitle>{{data[1].type}}</md-card-subtitle>
+          <!-- <md-card-title>{{data[1].name}}</md-card-title>
+          <md-card-subtitle>{{data[1].type}}</md-card-subtitle> -->
+          <md-card-title>COMING SOON</md-card-title>
         </md-card-header>
         <img md-card-image src="/images/cpws.jpg">
         <md-card-actions>
-          <button md-button (click)="openConfirmation(data[1].id)">REGISTER</button>
-          <button md-button (click)="openDialog(data[1].description)">MORE</button>
+          <!-- <button md-button (click)="openConfirmation(data[1].id)" *ngIf="!nteventsRegistered.e12">REGISTER</button>
+          <button md-button (click)="cancelRegistration(data[1].id)" *ngIf="nteventsRegistered.e12">CANCEL</button>
+          <button md-button (click)="openDialog(data[1].description)">MORE</button> -->
+          
         </md-card-actions>
       </md-card>
     </div>
@@ -38,7 +42,8 @@
         </md-card-header>
         <img md-card-image src="/images/flask.jpg">
         <md-card-actions>
-          <button md-button (click)="openConfirmation(data[2].id)">REGISTER</button>
+          <button md-button (click)="openConfirmation(data[2].id)" *ngIf="!nteventsRegistered.e13">REGISTER</button>
+          <button md-button (click)="cancelRegistration(data[2].id)" *ngIf="nteventsRegistered.e13">CANCEL</button>
           <button md-button (click)="openDialog(data[2].description)">MORE</button>
         </md-card-actions>
       </md-card>

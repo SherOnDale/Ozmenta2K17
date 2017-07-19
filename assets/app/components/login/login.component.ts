@@ -28,6 +28,7 @@ export class LoginComponent {
     this.userService.loginUser(loginDetails)
       .subscribe(
         data => {
+          localStorage.setItem('eventsRegistered', data.eventsRegistered);
           localStorage.setItem('token', data.token);
           localStorage.setItem('userId', data.userId);
           this.dialogRef.close();

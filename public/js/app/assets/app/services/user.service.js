@@ -56,6 +56,15 @@ var UserService = (function () {
             .map(function (response) { return response.json(); })
             .catch(function (error) { return Observable.throw(error); });
     };
+    UserService.prototype.cancelEvent = function (data) {
+        var body = JSON.stringify(data);
+        var headers = new Headers({ 'Content-Type': 'application/json' });
+        return this.http.post('http://www.ozmenta2k17.com/cancelEvent', body, {
+            headers: headers
+        })
+            .map(function (response) { return response.json(); })
+            .catch(function (error) { return Observable.throw(error); });
+    };
     UserService.prototype.logoutUser = function () {
         localStorage.clear();
     };

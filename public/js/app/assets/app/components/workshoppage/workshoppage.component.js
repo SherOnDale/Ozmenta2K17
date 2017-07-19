@@ -13,12 +13,18 @@ import { UserService } from '../../services/user.service';
 import { MdDialog, MdDialogConfig, MdSnackBar } from '@angular/material';
 import { MoreComponent } from '../more/more.component';
 import { RegisterEventComponent } from '../registerevent/registerevent.component';
+import { CancelEventComponent } from '../cancelevent/cancelevent.component';
 var WorkshopPageComponent = (function () {
     function WorkshopPageComponent(moreService, dialog, snackBar, userService) {
         this.moreService = moreService;
         this.dialog = dialog;
         this.snackBar = snackBar;
         this.userService = userService;
+        this.nteventsRegistered = {
+            e11: false,
+            e12: false,
+            e13: false
+        };
     }
     WorkshopPageComponent.prototype.ngOnInit = function () {
         this.data = this.moreService.getWMore();
@@ -34,6 +40,10 @@ var WorkshopPageComponent = (function () {
                 };
                 _this.userService.registerEvent(body)
                     .subscribe(function (data) {
+                    localStorage.setItem('eventsRegistered', data.eventsRegistered);
+                    _this.nteventsRegistered.e11 = data.eventsRegistered.e11;
+                    _this.nteventsRegistered.e12 = data.eventsRegistered.e12;
+                    _this.nteventsRegistered.e13 = data.eventsRegistered.e13;
                     _this.snackBar.open('Successfully Registerd', 'OK');
                 }, function (error) {
                     _this.snackBar.open('Registration Faled. Please Try Again Later', 'OK');
@@ -45,6 +55,28 @@ var WorkshopPageComponent = (function () {
         var config = new MdDialogConfig();
         config.data = data;
         var dialogRef = this.dialog.open(MoreComponent, config);
+    };
+    WorkshopPageComponent.prototype.cancelRegistration = function (eventId) {
+        var _this = this;
+        var dialogRef = this.dialog.open(CancelEventComponent);
+        dialogRef.afterClosed().subscribe(function (result) {
+            if (result == "confirm") {
+                var body = {
+                    eventId: eventId,
+                    token: _this.userService.getToken()
+                };
+                _this.userService.cancelEvent(body)
+                    .subscribe(function (data) {
+                    localStorage.setItem('eventsRegistered', data.eventsRegistered);
+                    _this.nteventsRegistered.e11 = data.eventsRegistered.e11;
+                    _this.nteventsRegistered.e12 = data.eventsRegistered.e12;
+                    _this.nteventsRegistered.e13 = data.eventsRegistered.e13;
+                    _this.snackBar.open('Your Registration Is Cancelled', 'OK');
+                }, function (error) {
+                    _this.snackBar.open('Cancellation Failed. Please Try Again Later', 'OK');
+                });
+            }
+        });
     };
     return WorkshopPageComponent;
 }());

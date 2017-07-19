@@ -54,6 +54,16 @@ export class UserService {
     .catch((error: Response) => Observable.throw(error));
   }
 
+  cancelEvent(data) {
+    const body = JSON.stringify(data);
+    const headers = new Headers({'Content-Type': 'application/json'});
+    return this.http.post('http://www.ozmenta2k17.com/cancelEvent', body, {
+      headers: headers
+    })
+    .map((response: Response) => response.json())
+    .catch((error: Response) => Observable.throw(error));
+  }
+
   logoutUser() {
     localStorage.clear();
   }

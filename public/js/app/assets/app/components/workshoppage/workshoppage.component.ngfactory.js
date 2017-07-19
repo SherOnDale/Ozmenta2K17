@@ -6,44 +6,23 @@
 /* tslint:disable */
 import * as i0 from './workshop.component.css.shim.ngstyle';
 import * as i1 from '@angular/core';
-import * as i2 from '@angular/flex-layout/flexbox/api/class';
-import * as i3 from '@angular/flex-layout/media-query/media-monitor';
-import * as i4 from '@angular/flex-layout/flexbox/api/layout';
-import * as i5 from '@angular/flex-layout/flexbox/api/flex';
-import * as i6 from '@angular/flex-layout/flexbox/api/layout-wrap';
-import * as i7 from '../../../../node_modules/@angular/material/typings/index.ngfactory';
-import * as i8 from '@angular/material';
-import * as i9 from './workshoppage.component';
-import * as i10 from '../../services/more.service';
-import * as i11 from '../../services/user.service';
+import * as i2 from '../../../../node_modules/@angular/material/typings/index.ngfactory';
+import * as i3 from '@angular/material';
+import * as i4 from '@angular/flex-layout/flexbox/api/class';
+import * as i5 from '@angular/flex-layout/media-query/media-monitor';
+import * as i6 from '@angular/flex-layout/flexbox/api/layout';
+import * as i7 from '@angular/flex-layout/flexbox/api/flex';
+import * as i8 from '@angular/flex-layout/flexbox/api/layout-wrap';
+import * as i9 from '@angular/common';
+import * as i10 from './workshoppage.component';
+import * as i11 from '../../services/more.service';
+import * as i12 from '../../services/user.service';
 var styles_WorkshopPageComponent = [i0.styles];
 export var RenderType_WorkshopPageComponent = i1.ɵcrt({ encapsulation: 0,
     styles: styles_WorkshopPageComponent, data: {} });
-export function View_WorkshopPageComponent_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 153, 'div', [['class',
-                'container']], null, null, null, null, null)),
-        i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers,
-            i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
-                'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n\n  '])),
-        (_l()(), i1.ɵeld(0, null, null, 149, 'div', [['fxFlexs', ''], ['fxLayout',
-                'row'], ['fxLayout.sm', 'column'], ['fxLayout.xs', 'column']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i4.LayoutDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null),
-        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor,
-            i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n      '])),
-        (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
-            ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
-                'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/uxui.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'], ['md-button', '']], [[8, 'disabled', 0]], [[null,
-                'click']], function (_v, en, $event) {
+function View_WorkshopPageComponent_1(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class',
+                'mat-button'], ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             var _co = _v.component;
             if (('click' === en)) {
@@ -51,71 +30,33 @@ export function View_WorkshopPageComponent_0(_l) {
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, i7.View_MdButton_0, i7.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdButton, [i1.Renderer2, i1.ElementRef, i8.Platform, i8.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['REGISTER'])), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'], ['md-button', '']], [[8, 'disabled', 0]], [[null,
-                'click']], function (_v, en, $event) {
+        }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef,
+            i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null),
+        (_l()(), i1.ɵted(0, ['REGISTER']))], null, function (_ck, _v) {
+        var currVal_0 = (i1.ɵnov(_v, 2).disabled || null);
+        _ck(_v, 0, 0, currVal_0);
+    });
+}
+function View_WorkshopPageComponent_2(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class',
+                'mat-button'], ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             var _co = _v.component;
             if (('click' === en)) {
-                var pd_0 = (_co.openDialog(_co.data[0].description) !== false);
+                var pd_0 = (_co.cancelRegistration(_co.data[0].id) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, i7.View_MdButton_0, i7.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdButton, [i1.Renderer2, i1.ElementRef, i8.Platform, i8.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
-            [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
-            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
-        i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null),
-        i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers,
-            i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
-                'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(),
-            i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
-            ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
-                'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/cpws.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'], ['md-button', '']], [[8, 'disabled', 0]], [[null,
-                'click']], function (_v, en, $event) {
-            var ad = true;
-            var _co = _v.component;
-            if (('click' === en)) {
-                var pd_0 = (_co.openConfirmation(_co.data[1].id) !== false);
-                ad = (pd_0 && ad);
-            }
-            return ad;
-        }, i7.View_MdButton_0, i7.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdButton, [i1.Renderer2, i1.ElementRef, i8.Platform, i8.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['REGISTER'])), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'], ['md-button', '']], [[8, 'disabled', 0]], [[null,
-                'click']], function (_v, en, $event) {
-            var ad = true;
-            var _co = _v.component;
-            if (('click' === en)) {
-                var pd_0 = (_co.openDialog(_co.data[1].description) !== false);
-                ad = (pd_0 && ad);
-            }
-            return ad;
-        }, i7.View_MdButton_0, i7.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdButton, [i1.Renderer2, i1.ElementRef, i8.Platform, i8.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
-            [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
-            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
-        i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null),
-        i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers,
-            i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
-                'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(),
-            i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i7.View_MdCardHeader_0, i7.RenderType_MdCardHeader)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
-            ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
-                'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/flask.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i8.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'], ['md-button', '']], [[8, 'disabled', 0]], [[null,
-                'click']], function (_v, en, $event) {
+        }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef,
+            i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null),
+        (_l()(), i1.ɵted(0, ['CANCEL']))], null, function (_ck, _v) {
+        var currVal_0 = (i1.ɵnov(_v, 2).disabled || null);
+        _ck(_v, 0, 0, currVal_0);
+    });
+}
+function View_WorkshopPageComponent_3(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class',
+                'mat-button'], ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             var _co = _v.component;
             if (('click' === en)) {
@@ -123,16 +64,111 @@ export function View_WorkshopPageComponent_0(_l) {
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, i7.View_MdButton_0, i7.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdButton, [i1.Renderer2, i1.ElementRef, i8.Platform, i8.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['REGISTER'])), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'], ['md-button', '']], [[8, 'disabled', 0]], [[null,
-                'click']], function (_v, en, $event) {
+        }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef,
+            i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null),
+        (_l()(), i1.ɵted(0, ['REGISTER']))], null, function (_ck, _v) {
+        var currVal_0 = (i1.ɵnov(_v, 2).disabled || null);
+        _ck(_v, 0, 0, currVal_0);
+    });
+}
+function View_WorkshopPageComponent_4(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class',
+                'mat-button'], ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             var _co = _v.component;
             if (('click' === en)) {
-                var pd_0 = (_co.openDialog(_co.data[2].description) !== false);
+                var pd_0 = (_co.cancelRegistration(_co.data[2].id) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
-        }, i7.View_MdButton_0, i7.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdButton, [i1.Renderer2, i1.ElementRef, i8.Platform, i8.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
+        }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef,
+            i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null),
+        (_l()(), i1.ɵted(0, ['CANCEL']))], null, function (_ck, _v) {
+        var currVal_0 = (i1.ɵnov(_v, 2).disabled || null);
+        _ck(_v, 0, 0, currVal_0);
+    });
+}
+export function View_WorkshopPageComponent_0(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 138, 'div', [['class',
+                'container']], null, null, null, null, null)),
+        i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers,
+            i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
+                'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n\n  '])),
+        (_l()(), i1.ɵeld(0, null, null, 134, 'div', [['fxFlexs', ''], ['fxLayout',
+                'row'], ['fxLayout.sm', 'column'], ['fxLayout.xs', 'column']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i6.LayoutDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null),
+        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor,
+            i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective], [3, i8.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n      '])),
+        (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)),
+        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
+            ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+                'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
+        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
+                ''], ['src', '/images/uxui.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
+        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
+        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_WorkshopPageComponent_1)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_WorkshopPageComponent_2)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
+            i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
+                ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
+                var ad = true;
+                var _co = _v.component;
+                if (('click' === en)) {
+                    var pd_0 = (_co.openDialog(_co.data[0].description) !== false);
+                    ad = (pd_0 && ad);
+                }
+                return ad;
+            }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 32, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective],
+            [3, i8.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
+            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 28, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(49152, null, 0, i3.MdCard, [], null, null),
+        i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers,
+            i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
+                'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(),
+            i1.ɵeld(0, null, 0, 13, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)),
+        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
+            ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class', 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['COMING SOON'])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
+        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
+                ''], ['src', '/images/cpws.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
+        (_l()(), i1.ɵeld(0, null, 0, 4, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
+        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵted(null, ['\n          \n        '])),
+        (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])),
+        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor,
+            i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective], [3, i8.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n      '])),
+        (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)),
+        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
+            ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+                'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
+        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
+                ''], ['src', '/images/flask.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
+        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
+        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_WorkshopPageComponent_3)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_WorkshopPageComponent_4)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
+            i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
+                ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
+                var ad = true;
+                var _co = _v.component;
+                if (('click' === en)) {
+                    var pd_0 = (_co.openDialog(_co.data[2].description) !== false);
+                    ad = (pd_0 && ad);
+                }
+                return ad;
+            }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
+        var _co = _v.component;
         var currVal_0 = 'container';
         _ck(_v, 1, 0, currVal_0);
         var currVal_1 = 'row';
@@ -145,49 +181,45 @@ export function View_WorkshopPageComponent_0(_l) {
         _ck(_v, 12, 0, currVal_5);
         var currVal_6 = 'header-image';
         _ck(_v, 20, 0, currVal_6);
-        var currVal_11 = '';
-        _ck(_v, 56, 0, currVal_11);
-        var currVal_12 = 'card';
-        _ck(_v, 61, 0, currVal_12);
-        var currVal_13 = 'header-image';
-        _ck(_v, 69, 0, currVal_13);
-        var currVal_18 = '';
-        _ck(_v, 105, 0, currVal_18);
-        var currVal_19 = 'card';
-        _ck(_v, 110, 0, currVal_19);
-        var currVal_20 = 'header-image';
-        _ck(_v, 118, 0, currVal_20);
+        var currVal_9 = !_co.nteventsRegistered.e11;
+        _ck(_v, 41, 0, currVal_9);
+        var currVal_10 = _co.nteventsRegistered.e11;
+        _ck(_v, 44, 0, currVal_10);
+        var currVal_12 = '';
+        _ck(_v, 56, 0, currVal_12);
+        var currVal_13 = 'card';
+        _ck(_v, 61, 0, currVal_13);
+        var currVal_14 = 'header-image';
+        _ck(_v, 69, 0, currVal_14);
+        var currVal_15 = '';
+        _ck(_v, 90, 0, currVal_15);
+        var currVal_16 = 'card';
+        _ck(_v, 95, 0, currVal_16);
+        var currVal_17 = 'header-image';
+        _ck(_v, 103, 0, currVal_17);
+        var currVal_20 = !_co.nteventsRegistered.e13;
+        _ck(_v, 124, 0, currVal_20);
+        var currVal_21 = _co.nteventsRegistered.e13;
+        _ck(_v, 127, 0, currVal_21);
     }, function (_ck, _v) {
         var _co = _v.component;
         var currVal_7 = _co.data[0].name;
         _ck(_v, 25, 0, currVal_7);
         var currVal_8 = _co.data[0].type;
         _ck(_v, 30, 0, currVal_8);
-        var currVal_9 = (i1.ɵnov(_v, 42).disabled || null);
-        _ck(_v, 40, 0, currVal_9);
-        var currVal_10 = (i1.ɵnov(_v, 48).disabled || null);
-        _ck(_v, 46, 0, currVal_10);
-        var currVal_14 = _co.data[1].name;
-        _ck(_v, 74, 0, currVal_14);
-        var currVal_15 = _co.data[1].type;
-        _ck(_v, 79, 0, currVal_15);
-        var currVal_16 = (i1.ɵnov(_v, 91).disabled || null);
-        _ck(_v, 89, 0, currVal_16);
-        var currVal_17 = (i1.ɵnov(_v, 97).disabled || null);
-        _ck(_v, 95, 0, currVal_17);
-        var currVal_21 = _co.data[2].name;
-        _ck(_v, 123, 0, currVal_21);
-        var currVal_22 = _co.data[2].type;
-        _ck(_v, 128, 0, currVal_22);
-        var currVal_23 = (i1.ɵnov(_v, 140).disabled || null);
-        _ck(_v, 138, 0, currVal_23);
-        var currVal_24 = (i1.ɵnov(_v, 146).disabled || null);
-        _ck(_v, 144, 0, currVal_24);
+        var currVal_11 = (i1.ɵnov(_v, 48).disabled || null);
+        _ck(_v, 46, 0, currVal_11);
+        var currVal_18 = _co.data[2].name;
+        _ck(_v, 108, 0, currVal_18);
+        var currVal_19 = _co.data[2].type;
+        _ck(_v, 113, 0, currVal_19);
+        var currVal_22 = (i1.ɵnov(_v, 131).disabled || null);
+        _ck(_v, 129, 0, currVal_22);
     });
 }
 export function View_WorkshopPageComponent_Host_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 1, 'app-workshoppage', [], null, null, null, View_WorkshopPageComponent_0, RenderType_WorkshopPageComponent)), i1.ɵdid(114688, null, 0, i9.WorkshopPageComponent, [i10.MoreService, i8.MdDialog, i8.MdSnackBar, i11.UserService], null, null)], function (_ck, _v) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 1, 'app-workshoppage', [], null, null, null, View_WorkshopPageComponent_0, RenderType_WorkshopPageComponent)), i1.ɵdid(114688, null, 0, i10.WorkshopPageComponent, [i11.MoreService, i3.MdDialog, i3.MdSnackBar, i12.UserService], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
     }, null);
 }
-export var WorkshopPageComponentNgFactory = i1.ɵccf('app-workshoppage', i9.WorkshopPageComponent, View_WorkshopPageComponent_Host_0, {}, {}, []);
+export var WorkshopPageComponentNgFactory = i1.ɵccf('app-workshoppage', i10.WorkshopPageComponent, View_WorkshopPageComponent_Host_0, {}, {}, []);

@@ -30,6 +30,7 @@ var LoginComponent = (function () {
         var _this = this;
         this.userService.loginUser(loginDetails)
             .subscribe(function (data) {
+            localStorage.setItem('eventsRegistered', data.eventsRegistered);
             localStorage.setItem('token', data.token);
             localStorage.setItem('userId', data.userId);
             _this.dialogRef.close();

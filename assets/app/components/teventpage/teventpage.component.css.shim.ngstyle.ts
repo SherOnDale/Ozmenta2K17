@@ -6,5 +6,5 @@
  /* tslint:disable */
 
 
-export const styles:any[] = ['.card[_ngcontent-%COMP%] {\r\n  margin: 2vw 5vw;\r\n}\r\n\r\n.header-image[_ngcontent-%COMP%] {\r\n  background-image: url(\'/images/tevents-header.png\');\r\n  background-size: cover;\r\n}\r\n\r\n.p-link[_ngcontent-%COMP%] {\r\n  color: orange;\r\n}'];
+export const styles:any[] = ['.card[_ngcontent-%COMP%] {\r\n  margin: 2vw 5vw;\r\n}\r\n\r\n.header-image[_ngcontent-%COMP%] {\r\n  background-image: url(\'/favicon.ico\');\r\n  background-size: cover;\r\n}\r\n\r\n.p-link[_ngcontent-%COMP%] {\r\n  color: orange;\r\n}'];
 //# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvdGV2ZW50cGFnZS90ZXZlbnRwYWdlLmNvbXBvbmVudC5jc3Muc2hpbS5uZ3N0eWxlLnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvdGV2ZW50cGFnZS90ZXZlbnRwYWdlLmNvbXBvbmVudC5jc3MiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7OyJ9

@@ -111,12 +111,12 @@ function View_RegisterComponent_6(_l) {
     });
 }
 export function View_RegisterComponent_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 160, 'div', [['class',
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 157, 'div', [['class',
                 'container']], null, null, null, null, null)),
         i1.ɵdid(933888, null, 0, i3.ClassDirective, [i4.MediaMonitor, i1.IterableDiffers,
             i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
                 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(),
-            i1.ɵeld(0, null, null, 156, 'form', [['novalidate', '']], [[2,
+            i1.ɵeld(0, null, null, 153, 'form', [['novalidate', '']], [[2,
                     'ng-untouched', null], [2, 'ng-touched', null], [2, 'ng-pristine',
                     null], [2, 'ng-dirty', null], [2, 'ng-valid', null],
                 [2, 'ng-invalid', null], [2, 'ng-pending', null]], [[null,
@@ -422,14 +422,12 @@ export function View_RegisterComponent_0(_l) {
         }, null, null)), i1.ɵdid(16384, null, 0, i6.DefaultValueAccessor, [i1.Renderer, i1.ElementRef, [2, i6.COMPOSITION_BUFFER_MODE]], null, null), i1.ɵprd(1024, null, i6.NG_VALUE_ACCESSOR, function (p0_0) {
             return [p0_0];
         }, [i6.DefaultValueAccessor]), i1.ɵdid(671744, null, 0, i6.FormControlName, [[3, i6.ControlContainer], [8, null], [8, null], [2, i6.NG_VALUE_ACCESSOR]], { name: [0, 'name'] }, null), i1.ɵprd(2048, null, i6.NgControl, null, [i6.FormControlName]), i1.ɵdid(16384, [[25, 4]], 0, i2.MdInputDirective, [i1.ElementRef, i1.Renderer2, i2.Platform, [2, i6.NgControl], [2, i6.NgForm], [2,
-                i6.FormGroupDirective]], { placeholder: [0, 'placeholder'], type: [1, 'type'] }, null), i1.ɵdid(16384, null, 0, i6.NgControlStatus, [i6.NgControl], null, null), (_l()(), i1.ɵted(1, ['\n      '])), (_l()(), i1.ɵand(16777216, null, 5, 1, null, View_RegisterComponent_6)), i1.ɵdid(16384, null, 0, i11.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(1, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 1, 'p', [], null, null, null, null, null)),
-        (_l()(), i1.ɵted(null, ['\n      Registration fee Rupees 100 should be paid on campus\n    '])),
-        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class',
-                'mat-raised-button'], ['color', 'primary'], ['md-raised-button', ''], ['type',
-                'submit']], [[8, 'disabled', 0]], null, null, i10.View_MdButton_0, i10.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i2.MdPrefixRejector, [[2, i2.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
-        i1.ɵdid(180224, null, 0, i2.MdButton, [i1.Renderer2, i1.ElementRef, i2.Platform,
-            i2.FocusOriginMonitor], { disabled: [0, 'disabled'], color: [1, 'color'] }, null),
-        i1.ɵdid(16384, null, 0, i2.MdRaisedButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['Submit'])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class',
+                i6.FormGroupDirective]], { placeholder: [0, 'placeholder'], type: [1, 'type'] }, null), i1.ɵdid(16384, null, 0, i6.NgControlStatus, [i6.NgControl], null, null), (_l()(), i1.ɵted(1, ['\n      '])), (_l()(), i1.ɵand(16777216, null, 5, 1, null, View_RegisterComponent_6)), i1.ɵdid(16384, null, 0, i11.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(1, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)),
+        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-raised-button'], ['color',
+                'primary'], ['md-raised-button', ''], ['type', 'submit']], [[8, 'disabled',
+                0]], null, null, i10.View_MdButton_0, i10.RenderType_MdButton)),
+        i1.ɵdid(16384, null, 0, i2.MdPrefixRejector, [[2, i2.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i2.MdButton, [i1.Renderer2, i1.ElementRef, i2.Platform, i2.FocusOriginMonitor], { disabled: [0, 'disabled'], color: [1, 'color'] }, null), i1.ɵdid(16384, null, 0, i2.MdRaisedButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['Submit'])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class',
                 'mat-raised-button'], ['color', 'warn'], ['md-raised-button', ''], ['type', 'reset']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             var _co = _v.component;
@@ -502,9 +500,9 @@ export function View_RegisterComponent_0(_l) {
         _ck(_v, 138, 0, currVal_155);
         var currVal_157 = !_co.rForm.valid;
         var currVal_158 = 'primary';
-        _ck(_v, 150, 0, currVal_157, currVal_158);
+        _ck(_v, 147, 0, currVal_157, currVal_158);
         var currVal_160 = 'warn';
-        _ck(_v, 156, 0, currVal_160);
+        _ck(_v, 153, 0, currVal_160);
     }, function (_ck, _v) {
         var currVal_1 = i1.ɵnov(_v, 7).ngClassUntouched;
         var currVal_2 = i1.ɵnov(_v, 7).ngClassTouched;
@@ -651,10 +649,10 @@ export function View_RegisterComponent_0(_l) {
         _ck(_v, 129, 1, [currVal_139, currVal_140, currVal_141, currVal_142, currVal_143,
             currVal_144, currVal_145, currVal_146, currVal_147, currVal_148, currVal_149,
             currVal_150, currVal_151]);
-        var currVal_156 = (i1.ɵnov(_v, 150).disabled || null);
-        _ck(_v, 148, 0, currVal_156);
-        var currVal_159 = (i1.ɵnov(_v, 156).disabled || null);
-        _ck(_v, 154, 0, currVal_159);
+        var currVal_156 = (i1.ɵnov(_v, 147).disabled || null);
+        _ck(_v, 145, 0, currVal_156);
+        var currVal_159 = (i1.ɵnov(_v, 153).disabled || null);
+        _ck(_v, 151, 0, currVal_159);
     });
 }
 export function View_RegisterComponent_Host_0(_l) {

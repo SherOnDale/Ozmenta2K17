@@ -45,8 +45,8 @@ router.post('/registerUser', function (req, res, next) {
             from: 'support@ozmenta2k17.com',
             to: user.email,
             subject: 'Ozmenta2K17 Account Activation Link',
-            text: "Hello " + user.fName + " " + user.lName + ", Thank you for registering at Ozmenta2K17.com. Please click on the following link to complete your registration: http://www.ozmenta2k17.com/activate/" + user.token,
-            html: "Hello <strong>" + user.fName + " " + user.lName + "</strong>, Thank you for registering at Ozmenta2K17.com. Please click on the link below to complete your registration:<br></br><a href=\"http://www.ozmenta2k17.com/activate/" + user.token + "\">http://www,ozmenta2k17.com/activate</a>"
+            text: "Hello " + user.fName + " " + user.lName + ", Thank you for registering at Ozmenta2K17.com. Please note that Rupees 100 should be paid on campus during the event as registration fee. Click on the following link to complete your registration: http://www.ozmenta2k17.com/activate/" + user.token,
+            html: "Hello <strong>" + user.fName + " " + user.lName + "</strong>, Thank you for registering at Ozmenta2K17.com. Please note that Rupees 100 should be paid on campus during the event as registration fee. Click on the link below to complete your registration:<br></br><a href=\"http://www.ozmenta2k17.com/activate/" + user.token + "\">http://www,ozmenta2k17.com/activate</a>"
         };
         transport.sendMail(email, function (error, response) {
             if (error) {
@@ -92,7 +92,8 @@ router.post('/loginUser', function (req, res, next) {
         res.status(201).json({
             message: 'Successfully logged in',
             token: doc.token,
-            userId: doc.email
+            userId: doc.email,
+            eventsRegistered: doc.eventsRegistered
         });
     });
 });
@@ -147,7 +148,31 @@ router.post('/registerEvent', function (req, res, next) {
             if (err)
                 return res.status(500);
             return res.status(200).json({
+                eventsRegistered: doc.eventsRegistered,
                 message: 'Successfully Registered'
+            });
+        });
+    });
+});
+router.post('/cancelEvent', function (req, res, next) {
+    console.log(req.body);
+    User.findOne({
+        token: req.body.token
+    }, function (err, doc) {
+        if (err) {
+            return res.status(500);
+        }
+        else if (!doc) {
+            return res.status(401);
+        }
+        console.log(doc);
+        doc.eventsRegistered[req.body.eventId] = false;
+        doc.save(function (err) {
+            if (err)
+                return res.status(500);
+            return res.status(200).json({
+                eventsRegistered: doc.eventsRegistered,
+                message: 'Your Registration Is Cancelled'
             });
         });
     });

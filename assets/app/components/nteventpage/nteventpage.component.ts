@@ -5,6 +5,7 @@ import {UserService} from '../../services/user.service';
 import {More} from '../../models/more.model';
 import {MoreComponent} from '../more/more.component';
 import {RegisterEventComponent} from '../registerevent/registerevent.component';
+import {CancelEventComponent} from '../cancelevent/cancelevent.component';
 
 @Component({
   selector: 'app-nteventpage',
@@ -14,6 +15,14 @@ import {RegisterEventComponent} from '../registerevent/registerevent.component';
 
 export class NTEventPageComponent implements OnInit {
   data: More[];
+  nteventsRegistered = {
+    e31: false,
+    e32: false,
+    e33: false,
+    e34: false,
+    e35: false,
+    e36: false
+  };
 
     ngOnInit() {
     this.data = this.moreService.getNMore();
@@ -28,10 +37,17 @@ export class NTEventPageComponent implements OnInit {
         const body = {
           eventId: eventId,
           token: this.userService.getToken()
-        }
+        };
         this.userService.registerEvent(body)
           .subscribe(
             data => {
+              localStorage.setItem('eventsRegistered', data.eventsRegistered);
+              this.nteventsRegistered.e31 = data.eventsRegistered.e31;
+              this.nteventsRegistered.e32 = data.eventsRegistered.e32;
+              this.nteventsRegistered.e33 = data.eventsRegistered.e33;
+              this.nteventsRegistered.e34 = data.eventsRegistered.e34;
+              this.nteventsRegistered.e35 = data.eventsRegistered.e35;
+              this.nteventsRegistered.e36 = data.eventsRegistered.e36;
               this.snackBar.open('Successfully Registerd', 'OK');
             }, 
             error => {
@@ -41,6 +57,34 @@ export class NTEventPageComponent implements OnInit {
       }
     });
     }
+
+  cancelRegistration(eventId) {
+      const dialogRef = this.dialog.open(CancelEventComponent);
+      dialogRef.afterClosed().subscribe(result => {
+        if(result == "confirm") {
+          const body = {
+            eventId: eventId,
+            token: this.userService.getToken()
+          };
+          this.userService.cancelEvent(body)
+            .subscribe(
+              data => {
+              localStorage.setItem('eventsRegistered', data.eventsRegistered);
+              this.nteventsRegistered.e31 = data.eventsRegistered.e31;
+              this.nteventsRegistered.e32 = data.eventsRegistered.e32;
+              this.nteventsRegistered.e33 = data.eventsRegistered.e33;
+              this.nteventsRegistered.e34 = data.eventsRegistered.e34;
+              this.nteventsRegistered.e35 = data.eventsRegistered.e35;
+              this.nteventsRegistered.e36 = data.eventsRegistered.e36;
+              this.snackBar.open('Your Registration Is Cancelled', 'OK');
+              },
+            error => {
+              this.snackBar.open('Cancellation Failed. Please Try Again Later', 'OK');
+            }
+            );
+        }
+      });
+  }
 
   openDialog(data) {
     const config = new MdDialogConfig();

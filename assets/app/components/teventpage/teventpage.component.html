@@ -23,7 +23,8 @@
         </md-card-header>
         <img md-card-image src="/images/ctc.jpg">
         <md-card-actions>
-          <button md-button (click)="openConfirmation(data[1].id)">REGISTER</button>
+          <button md-button (click)="openConfirmation(data[1].id)" *ngIf="!nteventsRegistered.e22">REGISTER</button>
+          <button md-button (click)="cancelRegistration(data[1].id)" *ngIf="nteventsRegistered.e22">CANCEL</button>
           <button md-button (click)="openDialog(data[1].description)">MORE</button>
         </md-card-actions>
       </md-card>
@@ -37,7 +38,8 @@
         </md-card-header>
         <img md-card-image src="/images/debugging.jpg">
         <md-card-actions>
-          <button md-button (click)="openConfirmation(data[2].id)">REGISTER</button>
+          <button md-button (click)="openConfirmation(data[2].id)" *ngIf="!nteventsRegistered.e23">REGISTER</button>
+          <button md-button (click)="cancelRegistration(data[2].id)" *ngIf="nteventsRegistered.e23">CANCEL</button>
           <button md-button (click)="openDialog(data[2].description)">MORE</button>
         </md-card-actions>
       </md-card>
@@ -53,7 +55,8 @@
         </md-card-header>
         <img md-card-image src="/images/ppt.jpg">
         <md-card-actions>
-          <button md-button (click)="openConfirmation(data[3].id)">REGISTER</button>
+          <button md-button (click)="openConfirmation(data[3].id)" *ngIf="!nteventsRegistered.e24">REGISTER</button>
+          <button md-button (click)="cancelRegistration(data[3].id)" *ngIf="nteventsRegistered.e24">CANCEL</button>
           <button md-button (click)="openDialog(data[3].description)">MORE</button>
         </md-card-actions>
       </md-card>
@@ -67,7 +70,8 @@
         </md-card-header>
         <img md-card-image src="/images/ctf.jpg">
         <md-card-actions>
-          <button md-button (click)="openConfirmation(data[4].id)">REGISTER</button>
+          <button md-button (click)="openConfirmation(data[4].id)" *ngIf="!nteventsRegistered.e25">REGISTER</button>
+          <button md-button (click)="cancelRegistration(data[4].id)" *ngIf="nteventsRegistered.e25">CANCEL</button>
           <button md-button (click)="openDialog(data[4].description)">MORE</button>
         </md-card-actions>
       </md-card>
@@ -81,7 +85,8 @@
         </md-card-header>
         <img md-card-image src="/images/mamu.jpg">
         <md-card-actions>
-          <button md-button (click)="openConfirmation(data[5].id)">REGISTER</button>
+          <button md-button (click)="openConfirmation(data[5].id)" *ngIf="!nteventsRegistered.e26">REGISTER</button>
+          <button md-button (click)="cancelRegistration(data[5].id)" *ngIf="nteventsRegistered.e26">CANCEL</button>
           <button md-button (click)="openDialog(data[5].description)">MORE</button>
         </md-card-actions>
       </md-card>

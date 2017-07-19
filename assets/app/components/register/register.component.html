@@ -29,9 +29,6 @@
       <input type="password" mdInput placeholder="Password" formControlName="password">
       <md-hint class="app-alert" *ngIf="(rForm.controls['password'].pristine || rForm.controls['password'].value == '') && rForm.controls['password'].touched">This field is required</md-hint>
     </md-input-container>
-    <p>
-      Registration fee Rupees 100 should be paid on campus
-    </p>
     <br>
     <br>
     <button type="submit" md-raised-button color="primary" [disabled]="!rForm.valid">Submit</button>
