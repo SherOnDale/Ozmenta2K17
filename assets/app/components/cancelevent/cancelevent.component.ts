@@ -1,5 +1,6 @@
 import {Component} from '@angular/core';
 import {MdDialogRef} from '@angular/material';
+import {UserService} from '../../services/user.service';
 
 @Component({
     selector: 'app-cancelevent',
@@ -8,5 +9,8 @@ import {MdDialogRef} from '@angular/material';
 })
 
 export class CancelEventComponent {
-    constructor(private dialogRef: MdDialogRef<CancelEventComponent>) {}
+    isLoggedIn: boolean;
+    constructor(private dialogRef: MdDialogRef<CancelEventComponent>, private userService: UserService) {
+        this.isLoggedIn = this.userService.isLoggedIn();
+    }
 }

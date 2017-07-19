@@ -8,51 +8,115 @@ import * as i0 from './cancelevent.component.css.shim.ngstyle';
 import * as i1 from '@angular/core';
 import * as i2 from '@angular/material';
 import * as i3 from '../../../../node_modules/@angular/material/typings/index.ngfactory';
-import * as i4 from './cancelevent.component';
+import * as i4 from '@angular/common';
+import * as i5 from './cancelevent.component';
+import * as i6 from '../../services/user.service';
 var styles_CancelEventComponent = [i0.styles];
 export var RenderType_CancelEventComponent = i1.ɵcrt({ encapsulation: 0,
     styles: styles_CancelEventComponent, data: {} });
-export function View_CancelEventComponent_0(_l) {
+function View_CancelEventComponent_1(_l) {
     return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 2, 'h1', [['class',
-                'mat-dialog-title'], ['md-dialog-title', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogTitle, [], null, null), (_l()(), i1.ɵted(null, ['Confirmation'])),
-        (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class', 'mat-dialog-content'], ['md-dialog-content', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogContent, [], null, null),
-        (_l()(), i1.ɵted(null, ['Please confirm that you want to cancel the registration to this event'])),
-        (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(0, null, null, 16, 'div', [['class', 'mat-dialog-actions'], ['md-dialog-actions', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogActions, [], null, null),
-        (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 5, 'button', [['class', 'mat-button'], ['md-button', ''], ['md-dialog-close', 'confirm'],
+                'mat-dialog-title'], ['md-dialog-title', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogTitle, [], null, null), (_l()(), i1.ɵted(null, ['Confirmation']))], null, null);
+}
+function View_CancelEventComponent_2(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class',
+                'mat-dialog-content'], ['md-dialog-content', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogContent, [], null, null), (_l()(), i1.ɵted(null, ['Please confirm that you want to cancel the registration to this event']))], null, null);
+}
+function View_CancelEventComponent_3(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 16, 'div', [['class',
+                'mat-dialog-actions'], ['md-dialog-actions', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogActions, [], null, null), (_l()(), i1.ɵted(null, ['\n  '])),
+        (_l()(), i1.ɵeld(0, null, null, 5, 'button', [['class', 'mat-button'],
+            ['md-button', ''], ['md-dialog-close', 'confirm'], ['type', 'button']], [[8, 'disabled',
+                0], [1, 'aria-label', 0]], [[null, 'click']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 7).dialogRef.close(i1.ɵnov(_v, 7).dialogResult) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, i3.View_MdButton_0, i3.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i2.MdPrefixRejector, [[2, i2.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i2.MdButton, [i1.Renderer2,
+            i1.ElementRef, i2.Platform, i2.FocusOriginMonitor], null, null),
+        i1.ɵdid(16384, null, 0, i2.MdButtonCssMatStyler, [], null, null), i1.ɵdid(16384, null, 0, i2.MdDialogClose, [i2.MdDialogRef], { dialogResult: [0, 'dialogResult'] }, null), (_l()(), i1.ɵted(0, ['Yes'])),
+        (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 5, 'button', [['class', 'mat-button'], ['md-button', ''], ['md-dialog-close', 'cancel'],
             ['type', 'button']], [[8, 'disabled', 0], [1, 'aria-label', 0]], [[null,
                 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 15).dialogRef.close(i1.ɵnov(_v, 15).dialogResult) !== false);
-                ad = (pd_0 && ad);
-            }
-            return ad;
-        }, i3.View_MdButton_0, i3.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i2.MdPrefixRejector, [[2, i2.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i2.MdButton, [i1.Renderer2, i1.ElementRef, i2.Platform, i2.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i2.MdButtonCssMatStyler, [], null, null), i1.ɵdid(16384, null, 0, i2.MdDialogClose, [i2.MdDialogRef], { dialogResult: [0, 'dialogResult'] }, null), (_l()(),
-            i1.ɵted(0, ['Yes'])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 5, 'button', [['class', 'mat-button'], ['md-button',
-                ''], ['md-dialog-close', 'cancel'], ['type', 'button']], [[8, 'disabled', 0],
-            [1, 'aria-label', 0]], [[null, 'click']], function (_v, en, $event) {
-            var ad = true;
-            if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 22).dialogRef.close(i1.ɵnov(_v, 22).dialogResult) !== false);
+                var pd_0 = (i1.ɵnov(_v, 14).dialogRef.close(i1.ɵnov(_v, 14).dialogResult) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
         }, i3.View_MdButton_0, i3.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i2.MdPrefixRejector, [[2, i2.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i2.MdButton, [i1.Renderer2, i1.ElementRef, i2.Platform, i2.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i2.MdButtonCssMatStyler, [], null, null), i1.ɵdid(16384, null, 0, i2.MdDialogClose, [i2.MdDialogRef], { dialogResult: [0, 'dialogResult'] }, null), (_l()(),
             i1.ɵted(0, ['No'])), (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
         var currVal_2 = 'confirm';
-        _ck(_v, 15, 0, currVal_2);
+        _ck(_v, 7, 0, currVal_2);
         var currVal_5 = 'cancel';
-        _ck(_v, 22, 0, currVal_5);
+        _ck(_v, 14, 0, currVal_5);
     }, function (_ck, _v) {
-        var currVal_0 = (i1.ɵnov(_v, 13).disabled || null);
-        var currVal_1 = i1.ɵnov(_v, 15).ariaLabel;
-        _ck(_v, 11, 0, currVal_0, currVal_1);
-        var currVal_3 = (i1.ɵnov(_v, 20).disabled || null);
-        var currVal_4 = i1.ɵnov(_v, 22).ariaLabel;
-        _ck(_v, 18, 0, currVal_3, currVal_4);
+        var currVal_0 = (i1.ɵnov(_v, 5).disabled || null);
+        var currVal_1 = i1.ɵnov(_v, 7).ariaLabel;
+        _ck(_v, 3, 0, currVal_0, currVal_1);
+        var currVal_3 = (i1.ɵnov(_v, 12).disabled || null);
+        var currVal_4 = i1.ɵnov(_v, 14).ariaLabel;
+        _ck(_v, 10, 0, currVal_3, currVal_4);
     });
 }
-export function View_CancelEventComponent_Host_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 1, 'app-cancelevent', [], null, null, null, View_CancelEventComponent_0, RenderType_CancelEventComponent)), i1.ɵdid(49152, null, 0, i4.CancelEventComponent, [i2.MdDialogRef], null, null)], null, null);
+function View_CancelEventComponent_4(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 2, 'h1', [['class',
+                'mat-dialog-title'], ['md-dialog-title', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogTitle, [], null, null), (_l()(), i1.ɵted(null, ['Validation']))], null, null);
 }
-export var CancelEventComponentNgFactory = i1.ɵccf('app-cancelevent', i4.CancelEventComponent, View_CancelEventComponent_Host_0, {}, {}, []);
+function View_CancelEventComponent_5(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class',
+                'mat-dialog-content'], ['md-dialog-content', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogContent, [], null, null), (_l()(), i1.ɵted(null, ['Please login to perform this action']))], null, null);
+}
+function View_CancelEventComponent_6(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 9, 'div', [['class',
+                'mat-dialog-actions'], ['md-dialog-actions', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogActions, [], null, null), (_l()(), i1.ɵted(null, ['\n  '])),
+        (_l()(), i1.ɵeld(0, null, null, 5, 'button', [['class', 'mat-button'],
+            ['md-button', ''], ['md-dialog-close', 'ok'], ['type', 'button']], [[8, 'disabled',
+                0], [1, 'aria-label', 0]], [[null, 'click']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 7).dialogRef.close(i1.ɵnov(_v, 7).dialogResult) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, i3.View_MdButton_0, i3.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i2.MdPrefixRejector, [[2, i2.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i2.MdButton, [i1.Renderer2,
+            i1.ElementRef, i2.Platform, i2.FocusOriginMonitor], null, null),
+        i1.ɵdid(16384, null, 0, i2.MdButtonCssMatStyler, [], null, null), i1.ɵdid(16384, null, 0, i2.MdDialogClose, [i2.MdDialogRef], { dialogResult: [0, 'dialogResult'] }, null), (_l()(), i1.ɵted(0, ['OK'])),
+        (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
+        var currVal_2 = 'ok';
+        _ck(_v, 7, 0, currVal_2);
+    }, function (_ck, _v) {
+        var currVal_0 = (i1.ɵnov(_v, 5).disabled || null);
+        var currVal_1 = i1.ɵnov(_v, 7).ariaLabel;
+        _ck(_v, 3, 0, currVal_0, currVal_1);
+    });
+}
+export function View_CancelEventComponent_0(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵand(16777216, null, null, 1, null, View_CancelEventComponent_1)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef,
+            i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_CancelEventComponent_2)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef,
+            i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_CancelEventComponent_3)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef,
+            i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_CancelEventComponent_4)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef,
+            i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_CancelEventComponent_5)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef,
+            i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_CancelEventComponent_6)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef,
+            i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null)], function (_ck, _v) {
+        var _co = _v.component;
+        var currVal_0 = _co.isLoggedIn;
+        _ck(_v, 1, 0, currVal_0);
+        var currVal_1 = _co.isLoggedIn;
+        _ck(_v, 4, 0, currVal_1);
+        var currVal_2 = _co.isLoggedIn;
+        _ck(_v, 7, 0, currVal_2);
+        var currVal_3 = !_co.isLoggedIn;
+        _ck(_v, 10, 0, currVal_3);
+        var currVal_4 = !_co.isLoggedIn;
+        _ck(_v, 13, 0, currVal_4);
+        var currVal_5 = !_co.isLoggedIn;
+        _ck(_v, 16, 0, currVal_5);
+    }, null);
+}
+export function View_CancelEventComponent_Host_0(_l) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 1, 'app-cancelevent', [], null, null, null, View_CancelEventComponent_0, RenderType_CancelEventComponent)), i1.ɵdid(49152, null, 0, i5.CancelEventComponent, [i2.MdDialogRef, i6.UserService], null, null)], null, null);
+}
+export var CancelEventComponentNgFactory = i1.ɵccf('app-cancelevent', i5.CancelEventComponent, View_CancelEventComponent_Host_0, {}, {}, []);

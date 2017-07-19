@@ -10,48 +10,54 @@ import * as i0 from './cancelevent.component.css.shim.ngstyle';
 import * as i1 from '@angular/core';
 import * as i2 from '@angular/material';
 import * as i3 from '../../../../node_modules/@angular/material/typings/index.ngfactory';
-import * as i4 from './cancelevent.component';
+import * as i4 from '@angular/common';
+import * as i5 from './cancelevent.component';
+import * as i6 from '../../services/user.service';
 const styles_CancelEventComponent:any[] = [i0.styles];
 export const RenderType_CancelEventComponent:i1.RendererType2 = i1.ɵcrt({encapsulation:0,
     styles:styles_CancelEventComponent,data:{}});
-export function View_CancelEventComponent_0(_l:any):i1.ɵViewDefinition {
+function View_CancelEventComponent_1(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),2,'h1',[['class',
       'mat-dialog-title'],['md-dialog-title','']],(null as any),(null as any),(null as any),
       (null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i2.MdDialogTitle,
-      ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),['Confirmation'])),
-      (_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-          2,'div',[['class','mat-dialog-content'],['md-dialog-content','']],(null as any),
-          (null as any),(null as any),(null as any),(null as any))),i1.ɵdid(16384,
-          (null as any),0,i2.MdDialogContent,([] as any[]),(null as any),(null as any)),
-      (_l()(),i1.ɵted((null as any),['Please confirm that you want to cancel the registration to this event'])),
-      (_l()(),i1.ɵted((null as any),['\n'])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-          16,'div',[['class','mat-dialog-actions'],['md-dialog-actions','']],(null as any),
-          (null as any),(null as any),(null as any),(null as any))),i1.ɵdid(16384,
-          (null as any),0,i2.MdDialogActions,([] as any[]),(null as any),(null as any)),
+      ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),['Confirmation']))],
+      (null as any),(null as any));
+}
+function View_CancelEventComponent_2(_l:any):i1.ɵViewDefinition {
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),2,'div',[['class',
+      'mat-dialog-content'],['md-dialog-content','']],(null as any),(null as any),
+      (null as any),(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i2.MdDialogContent,
+      ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),['Please confirm that you want to cancel the registration to this event']))],
+      (null as any),(null as any));
+}
+function View_CancelEventComponent_3(_l:any):i1.ɵViewDefinition {
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),16,'div',[['class',
+      'mat-dialog-actions'],['md-dialog-actions','']],(null as any),(null as any),
+      (null as any),(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i2.MdDialogActions,
+      ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),['\n  '])),
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),5,'button',[['class','mat-button'],
+          ['md-button',''],['md-dialog-close','confirm'],['type','button']],[[8,'disabled',
+          0],[1,'aria-label',0]],[[(null as any),'click']],(_v,en,$event) => {
+        var ad:boolean = true;
+        if (('click' === en)) {
+          const pd_0:any = ((<any>i1.ɵnov(_v,7).dialogRef.close(i1.ɵnov(_v,7).dialogResult)) !== false);
+          ad = (pd_0 && ad);
+        }
+        return ad;
+      },i3.View_MdButton_0,i3.RenderType_MdButton)),i1.ɵdid(16384,(null as any),0,
+          i2.MdPrefixRejector,[[2,i2.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],(null as any),
+          (null as any)),i1.ɵdid(180224,(null as any),0,i2.MdButton,[i1.Renderer2,
+          i1.ElementRef,i2.Platform,i2.FocusOriginMonitor],(null as any),(null as any)),
+      i1.ɵdid(16384,(null as any),0,i2.MdButtonCssMatStyler,([] as any[]),(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i2.MdDialogClose,[i2.MdDialogRef],
+          {dialogResult:[0,'dialogResult']},(null as any)),(_l()(),i1.ɵted(0,['Yes'])),
       (_l()(),i1.ɵted((null as any),['\n  '])),(_l()(),i1.ɵeld(0,(null as any),(null as any),
-          5,'button',[['class','mat-button'],['md-button',''],['md-dialog-close','confirm'],
+          5,'button',[['class','mat-button'],['md-button',''],['md-dialog-close','cancel'],
               ['type','button']],[[8,'disabled',0],[1,'aria-label',0]],[[(null as any),
               'click']],(_v,en,$event) => {
             var ad:boolean = true;
             if (('click' === en)) {
-              const pd_0:any = ((<any>i1.ɵnov(_v,15).dialogRef.close(i1.ɵnov(_v,15).dialogResult)) !== false);
-              ad = (pd_0 && ad);
-            }
-            return ad;
-          },i3.View_MdButton_0,i3.RenderType_MdButton)),i1.ɵdid(16384,(null as any),
-          0,i2.MdPrefixRejector,[[2,i2.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],
-          (null as any),(null as any)),i1.ɵdid(180224,(null as any),0,i2.MdButton,
-          [i1.Renderer2,i1.ElementRef,i2.Platform,i2.FocusOriginMonitor],(null as any),
-          (null as any)),i1.ɵdid(16384,(null as any),0,i2.MdButtonCssMatStyler,([] as any[]),
-          (null as any),(null as any)),i1.ɵdid(16384,(null as any),0,i2.MdDialogClose,
-          [i2.MdDialogRef],{dialogResult:[0,'dialogResult']},(null as any)),(_l()(),
-          i1.ɵted(0,['Yes'])),(_l()(),i1.ɵted((null as any),['\n  '])),(_l()(),i1.ɵeld(0,
-          (null as any),(null as any),5,'button',[['class','mat-button'],['md-button',
-              ''],['md-dialog-close','cancel'],['type','button']],[[8,'disabled',0],
-              [1,'aria-label',0]],[[(null as any),'click']],(_v,en,$event) => {
-            var ad:boolean = true;
-            if (('click' === en)) {
-              const pd_0:any = ((<any>i1.ɵnov(_v,22).dialogRef.close(i1.ɵnov(_v,22).dialogResult)) !== false);
+              const pd_0:any = ((<any>i1.ɵnov(_v,14).dialogRef.close(i1.ɵnov(_v,14).dialogResult)) !== false);
               ad = (pd_0 && ad);
             }
             return ad;
@@ -64,24 +70,103 @@ export function View_CancelEventComponent_0(_l:any):i1.ɵViewDefinition {
           [i2.MdDialogRef],{dialogResult:[0,'dialogResult']},(null as any)),(_l()(),
           i1.ɵted(0,['No'])),(_l()(),i1.ɵted((null as any),['\n']))],(_ck,_v) => {
     const currVal_2:any = 'confirm';
-    _ck(_v,15,0,currVal_2);
+    _ck(_v,7,0,currVal_2);
     const currVal_5:any = 'cancel';
-    _ck(_v,22,0,currVal_5);
+    _ck(_v,14,0,currVal_5);
   },(_ck,_v) => {
-    const currVal_0:any = (i1.ɵnov(_v,13).disabled || (null as any));
-    const currVal_1:any = i1.ɵnov(_v,15).ariaLabel;
-    _ck(_v,11,0,currVal_0,currVal_1);
-    const currVal_3:any = (i1.ɵnov(_v,20).disabled || (null as any));
-    const currVal_4:any = i1.ɵnov(_v,22).ariaLabel;
-    _ck(_v,18,0,currVal_3,currVal_4);
+    const currVal_0:any = (i1.ɵnov(_v,5).disabled || (null as any));
+    const currVal_1:any = i1.ɵnov(_v,7).ariaLabel;
+    _ck(_v,3,0,currVal_0,currVal_1);
+    const currVal_3:any = (i1.ɵnov(_v,12).disabled || (null as any));
+    const currVal_4:any = i1.ɵnov(_v,14).ariaLabel;
+    _ck(_v,10,0,currVal_3,currVal_4);
   });
+}
+function View_CancelEventComponent_4(_l:any):i1.ɵViewDefinition {
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),2,'h1',[['class',
+      'mat-dialog-title'],['md-dialog-title','']],(null as any),(null as any),(null as any),
+      (null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i2.MdDialogTitle,
+      ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),['Validation']))],
+      (null as any),(null as any));
+}
+function View_CancelEventComponent_5(_l:any):i1.ɵViewDefinition {
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),2,'div',[['class',
+      'mat-dialog-content'],['md-dialog-content','']],(null as any),(null as any),
+      (null as any),(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i2.MdDialogContent,
+      ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),['Please login to perform this action']))],
+      (null as any),(null as any));
+}
+function View_CancelEventComponent_6(_l:any):i1.ɵViewDefinition {
+  return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),9,'div',[['class',
+      'mat-dialog-actions'],['md-dialog-actions','']],(null as any),(null as any),
+      (null as any),(null as any),(null as any))),i1.ɵdid(16384,(null as any),0,i2.MdDialogActions,
+      ([] as any[]),(null as any),(null as any)),(_l()(),i1.ɵted((null as any),['\n  '])),
+      (_l()(),i1.ɵeld(0,(null as any),(null as any),5,'button',[['class','mat-button'],
+          ['md-button',''],['md-dialog-close','ok'],['type','button']],[[8,'disabled',
+          0],[1,'aria-label',0]],[[(null as any),'click']],(_v,en,$event) => {
+        var ad:boolean = true;
+        if (('click' === en)) {
+          const pd_0:any = ((<any>i1.ɵnov(_v,7).dialogRef.close(i1.ɵnov(_v,7).dialogResult)) !== false);
+          ad = (pd_0 && ad);
+        }
+        return ad;
+      },i3.View_MdButton_0,i3.RenderType_MdButton)),i1.ɵdid(16384,(null as any),0,
+          i2.MdPrefixRejector,[[2,i2.MATERIAL_COMPATIBILITY_MODE],i1.ElementRef],(null as any),
+          (null as any)),i1.ɵdid(180224,(null as any),0,i2.MdButton,[i1.Renderer2,
+          i1.ElementRef,i2.Platform,i2.FocusOriginMonitor],(null as any),(null as any)),
+      i1.ɵdid(16384,(null as any),0,i2.MdButtonCssMatStyler,([] as any[]),(null as any),
+          (null as any)),i1.ɵdid(16384,(null as any),0,i2.MdDialogClose,[i2.MdDialogRef],
+          {dialogResult:[0,'dialogResult']},(null as any)),(_l()(),i1.ɵted(0,['OK'])),
+      (_l()(),i1.ɵted((null as any),['\n']))],(_ck,_v) => {
+    const currVal_2:any = 'ok';
+    _ck(_v,7,0,currVal_2);
+  },(_ck,_v) => {
+    const currVal_0:any = (i1.ɵnov(_v,5).disabled || (null as any));
+    const currVal_1:any = i1.ɵnov(_v,7).ariaLabel;
+    _ck(_v,3,0,currVal_0,currVal_1);
+  });
+}
+export function View_CancelEventComponent_0(_l:any):i1.ɵViewDefinition {
+  return i1.ɵvid(0,[(_l()(),i1.ɵand(16777216,(null as any),(null as any),1,(null as any),
+      View_CancelEventComponent_1)),i1.ɵdid(16384,(null as any),0,i4.NgIf,[i1.ViewContainerRef,
+      i1.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),(_l()(),i1.ɵted((null as any),
+      ['\n'])),(_l()(),i1.ɵand(16777216,(null as any),(null as any),1,(null as any),
+      View_CancelEventComponent_2)),i1.ɵdid(16384,(null as any),0,i4.NgIf,[i1.ViewContainerRef,
+      i1.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),(_l()(),i1.ɵted((null as any),
+      ['\n'])),(_l()(),i1.ɵand(16777216,(null as any),(null as any),1,(null as any),
+      View_CancelEventComponent_3)),i1.ɵdid(16384,(null as any),0,i4.NgIf,[i1.ViewContainerRef,
+      i1.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),(_l()(),i1.ɵted((null as any),
+      ['\n'])),(_l()(),i1.ɵand(16777216,(null as any),(null as any),1,(null as any),
+      View_CancelEventComponent_4)),i1.ɵdid(16384,(null as any),0,i4.NgIf,[i1.ViewContainerRef,
+      i1.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),(_l()(),i1.ɵted((null as any),
+      ['\n'])),(_l()(),i1.ɵand(16777216,(null as any),(null as any),1,(null as any),
+      View_CancelEventComponent_5)),i1.ɵdid(16384,(null as any),0,i4.NgIf,[i1.ViewContainerRef,
+      i1.TemplateRef],{ngIf:[0,'ngIf']},(null as any)),(_l()(),i1.ɵted((null as any),
+      ['\n'])),(_l()(),i1.ɵand(16777216,(null as any),(null as any),1,(null as any),
+      View_CancelEventComponent_6)),i1.ɵdid(16384,(null as any),0,i4.NgIf,[i1.ViewContainerRef,
+      i1.TemplateRef],{ngIf:[0,'ngIf']},(null as any))],(_ck,_v) => {
+    var _co:i5.CancelEventComponent = _v.component;
+    const currVal_0:any = _co.isLoggedIn;
+    _ck(_v,1,0,currVal_0);
+    const currVal_1:any = _co.isLoggedIn;
+    _ck(_v,4,0,currVal_1);
+    const currVal_2:any = _co.isLoggedIn;
+    _ck(_v,7,0,currVal_2);
+    const currVal_3:boolean = !_co.isLoggedIn;
+    _ck(_v,10,0,currVal_3);
+    const currVal_4:boolean = !_co.isLoggedIn;
+    _ck(_v,13,0,currVal_4);
+    const currVal_5:boolean = !_co.isLoggedIn;
+    _ck(_v,16,0,currVal_5);
+  },(null as any));
 }
 export function View_CancelEventComponent_Host_0(_l:any):i1.ɵViewDefinition {
   return i1.ɵvid(0,[(_l()(),i1.ɵeld(0,(null as any),(null as any),1,'app-cancelevent',
       ([] as any[]),(null as any),(null as any),(null as any),View_CancelEventComponent_0,
-      RenderType_CancelEventComponent)),i1.ɵdid(49152,(null as any),0,i4.CancelEventComponent,
-      [i2.MdDialogRef],(null as any),(null as any))],(null as any),(null as any));
+      RenderType_CancelEventComponent)),i1.ɵdid(49152,(null as any),0,i5.CancelEventComponent,
+      [i2.MdDialogRef,i6.UserService],(null as any),(null as any))],(null as any),
+      (null as any));
 }
-export const CancelEventComponentNgFactory:i1.ComponentFactory<i4.CancelEventComponent> = i1.ɵccf('app-cancelevent',
-    i4.CancelEventComponent,View_CancelEventComponent_Host_0,{},{},([] as any[]));
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvY2FuY2VsZXZlbnQvY2FuY2VsZXZlbnQuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0M6L1VzZXJzL3ByaW5jL0Rlc2t0b3Avb3ptZW50YTJrMTcvYXNzZXRzL2FwcC9jb21wb25lbnRzL2NhbmNlbGV2ZW50L2NhbmNlbGV2ZW50LmNvbXBvbmVudC50cyIsIm5nOi8vL0M6L1VzZXJzL3ByaW5jL0Rlc2t0b3Avb3ptZW50YTJrMTcvYXNzZXRzL2FwcC9jb21wb25lbnRzL2NhbmNlbGV2ZW50L2NhbmNlbGV2ZW50LmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvY2FuY2VsZXZlbnQvY2FuY2VsZXZlbnQuY29tcG9uZW50LnRzLkNhbmNlbEV2ZW50Q29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGgxIG1kLWRpYWxvZy10aXRsZT5Db25maXJtYXRpb248L2gxPlxyXG48ZGl2IG1kLWRpYWxvZy1jb250ZW50PlBsZWFzZSBjb25maXJtIHRoYXQgeW91IHdhbnQgdG8gY2FuY2VsIHRoZSByZWdpc3RyYXRpb24gdG8gdGhpcyBldmVudDwvZGl2PlxyXG48ZGl2IG1kLWRpYWxvZy1hY3Rpb25zPlxyXG4gIDxidXR0b24gbWQtYnV0dG9uIG1kLWRpYWxvZy1jbG9zZT1cImNvbmZpcm1cIj5ZZXM8L2J1dHRvbj5cclxuICA8YnV0dG9uIG1kLWJ1dHRvbiBtZC1kaWFsb2ctY2xvc2U9XCJjYW5jZWxcIj5ObzwvYnV0dG9uPlxyXG48L2Rpdj4iLCI8YXBwLWNhbmNlbGV2ZW50PjwvYXBwLWNhbmNlbGV2ZW50PiJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7O29CQ0FBO01BQUE7TUFBQSxxQ0FBQTtNQUFBLDJDQUFvQjtNQUFpQix1Q0FDckM7VUFBQTtVQUFBLGlFQUFBO1VBQUE7TUFBdUI7TUFBMkUsdUNBQ2xHO1VBQUE7VUFBQSxpRUFBQTtVQUFBO01BQXVCLHlDQUNyQjtVQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHFEQUFBO1VBQUE7VUFBQSxvQ0FBQTtVQUFBO1VBQUEsc0JBQUE7VUFBQSxvQ0FBQTtVQUFBLGtFQUE0QztpQkFBQSxhQUFZLHlDQUN4RDtVQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7Y0FBQTtjQUFBO1lBQUE7WUFBQTtVQUFBLHFEQUFBO1VBQUE7VUFBQSxvQ0FBQTtVQUFBO1VBQUEsc0JBQUE7VUFBQSxvQ0FBQTtVQUFBLGtFQUEyQztpQkFBQSxZQUFXO0lBRHBDO0lBQWxCLFlBQWtCLFNBQWxCO0lBQ2tCO0lBQWxCLFlBQWtCLFNBQWxCOztJQURBO0lBQUE7SUFBQSxZQUFBLFVBQUEsU0FBQTtJQUNBO0lBQUE7SUFBQSxZQUFBLFVBQUEsU0FBQTs7OztvQkNKRjtNQUFBO3FDQUFBLFVBQUE7TUFBQTs7OyJ9
+export const CancelEventComponentNgFactory:i1.ComponentFactory<i5.CancelEventComponent> = i1.ɵccf('app-cancelevent',
+    i5.CancelEventComponent,View_CancelEventComponent_Host_0,{},{},([] as any[]));
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvY2FuY2VsZXZlbnQvY2FuY2VsZXZlbnQuY29tcG9uZW50Lm5nZmFjdG9yeS50cyIsInZlcnNpb24iOjMsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIm5nOi8vL0M6L1VzZXJzL3ByaW5jL0Rlc2t0b3Avb3ptZW50YTJrMTcvYXNzZXRzL2FwcC9jb21wb25lbnRzL2NhbmNlbGV2ZW50L2NhbmNlbGV2ZW50LmNvbXBvbmVudC50cyIsIm5nOi8vL0M6L1VzZXJzL3ByaW5jL0Rlc2t0b3Avb3ptZW50YTJrMTcvYXNzZXRzL2FwcC9jb21wb25lbnRzL2NhbmNlbGV2ZW50L2NhbmNlbGV2ZW50LmNvbXBvbmVudC5odG1sIiwibmc6Ly8vQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2NvbXBvbmVudHMvY2FuY2VsZXZlbnQvY2FuY2VsZXZlbnQuY29tcG9uZW50LnRzLkNhbmNlbEV2ZW50Q29tcG9uZW50X0hvc3QuaHRtbCJdLCJzb3VyY2VzQ29udGVudCI6WyIgIiwiPGgxIG1kLWRpYWxvZy10aXRsZSAqbmdJZj1cImlzTG9nZ2VkSW5cIj5Db25maXJtYXRpb248L2gxPlxyXG48ZGl2IG1kLWRpYWxvZy1jb250ZW50ICpuZ0lmPVwiaXNMb2dnZWRJblwiPlBsZWFzZSBjb25maXJtIHRoYXQgeW91IHdhbnQgdG8gY2FuY2VsIHRoZSByZWdpc3RyYXRpb24gdG8gdGhpcyBldmVudDwvZGl2PlxyXG48ZGl2IG1kLWRpYWxvZy1hY3Rpb25zICpuZ0lmPVwiaXNMb2dnZWRJblwiPlxyXG4gIDxidXR0b24gbWQtYnV0dG9uIG1kLWRpYWxvZy1jbG9zZT1cImNvbmZpcm1cIj5ZZXM8L2J1dHRvbj5cclxuICA8YnV0dG9uIG1kLWJ1dHRvbiBtZC1kaWFsb2ctY2xvc2U9XCJjYW5jZWxcIj5ObzwvYnV0dG9uPlxyXG48L2Rpdj5cclxuPGgxIG1kLWRpYWxvZy10aXRsZSAqbmdJZj1cIiFpc0xvZ2dlZEluXCI+VmFsaWRhdGlvbjwvaDE+XHJcbjxkaXYgbWQtZGlhbG9nLWNvbnRlbnQgKm5nSWY9XCIhaXNMb2dnZWRJblwiPlBsZWFzZSBsb2dpbiB0byBwZXJmb3JtIHRoaXMgYWN0aW9uPC9kaXY+XHJcbjxkaXYgbWQtZGlhbG9nLWFjdGlvbnMgKm5nSWY9XCIhaXNMb2dnZWRJblwiPlxyXG4gIDxidXR0b24gbWQtYnV0dG9uIG1kLWRpYWxvZy1jbG9zZT1cIm9rXCI+T0s8L2J1dHRvbj5cclxuPC9kaXY+IiwiPGFwcC1jYW5jZWxldmVudD48L2FwcC1jYW5jZWxldmVudD4iXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7O29CQ0FBO01BQUE7TUFBQSxxQ0FBQTtNQUFBLDJDQUF1Qzs7OztvQkFDdkM7TUFBQTtNQUFBLG1EQUFBO01BQUEsMkNBQTBDOzs7O29CQUMxQztNQUFBO01BQUEsbURBQUE7TUFBQSwyQ0FBMEM7TUFDeEM7VUFBQTtVQUFBO1FBQUE7UUFBQTtVQUFBO1VBQUE7UUFBQTtRQUFBO01BQUEscURBQUE7OEJBQUE7VUFBQSxzQkFBQTt5REFBQTthQUFBO1VBQUEsc0JBQUE7VUFBQSxpREFBNEM7TUFBWSx5Q0FDeEQ7VUFBQTtjQUFBO2NBQUE7WUFBQTtZQUFBO2NBQUE7Y0FBQTtZQUFBO1lBQUE7VUFBQSxxREFBQTtVQUFBO1VBQUEsb0NBQUE7VUFBQTtVQUFBLHNCQUFBO1VBQUEsb0NBQUE7VUFBQSxrRUFBMkM7aUJBQUEsWUFBVztJQURwQztJQUFsQixXQUFrQixTQUFsQjtJQUNrQjtJQUFsQixZQUFrQixTQUFsQjs7SUFEQTtJQUFBO0lBQUEsV0FBQSxVQUFBLFNBQUE7SUFDQTtJQUFBO0lBQUEsWUFBQSxVQUFBLFNBQUE7Ozs7b0JBRUY7TUFBQTtNQUFBLHFDQUFBO01BQUEsMkNBQXdDOzs7O29CQUN4QztNQUFBO01BQUEsbURBQUE7TUFBQSwyQ0FBMkM7Ozs7b0JBQzNDO01BQUE7TUFBQSxtREFBQTtNQUFBLDJDQUEyQztNQUN6QztVQUFBO1VBQUE7UUFBQTtRQUFBO1VBQUE7VUFBQTtRQUFBO1FBQUE7TUFBQSxxREFBQTs4QkFBQTtVQUFBLHNCQUFBO3lEQUFBO2FBQUE7VUFBQSxzQkFBQTtVQUFBLGlEQUF1QztNQUFXO0lBQWhDO0lBQWxCLFdBQWtCLFNBQWxCOztJQUFBO0lBQUE7SUFBQSxXQUFBLFVBQUEsU0FBQTs7OztvQkFURjtNQUFBLHFDQUFBO29CQUFBLG1DQUF3RDtNQUFBLFNBQ3hEO01BQUEscUNBQUE7b0JBQUEsbUNBQXFIO01BQUEsU0FDckg7TUFBQSxxQ0FBQTtvQkFBQSxtQ0FHTTtNQUFBLFNBQ047TUFBQSxxQ0FBQTtvQkFBQSxtQ0FBdUQ7TUFBQSxTQUN2RDtNQUFBLHFDQUFBO29CQUFBLG1DQUFvRjtNQUFBLFNBQ3BGO01BQUEscUNBQUE7b0JBQUE7O0lBUm9CO0lBQXBCLFdBQW9CLFNBQXBCO0lBQ3VCO0lBQXZCLFdBQXVCLFNBQXZCO0lBQ3VCO0lBQXZCLFdBQXVCLFNBQXZCO0lBSW9CO0lBQXBCLFlBQW9CLFNBQXBCO0lBQ3VCO0lBQXZCLFlBQXVCLFNBQXZCO0lBQ3VCO0lBQXZCLFlBQXVCLFNBQXZCOzs7O29CQ1JBO01BQUE7cUNBQUEsVUFBQTtNQUFBOzs7OyJ9

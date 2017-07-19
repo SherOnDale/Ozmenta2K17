@@ -9,9 +9,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { MdDialogRef } from '@angular/material';
+import { UserService } from '../../services/user.service';
 var CancelEventComponent = (function () {
-    function CancelEventComponent(dialogRef) {
+    function CancelEventComponent(dialogRef, userService) {
         this.dialogRef = dialogRef;
+        this.userService = userService;
+        this.isLoggedIn = this.userService.isLoggedIn();
     }
     return CancelEventComponent;
 }());
@@ -21,6 +24,6 @@ CancelEventComponent = __decorate([
         templateUrl: './cancelevent.component.html',
         styleUrls: ['./cancelevent.component.css']
     }),
-    __metadata("design:paramtypes", [MdDialogRef])
+    __metadata("design:paramtypes", [MdDialogRef, UserService])
 ], CancelEventComponent);
 export { CancelEventComponent };
