@@ -19,11 +19,16 @@ var styles_HomePageComponent = [i0.styles];
 export var RenderType_HomePageComponent = i1.ɵcrt({ encapsulation: 0,
     styles: styles_HomePageComponent, data: {} });
 export function View_HomePageComponent_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵted(null, [' '])), (_l()(), i1.ɵted(null, ['\n\n '])), (_l()(), i1.ɵeld(0, null, null, 3, 'div', [['class',
+    return i1.ɵvid(0, [(_l()(), i1.ɵted(null, [' '])), (_l()(), i1.ɵted(null, ['\n\n '])), (_l()(), i1.ɵeld(0, null, null, 6, 'div', [['class',
                 'home']], null, null, null, null, null)),
         i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers,
             i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
                 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n     '])),
+        (_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class', 'header'], ['id',
+                'main']], null, null, null, null, null)),
+        i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers,
+            i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
+                'classBase'] }, null), (_l()(), i1.ɵted(null, ['NATIONAL LEVEL TECHNICAL SYMPOSIUM'])),
         (_l()(), i1.ɵted(null, ['\n '])), (_l()(), i1.ɵted(null, ['\n\n'])),
         (_l()(), i1.ɵeld(0, null, null, 87, 'div', [['class', 'uniq']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
             i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class', 'header']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
@@ -39,15 +44,15 @@ export function View_HomePageComponent_0(_l) {
                 'longpress'], [null, 'touchend']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 23)._haltDisabledEvents($event) !== false);
+                var pd_0 = (i1.ɵnov(_v, 26)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
             }
             if (('longpress' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 25).show() !== false);
+                var pd_1 = (i1.ɵnov(_v, 28).show() !== false);
                 ad = (pd_1 && ad);
             }
             if (('touchend' === en)) {
-                var pd_2 = (i1.ɵnov(_v, 25).hide(1500) !== false);
+                var pd_2 = (i1.ɵnov(_v, 28).hide(1500) !== false);
                 ad = (pd_2 && ad);
             }
             return ad;
@@ -67,15 +72,15 @@ export function View_HomePageComponent_0(_l) {
             [null, 'touchend']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 38)._haltDisabledEvents($event) !== false);
+                var pd_0 = (i1.ɵnov(_v, 41)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
             }
             if (('longpress' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 40).show() !== false);
+                var pd_1 = (i1.ɵnov(_v, 43).show() !== false);
                 ad = (pd_1 && ad);
             }
             if (('touchend' === en)) {
-                var pd_2 = (i1.ɵnov(_v, 40).hide(1500) !== false);
+                var pd_2 = (i1.ɵnov(_v, 43).hide(1500) !== false);
                 ad = (pd_2 && ad);
             }
             return ad;
@@ -95,15 +100,15 @@ export function View_HomePageComponent_0(_l) {
             [null, 'touchend']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 53)._haltDisabledEvents($event) !== false);
+                var pd_0 = (i1.ɵnov(_v, 56)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
             }
             if (('longpress' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 55).show() !== false);
+                var pd_1 = (i1.ɵnov(_v, 58).show() !== false);
                 ad = (pd_1 && ad);
             }
             if (('touchend' === en)) {
-                var pd_2 = (i1.ɵnov(_v, 55).hide(1500) !== false);
+                var pd_2 = (i1.ɵnov(_v, 58).hide(1500) !== false);
                 ad = (pd_2 && ad);
             }
             return ad;
@@ -123,15 +128,15 @@ export function View_HomePageComponent_0(_l) {
                 'longpress'], [null, 'touchend']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 68)._haltDisabledEvents($event) !== false);
+                var pd_0 = (i1.ɵnov(_v, 71)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
             }
             if (('longpress' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 70).show() !== false);
+                var pd_1 = (i1.ɵnov(_v, 73).show() !== false);
                 ad = (pd_1 && ad);
             }
             if (('touchend' === en)) {
-                var pd_2 = (i1.ɵnov(_v, 70).hide(1500) !== false);
+                var pd_2 = (i1.ɵnov(_v, 73).hide(1500) !== false);
                 ad = (pd_2 && ad);
             }
             return ad;
@@ -151,15 +156,15 @@ export function View_HomePageComponent_0(_l) {
             [null, 'longpress'], [null, 'touchend']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 84)._haltDisabledEvents($event) !== false);
+                var pd_0 = (i1.ɵnov(_v, 87)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
             }
             if (('longpress' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 86).show() !== false);
+                var pd_1 = (i1.ɵnov(_v, 89).show() !== false);
                 ad = (pd_1 && ad);
             }
             if (('touchend' === en)) {
-                var pd_2 = (i1.ɵnov(_v, 86).hide(1500) !== false);
+                var pd_2 = (i1.ɵnov(_v, 89).hide(1500) !== false);
                 ad = (pd_2 && ad);
             }
             return ad;
@@ -179,88 +184,90 @@ export function View_HomePageComponent_0(_l) {
             i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
         var currVal_0 = 'home';
         _ck(_v, 3, 0, currVal_0);
-        var currVal_1 = 'uniq';
-        _ck(_v, 8, 0, currVal_1);
-        var currVal_2 = 'header';
+        var currVal_1 = 'header';
+        _ck(_v, 6, 0, currVal_1);
+        var currVal_2 = 'uniq';
         _ck(_v, 11, 0, currVal_2);
-        var currVal_3 = 'row';
+        var currVal_3 = 'header';
+        _ck(_v, 14, 0, currVal_3);
         var currVal_4 = 'row';
         var currVal_5 = 'row';
-        _ck(_v, 15, 0, currVal_3, currVal_4, currVal_5);
-        var currVal_6 = 'uniq-container';
-        _ck(_v, 16, 0, currVal_6);
-        var currVal_7 = '';
+        var currVal_6 = 'row';
+        _ck(_v, 18, 0, currVal_4, currVal_5, currVal_6);
+        var currVal_7 = 'uniq-container';
         _ck(_v, 19, 0, currVal_7);
-        var currVal_11 = 'below';
-        var currVal_12 = 'Implant Training';
-        _ck(_v, 25, 0, currVal_11, currVal_12);
-        var currVal_13 = 'fab';
-        _ck(_v, 26, 0, currVal_13);
-        _ck(_v, 29, 0);
-        var currVal_14 = '';
-        _ck(_v, 34, 0, currVal_14);
-        var currVal_18 = 'below';
-        var currVal_19 = 'Internship';
-        _ck(_v, 40, 0, currVal_18, currVal_19);
-        var currVal_20 = 'fab';
-        _ck(_v, 41, 0, currVal_20);
-        _ck(_v, 44, 0);
-        var currVal_21 = '';
-        _ck(_v, 49, 0, currVal_21);
-        var currVal_25 = 'below';
-        var currVal_26 = 'IEEE Projects';
-        _ck(_v, 55, 0, currVal_25, currVal_26);
-        var currVal_27 = 'fab';
-        _ck(_v, 56, 0, currVal_27);
-        _ck(_v, 59, 0);
-        var currVal_28 = '';
-        _ck(_v, 64, 0, currVal_28);
-        var currVal_32 = 'below';
-        var currVal_33 = 'Android Training';
-        _ck(_v, 70, 0, currVal_32, currVal_33);
-        var currVal_34 = 'fab';
-        _ck(_v, 71, 0, currVal_34);
-        _ck(_v, 74, 0);
-        var currVal_35 = 'footer';
-        _ck(_v, 80, 0, currVal_35);
-        var currVal_39 = 'below';
-        var currVal_40 = 'Follow us on facebook';
-        _ck(_v, 86, 0, currVal_39, currVal_40);
-        var currVal_41 = 'fab';
-        _ck(_v, 87, 0, currVal_41);
-        var currVal_42 = 'fb';
-        _ck(_v, 91, 0, currVal_42);
-        var currVal_43 = 'sponsors';
-        _ck(_v, 97, 0, currVal_43);
-        var currVal_44 = 'header';
+        var currVal_8 = '';
+        _ck(_v, 22, 0, currVal_8);
+        var currVal_12 = 'below';
+        var currVal_13 = 'Implant Training';
+        _ck(_v, 28, 0, currVal_12, currVal_13);
+        var currVal_14 = 'fab';
+        _ck(_v, 29, 0, currVal_14);
+        _ck(_v, 32, 0);
+        var currVal_15 = '';
+        _ck(_v, 37, 0, currVal_15);
+        var currVal_19 = 'below';
+        var currVal_20 = 'Internship';
+        _ck(_v, 43, 0, currVal_19, currVal_20);
+        var currVal_21 = 'fab';
+        _ck(_v, 44, 0, currVal_21);
+        _ck(_v, 47, 0);
+        var currVal_22 = '';
+        _ck(_v, 52, 0, currVal_22);
+        var currVal_26 = 'below';
+        var currVal_27 = 'IEEE Projects';
+        _ck(_v, 58, 0, currVal_26, currVal_27);
+        var currVal_28 = 'fab';
+        _ck(_v, 59, 0, currVal_28);
+        _ck(_v, 62, 0);
+        var currVal_29 = '';
+        _ck(_v, 67, 0, currVal_29);
+        var currVal_33 = 'below';
+        var currVal_34 = 'Android Training';
+        _ck(_v, 73, 0, currVal_33, currVal_34);
+        var currVal_35 = 'fab';
+        _ck(_v, 74, 0, currVal_35);
+        _ck(_v, 77, 0);
+        var currVal_36 = 'footer';
+        _ck(_v, 83, 0, currVal_36);
+        var currVal_40 = 'below';
+        var currVal_41 = 'Follow us on facebook';
+        _ck(_v, 89, 0, currVal_40, currVal_41);
+        var currVal_42 = 'fab';
+        _ck(_v, 90, 0, currVal_42);
+        var currVal_43 = 'fb';
+        _ck(_v, 94, 0, currVal_43);
+        var currVal_44 = 'sponsors';
         _ck(_v, 100, 0, currVal_44);
-        var currVal_45 = 'tech-slideshow';
-        _ck(_v, 104, 0, currVal_45);
-        var currVal_46 = 'mover-1';
+        var currVal_45 = 'header';
+        _ck(_v, 103, 0, currVal_45);
+        var currVal_46 = 'tech-slideshow';
         _ck(_v, 107, 0, currVal_46);
-        var currVal_47 = 'mover-2';
+        var currVal_47 = 'mover-1';
         _ck(_v, 110, 0, currVal_47);
+        var currVal_48 = 'mover-2';
+        _ck(_v, 113, 0, currVal_48);
     }, function (_ck, _v) {
-        var currVal_8 = (i1.ɵnov(_v, 23).disabled || null);
-        var currVal_9 = i1.ɵnov(_v, 23)._isAriaDisabled;
-        var currVal_10 = i1.ɵnov(_v, 23).tabIndex;
-        _ck(_v, 21, 0, currVal_8, currVal_9, currVal_10);
-        var currVal_15 = (i1.ɵnov(_v, 38).disabled || null);
-        var currVal_16 = i1.ɵnov(_v, 38)._isAriaDisabled;
-        var currVal_17 = i1.ɵnov(_v, 38).tabIndex;
-        _ck(_v, 36, 0, currVal_15, currVal_16, currVal_17);
-        var currVal_22 = (i1.ɵnov(_v, 53).disabled || null);
-        var currVal_23 = i1.ɵnov(_v, 53)._isAriaDisabled;
-        var currVal_24 = i1.ɵnov(_v, 53).tabIndex;
-        _ck(_v, 51, 0, currVal_22, currVal_23, currVal_24);
-        var currVal_29 = (i1.ɵnov(_v, 68).disabled || null);
-        var currVal_30 = i1.ɵnov(_v, 68)._isAriaDisabled;
-        var currVal_31 = i1.ɵnov(_v, 68).tabIndex;
-        _ck(_v, 66, 0, currVal_29, currVal_30, currVal_31);
-        var currVal_36 = (i1.ɵnov(_v, 84).disabled || null);
-        var currVal_37 = i1.ɵnov(_v, 84)._isAriaDisabled;
-        var currVal_38 = i1.ɵnov(_v, 84).tabIndex;
-        _ck(_v, 82, 0, currVal_36, currVal_37, currVal_38);
+        var currVal_9 = (i1.ɵnov(_v, 26).disabled || null);
+        var currVal_10 = i1.ɵnov(_v, 26)._isAriaDisabled;
+        var currVal_11 = i1.ɵnov(_v, 26).tabIndex;
+        _ck(_v, 24, 0, currVal_9, currVal_10, currVal_11);
+        var currVal_16 = (i1.ɵnov(_v, 41).disabled || null);
+        var currVal_17 = i1.ɵnov(_v, 41)._isAriaDisabled;
+        var currVal_18 = i1.ɵnov(_v, 41).tabIndex;
+        _ck(_v, 39, 0, currVal_16, currVal_17, currVal_18);
+        var currVal_23 = (i1.ɵnov(_v, 56).disabled || null);
+        var currVal_24 = i1.ɵnov(_v, 56)._isAriaDisabled;
+        var currVal_25 = i1.ɵnov(_v, 56).tabIndex;
+        _ck(_v, 54, 0, currVal_23, currVal_24, currVal_25);
+        var currVal_30 = (i1.ɵnov(_v, 71).disabled || null);
+        var currVal_31 = i1.ɵnov(_v, 71)._isAriaDisabled;
+        var currVal_32 = i1.ɵnov(_v, 71).tabIndex;
+        _ck(_v, 69, 0, currVal_30, currVal_31, currVal_32);
+        var currVal_37 = (i1.ɵnov(_v, 87).disabled || null);
+        var currVal_38 = i1.ɵnov(_v, 87)._isAriaDisabled;
+        var currVal_39 = i1.ɵnov(_v, 87).tabIndex;
+        _ck(_v, 85, 0, currVal_37, currVal_38, currVal_39);
     });
 }
 export function View_HomePageComponent_Host_0(_l) {

@@ -48,6 +48,8 @@ export class NTEventPageComponent implements OnInit {
               this.nteventsRegistered.e34 = data.eventsRegistered.e34;
               this.nteventsRegistered.e35 = data.eventsRegistered.e35;
               this.nteventsRegistered.e36 = data.eventsRegistered.e36;
+              console.log(data.eventsRegistered);
+              console.log(data.eventsRegistered.e31);
               this.snackBar.open('Successfully Registerd', 'OK');
             }, 
             error => {

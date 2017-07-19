@@ -50,6 +50,8 @@ var NTEventPageComponent = (function () {
                     _this.nteventsRegistered.e34 = data.eventsRegistered.e34;
                     _this.nteventsRegistered.e35 = data.eventsRegistered.e35;
                     _this.nteventsRegistered.e36 = data.eventsRegistered.e36;
+                    console.log(data.eventsRegistered);
+                    console.log(data.eventsRegistered.e31);
                     _this.snackBar.open('Successfully Registerd', 'OK');
                 }, function (error) {
                     _this.snackBar.open('Registration Faled. Please Try Again Later', 'OK');
