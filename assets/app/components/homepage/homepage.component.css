@@ -1,67 +1,3 @@
-  /* #home {
-  background: url("/images/image.jpeg") 50% 0 repeat fixed; min-height: 700px;
-  height: 700px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
-}
-
-#home article {
-  font-family: Helvetica;
-  height: 458px;
-  position: absolute;
-  text-align: center;
-  top: 150px;
-  width: 100%;
-
-}
-
- #about {
-  background: url("/images/gaming.jpg") 50% 0 repeat fixed; min-height: 700px;
-  height: 700px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
-
-#about article {
-  font-family: Helvetica;
-  height: 458px;
-  position: absolute;
-  text-align: center;
-  top: 150px;
-  width: 100%;
-} 
-
-#heading{
-font-size: xx-large;
-}
-
-#sponsors {
-  background-color: white;
-  background: url("/images/image.jpeg") 50% 0 repeat fixed; min-height: 500px;
-  height: 500px;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1920px;
-  position: relative;
-  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
-}
-
-#sponsors article {
-  font-family: Helvetica;
-  height: 258px;
-  position: absolute;
-  text-align: center;
-  top: 150px;
-  width: 100%;
-}
-   */
 
    .home {
   background: url("/images/logo.jpg") 50% 0 repeat;
@@ -80,76 +16,6 @@ font-size: xx-large;
    .card {
      margin-top: 70px;
      margin: 5vw;
-   }
-
-   ul {
-     margin-bottom: 50px;
-     position: absolute;
-     left: 50%;
-     transform: translate(-50%, 0);
-     display: flex;
-   }
-
-   ul li {
-     list-style: none;
-     color: #484848;
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: x-large;
-     letter-spacing: 15px;
-     animation: animate 1.4s linear infinite;
-   }
-   
-   @keyframes animate {
-     0% {
-       color: #484848;
-       text-shadow: none;
-     }
-
-     90% {
-       color: #484848;
-       text-shadow: none;
-     }
-
-     100% {
-       color: #fff900;
-       text-shadow: 0 0 7px #fff900, 0 0 50px #ff6c00;
-     }
-   }
-
-   ul li:nth-child(1) {
-     animation-delay: 0.2s;
-   }
-
-   ul li:nth-child(2) {
-     animation-delay: 0.4s;
-   }
-
-   ul li:nth-child(3) {
-     animation-delay: 0.6s;
-   }
-
-   ul li:nth-child(4) {
-     animation-delay: 0.8s;
-   }
-
-   ul li:nth-child(5) {
-     animation-delay: 1s;
-   }
-
-   ul li:nth-child(6) {
-     animation-delay: 1.2s;
-   }
-
-   ul li:nth-child(7) {
-     animation-delay: 1.4s;
-   }
-
-   ul li:nth-child(8) {
-     animation-delay: 1.6s;
-   }
-
-   .break {
-     padding-right: 20px;
    }
 
    .header {
@@ -191,7 +57,7 @@ font-size: xx-large;
 .tech-slideshow > div {
   height: 200px;
   width: 2526px;
-  background: url(/images/SPONSOR.jpg);
+  background: url("/images/SPONSOR.jpg");
   position: absolute;
   top: 0;
   left: 0;
