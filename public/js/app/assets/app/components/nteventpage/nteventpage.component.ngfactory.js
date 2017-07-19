@@ -15,6 +15,7 @@ import * as i7 from '../../../../node_modules/@angular/material/typings/index.ng
 import * as i8 from '@angular/material';
 import * as i9 from './nteventpage.component';
 import * as i10 from '../../services/more.service';
+import * as i11 from '../../services/user.service';
 var styles_NTEventPageComponent = [i0.styles];
 export var RenderType_NTEventPageComponent = i1.ɵcrt({ encapsulation: 0,
     styles: styles_NTEventPageComponent, data: {} });
@@ -46,7 +47,7 @@ export function View_NTEventPageComponent_0(_l) {
             var ad = true;
             var _co = _v.component;
             if (('click' === en)) {
-                var pd_0 = (_co.openConfirmation() !== false);
+                var pd_0 = (_co.openConfirmation(_co.data[0].id) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -82,7 +83,7 @@ export function View_NTEventPageComponent_0(_l) {
             var ad = true;
             var _co = _v.component;
             if (('click' === en)) {
-                var pd_0 = (_co.openConfirmation() !== false);
+                var pd_0 = (_co.openConfirmation(_co.data[1].id) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -118,7 +119,7 @@ export function View_NTEventPageComponent_0(_l) {
             var ad = true;
             var _co = _v.component;
             if (('click' === en)) {
-                var pd_0 = (_co.openConfirmation() !== false);
+                var pd_0 = (_co.openConfirmation(_co.data[2].id) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -157,7 +158,7 @@ export function View_NTEventPageComponent_0(_l) {
             var ad = true;
             var _co = _v.component;
             if (('click' === en)) {
-                var pd_0 = (_co.openConfirmation() !== false);
+                var pd_0 = (_co.openConfirmation(_co.data[3].id) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -193,7 +194,7 @@ export function View_NTEventPageComponent_0(_l) {
             var ad = true;
             var _co = _v.component;
             if (('click' === en)) {
-                var pd_0 = (_co.openConfirmation() !== false);
+                var pd_0 = (_co.openConfirmation(_co.data[4].id) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -229,7 +230,7 @@ export function View_NTEventPageComponent_0(_l) {
             var ad = true;
             var _co = _v.component;
             if (('click' === en)) {
-                var pd_0 = (_co.openConfirmation() !== false);
+                var pd_0 = (_co.openConfirmation(_co.data[5].id) !== false);
                 ad = (pd_0 && ad);
             }
             return ad;
@@ -342,7 +343,7 @@ export function View_NTEventPageComponent_0(_l) {
     });
 }
 export function View_NTEventPageComponent_Host_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 1, 'app-nteventpage', [], null, null, null, View_NTEventPageComponent_0, RenderType_NTEventPageComponent)), i1.ɵdid(114688, null, 0, i9.NTEventPageComponent, [i10.MoreService, i8.MdDialog], null, null)], function (_ck, _v) {
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 1, 'app-nteventpage', [], null, null, null, View_NTEventPageComponent_0, RenderType_NTEventPageComponent)), i1.ɵdid(114688, null, 0, i9.NTEventPageComponent, [i10.MoreService, i8.MdDialog, i11.UserService, i8.MdSnackBar], null, null)], function (_ck, _v) {
         _ck(_v, 1, 0);
     }, null);
 }

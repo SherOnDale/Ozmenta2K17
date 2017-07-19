@@ -42,7 +42,7 @@ var MoreService = (function () {
                 name: 'Idea Express',
                 type: 'Paper Presentation',
                 id: 'e24',
-                description: 'Title:<br>Advances in Computer Science<br>Mail your paper with name, college name and department to <a class="p-link" href="mailto:submission@ozmenta2k17.com">pptsub@ozmenta2k17.com</a><br>Last date for submission is August 1'
+                description: 'Title:<br>Advances in Computer Science<br>Mail your paper with name, college name and department to <a class="p-link" href="mailto:submission@ozmenta2k17.com">submission@ozmenta2k17.com</a><br>Last date for submission is August 1'
             }, {
                 name: 'Conquer It',
                 type: 'Capture The Flag',
@@ -58,7 +58,7 @@ var MoreService = (function () {
                 name: 'Steady Shot',
                 type: 'Photography',
                 id: 'e31',
-                description: 'Master your aperture & freeze the juncture based on the given theme:<br>1.Beauty of Chennai<br>2.Wildlife<br>3.Natural Sceneries<br>4.Indoor Photography<br>Mail your photograph with name, college name and department to <a class="p-link" href="mailto:submission@ozmenta2k17.com">photosub@ozmenta2k17.com</a> or DM your photographs to <a class="p-link" href="http://www.facebook.com/ozmenta2k17">OZmenta2K17 FB Page</a><br>Last date for submission is August 3'
+                description: 'Master your aperture & freeze the juncture based on the given theme:<br>1.Beauty of Chennai<br>2.Wildlife<br>3.Natural Sceneries<br>4.Indoor Photography<br>Mail your photograph with name, college name and department to <a class="p-link" href="mailto:submission@ozmenta2k17.com">submission@ozmenta2k17.com</a> or DM your photographs to <a class="p-link" href="http://www.facebook.com/ozmenta2k17">OZmenta2K17 FB Page</a><br>Last date for submission is August 3'
             }, {
                 name: 'Connexions',
                 type: 'Non-Technical Event',
