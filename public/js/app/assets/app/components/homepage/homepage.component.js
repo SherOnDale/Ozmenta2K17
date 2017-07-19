@@ -8,8 +8,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Component } from '@angular/core';
+import { MdIconRegistry } from '@angular/material';
+import { DomSanitizer } from '@angular/platform-browser';
 var HomePageComponent = (function () {
-    function HomePageComponent() {
+    function HomePageComponent(iconRegistry, sanitizer) {
+        iconRegistry.addSvgIcon('fb', sanitizer.bypassSecurityTrustResourceUrl('/images/fb.svg'));
     }
     return HomePageComponent;
 }());
@@ -19,6 +22,6 @@ HomePageComponent = __decorate([
         templateUrl: './homepage.component.html',
         styleUrls: ['./homepage.component.css']
     }),
-    __metadata("design:paramtypes", [])
+    __metadata("design:paramtypes", [MdIconRegistry, DomSanitizer])
 ], HomePageComponent);
 export { HomePageComponent };

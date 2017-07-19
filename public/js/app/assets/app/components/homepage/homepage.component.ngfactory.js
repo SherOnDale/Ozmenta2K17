@@ -14,139 +14,256 @@ import * as i6 from '@angular/flex-layout/flexbox/api/layout-wrap';
 import * as i7 from '../../../../node_modules/@angular/material/typings/index.ngfactory';
 import * as i8 from '@angular/material';
 import * as i9 from './homepage.component';
+import * as i10 from '@angular/platform-browser';
 var styles_HomePageComponent = [i0.styles];
 export var RenderType_HomePageComponent = i1.ɵcrt({ encapsulation: 0,
     styles: styles_HomePageComponent, data: {} });
 export function View_HomePageComponent_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵted(null, [' '])), (_l()(), i1.ɵted(null, ['\n\n '])), (_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class',
+    return i1.ɵvid(0, [(_l()(), i1.ɵted(null, [' '])), (_l()(), i1.ɵted(null, ['\n\n '])), (_l()(), i1.ɵeld(0, null, null, 3, 'div', [['class',
                 'home']], null, null, null, null, null)),
         i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers,
             i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
-                'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n     OZMENTA 2K17\n     A National Level Technical Symposium\n     Velammal Engineering College\n     Department of Computer Science and Engineering\n '])),
-        (_l()(), i1.ɵted(null, ['\n\n'])), (_l()(), i1.ɵeld(0, null, null, 82, 'div', [['class', 'uniq']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor,
-            i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n    Uniq Technologies\n    '])), (_l()(), i1.ɵeld(0, null, null, 78, 'div', [['fxFlexs', ''], ['fxLayout', 'row'], ['fxLayout.sm', 'row'], ['fxLayout.xs',
-                'column']], null, null, null, null, null)),
-        i1.ɵdid(737280, null, 0, i4.LayoutDirective, [i3.MediaMonitor, i1.ElementRef,
-            i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null), (_l()(), i1.ɵted(null, ['   \n    '])), (_l()(), i1.ɵeld(0, null, null, 17, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
+                'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n     '])),
+        (_l()(), i1.ɵted(null, ['\n '])), (_l()(), i1.ɵted(null, ['\n\n'])),
+        (_l()(), i1.ɵeld(0, null, null, 87, 'div', [['class', 'uniq']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class', 'header']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['UNIQ TECHNOLOGIES'])), (_l()(),
+            i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 63, 'div', [['class', 'uniq-container'], ['fxFlexs', ''], ['fxLayout', 'row'], ['fxLayout.sm',
+                'row'], ['fxLayout.xs', 'row']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i4.LayoutDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1,
+                'layoutXs'], layoutSm: [2, 'layoutSm'] }, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['   \n    '])), (_l()(), i1.ɵeld(0, null, null, 13, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
             [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
-            i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 13, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
-        i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null),
-        i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers,
-            i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
-                'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 7, 'a', [['class', 'mat-fab'], ['href', 'http://inplanttraininginchennai.org.in/'],
-            ['md-fab', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex',
-                0]], [[null, 'click']], function (_v, en, $event) {
+            i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(16777216, null, null, 9, 'a', [['class', 'fab mat-fab'], ['href', 'http://inplanttraininginchennai.org.in/'],
+            ['md-fab', ''], ['mdTooltip', 'Implant Training']], [[1, 'disabled', 0], [1,
+                'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click'], [null,
+                'longpress'], [null, 'touchend']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 22)._haltDisabledEvents($event) !== false);
+                var pd_0 = (i1.ɵnov(_v, 23)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
+            }
+            if (('longpress' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 25).show() !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('touchend' === en)) {
+                var pd_2 = (i1.ɵnov(_v, 25).hide(1500) !== false);
+                ad = (pd_2 && ad);
             }
             return ad;
         }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdFab, [[8, null],
-            [2, i8.MdAnchor]], null, null), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-icon', [['class', 'mat-icon'], ['role', 'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2,
-            i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null),
-        (_l()(), i1.ɵted(0, ['domain'])), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(0, null, null, 17, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n    '])),
-        (_l()(), i1.ɵeld(0, null, null, 13, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 7, 'a', [['class', 'mat-fab'], ['href', 'http://www.internshipinchennai.com/'],
-            ['md-fab', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex',
-                0]], [[null, 'click']], function (_v, en, $event) {
+            [2, i8.MdAnchor]], null, null), i1.ɵdid(147456, null, 0, i8.MdTooltip, [i8.Overlay, i1.ElementRef, i8.ScrollDispatcher, i1.ViewContainerRef,
+            i1.NgZone, i1.Renderer2, i8.Platform, [2, i8.Dir]], { position: [0, 'position'],
+            message: [1, 'message'] }, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-icon', [['class', 'mat-icon'],
+            ['role', 'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry,
+            [8, null]], null, null), (_l()(), i1.ɵted(0, ['domain'])),
+        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n'])),
+        (_l()(), i1.ɵeld(0, null, null, 13, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2,
+            [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(16777216, null, null, 9, 'a', [['class', 'fab mat-fab'], ['href', 'http://www.internshipinchennai.com/'],
+            ['md-fab', ''], ['mdTooltip', 'Internship']], [[1, 'disabled', 0], [1, 'aria-disabled',
+                0], [8, 'tabIndex', 0]], [[null, 'click'], [null, 'longpress'],
+            [null, 'touchend']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 41)._haltDisabledEvents($event) !== false);
+                var pd_0 = (i1.ɵnov(_v, 38)._haltDisabledEvents($event) !== false);
                 ad = (pd_0 && ad);
+            }
+            if (('longpress' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 40).show() !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('touchend' === en)) {
+                var pd_2 = (i1.ɵnov(_v, 40).hide(1500) !== false);
+                ad = (pd_2 && ad);
             }
             return ad;
         }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdFab, [[8, null],
-            [2, i8.MdAnchor]], null, null), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-icon', [['class', 'mat-icon'], ['role', 'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2,
-            i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null),
-        (_l()(), i1.ɵted(0, ['fitness_center'])), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(),
+            [2, i8.MdAnchor]], null, null), i1.ɵdid(147456, null, 0, i8.MdTooltip, [i8.Overlay, i1.ElementRef, i8.ScrollDispatcher, i1.ViewContainerRef,
+            i1.NgZone, i1.Renderer2, i8.Platform, [2, i8.Dir]], { position: [0, 'position'],
+            message: [1, 'message'] }, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-icon', [['class', 'mat-icon'],
+            ['role', 'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry,
+            [8, null]], null, null), (_l()(), i1.ɵted(0, ['fitness_center'])),
+        (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n'])),
+        (_l()(), i1.ɵeld(0, null, null, 13, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2,
+            [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(16777216, null, null, 9, 'a', [['class', 'fab mat-fab'], ['href', 'http://www.ieeefinalyearprojects.org/'],
+            ['md-fab', ''], ['mdTooltip', 'IEEE Projects']], [[1, 'disabled', 0], [1, 'aria-disabled',
+                0], [8, 'tabIndex', 0]], [[null, 'click'], [null, 'longpress'],
+            [null, 'touchend']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 53)._haltDisabledEvents($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('longpress' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 55).show() !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('touchend' === en)) {
+                var pd_2 = (i1.ɵnov(_v, 55).hide(1500) !== false);
+                ad = (pd_2 && ad);
+            }
+            return ad;
+        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdFab, [[8, null],
+            [2, i8.MdAnchor]], null, null), i1.ɵdid(147456, null, 0, i8.MdTooltip, [i8.Overlay, i1.ElementRef, i8.ScrollDispatcher, i1.ViewContainerRef,
+            i1.NgZone, i1.Renderer2, i8.Platform, [2, i8.Dir]], { position: [0, 'position'],
+            message: [1, 'message'] }, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-icon', [['class', 'mat-icon'],
+            ['role', 'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry,
+            [8, null]], null, null), (_l()(), i1.ɵted(0, ['local_library'])),
+        (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n'])),
+        (_l()(), i1.ɵeld(0, null, null, 13, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2,
+            [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(16777216, null, null, 9, 'a', [['class', 'fab mat-fab'], ['href', 'http://www.androidtraininginchennai.com/'],
+            ['md-fab', ''], ['mdTooltip', 'Android Training']], [[1, 'disabled', 0], [1,
+                'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click'], [null,
+                'longpress'], [null, 'touchend']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 68)._haltDisabledEvents($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('longpress' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 70).show() !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('touchend' === en)) {
+                var pd_2 = (i1.ɵnov(_v, 70).hide(1500) !== false);
+                ad = (pd_2 && ad);
+            }
+            return ad;
+        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdFab, [[8, null],
+            [2, i8.MdAnchor]], null, null), i1.ɵdid(147456, null, 0, i8.MdTooltip, [i8.Overlay, i1.ElementRef, i8.ScrollDispatcher, i1.ViewContainerRef,
+            i1.NgZone, i1.Renderer2, i8.Platform, [2, i8.Dir]], { position: [0, 'position'],
+            message: [1, 'message'] }, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-icon', [['class', 'mat-icon'],
+            ['role', 'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry,
+            [8, null]], null, null), (_l()(), i1.ɵted(0, ['adb'])),
+        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n'])),
+        (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(0, null, null, 14, 'div', [['class', 'footer']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(16777216, null, null, 10, 'a', [['class', 'fab mat-fab'], ['href', 'https://facebook.com/uniqtechnologies/'],
+            ['md-fab', ''], ['mdTooltip', 'Follow us on facebook']], [[1, 'disabled',
+                0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click'],
+            [null, 'longpress'], [null, 'touchend']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 84)._haltDisabledEvents($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('longpress' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 86).show() !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('touchend' === en)) {
+                var pd_2 = (i1.ɵnov(_v, 86).hide(1500) !== false);
+                ad = (pd_2 && ad);
+            }
+            return ad;
+        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdFab, [[8, null],
+            [2, i8.MdAnchor]], null, null), i1.ɵdid(147456, null, 0, i8.MdTooltip, [i8.Overlay, i1.ElementRef, i8.ScrollDispatcher, i1.ViewContainerRef,
+            i1.NgZone, i1.Renderer2, i8.Platform, [2, i8.Dir]], { position: [0, 'position'],
+            message: [1, 'message'] }, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'md-icon', [['class', 'mat-icon'], ['role', 'img'], ['svgIcon', 'fb']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry, [8, null]], { svgIcon: [0, 'svgIcon'] }, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(),
             i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(),
-            i1.ɵeld(0, null, null, 17, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2,
-            [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 13, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 7, 'a', [['class', 'mat-fab'], ['href', 'http://www.ieeefinalyearprojects.org/'],
-            ['md-fab', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex',
-                0]], [[null, 'click']], function (_v, en, $event) {
-            var ad = true;
-            if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 60)._haltDisabledEvents($event) !== false);
-                ad = (pd_0 && ad);
-            }
-            return ad;
-        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdFab, [[8, null],
-            [2, i8.MdAnchor]], null, null), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-icon', [['class', 'mat-icon'], ['role', 'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2,
-            i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null),
-        (_l()(), i1.ɵted(0, ['local_library'])), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(),
-            i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(),
-            i1.ɵeld(0, null, null, 17, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2,
-            [3, i4.LayoutDirective], [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 13, 'md-card', [['class', 'card mat-card']], null, null, null, i7.View_MdCard_0, i7.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 7, 'a', [['class', 'mat-fab'], ['href', 'http://www.androidtraininginchennai.com/'],
-            ['md-fab', '']], [[1, 'disabled', 0], [1, 'aria-disabled', 0], [8, 'tabIndex',
-                0]], [[null, 'click']], function (_v, en, $event) {
-            var ad = true;
-            if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 79)._haltDisabledEvents($event) !== false);
-                ad = (pd_0 && ad);
-            }
-            return ad;
-        }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdFab, [[8, null],
-            [2, i8.MdAnchor]], null, null), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-icon', [['class', 'mat-icon'], ['role', 'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2,
-            i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null),
-        (_l()(), i1.ɵted(0, ['adb'])), (_l()(), i1.ɵted(0, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n\n '])), (_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class', 'sponsors']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n ']))], function (_ck, _v) {
+            i1.ɵted(null, ['\n '])), (_l()(), i1.ɵeld(0, null, null, 16, 'div', [['class', 'sponsors']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n     '])), (_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class',
+                'header'], ['id', 'dark']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor,
+            i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['SPONSORS'])), (_l()(), i1.ɵted(null, ['\n     '])), (_l()(), i1.ɵeld(0, null, null, 8, 'div', [['class', 'tech-slideshow']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵeld(0, null, null, 1, 'div', [['class', 'mover-1']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵeld(0, null, null, 1, 'div', [['class', 'mover-2']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
         var currVal_0 = 'home';
         _ck(_v, 3, 0, currVal_0);
         var currVal_1 = 'uniq';
-        _ck(_v, 7, 0, currVal_1);
-        var currVal_2 = 'row';
-        var currVal_3 = 'column';
+        _ck(_v, 8, 0, currVal_1);
+        var currVal_2 = 'header';
+        _ck(_v, 11, 0, currVal_2);
+        var currVal_3 = 'row';
         var currVal_4 = 'row';
-        _ck(_v, 10, 0, currVal_2, currVal_3, currVal_4);
-        var currVal_5 = '';
-        _ck(_v, 13, 0, currVal_5);
-        var currVal_6 = 'card';
-        _ck(_v, 18, 0, currVal_6);
-        _ck(_v, 26, 0);
-        var currVal_10 = '';
-        _ck(_v, 32, 0, currVal_10);
-        var currVal_11 = 'card';
-        _ck(_v, 37, 0, currVal_11);
-        _ck(_v, 45, 0);
-        var currVal_15 = '';
-        _ck(_v, 51, 0, currVal_15);
-        var currVal_16 = 'card';
-        _ck(_v, 56, 0, currVal_16);
-        _ck(_v, 64, 0);
-        var currVal_20 = '';
-        _ck(_v, 70, 0, currVal_20);
-        var currVal_21 = 'card';
-        _ck(_v, 75, 0, currVal_21);
-        _ck(_v, 83, 0);
-        var currVal_25 = 'sponsors';
-        _ck(_v, 91, 0, currVal_25);
+        var currVal_5 = 'row';
+        _ck(_v, 15, 0, currVal_3, currVal_4, currVal_5);
+        var currVal_6 = 'uniq-container';
+        _ck(_v, 16, 0, currVal_6);
+        var currVal_7 = '';
+        _ck(_v, 19, 0, currVal_7);
+        var currVal_11 = 'below';
+        var currVal_12 = 'Implant Training';
+        _ck(_v, 25, 0, currVal_11, currVal_12);
+        var currVal_13 = 'fab';
+        _ck(_v, 26, 0, currVal_13);
+        _ck(_v, 29, 0);
+        var currVal_14 = '';
+        _ck(_v, 34, 0, currVal_14);
+        var currVal_18 = 'below';
+        var currVal_19 = 'Internship';
+        _ck(_v, 40, 0, currVal_18, currVal_19);
+        var currVal_20 = 'fab';
+        _ck(_v, 41, 0, currVal_20);
+        _ck(_v, 44, 0);
+        var currVal_21 = '';
+        _ck(_v, 49, 0, currVal_21);
+        var currVal_25 = 'below';
+        var currVal_26 = 'IEEE Projects';
+        _ck(_v, 55, 0, currVal_25, currVal_26);
+        var currVal_27 = 'fab';
+        _ck(_v, 56, 0, currVal_27);
+        _ck(_v, 59, 0);
+        var currVal_28 = '';
+        _ck(_v, 64, 0, currVal_28);
+        var currVal_32 = 'below';
+        var currVal_33 = 'Android Training';
+        _ck(_v, 70, 0, currVal_32, currVal_33);
+        var currVal_34 = 'fab';
+        _ck(_v, 71, 0, currVal_34);
+        _ck(_v, 74, 0);
+        var currVal_35 = 'footer';
+        _ck(_v, 80, 0, currVal_35);
+        var currVal_39 = 'below';
+        var currVal_40 = 'Follow us on facebook';
+        _ck(_v, 86, 0, currVal_39, currVal_40);
+        var currVal_41 = 'fab';
+        _ck(_v, 87, 0, currVal_41);
+        var currVal_42 = 'fb';
+        _ck(_v, 91, 0, currVal_42);
+        var currVal_43 = 'sponsors';
+        _ck(_v, 97, 0, currVal_43);
+        var currVal_44 = 'header';
+        _ck(_v, 100, 0, currVal_44);
+        var currVal_45 = 'tech-slideshow';
+        _ck(_v, 104, 0, currVal_45);
+        var currVal_46 = 'mover-1';
+        _ck(_v, 107, 0, currVal_46);
+        var currVal_47 = 'mover-2';
+        _ck(_v, 110, 0, currVal_47);
     }, function (_ck, _v) {
-        var currVal_7 = (i1.ɵnov(_v, 22).disabled || null);
-        var currVal_8 = i1.ɵnov(_v, 22)._isAriaDisabled;
-        var currVal_9 = i1.ɵnov(_v, 22).tabIndex;
-        _ck(_v, 20, 0, currVal_7, currVal_8, currVal_9);
-        var currVal_12 = (i1.ɵnov(_v, 41).disabled || null);
-        var currVal_13 = i1.ɵnov(_v, 41)._isAriaDisabled;
-        var currVal_14 = i1.ɵnov(_v, 41).tabIndex;
-        _ck(_v, 39, 0, currVal_12, currVal_13, currVal_14);
-        var currVal_17 = (i1.ɵnov(_v, 60).disabled || null);
-        var currVal_18 = i1.ɵnov(_v, 60)._isAriaDisabled;
-        var currVal_19 = i1.ɵnov(_v, 60).tabIndex;
-        _ck(_v, 58, 0, currVal_17, currVal_18, currVal_19);
-        var currVal_22 = (i1.ɵnov(_v, 79).disabled || null);
-        var currVal_23 = i1.ɵnov(_v, 79)._isAriaDisabled;
-        var currVal_24 = i1.ɵnov(_v, 79).tabIndex;
-        _ck(_v, 77, 0, currVal_22, currVal_23, currVal_24);
+        var currVal_8 = (i1.ɵnov(_v, 23).disabled || null);
+        var currVal_9 = i1.ɵnov(_v, 23)._isAriaDisabled;
+        var currVal_10 = i1.ɵnov(_v, 23).tabIndex;
+        _ck(_v, 21, 0, currVal_8, currVal_9, currVal_10);
+        var currVal_15 = (i1.ɵnov(_v, 38).disabled || null);
+        var currVal_16 = i1.ɵnov(_v, 38)._isAriaDisabled;
+        var currVal_17 = i1.ɵnov(_v, 38).tabIndex;
+        _ck(_v, 36, 0, currVal_15, currVal_16, currVal_17);
+        var currVal_22 = (i1.ɵnov(_v, 53).disabled || null);
+        var currVal_23 = i1.ɵnov(_v, 53)._isAriaDisabled;
+        var currVal_24 = i1.ɵnov(_v, 53).tabIndex;
+        _ck(_v, 51, 0, currVal_22, currVal_23, currVal_24);
+        var currVal_29 = (i1.ɵnov(_v, 68).disabled || null);
+        var currVal_30 = i1.ɵnov(_v, 68)._isAriaDisabled;
+        var currVal_31 = i1.ɵnov(_v, 68).tabIndex;
+        _ck(_v, 66, 0, currVal_29, currVal_30, currVal_31);
+        var currVal_36 = (i1.ɵnov(_v, 84).disabled || null);
+        var currVal_37 = i1.ɵnov(_v, 84)._isAriaDisabled;
+        var currVal_38 = i1.ɵnov(_v, 84).tabIndex;
+        _ck(_v, 82, 0, currVal_36, currVal_37, currVal_38);
     });
 }
 export function View_HomePageComponent_Host_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 1, 'app-homepage', [], null, null, null, View_HomePageComponent_0, RenderType_HomePageComponent)), i1.ɵdid(49152, null, 0, i9.HomePageComponent, [], null, null)], null, null);
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 1, 'app-homepage', [], null, null, null, View_HomePageComponent_0, RenderType_HomePageComponent)), i1.ɵdid(49152, null, 0, i9.HomePageComponent, [i8.MdIconRegistry, i10.DomSanitizer], null, null)], null, null);
 }
 export var HomePageComponentNgFactory = i1.ɵccf('app-homepage', i9.HomePageComponent, View_HomePageComponent_Host_0, {}, {}, []);

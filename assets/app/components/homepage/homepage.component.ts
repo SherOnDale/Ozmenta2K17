@@ -1,14 +1,17 @@
 import { Component} from '@angular/core';
+import {MdIconRegistry} from '@angular/material';
+import {DomSanitizer} from '@angular/platform-browser';
 @Component({
   selector: 'app-homepage',
   templateUrl: './homepage.component.html',
   styleUrls: ['./homepage.component.css']
 })
 
-export class HomePageComponent{
+export class HomePageComponent {
 
-  scene: any;
-
-  constructor() {
+  constructor(iconRegistry: MdIconRegistry, sanitizer: DomSanitizer) {
+    iconRegistry.addSvgIcon(
+        'fb',
+        sanitizer.bypassSecurityTrustResourceUrl('/images/fb.svg'));
   }
 }
