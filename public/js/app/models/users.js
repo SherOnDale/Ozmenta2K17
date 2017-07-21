@@ -10,6 +10,22 @@ var userSchema = new Schema({
         type: String,
         required: true
     },
+    cName: {
+        type: String,
+        required: true
+    },
+    degree: {
+        type: String,
+        required: true
+    },
+    dept: {
+        type: String,
+        required: true
+    },
+    year: {
+        type: Number,
+        required: true
+    },
     email: {
         type: String,
         required: true,

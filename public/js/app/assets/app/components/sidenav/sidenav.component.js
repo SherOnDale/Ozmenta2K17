@@ -10,18 +10,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { UserService } from './../../services/user.service';
 import { LoginComponent } from './../login/login.component';
 import { MdDialog } from '@angular/material';
-import { RegisterComponent } from './../register/register.component';
 import { Component } from '@angular/core';
 var SidenavComponent = (function () {
     function SidenavComponent(dialog, userService) {
         this.dialog = dialog;
         this.userService = userService;
     }
-    SidenavComponent.prototype.openRegisterForm = function () {
-        var dialogRef = this.dialog.open(RegisterComponent);
-        dialogRef.afterClosed().subscribe(function (result) {
-        });
-    };
     SidenavComponent.prototype.openLoginForm = function () {
         var dialogRef = this.dialog.open(LoginComponent);
         dialogRef.afterClosed().subscribe(function (result) {

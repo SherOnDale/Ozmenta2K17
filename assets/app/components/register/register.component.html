@@ -15,6 +15,40 @@
     </div>
    </div>
     <md-input-container class="app-full-width">
+      <input mdInput placeholder="College Name" formControlName="cName">
+      <md-hint class="app-alert" *ngIf="!rForm.controls['cName'].valid && rForm.controls['cName'].touched">This field is required</md-hint>
+    </md-input-container>
+     <md-input-container class="app-full-width">
+  <input mdInput placeholder="Degree" [mdAutocomplete]="auto2" formControlName="degree">
+</md-input-container>
+
+<md-autocomplete #auto2="mdAutocomplete">
+  <md-option *ngFor="let degree of degrees" [value]="degree.value">
+    {{degree.viewValue}}
+  </md-option>
+</md-autocomplete>
+      <md-hint class="app-alert" *ngIf="!rForm.controls['degree'].valid && rForm.controls['degree'].touched">This field is required</md-hint> 
+     <md-input-container class="app-full-width">
+  <input mdInput placeholder="Department" [mdAutocomplete]="auto" formControlName="dept">
+</md-input-container>
+
+<md-autocomplete #auto="mdAutocomplete">
+  <md-option *ngFor="let department of departments" [value]="department.value">
+    {{department.viewValue}}
+  </md-option>
+</md-autocomplete>
+      <md-hint class="app-alert" *ngIf="!rForm.controls['dept'].valid && rForm.controls['dept'].touched">This field is required</md-hint> 
+     <md-input-container class="app-full-width">
+  <input mdInput placeholder="Year" [mdAutocomplete]="auto3" formControlName="year">
+</md-input-container>
+
+<md-autocomplete #auto3="mdAutocomplete">
+  <md-option *ngFor="let year of years" [value]="year.value">
+    {{year.viewValue}}
+  </md-option>
+</md-autocomplete>
+      <md-hint class="app-alert" *ngIf="!rForm.controls['year'].valid && rForm.controls['year'].touched">This field is required</md-hint> 
+    <md-input-container class="app-full-width">
       <input type="email" mdInput placeholder="Email" formControlName="email">
       <md-hint class="app-alert" *ngIf="(rForm.controls['email'].pristine || !rForm.controls['email'].value ) && rForm.controls['email'].touched">This field is required</md-hint>
       <md-hint class="app-alert" *ngIf="!rForm.controls['email'].pristine && !rForm.controls['email'].value && rForm.controls['email'].touched && !rForm.controls['email'].valid">Invalid Email Address</md-hint>
@@ -32,6 +66,5 @@
     <br>
     <br>
     <button type="submit" md-raised-button color="primary" [disabled]="!rForm.valid">Submit</button>
-    <button type="reset" md-raised-button color="warn" (click)="dialogRef.close()">Cancel</button>
   </form>
 </div>

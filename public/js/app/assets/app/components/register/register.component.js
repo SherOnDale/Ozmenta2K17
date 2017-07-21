@@ -10,10 +10,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { UserService } from './../../services/user.service';
 import { Component } from '@angular/core';
 import { Validators, FormBuilder } from '@angular/forms';
-import { MdDialogRef, MdSnackBar } from '@angular/material';
+import { MdSnackBar } from '@angular/material';
 var RegisterComponent = (function () {
-    function RegisterComponent(dialogRef, fb, snackBar, userService) {
-        this.dialogRef = dialogRef;
+    function RegisterComponent(fb, snackBar, userService) {
         this.fb = fb;
         this.snackBar = snackBar;
         this.userService = userService;
@@ -22,9 +21,34 @@ var RegisterComponent = (function () {
         this.email = '';
         this.password = '';
         this.numberPattern = /^\d{10}$/;
+        this.degrees = [
+            { value: 'be', viewValue: 'B.E.' },
+            { value: 'btech', viewValue: 'B.Tech' },
+            { value: 'other', viewValue: 'Other' }
+        ];
+        this.departments = [
+            { value: 'cse', viewValue: 'CSE' },
+            { value: 'it', viewValue: 'IT' },
+            { value: 'ece', viewValue: 'ECE' },
+            { value: 'eee', viewValue: 'EEE' },
+            { value: 'eie', viewValue: 'EIE' },
+            { value: 'mech', viewValue: 'MECH' },
+            { value: 'civi;', viewValue: 'CIVIL' },
+            { value: 'other', viewValue: 'Other' }
+        ];
+        this.years = [
+            { value: 1, viewValue: '1st Year' },
+            { value: 2, viewValue: '2nd Year' },
+            { value: 3, viewValue: '3rd Year' },
+            { value: 4, viewValue: '4th Year' }
+        ];
         this.rForm = fb.group({
             'fName': [null, Validators.required],
             'lName': [null, Validators.required],
+            'cName': [null, Validators.required],
+            'degree': [null, Validators.required],
+            'dept': [null, Validators.required],
+            'year': [null, Validators.required],
             'email': [null, Validators.email],
             'phno': [null, Validators.compose([
                     Validators.pattern(this.numberPattern),
@@ -40,7 +64,11 @@ var RegisterComponent = (function () {
             password: post.password,
             fName: post.fName,
             lName: post.lName,
-            phno: post.phno
+            phno: post.phno,
+            cName: post.cName,
+            degree: post.degree,
+            dept: post.dept,
+            year: post.year
         };
         var email = user.email;
         var password = user.password;
@@ -48,7 +76,6 @@ var RegisterComponent = (function () {
             .subscribe(function (data) {
             localStorage.setItem('token', data.token);
             localStorage.setItem('userId', data.userId);
-            _this.dialogRef.close();
             _this.snackBar.open(data.message, 'OK');
         }, function (error) {
             _this.snackBar.open(error.message, 'OK');
@@ -62,6 +89,6 @@ RegisterComponent = __decorate([
         templateUrl: './register.component.html',
         styleUrls: ['./register.component.css']
     }),
-    __metadata("design:paramtypes", [MdDialogRef, FormBuilder, MdSnackBar, UserService])
+    __metadata("design:paramtypes", [FormBuilder, MdSnackBar, UserService])
 ], RegisterComponent);
 export { RegisterComponent };

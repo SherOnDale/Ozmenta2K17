@@ -12,6 +12,8 @@ import { MdIconRegistry } from '@angular/material';
 import { DomSanitizer } from '@angular/platform-browser';
 var HomePageComponent = (function () {
     function HomePageComponent(iconRegistry, sanitizer) {
+        this.lat = 13.150779;
+        this.lng = 80.191553;
         iconRegistry.addSvgIcon('fb', sanitizer.bypassSecurityTrustResourceUrl('/images/fb.svg'));
     }
     return HomePageComponent;

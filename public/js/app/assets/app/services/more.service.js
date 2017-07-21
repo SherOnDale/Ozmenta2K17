@@ -18,10 +18,10 @@ var MoreService = (function () {
                 id: 'e12',
                 description: 'Looking to excel in competitive programming and crack your dream company job, this program will give you all the tools and tips to get into competitive programming conducted by Manit Kapoor currently ranked 1 worldwide in <a class="p-link" href="https://www.hackerearth.com/codearena/leaderboard/">CodeArena</a> in HackerEarth.'
             }, {
-                name: 'Web Development using Flask Micro Framework',
+                name: 'Python Programming and Introduction to Flask',
                 type: 'Technical Workshop',
                 id: 'e13',
-                description: 'Flask is a lightweight micro framework used to develop websites in python based on Werkzeug and Jinja 2 template. Flask has a built-in development server and debugger. Flask is a cross-platform framework with extensions supporting object relational mapper and several common framework related tools.<br> Prerequisites: Handful experience in HTML, Python, JavaScript'
+                description: 'A brief introduction to Python with practical work covering various important concepts in Python allowing you to dive into Python world followed by a seminar about Flask, a Micro Web Development Framework to help in providing a path for developing web applications is Python'
             }];
         this.moreTEvents = [{
                 name: 'Workshops',
@@ -58,7 +58,7 @@ var MoreService = (function () {
                 name: 'Steady Shot',
                 type: 'Photography',
                 id: 'e31',
-                description: 'Master your aperture & freeze the juncture based on the given theme:<br>1.Beauty of Chennai<br>2.Wildlife<br>3.Natural Sceneries<br>4.Indoor Photography<br>Mail your photograph with name, college name and department to <a class="p-link" href="mailto:submission@ozmenta2k17.com">submission@ozmenta2k17.com</a> or DM your photographs to <a class="p-link" href="http://www.facebook.com/ozmenta2k17">OZmenta2K17 FB Page</a><br>Last date for submission is August 3'
+                description: 'Master your aperture & freeze the juncture based on the given theme:<br>1.Beauty of Chennai<br>2.Wildlife<br>3.Natural Sceneries<br>4.Indoor Photography<br>Mail your photograph with name, college name and department to <a style="color:yellow;" md-button href="mailto:submission@ozmenta2k17.com">submission@ozmenta2k17.com</a> or DM your photographs to <a class="p-link" href="http://www.facebook.com/ozmenta2k17">OZmenta2K17 FB Page</a><br>Last date for submission is August 3'
             }, {
                 name: 'Connexions',
                 type: 'Non-Technical Event',

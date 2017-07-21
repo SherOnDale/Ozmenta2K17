@@ -16,8 +16,8 @@ import * as i6 from './components/workshoppage/workshoppage.component.ngfactory'
 import * as i7 from './components/contactspage/contactspage.component.ngfactory';
 import * as i8 from './components/activateuser/activateuser.component.ngfactory';
 import * as i9 from './components/homepage/homepage.component.ngfactory';
-import * as i10 from './components/login/login.component.ngfactory';
-import * as i11 from './components/register/register.component.ngfactory';
+import * as i10 from './components/register/register.component.ngfactory';
+import * as i11 from './components/login/login.component.ngfactory';
 import * as i12 from './components/more/more.component.ngfactory';
 import * as i13 from './components/registerevent/registerevent.component.ngfactory';
 import * as i14 from './components/cancelevent/cancelevent.component.ngfactory';
@@ -39,24 +39,29 @@ import * as i29 from '@angular/flex-layout/media-query/media-monitor-provider';
 import * as i30 from '@angular/flex-layout/media-query/observable-media';
 import * as i31 from '@angular/flex-layout/media-query/observable-media-provider';
 import * as i32 from '@angular/router';
-import * as i33 from './services/user.service';
-import * as i34 from './services/more.service';
-import * as i35 from './components/teventpage/teventpage.component';
-import * as i36 from './components/nteventpage/nteventpage.component';
-import * as i37 from './components/workshoppage/workshoppage.component';
-import * as i38 from './components/contactspage/contactspage.component';
-import * as i39 from './components/activateuser/activateuser.component';
-import * as i40 from './components/homepage/homepage.component';
-import * as i41 from '@angular/flex-layout/media-query/_module';
-import * as i42 from '@angular/flex-layout/flexbox/_module';
+import * as i33 from '@agm/core/utils/browser-globals';
+import * as i34 from '@agm/core/services/maps-api-loader/maps-api-loader';
+import * as i35 from '@agm/core/services/maps-api-loader/lazy-maps-api-loader';
+import * as i36 from './services/user.service';
+import * as i37 from './services/more.service';
+import * as i38 from './components/teventpage/teventpage.component';
+import * as i39 from './components/nteventpage/nteventpage.component';
+import * as i40 from './components/workshoppage/workshoppage.component';
+import * as i41 from './components/contactspage/contactspage.component';
+import * as i42 from './components/activateuser/activateuser.component';
+import * as i43 from './components/homepage/homepage.component';
+import * as i44 from './components/register/register.component';
+import * as i45 from '@angular/flex-layout/media-query/_module';
+import * as i46 from '@angular/flex-layout/flexbox/_module';
+import * as i47 from '@agm/core/core.module';
 export const AppModuleNgFactory:i0.NgModuleFactory<i1.AppModule> = i0.ɵcmf(i1.AppModule,
     [i2.AppComponent],(_l:any) => {
       return i0.ɵmod([i0.ɵmpd(512,i0.ComponentFactoryResolver,i0.ɵCodegenComponentFactoryResolver,
           [[8,[i3.MdDialogContainerNgFactory,i3.MdDatepickerContentNgFactory,i3.MdSnackBarContainerNgFactory,
               i3.SimpleSnackBarNgFactory,i3.TooltipComponentNgFactory,i4.TEventPageComponentNgFactory,
               i5.NTEventPageComponentNgFactory,i6.WorkshopPageComponentNgFactory,i7.ContactsPageComponentNgFactory,
-              i8.ActivateUserComponentNgFactory,i9.HomePageComponentNgFactory,i10.LoginComponentNgFactory,
-              i11.RegisterComponentNgFactory,i12.MoreComponentNgFactory,i13.RegisterEventComponentNgFactory,
+              i8.ActivateUserComponentNgFactory,i9.HomePageComponentNgFactory,i10.RegisterComponentNgFactory,
+              i11.LoginComponentNgFactory,i12.MoreComponentNgFactory,i13.RegisterEventComponentNgFactory,
               i14.CancelEventComponentNgFactory,i15.AppComponentNgFactory]],[3,i0.ComponentFactoryResolver],
               i0.NgModuleRef]),i0.ɵmpd(4608,i16.Platform,i16.Platform,([] as any[])),
           i0.ɵmpd(5120,i16.ScrollDispatcher,i16.ɵf,[[3,i16.ScrollDispatcher],i0.NgZone,
@@ -121,10 +126,13 @@ export const AppModuleNgFactory:i0.NgModuleFactory<i1.AppModule> = i0.ɵcmf(i1.A
               i32.PreloadAllModules,([] as any[])),i0.ɵmpd(5120,i32.ROUTER_INITIALIZER,
               i32.ɵi,[i32.ɵg]),i0.ɵmpd(5120,i0.APP_BOOTSTRAP_LISTENER,(p0_0:any) => {
             return [p0_0];
-          },[i32.ROUTER_INITIALIZER]),i0.ɵmpd(4608,i33.UserService,i33.UserService,
-              [i19.Http]),i0.ɵmpd(4608,i34.MoreService,i34.MoreService,([] as any[])),
-          i0.ɵmpd(512,i16.CompatibilityModule,i16.CompatibilityModule,([] as any[])),
-          i0.ɵmpd(256,i16.MATERIAL_SANITY_CHECKS,true,([] as any[])),i0.ɵmpd(512,i16.MdCommonModule,
+          },[i32.ROUTER_INITIALIZER]),i0.ɵmpd(4608,i33.WindowRef,i33.WindowRef,([] as any[])),
+          i0.ɵmpd(4608,i33.DocumentRef,i33.DocumentRef,([] as any[])),i0.ɵmpd(4608,
+              i34.MapsAPILoader,i35.LazyMapsAPILoader,[i35.LAZY_MAPS_API_CONFIG,i33.WindowRef,
+                  i33.DocumentRef]),i0.ɵmpd(4608,i36.UserService,i36.UserService,[i19.Http]),
+          i0.ɵmpd(4608,i37.MoreService,i37.MoreService,([] as any[])),i0.ɵmpd(512,
+              i16.CompatibilityModule,i16.CompatibilityModule,([] as any[])),i0.ɵmpd(256,
+              i16.MATERIAL_SANITY_CHECKS,true,([] as any[])),i0.ɵmpd(512,i16.MdCommonModule,
               i16.MdCommonModule,[[2,i20.DOCUMENT],[2,i16.MATERIAL_SANITY_CHECKS]]),
           i0.ɵmpd(512,i16.PlatformModule,i16.PlatformModule,([] as any[])),i0.ɵmpd(512,
               i16.ScrollDispatchModule,i16.ScrollDispatchModule,([] as any[])),i0.ɵmpd(512,
@@ -183,17 +191,19 @@ export const AppModuleNgFactory:i0.NgModuleFactory<i1.AppModule> = i0.ɵcmf(i1.A
           i0.ɵmpd(512,i0.Compiler,i0.Compiler,([] as any[])),i0.ɵmpd(512,i0.NgModuleFactoryLoader,
               i0.SystemJsNgModuleLoader,[i0.Compiler,[2,i0.SystemJsNgModuleLoaderConfig]]),
           i0.ɵmpd(1024,i32.ROUTES,() => {
-            return [[{path:'tevents',component:i35.TEventPageComponent},{path:'ntevents',
-                component:i36.NTEventPageComponent},{path:'workshops',component:i37.WorkshopPageComponent},
-                {path:'contacts',component:i38.ContactsPageComponent},{path:'activate/:token',
-                    component:i39.ActivateUserComponent},{path:'',component:i40.HomePageComponent,
-                    pathMatch:'full'}]];
+            return [[{path:'tevents',component:i38.TEventPageComponent},{path:'ntevents',
+                component:i39.NTEventPageComponent},{path:'workshops',component:i40.WorkshopPageComponent},
+                {path:'contacts',component:i41.ContactsPageComponent},{path:'activate/:token',
+                    component:i42.ActivateUserComponent},{path:'',component:i43.HomePageComponent,
+                    pathMatch:'full'},{path:'register',component:i44.RegisterComponent}]];
           },([] as any[])),i0.ɵmpd(1024,i32.Router,i32.ɵe,[i0.ApplicationRef,i32.UrlSerializer,
               i32.ChildrenOutletContexts,i17.Location,i0.Injector,i0.NgModuleFactoryLoader,
               i0.Compiler,i32.ROUTES,i32.ROUTER_CONFIGURATION,[2,i32.UrlHandlingStrategy],
               [2,i32.RouteReuseStrategy]]),i0.ɵmpd(512,i32.RouterModule,i32.RouterModule,
-              [[2,i32.ɵa],[2,i32.Router]]),i0.ɵmpd(512,i41.MediaQueriesModule,i41.MediaQueriesModule,
-              ([] as any[])),i0.ɵmpd(512,i42.FlexLayoutModule,i42.FlexLayoutModule,
-              ([] as any[])),i0.ɵmpd(512,i1.AppModule,i1.AppModule,([] as any[]))]);
+              [[2,i32.ɵa],[2,i32.Router]]),i0.ɵmpd(512,i45.MediaQueriesModule,i45.MediaQueriesModule,
+              ([] as any[])),i0.ɵmpd(512,i46.FlexLayoutModule,i46.FlexLayoutModule,
+              ([] as any[])),i0.ɵmpd(512,i47.AgmCoreModule,i47.AgmCoreModule,([] as any[])),
+          i0.ɵmpd(512,i1.AppModule,i1.AppModule,([] as any[])),i0.ɵmpd(256,i35.LAZY_MAPS_API_CONFIG,
+              {apiKey:'AIzaSyDc75WCAhSFyFxzvR786Z3vHvaS6JqlkaY'},([] as any[]))]);
     });
-//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2FwcC5tb2R1bGUubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2FwcC5tb2R1bGUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OyJ9
+//# sourceMappingURL=data:application/json;base64,eyJmaWxlIjoiQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2FwcC5tb2R1bGUubmdmYWN0b3J5LnRzIiwidmVyc2lvbiI6Mywic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibmc6Ly8vQzovVXNlcnMvcHJpbmMvRGVza3RvcC9vem1lbnRhMmsxNy9hc3NldHMvYXBwL2FwcC5tb2R1bGUudHMiXSwic291cmNlc0NvbnRlbnQiOlsiICJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzsifQ==

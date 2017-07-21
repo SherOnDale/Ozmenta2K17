@@ -8,6 +8,8 @@ import {DomSanitizer} from '@angular/platform-browser';
 })
 
 export class HomePageComponent {
+  lat: number = 13.150779;
+  lng: number = 80.191553;
 
   constructor(iconRegistry: MdIconRegistry, sanitizer: DomSanitizer) {
     iconRegistry.addSvgIcon(

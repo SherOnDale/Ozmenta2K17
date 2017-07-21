@@ -45,10 +45,10 @@
             <md-icon>account_circle</md-icon>
             <span>Login</span>
         </button>
-        <button md-menu-item (click)="openRegisterForm()" *ngIf="!isLoggedIn()">
+        <a md-menu-item routerLink="/register" *ngIf="!isLoggedIn()">
             <md-icon>account_circle</md-icon>
             <span>Register</span>
-        </button>
+        </a>
         <button md-menu-item (click)="logout()" *ngIf="isLoggedIn()">
             <md-icon>account_circle</md-icon>
             <span>Logout</span>

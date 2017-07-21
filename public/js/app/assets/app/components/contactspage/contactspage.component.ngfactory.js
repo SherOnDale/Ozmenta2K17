@@ -84,7 +84,7 @@ export function View_ContactsPageComponent_0(_l) {
             }
             return ad;
         }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
-                'mat-button'], ['href', 'tel:+919940091599'], ['md-button', '']], [[1, 'disabled',
+                'mat-button'], ['href', 'tel:+91893943113'], ['md-button', '']], [[1, 'disabled',
                 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {
@@ -120,7 +120,7 @@ export function View_ContactsPageComponent_0(_l) {
             }
             return ad;
         }, i7.View_MdAnchor_0, i7.RenderType_MdAnchor)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i8.MdAnchor, [i8.Platform, i8.FocusOriginMonitor, i1.ElementRef, i1.Renderer2], null, null), i1.ɵdid(16384, null, 0, i8.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MAIL'])), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵeld(0, null, null, 4, 'a', [['class',
-                'mat-button'], ['href', 'tel:+91893943113'], ['md-button', '']], [[1, 'disabled',
+                'mat-button'], ['href', 'tel:+919940091599'], ['md-button', '']], [[1, 'disabled',
                 0], [1, 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click']], function (_v, en, $event) {
             var ad = true;
             if (('click' === en)) {

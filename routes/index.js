@@ -33,6 +33,10 @@ router.post('/registerUser', (req, res, next) => {
   const user = new User({
     fName: req.body.fName,
     lName: req.body.lName,
+    cName: req.body.cName,
+    degree: req.body.degree,
+    dept: req.body.dept,
+    year: req.body.year,
     email: req.body.email,
     phno: req.body.phno,
     password: bcrypt.hashSync(req.body.password, 10),

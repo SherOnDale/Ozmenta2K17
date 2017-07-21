@@ -14,8 +14,8 @@ import * as i6 from './components/workshoppage/workshoppage.component.ngfactory'
 import * as i7 from './components/contactspage/contactspage.component.ngfactory';
 import * as i8 from './components/activateuser/activateuser.component.ngfactory';
 import * as i9 from './components/homepage/homepage.component.ngfactory';
-import * as i10 from './components/login/login.component.ngfactory';
-import * as i11 from './components/register/register.component.ngfactory';
+import * as i10 from './components/register/register.component.ngfactory';
+import * as i11 from './components/login/login.component.ngfactory';
 import * as i12 from './components/more/more.component.ngfactory';
 import * as i13 from './components/registerevent/registerevent.component.ngfactory';
 import * as i14 from './components/cancelevent/cancelevent.component.ngfactory';
@@ -37,22 +37,27 @@ import * as i29 from '@angular/flex-layout/media-query/media-monitor-provider';
 import * as i30 from '@angular/flex-layout/media-query/observable-media';
 import * as i31 from '@angular/flex-layout/media-query/observable-media-provider';
 import * as i32 from '@angular/router';
-import * as i33 from './services/user.service';
-import * as i34 from './services/more.service';
-import * as i35 from './components/teventpage/teventpage.component';
-import * as i36 from './components/nteventpage/nteventpage.component';
-import * as i37 from './components/workshoppage/workshoppage.component';
-import * as i38 from './components/contactspage/contactspage.component';
-import * as i39 from './components/activateuser/activateuser.component';
-import * as i40 from './components/homepage/homepage.component';
-import * as i41 from '@angular/flex-layout/media-query/_module';
-import * as i42 from '@angular/flex-layout/flexbox/_module';
+import * as i33 from '@agm/core/utils/browser-globals';
+import * as i34 from '@agm/core/services/maps-api-loader/maps-api-loader';
+import * as i35 from '@agm/core/services/maps-api-loader/lazy-maps-api-loader';
+import * as i36 from './services/user.service';
+import * as i37 from './services/more.service';
+import * as i38 from './components/teventpage/teventpage.component';
+import * as i39 from './components/nteventpage/nteventpage.component';
+import * as i40 from './components/workshoppage/workshoppage.component';
+import * as i41 from './components/contactspage/contactspage.component';
+import * as i42 from './components/activateuser/activateuser.component';
+import * as i43 from './components/homepage/homepage.component';
+import * as i44 from './components/register/register.component';
+import * as i45 from '@angular/flex-layout/media-query/_module';
+import * as i46 from '@angular/flex-layout/flexbox/_module';
+import * as i47 from '@agm/core/core.module';
 export var AppModuleNgFactory = i0.ɵcmf(i1.AppModule, [i2.AppComponent], function (_l) {
     return i0.ɵmod([i0.ɵmpd(512, i0.ComponentFactoryResolver, i0.ɵCodegenComponentFactoryResolver, [[8, [i3.MdDialogContainerNgFactory, i3.MdDatepickerContentNgFactory, i3.MdSnackBarContainerNgFactory,
                     i3.SimpleSnackBarNgFactory, i3.TooltipComponentNgFactory, i4.TEventPageComponentNgFactory,
                     i5.NTEventPageComponentNgFactory, i6.WorkshopPageComponentNgFactory, i7.ContactsPageComponentNgFactory,
-                    i8.ActivateUserComponentNgFactory, i9.HomePageComponentNgFactory, i10.LoginComponentNgFactory,
-                    i11.RegisterComponentNgFactory, i12.MoreComponentNgFactory, i13.RegisterEventComponentNgFactory,
+                    i8.ActivateUserComponentNgFactory, i9.HomePageComponentNgFactory, i10.RegisterComponentNgFactory,
+                    i11.LoginComponentNgFactory, i12.MoreComponentNgFactory, i13.RegisterEventComponentNgFactory,
                     i14.CancelEventComponentNgFactory, i15.AppComponentNgFactory]], [3, i0.ComponentFactoryResolver],
             i0.NgModuleRef]), i0.ɵmpd(4608, i16.Platform, i16.Platform, []),
         i0.ɵmpd(5120, i16.ScrollDispatcher, i16.ɵf, [[3, i16.ScrollDispatcher], i0.NgZone,
@@ -81,9 +86,10 @@ export var AppModuleNgFactory = i0.ɵcmf(i1.AppModule, [i2.AppComponent], functi
             i27.MatchMedia]), i0.ɵmpd(5120, i30.ObservableMedia, i31.OBSERVABLE_MEDIA_PROVIDER_FACTORY, [[3, i30.ObservableMedia], i27.MatchMedia, i26.BreakPointRegistry]), i0.ɵmpd(5120, i32.ActivatedRoute, i32.ɵf, [i32.Router]), i0.ɵmpd(4608, i32.NoPreloading, i32.NoPreloading, []), i0.ɵmpd(6144, i32.PreloadingStrategy, null, [i32.NoPreloading]), i0.ɵmpd(135680, i32.RouterPreloader, i32.RouterPreloader, [i32.Router, i0.NgModuleFactoryLoader, i0.Compiler,
             i0.Injector, i32.PreloadingStrategy]), i0.ɵmpd(4608, i32.PreloadAllModules, i32.PreloadAllModules, []), i0.ɵmpd(5120, i32.ROUTER_INITIALIZER, i32.ɵi, [i32.ɵg]), i0.ɵmpd(5120, i0.APP_BOOTSTRAP_LISTENER, function (p0_0) {
             return [p0_0];
-        }, [i32.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i33.UserService, i33.UserService, [i19.Http]), i0.ɵmpd(4608, i34.MoreService, i34.MoreService, []),
-        i0.ɵmpd(512, i16.CompatibilityModule, i16.CompatibilityModule, []),
-        i0.ɵmpd(256, i16.MATERIAL_SANITY_CHECKS, true, []), i0.ɵmpd(512, i16.MdCommonModule, i16.MdCommonModule, [[2, i20.DOCUMENT], [2, i16.MATERIAL_SANITY_CHECKS]]),
+        }, [i32.ROUTER_INITIALIZER]), i0.ɵmpd(4608, i33.WindowRef, i33.WindowRef, []),
+        i0.ɵmpd(4608, i33.DocumentRef, i33.DocumentRef, []), i0.ɵmpd(4608, i34.MapsAPILoader, i35.LazyMapsAPILoader, [i35.LAZY_MAPS_API_CONFIG, i33.WindowRef,
+            i33.DocumentRef]), i0.ɵmpd(4608, i36.UserService, i36.UserService, [i19.Http]),
+        i0.ɵmpd(4608, i37.MoreService, i37.MoreService, []), i0.ɵmpd(512, i16.CompatibilityModule, i16.CompatibilityModule, []), i0.ɵmpd(256, i16.MATERIAL_SANITY_CHECKS, true, []), i0.ɵmpd(512, i16.MdCommonModule, i16.MdCommonModule, [[2, i20.DOCUMENT], [2, i16.MATERIAL_SANITY_CHECKS]]),
         i0.ɵmpd(512, i16.PlatformModule, i16.PlatformModule, []), i0.ɵmpd(512, i16.ScrollDispatchModule, i16.ScrollDispatchModule, []), i0.ɵmpd(512, i16.MdRippleModule, i16.MdRippleModule, []), i0.ɵmpd(512, i17.CommonModule, i17.CommonModule, []), i0.ɵmpd(512, i16.MdSelectionModule, i16.MdSelectionModule, []), i0.ɵmpd(512, i16.MdOptionModule, i16.MdOptionModule, []),
         i0.ɵmpd(512, i16.PortalModule, i16.PortalModule, []), i0.ɵmpd(512, i16.OverlayModule, i16.OverlayModule, []), i0.ɵmpd(512, i16.MdAutocompleteModule, i16.MdAutocompleteModule, []), i0.ɵmpd(512, i16.StyleModule, i16.StyleModule, []), i0.ɵmpd(512, i16.MdButtonModule, i16.MdButtonModule, []), i0.ɵmpd(512, i18.ɵba, i18.ɵba, []), i0.ɵmpd(512, i18.FormsModule, i18.FormsModule, []), i0.ɵmpd(512, i16.MdButtonToggleModule, i16.MdButtonToggleModule, []), i0.ɵmpd(512, i16.MdCardModule, i16.MdCardModule, []), i0.ɵmpd(512, i16.MdChipsModule, i16.MdChipsModule, []), i0.ɵmpd(512, i16.ObserveContentModule, i16.ObserveContentModule, []), i0.ɵmpd(512, i16.MdCheckboxModule, i16.MdCheckboxModule, []), i0.ɵmpd(512, i16.A11yModule, i16.A11yModule, []),
         i0.ɵmpd(512, i16.MdDialogModule, i16.MdDialogModule, []), i0.ɵmpd(512, i16.MdDatepickerModule, i16.MdDatepickerModule, []), i0.ɵmpd(512, i16.MdExpansionModule, i16.MdExpansionModule, []), i0.ɵmpd(512, i16.MdLineModule, i16.MdLineModule, []), i0.ɵmpd(512, i16.MdGridListModule, i16.MdGridListModule, []), i0.ɵmpd(512, i16.MdIconModule, i16.MdIconModule, []), i0.ɵmpd(512, i16.MdInputModule, i16.MdInputModule, []),
@@ -103,13 +109,14 @@ export var AppModuleNgFactory = i0.ɵcmf(i1.AppModule, [i2.AppComponent], functi
             i32.ROUTER_CONFIGURATION]), i0.ɵmpd(512, i17.Location, i17.Location, [i17.LocationStrategy]),
         i0.ɵmpd(512, i0.Compiler, i0.Compiler, []), i0.ɵmpd(512, i0.NgModuleFactoryLoader, i0.SystemJsNgModuleLoader, [i0.Compiler, [2, i0.SystemJsNgModuleLoaderConfig]]),
         i0.ɵmpd(1024, i32.ROUTES, function () {
-            return [[{ path: 'tevents', component: i35.TEventPageComponent }, { path: 'ntevents',
-                        component: i36.NTEventPageComponent }, { path: 'workshops', component: i37.WorkshopPageComponent },
-                    { path: 'contacts', component: i38.ContactsPageComponent }, { path: 'activate/:token',
-                        component: i39.ActivateUserComponent }, { path: '', component: i40.HomePageComponent,
-                        pathMatch: 'full' }]];
+            return [[{ path: 'tevents', component: i38.TEventPageComponent }, { path: 'ntevents',
+                        component: i39.NTEventPageComponent }, { path: 'workshops', component: i40.WorkshopPageComponent },
+                    { path: 'contacts', component: i41.ContactsPageComponent }, { path: 'activate/:token',
+                        component: i42.ActivateUserComponent }, { path: '', component: i43.HomePageComponent,
+                        pathMatch: 'full' }, { path: 'register', component: i44.RegisterComponent }]];
         }, []), i0.ɵmpd(1024, i32.Router, i32.ɵe, [i0.ApplicationRef, i32.UrlSerializer,
             i32.ChildrenOutletContexts, i17.Location, i0.Injector, i0.NgModuleFactoryLoader,
             i0.Compiler, i32.ROUTES, i32.ROUTER_CONFIGURATION, [2, i32.UrlHandlingStrategy],
-            [2, i32.RouteReuseStrategy]]), i0.ɵmpd(512, i32.RouterModule, i32.RouterModule, [[2, i32.ɵa], [2, i32.Router]]), i0.ɵmpd(512, i41.MediaQueriesModule, i41.MediaQueriesModule, []), i0.ɵmpd(512, i42.FlexLayoutModule, i42.FlexLayoutModule, []), i0.ɵmpd(512, i1.AppModule, i1.AppModule, [])]);
+            [2, i32.RouteReuseStrategy]]), i0.ɵmpd(512, i32.RouterModule, i32.RouterModule, [[2, i32.ɵa], [2, i32.Router]]), i0.ɵmpd(512, i45.MediaQueriesModule, i45.MediaQueriesModule, []), i0.ɵmpd(512, i46.FlexLayoutModule, i46.FlexLayoutModule, []), i0.ɵmpd(512, i47.AgmCoreModule, i47.AgmCoreModule, []),
+        i0.ɵmpd(512, i1.AppModule, i1.AppModule, []), i0.ɵmpd(256, i35.LAZY_MAPS_API_CONFIG, { apiKey: 'AIzaSyDc75WCAhSFyFxzvR786Z3vHvaS6JqlkaY' }, [])]);
 });

@@ -13,8 +13,20 @@ import * as i5 from '@angular/flex-layout/flexbox/api/flex';
 import * as i6 from '@angular/flex-layout/flexbox/api/layout-wrap';
 import * as i7 from '../../../../node_modules/@angular/material/typings/index.ngfactory';
 import * as i8 from '@angular/material';
-import * as i9 from './homepage.component';
-import * as i10 from '@angular/platform-browser';
+import * as i9 from '../../../../node_modules/@agm/core/directives/map.ngfactory';
+import * as i10 from '@agm/core/services/managers/info-window-manager';
+import * as i11 from '@agm/core/services/google-maps-api-wrapper';
+import * as i12 from '@agm/core/services/managers/marker-manager';
+import * as i13 from '@agm/core/services/managers/circle-manager';
+import * as i14 from '@agm/core/services/managers/polyline-manager';
+import * as i15 from '@agm/core/services/managers/polygon-manager';
+import * as i16 from '@agm/core/services/managers/kml-layer-manager';
+import * as i17 from '@agm/core/services/managers/data-layer-manager';
+import * as i18 from '@agm/core/services/maps-api-loader/maps-api-loader';
+import * as i19 from '@agm/core/directives/map';
+import * as i20 from '@agm/core/directives/marker';
+import * as i21 from './homepage.component';
+import * as i22 from '@angular/platform-browser';
 var styles_HomePageComponent = [i0.styles];
 export var RenderType_HomePageComponent = i1.ɵcrt({ encapsulation: 0,
     styles: styles_HomePageComponent, data: {} });
@@ -181,7 +193,107 @@ export function View_HomePageComponent_0(_l) {
             i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['SPONSORS'])), (_l()(), i1.ɵted(null, ['\n     '])), (_l()(), i1.ɵeld(0, null, null, 8, 'div', [['class', 'tech-slideshow']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
             i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵeld(0, null, null, 1, 'div', [['class', 'mover-1']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
             i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵeld(0, null, null, 1, 'div', [['class', 'mover-2']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(0, null, null, 3, 'md-divider', [['aria-orientation', 'horizontal'], ['class',
+                'mat-divider'], ['role', 'separator']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i8.MdListDivider, [], null, null),
+        i1.ɵdid(16384, null, 0, i8.MdDividerCssMatStyler, [], null, null), (_l()(), i1.ɵted(null, ['\n\n'])), (_l()(), i1.ɵeld(0, null, null, 130, 'div', [['class', 'contact']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class', 'header']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['CONTACT'])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 122, 'div', [['fxFlexs',
+                ''], ['fxLayout', 'row'], ['fxLayout.sm', 'column'], ['fxLayout.xs', 'column']], null, null, null, null, null)),
+        i1.ɵdid(737280, null, 0, i4.LayoutDirective, [i3.MediaMonitor, i1.ElementRef,
+            i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 98, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
+            [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
+            i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵeld(0, null, null, 94, 'md-list', [['class', 'mat-list'], ['role', 'list']], null, null, null, i7.View_MdList_0, i7.RenderType_MdList)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdList, [], null, null), i1.ɵdid(16384, null, 0, i8.MdListCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['\n  '])),
+        (_l()(), i1.ɵeld(0, null, 0, 19, 'md-list-item', [['class', 'mat-list-item'],
+            ['role', 'listitem']], null, [[null, 'focus'], [null,
+                'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 142)._handleFocus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 142)._handleBlur() !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i7.View_MdListItem_0, i7.RenderType_MdListItem)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(1097728, null, 2, i8.MdListItem, [i1.Renderer2, i1.ElementRef, [2, i8.MdList], [2, i8.MdNavListCssMatStyler]], null, null), i1.ɵqud(603979776, 1, { _lines: 1 }), i1.ɵqud(335544320, 2, { _hasAvatar: 0 }), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 4, 'md-icon', [['class', 'mat-icon mat-list-icon'], ['md-list-icon', ''], ['role',
+                'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)),
+        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null), i1.ɵdid(16384, null, 0, i8.MdListIconCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['folder'])),
+        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'h4', [['class',
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[1, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['COLLEGE NAME'])), (_l()(),
+            i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'p', [['class',
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[1, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['velammal Engineering College'])),
+        (_l()(), i1.ɵted(2, ['\n  '])), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 25, 'md-list-item', [['class', 'mat-list-item'], ['role', 'listitem']], null, [[null, 'focus'], [null, 'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 163)._handleFocus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 163)._handleBlur() !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i7.View_MdListItem_0, i7.RenderType_MdListItem)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(1097728, null, 2, i8.MdListItem, [i1.Renderer2, i1.ElementRef, [2, i8.MdList], [2, i8.MdNavListCssMatStyler]], null, null), i1.ɵqud(603979776, 3, { _lines: 1 }), i1.ɵqud(335544320, 4, { _hasAvatar: 0 }), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 4, 'md-icon', [['class', 'mat-icon mat-list-icon'], ['md-list-icon', ''], ['role',
+                'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)),
+        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null), i1.ɵdid(16384, null, 0, i8.MdListIconCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['folder'])),
+        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'h4', [['class',
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[3, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['ADDRESS'])), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 8, 'p', [['class', 'mat-line'],
+            ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[3, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['Ambattur-Red Hills Road,'])),
+        (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, [' Velammal Nagar,'])), (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)),
+        (_l()(), i1.ɵted(null, [' Chennai,'])), (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, [' Tamil Nadu 600066'])),
+        (_l()(), i1.ɵted(2, ['\n  '])), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 19, 'md-list-item', [['class', 'mat-list-item'], ['role', 'listitem']], null, [[null, 'focus'], [null, 'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 190)._handleFocus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 190)._handleBlur() !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i7.View_MdListItem_0, i7.RenderType_MdListItem)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(1097728, null, 2, i8.MdListItem, [i1.Renderer2, i1.ElementRef, [2, i8.MdList], [2, i8.MdNavListCssMatStyler]], null, null), i1.ɵqud(603979776, 5, { _lines: 1 }), i1.ɵqud(335544320, 6, { _hasAvatar: 0 }), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 4, 'md-icon', [['class', 'mat-icon mat-list-icon'], ['md-list-icon', ''], ['role',
+                'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)),
+        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null), i1.ɵdid(16384, null, 0, i8.MdListIconCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['folder'])),
+        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'h4', [['class',
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[5, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['WEBSITE'])), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'p', [['class', 'mat-line'],
+            ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[5, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['velammal.edu.in'])), (_l()(),
+            i1.ɵted(2, ['\n  '])), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 19, 'md-list-item', [['class', 'mat-list-item'], ['role', 'listitem']], null, [[null, 'focus'], [null, 'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 211)._handleFocus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 211)._handleBlur() !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i7.View_MdListItem_0, i7.RenderType_MdListItem)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(1097728, null, 2, i8.MdListItem, [i1.Renderer2, i1.ElementRef, [2, i8.MdList], [2, i8.MdNavListCssMatStyler]], null, null), i1.ɵqud(603979776, 7, { _lines: 1 }), i1.ɵqud(335544320, 8, { _hasAvatar: 0 }), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 4, 'md-icon', [['class', 'mat-icon mat-list-icon'], ['md-list-icon', ''], ['role',
+                'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)),
+        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null), i1.ɵdid(16384, null, 0, i8.MdListIconCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['folder'])),
+        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'h4', [['class',
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[7, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['EMAIL ADDRESS'])), (_l()(),
+            i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'p', [['class',
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[7, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['support@ozmenta2k17.com'])),
+        (_l()(), i1.ɵted(2, ['\n  '])), (_l()(), i1.ɵted(0, ['\n'])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 18, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
+            [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
+            i1.ɵted(null, ['\n\n'])), (_l()(), i1.ɵeld(0, null, null, 14, 'agm-map', [], [[2, 'sebm-google-map-container', null]], null, null, i9.View_AgmMap_0, i9.RenderType_AgmMap)), i1.ɵprd(4608, null, i10.InfoWindowManager, i10.InfoWindowManager, [i11.GoogleMapsAPIWrapper,
+            i1.NgZone, i12.MarkerManager]), i1.ɵprd(4608, null, i13.CircleManager, i13.CircleManager, [i11.GoogleMapsAPIWrapper, i1.NgZone]), i1.ɵprd(4608, null, i14.PolylineManager, i14.PolylineManager, [i11.GoogleMapsAPIWrapper, i1.NgZone]),
+        i1.ɵprd(4608, null, i15.PolygonManager, i15.PolygonManager, [i11.GoogleMapsAPIWrapper,
+            i1.NgZone]), i1.ɵprd(4608, null, i16.KmlLayerManager, i16.KmlLayerManager, [i11.GoogleMapsAPIWrapper, i1.NgZone]), i1.ɵprd(4608, null, i17.DataLayerManager, i17.DataLayerManager, [i11.GoogleMapsAPIWrapper, i1.NgZone]), i1.ɵprd(512, null, i11.GoogleMapsAPIWrapper, i11.GoogleMapsAPIWrapper, [i18.MapsAPILoader, i1.NgZone]),
+        i1.ɵdid(770048, null, 0, i19.AgmMap, [i1.ElementRef, i11.GoogleMapsAPIWrapper], { longitude: [0, 'longitude'], latitude: [1, 'latitude'], zoom: [2, 'zoom'] }, null),
+        i1.ɵprd(512, null, i12.MarkerManager, i12.MarkerManager, [i11.GoogleMapsAPIWrapper,
+            i1.NgZone]), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'agm-marker', [], null, null, null, null, null)), i1.ɵdid(1720320, null, 1, i20.AgmMarker, [i12.MarkerManager], { latitude: [0, 'latitude'], longitude: [1, 'longitude'] }, null), i1.ɵqud(603979776, 9, { infoWindow: 1 }), (_l()(), i1.ɵted(0, ['\n'])),
+        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n'])),
+        (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
+        var _co = _v.component;
         var currVal_0 = 'home';
         _ck(_v, 3, 0, currVal_0);
         var currVal_1 = 'header';
@@ -247,6 +359,29 @@ export function View_HomePageComponent_0(_l) {
         _ck(_v, 110, 0, currVal_47);
         var currVal_48 = 'mover-2';
         _ck(_v, 113, 0, currVal_48);
+        var currVal_49 = 'contact';
+        _ck(_v, 123, 0, currVal_49);
+        var currVal_50 = 'header';
+        _ck(_v, 126, 0, currVal_50);
+        var currVal_51 = 'row';
+        var currVal_52 = 'column';
+        var currVal_53 = 'column';
+        _ck(_v, 130, 0, currVal_51, currVal_52, currVal_53);
+        var currVal_54 = '';
+        _ck(_v, 133, 0, currVal_54);
+        _ck(_v, 148, 0);
+        _ck(_v, 169, 0);
+        _ck(_v, 196, 0);
+        _ck(_v, 217, 0);
+        var currVal_55 = '';
+        _ck(_v, 233, 0, currVal_55);
+        var currVal_57 = _co.lng;
+        var currVal_58 = _co.lat;
+        var currVal_59 = 16;
+        _ck(_v, 243, 0, currVal_57, currVal_58, currVal_59);
+        var currVal_60 = _co.lat;
+        var currVal_61 = _co.lng;
+        _ck(_v, 247, 0, currVal_60, currVal_61);
     }, function (_ck, _v) {
         var currVal_9 = (i1.ɵnov(_v, 26).disabled || null);
         var currVal_10 = i1.ɵnov(_v, 26)._isAriaDisabled;
@@ -268,9 +403,11 @@ export function View_HomePageComponent_0(_l) {
         var currVal_38 = i1.ɵnov(_v, 87)._isAriaDisabled;
         var currVal_39 = i1.ɵnov(_v, 87).tabIndex;
         _ck(_v, 85, 0, currVal_37, currVal_38, currVal_39);
+        var currVal_56 = true;
+        _ck(_v, 235, 0, currVal_56);
     });
 }
 export function View_HomePageComponent_Host_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 1, 'app-homepage', [], null, null, null, View_HomePageComponent_0, RenderType_HomePageComponent)), i1.ɵdid(49152, null, 0, i9.HomePageComponent, [i8.MdIconRegistry, i10.DomSanitizer], null, null)], null, null);
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 1, 'app-homepage', [], null, null, null, View_HomePageComponent_0, RenderType_HomePageComponent)), i1.ɵdid(49152, null, 0, i21.HomePageComponent, [i8.MdIconRegistry, i22.DomSanitizer], null, null)], null, null);
 }
-export var HomePageComponentNgFactory = i1.ɵccf('app-homepage', i9.HomePageComponent, View_HomePageComponent_Host_0, {}, {}, []);
+export var HomePageComponentNgFactory = i1.ɵccf('app-homepage', i21.HomePageComponent, View_HomePageComponent_Host_0, {}, {}, []);

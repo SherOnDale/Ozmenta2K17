@@ -13,12 +13,6 @@ export class SidenavComponent {
 
     constructor(private dialog: MdDialog, private userService: UserService) {
 }
-
-    openRegisterForm() {
-        let dialogRef = this.dialog.open(RegisterComponent);
-        dialogRef.afterClosed().subscribe(result => {
-        });
-    }
     
     openLoginForm() {
         let dialogRef = this.dialog.open(LoginComponent);

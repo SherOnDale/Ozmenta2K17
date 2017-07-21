@@ -28,6 +28,7 @@ import 'hammerjs';
 import { HttpModule } from "@angular/http";
 import { MoreService } from './services/more.service';
 import { MoreComponent } from './components/more/more.component';
+import { AgmCoreModule } from '@agm/core';
 var AppModule = (function () {
     function AppModule() {
     }
@@ -35,9 +36,12 @@ var AppModule = (function () {
 }());
 AppModule = __decorate([
     NgModule({
-        entryComponents: [LoginComponent, RegisterComponent, MoreComponent, RegisterEventComponent, CancelEventComponent],
+        entryComponents: [LoginComponent, MoreComponent, RegisterEventComponent, CancelEventComponent],
         declarations: [AppComponent, SidenavComponent, HomePageComponent, CancelEventComponent, RegisterEventComponent, TEventPageComponent, RegisterComponent, LoginComponent, WorkshopPageComponent, ContactsPageComponent, NTEventPageComponent, ActivateUserComponent, MoreComponent],
-        imports: [MaterialModule, BrowserModule, FormsModule, BrowserAnimationsModule, ReactiveFormsModule, HttpModule, routing, FlexLayoutModule],
+        imports: [MaterialModule, BrowserModule, FormsModule, BrowserAnimationsModule, ReactiveFormsModule, HttpModule, routing, FlexLayoutModule,
+            AgmCoreModule.forRoot({
+                apiKey: 'AIzaSyDc75WCAhSFyFxzvR786Z3vHvaS6JqlkaY'
+            })],
         providers: [UserService, MoreService],
         bootstrap: [AppComponent]
     })

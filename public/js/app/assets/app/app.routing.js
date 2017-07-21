@@ -5,6 +5,7 @@ import { HomePageComponent } from './components/homepage/homepage.component';
 import { TEventPageComponent } from './components/teventpage/teventpage.component';
 import { WorkshopPageComponent } from './components/workshoppage/workshoppage.component';
 import { RouterModule } from '@angular/router';
+import { RegisterComponent } from "./components/register/register.component";
 var APP_ROUTES = [
     {
         path: 'tevents',
@@ -30,6 +31,10 @@ var APP_ROUTES = [
         path: '',
         component: HomePageComponent,
         pathMatch: 'full'
+    },
+    {
+        path: 'register',
+        component: RegisterComponent
     }
 ];
 export var routing = RouterModule.forRoot(APP_ROUTES);
