@@ -196,15 +196,15 @@ export function View_HomePageComponent_0(_l) {
             i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵeld(0, null, null, 3, 'md-divider', [['aria-orientation', 'horizontal'], ['class',
                 'mat-divider'], ['role', 'separator']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
         i1.ɵdid(16384, null, 0, i8.MdListDivider, [], null, null),
-        i1.ɵdid(16384, null, 0, i8.MdDividerCssMatStyler, [], null, null), (_l()(), i1.ɵted(null, ['\n\n'])), (_l()(), i1.ɵeld(0, null, null, 154, 'div', [['class', 'contact']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
+        i1.ɵdid(16384, null, 0, i8.MdDividerCssMatStyler, [], null, null), (_l()(), i1.ɵted(null, ['\n\n'])), (_l()(), i1.ɵeld(0, null, null, 130, 'div', [['class', 'contact']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
             i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class', 'header']], null, null, null, null, null)), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['CONTACT'])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 146, 'div', [['fxFlexs',
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['CONTACT'])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 122, 'div', [['fxFlexs',
                 ''], ['fxLayout', 'row'], ['fxLayout.sm', 'column'], ['fxLayout.xs', 'column']], null, null, null, null, null)),
         i1.ɵdid(737280, null, 0, i4.LayoutDirective, [i3.MediaMonitor, i1.ElementRef,
-            i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 122, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
+            i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 98, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
             [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
-            i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵeld(0, null, null, 118, 'md-list', [['class', 'mat-list'], ['role', 'list']], null, null, null, i7.View_MdList_0, i7.RenderType_MdList)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdList, [], null, null), i1.ɵdid(16384, null, 0, i8.MdListCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['\n  '])),
-        (_l()(), i1.ɵeld(0, null, 0, 25, 'md-list-item', [['class', 'mat-list-item'],
+            i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵeld(0, null, null, 94, 'md-list', [['class', 'mat-list'], ['role', 'list']], null, null, null, i7.View_MdList_0, i7.RenderType_MdList)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i8.MdList, [], null, null), i1.ɵdid(16384, null, 0, i8.MdListCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['\n  '])),
+        (_l()(), i1.ɵeld(0, null, 0, 19, 'md-list-item', [['class', 'mat-list-item'],
             ['role', 'listitem']], null, [[null, 'focus'], [null,
                 'blur']], function (_v, en, $event) {
             var ad = true;
@@ -221,103 +221,56 @@ export function View_HomePageComponent_0(_l) {
                 'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)),
         i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null), i1.ɵdid(16384, null, 0, i8.MdListIconCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['folder'])),
-        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 8, 'h4', [['class',
-                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[1, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵeld(0, null, null, 6, 'md-chip-list', [['class', 'mat-chip-list'], ['role', 'listbox']], [[1, 'tabindex', 0]], [[null,
-                'focus'], [null, 'keydown']], function (_v, en, $event) {
-            var ad = true;
-            if (('focus' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 155).focus() !== false);
-                ad = (pd_0 && ad);
-            }
-            if (('keydown' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 155)._keydown($event) !== false);
-                ad = (pd_1 && ad);
-            }
-            return ad;
-        }, i7.View_MdChipList_0, i7.RenderType_MdChipList)), i1.ɵdid(1228800, null, 1, i8.MdChipList, [], null, null), i1.ɵqud(603979776, 3, { chips: 1 }), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-chip', [['class', 'mat-chip'],
-            ['color', 'primary'], ['role', 'option'], ['selected', 'true'], ['tabindex', '-1']], [[2, 'mat-chip-selected', null], [1, 'disabled', 0], [1, 'aria-disabled',
-                0]], [[null, 'click'], [null, 'focus'], [null,
-                'blur']], function (_v, en, $event) {
-            var ad = true;
-            if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 159)._handleClick($event) !== false);
-                ad = (pd_0 && ad);
-            }
-            if (('focus' === en)) {
-                var pd_1 = ((i1.ɵnov(_v, 159)._hasFocus = true) !== false);
-                ad = (pd_1 && ad);
-            }
-            if (('blur' === en)) {
-                var pd_2 = ((i1.ɵnov(_v, 159)._hasFocus = false) !== false);
-                ad = (pd_2 && ad);
-            }
-            return ad;
-        }, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
-        i1.ɵdid(147456, [[3, 4]], 0, i8.MdChip, [i1.Renderer2, i1.ElementRef], { color: [0, 'color'],
-            selected: [1, 'selected'] }, null), (_l()(), i1.ɵted(null, ['COLLEGE NAME'])),
-        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'p', [['class',
+        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'h4', [['class',
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[1, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['COLLEGE NAME'])), (_l()(),
+            i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'p', [['class',
                 'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[1, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['velammal Engineering College'])),
-        (_l()(), i1.ɵted(2, ['\n  '])), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 31, 'md-list-item', [['class', 'mat-list-item'], ['role', 'listitem']], null, [[null, 'focus'], [null, 'blur']], function (_v, en, $event) {
-            var ad = true;
-            if (('focus' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 169)._handleFocus() !== false);
-                ad = (pd_0 && ad);
-            }
-            if (('blur' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 169)._handleBlur() !== false);
-                ad = (pd_1 && ad);
-            }
-            return ad;
-        }, i7.View_MdListItem_0, i7.RenderType_MdListItem)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(1097728, null, 2, i8.MdListItem, [i1.Renderer2, i1.ElementRef, [2, i8.MdList], [2, i8.MdNavListCssMatStyler]], null, null), i1.ɵqud(603979776, 4, { _lines: 1 }), i1.ɵqud(335544320, 5, { _hasAvatar: 0 }), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 4, 'md-icon', [['class', 'mat-icon mat-list-icon'], ['md-list-icon', ''], ['role',
-                'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null), i1.ɵdid(16384, null, 0, i8.MdListIconCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['folder'])),
-        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 8, 'h4', [['class',
-                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[4, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵeld(0, null, null, 6, 'md-chip-list', [['class', 'mat-chip-list'], ['role', 'listbox']], [[1, 'tabindex', 0]], [[null,
-                'focus'], [null, 'keydown']], function (_v, en, $event) {
-            var ad = true;
-            if (('focus' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 182).focus() !== false);
-                ad = (pd_0 && ad);
-            }
-            if (('keydown' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 182)._keydown($event) !== false);
-                ad = (pd_1 && ad);
-            }
-            return ad;
-        }, i7.View_MdChipList_0, i7.RenderType_MdChipList)), i1.ɵdid(1228800, null, 1, i8.MdChipList, [], null, null), i1.ɵqud(603979776, 6, { chips: 1 }), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-chip', [['class', 'mat-chip'],
-            ['color', 'primary'], ['role', 'option'], ['selected', 'true'], ['tabindex', '-1']], [[2, 'mat-chip-selected', null], [1, 'disabled', 0], [1, 'aria-disabled',
-                0]], [[null, 'click'], [null, 'focus'], [null,
-                'blur']], function (_v, en, $event) {
-            var ad = true;
-            if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 186)._handleClick($event) !== false);
-                ad = (pd_0 && ad);
-            }
-            if (('focus' === en)) {
-                var pd_1 = ((i1.ɵnov(_v, 186)._hasFocus = true) !== false);
-                ad = (pd_1 && ad);
-            }
-            if (('blur' === en)) {
-                var pd_2 = ((i1.ɵnov(_v, 186)._hasFocus = false) !== false);
-                ad = (pd_2 && ad);
-            }
-            return ad;
-        }, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
-        i1.ɵdid(147456, [[6, 4]], 0, i8.MdChip, [i1.Renderer2, i1.ElementRef], { color: [0, 'color'],
-            selected: [1, 'selected'] }, null), (_l()(), i1.ɵted(null, ['ADDRESS'])),
-        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 8, 'p', [['class',
-                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[4, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['Ambattur-Red Hills Road,'])),
-        (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, [' Velammal Nagar,'])), (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)),
-        (_l()(), i1.ɵted(null, [' Chennai,'])), (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, [' Tamil Nadu 600066'])),
         (_l()(), i1.ɵted(2, ['\n  '])), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 25, 'md-list-item', [['class', 'mat-list-item'], ['role', 'listitem']], null, [[null, 'focus'], [null, 'blur']], function (_v, en, $event) {
             var ad = true;
             if (('focus' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 202)._handleFocus() !== false);
+                var pd_0 = (i1.ɵnov(_v, 163)._handleFocus() !== false);
                 ad = (pd_0 && ad);
             }
             if (('blur' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 202)._handleBlur() !== false);
+                var pd_1 = (i1.ɵnov(_v, 163)._handleBlur() !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i7.View_MdListItem_0, i7.RenderType_MdListItem)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(1097728, null, 2, i8.MdListItem, [i1.Renderer2, i1.ElementRef, [2, i8.MdList], [2, i8.MdNavListCssMatStyler]], null, null), i1.ɵqud(603979776, 3, { _lines: 1 }), i1.ɵqud(335544320, 4, { _hasAvatar: 0 }), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 4, 'md-icon', [['class', 'mat-icon mat-list-icon'], ['md-list-icon', ''], ['role',
+                'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)),
+        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null), i1.ɵdid(16384, null, 0, i8.MdListIconCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['folder'])),
+        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'h4', [['class',
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[3, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['ADDRESS'])), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 8, 'p', [['class', 'mat-line'],
+            ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[3, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['Ambattur-Red Hills Road,'])),
+        (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, [' Velammal Nagar,'])), (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)),
+        (_l()(), i1.ɵted(null, [' Chennai,'])), (_l()(), i1.ɵeld(0, null, null, 0, 'br', [], null, null, null, null, null)), (_l()(), i1.ɵted(null, [' Tamil Nadu 600066'])),
+        (_l()(), i1.ɵted(2, ['\n  '])), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 19, 'md-list-item', [['class', 'mat-list-item'], ['role', 'listitem']], null, [[null, 'focus'], [null, 'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 190)._handleFocus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 190)._handleBlur() !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i7.View_MdListItem_0, i7.RenderType_MdListItem)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(1097728, null, 2, i8.MdListItem, [i1.Renderer2, i1.ElementRef, [2, i8.MdList], [2, i8.MdNavListCssMatStyler]], null, null), i1.ɵqud(603979776, 5, { _lines: 1 }), i1.ɵqud(335544320, 6, { _hasAvatar: 0 }), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 4, 'md-icon', [['class', 'mat-icon mat-list-icon'], ['md-list-icon', ''], ['role',
+                'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)),
+        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null), i1.ɵdid(16384, null, 0, i8.MdListIconCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['folder'])),
+        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'h4', [['class',
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[5, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['WEBSITE'])), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'p', [['class', 'mat-line'],
+            ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[5, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['velammal.edu.in'])), (_l()(),
+            i1.ɵted(2, ['\n  '])), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 19, 'md-list-item', [['class', 'mat-list-item'], ['role', 'listitem']], null, [[null, 'focus'], [null, 'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 211)._handleFocus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 211)._handleBlur() !== false);
                 ad = (pd_1 && ad);
             }
             return ad;
@@ -325,93 +278,10 @@ export function View_HomePageComponent_0(_l) {
                 'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)),
         i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null), i1.ɵdid(16384, null, 0, i8.MdListIconCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['folder'])),
-        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 8, 'h4', [['class',
-                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[7, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵeld(0, null, null, 6, 'md-chip-list', [['class', 'mat-chip-list'], ['role', 'listbox']], [[1, 'tabindex', 0]], [[null,
-                'focus'], [null, 'keydown']], function (_v, en, $event) {
-            var ad = true;
-            if (('focus' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 215).focus() !== false);
-                ad = (pd_0 && ad);
-            }
-            if (('keydown' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 215)._keydown($event) !== false);
-                ad = (pd_1 && ad);
-            }
-            return ad;
-        }, i7.View_MdChipList_0, i7.RenderType_MdChipList)), i1.ɵdid(1228800, null, 1, i8.MdChipList, [], null, null), i1.ɵqud(603979776, 9, { chips: 1 }), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-chip', [['class', 'mat-chip'],
-            ['color', 'primary'], ['role', 'option'], ['selected', 'true'], ['tabindex', '-1']], [[2, 'mat-chip-selected', null], [1, 'disabled', 0], [1, 'aria-disabled',
-                0]], [[null, 'click'], [null, 'focus'], [null,
-                'blur']], function (_v, en, $event) {
-            var ad = true;
-            if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 219)._handleClick($event) !== false);
-                ad = (pd_0 && ad);
-            }
-            if (('focus' === en)) {
-                var pd_1 = ((i1.ɵnov(_v, 219)._hasFocus = true) !== false);
-                ad = (pd_1 && ad);
-            }
-            if (('blur' === en)) {
-                var pd_2 = ((i1.ɵnov(_v, 219)._hasFocus = false) !== false);
-                ad = (pd_2 && ad);
-            }
-            return ad;
-        }, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
-        i1.ɵdid(147456, [[9, 4]], 0, i8.MdChip, [i1.Renderer2, i1.ElementRef], { color: [0, 'color'],
-            selected: [1, 'selected'] }, null), (_l()(), i1.ɵted(null, ['WEBSITE'])),
-        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'p', [['class',
-                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[7, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['velammal.edu.in'])), (_l()(),
-            i1.ɵted(2, ['\n  '])), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 25, 'md-list-item', [['class', 'mat-list-item'], ['role', 'listitem']], null, [[null, 'focus'], [null, 'blur']], function (_v, en, $event) {
-            var ad = true;
-            if (('focus' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 229)._handleFocus() !== false);
-                ad = (pd_0 && ad);
-            }
-            if (('blur' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 229)._handleBlur() !== false);
-                ad = (pd_1 && ad);
-            }
-            return ad;
-        }, i7.View_MdListItem_0, i7.RenderType_MdListItem)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(1097728, null, 2, i8.MdListItem, [i1.Renderer2, i1.ElementRef, [2, i8.MdList], [2, i8.MdNavListCssMatStyler]], null, null), i1.ɵqud(603979776, 10, { _lines: 1 }), i1.ɵqud(335544320, 11, { _hasAvatar: 0 }), (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 0, 4, 'md-icon', [['class', 'mat-icon mat-list-icon'], ['md-list-icon', ''], ['role',
-                'img']], null, null, null, i7.View_MdIcon_0, i7.RenderType_MdIcon)),
-        i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(638976, null, 0, i8.MdIcon, [i1.Renderer2, i1.ElementRef, i8.MdIconRegistry, [8, null]], null, null), i1.ɵdid(16384, null, 0, i8.MdListIconCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['folder'])),
-        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 8, 'h4', [['class',
-                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[10, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵeld(0, null, null, 6, 'md-chip-list', [['class', 'mat-chip-list'], ['role', 'listbox']], [[1, 'tabindex', 0]], [[null,
-                'focus'], [null, 'keydown']], function (_v, en, $event) {
-            var ad = true;
-            if (('focus' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 242).focus() !== false);
-                ad = (pd_0 && ad);
-            }
-            if (('keydown' === en)) {
-                var pd_1 = (i1.ɵnov(_v, 242)._keydown($event) !== false);
-                ad = (pd_1 && ad);
-            }
-            return ad;
-        }, i7.View_MdChipList_0, i7.RenderType_MdChipList)), i1.ɵdid(1228800, null, 1, i8.MdChipList, [], null, null), i1.ɵqud(603979776, 12, { chips: 1 }), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-chip', [['class', 'mat-chip'],
-            ['color', 'primary'], ['role', 'option'], ['selected', 'true'], ['tabindex', '-1']], [[2, 'mat-chip-selected', null], [1, 'disabled', 0], [1, 'aria-disabled',
-                0]], [[null, 'click'], [null, 'focus'], [null,
-                'blur']], function (_v, en, $event) {
-            var ad = true;
-            if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 246)._handleClick($event) !== false);
-                ad = (pd_0 && ad);
-            }
-            if (('focus' === en)) {
-                var pd_1 = ((i1.ɵnov(_v, 246)._hasFocus = true) !== false);
-                ad = (pd_1 && ad);
-            }
-            if (('blur' === en)) {
-                var pd_2 = ((i1.ɵnov(_v, 246)._hasFocus = false) !== false);
-                ad = (pd_2 && ad);
-            }
-            return ad;
-        }, null, null)), i1.ɵdid(16384, null, 0, i8.MdPrefixRejector, [[2, i8.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
-        i1.ɵdid(147456, [[12, 4]], 0, i8.MdChip, [i1.Renderer2, i1.ElementRef], { color: [0, 'color'],
-            selected: [1, 'selected'] }, null), (_l()(), i1.ɵted(null, ['EMAIL ADDRESS'])),
-        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'p', [['class',
-                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[10, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['support@ozmenta2k17.com'])),
+        (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'h4', [['class',
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[7, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['EMAIL ADDRESS'])), (_l()(),
+            i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'p', [['class',
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[7, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['support@ozmenta2k17.com'])),
         (_l()(), i1.ɵted(2, ['\n  '])), (_l()(), i1.ɵted(0, ['\n'])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 18, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
             [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
             i1.ɵted(null, ['\n\n'])), (_l()(), i1.ɵeld(0, null, null, 14, 'agm-map', [], [[2, 'sebm-google-map-container', null]], null, null, i9.View_AgmMap_0, i9.RenderType_AgmMap)), i1.ɵprd(4608, null, i10.InfoWindowManager, i10.InfoWindowManager, [i11.GoogleMapsAPIWrapper,
@@ -420,7 +290,7 @@ export function View_HomePageComponent_0(_l) {
             i1.NgZone]), i1.ɵprd(4608, null, i16.KmlLayerManager, i16.KmlLayerManager, [i11.GoogleMapsAPIWrapper, i1.NgZone]), i1.ɵprd(4608, null, i17.DataLayerManager, i17.DataLayerManager, [i11.GoogleMapsAPIWrapper, i1.NgZone]), i1.ɵprd(512, null, i11.GoogleMapsAPIWrapper, i11.GoogleMapsAPIWrapper, [i18.MapsAPILoader, i1.NgZone]),
         i1.ɵdid(770048, null, 0, i19.AgmMap, [i1.ElementRef, i11.GoogleMapsAPIWrapper], { longitude: [0, 'longitude'], latitude: [1, 'latitude'], zoom: [2, 'zoom'] }, null),
         i1.ɵprd(512, null, i12.MarkerManager, i12.MarkerManager, [i11.GoogleMapsAPIWrapper,
-            i1.NgZone]), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'agm-marker', [], null, null, null, null, null)), i1.ɵdid(1720320, null, 1, i20.AgmMarker, [i12.MarkerManager], { latitude: [0, 'latitude'], longitude: [1, 'longitude'] }, null), i1.ɵqud(603979776, 13, { infoWindow: 1 }), (_l()(), i1.ɵted(0, ['\n'])),
+            i1.NgZone]), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'agm-marker', [], null, null, null, null, null)), i1.ɵdid(1720320, null, 1, i20.AgmMarker, [i12.MarkerManager], { latitude: [0, 'latitude'], longitude: [1, 'longitude'] }, null), i1.ɵqud(603979776, 9, { infoWindow: 1 }), (_l()(), i1.ɵted(0, ['\n'])),
         (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n'])),
         (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
         var _co = _v.component;
@@ -500,30 +370,18 @@ export function View_HomePageComponent_0(_l) {
         var currVal_54 = '';
         _ck(_v, 133, 0, currVal_54);
         _ck(_v, 148, 0);
-        var currVal_59 = 'primary';
-        var currVal_60 = 'true';
-        _ck(_v, 159, 0, currVal_59, currVal_60);
-        _ck(_v, 175, 0);
-        var currVal_65 = 'primary';
-        var currVal_66 = 'true';
-        _ck(_v, 186, 0, currVal_65, currVal_66);
-        _ck(_v, 208, 0);
-        var currVal_71 = 'primary';
-        var currVal_72 = 'true';
-        _ck(_v, 219, 0, currVal_71, currVal_72);
-        _ck(_v, 235, 0);
-        var currVal_77 = 'primary';
-        var currVal_78 = 'true';
-        _ck(_v, 246, 0, currVal_77, currVal_78);
-        var currVal_79 = '';
-        _ck(_v, 257, 0, currVal_79);
-        var currVal_81 = _co.lng;
-        var currVal_82 = _co.lat;
-        var currVal_83 = 16;
-        _ck(_v, 267, 0, currVal_81, currVal_82, currVal_83);
-        var currVal_84 = _co.lat;
-        var currVal_85 = _co.lng;
-        _ck(_v, 271, 0, currVal_84, currVal_85);
+        _ck(_v, 169, 0);
+        _ck(_v, 196, 0);
+        _ck(_v, 217, 0);
+        var currVal_55 = '';
+        _ck(_v, 233, 0, currVal_55);
+        var currVal_57 = _co.lng;
+        var currVal_58 = _co.lat;
+        var currVal_59 = 16;
+        _ck(_v, 243, 0, currVal_57, currVal_58, currVal_59);
+        var currVal_60 = _co.lat;
+        var currVal_61 = _co.lng;
+        _ck(_v, 247, 0, currVal_60, currVal_61);
     }, function (_ck, _v) {
         var currVal_9 = (i1.ɵnov(_v, 26).disabled || null);
         var currVal_10 = i1.ɵnov(_v, 26)._isAriaDisabled;
@@ -545,32 +403,8 @@ export function View_HomePageComponent_0(_l) {
         var currVal_38 = i1.ɵnov(_v, 87)._isAriaDisabled;
         var currVal_39 = i1.ɵnov(_v, 87).tabIndex;
         _ck(_v, 85, 0, currVal_37, currVal_38, currVal_39);
-        var currVal_55 = i1.ɵnov(_v, 155)._tabIndex;
-        _ck(_v, 154, 0, currVal_55);
-        var currVal_56 = i1.ɵnov(_v, 159).selected;
-        var currVal_57 = (i1.ɵnov(_v, 159).disabled || null);
-        var currVal_58 = i1.ɵnov(_v, 159)._isAriaDisabled();
-        _ck(_v, 157, 0, currVal_56, currVal_57, currVal_58);
-        var currVal_61 = i1.ɵnov(_v, 182)._tabIndex;
-        _ck(_v, 181, 0, currVal_61);
-        var currVal_62 = i1.ɵnov(_v, 186).selected;
-        var currVal_63 = (i1.ɵnov(_v, 186).disabled || null);
-        var currVal_64 = i1.ɵnov(_v, 186)._isAriaDisabled();
-        _ck(_v, 184, 0, currVal_62, currVal_63, currVal_64);
-        var currVal_67 = i1.ɵnov(_v, 215)._tabIndex;
-        _ck(_v, 214, 0, currVal_67);
-        var currVal_68 = i1.ɵnov(_v, 219).selected;
-        var currVal_69 = (i1.ɵnov(_v, 219).disabled || null);
-        var currVal_70 = i1.ɵnov(_v, 219)._isAriaDisabled();
-        _ck(_v, 217, 0, currVal_68, currVal_69, currVal_70);
-        var currVal_73 = i1.ɵnov(_v, 242)._tabIndex;
-        _ck(_v, 241, 0, currVal_73);
-        var currVal_74 = i1.ɵnov(_v, 246).selected;
-        var currVal_75 = (i1.ɵnov(_v, 246).disabled || null);
-        var currVal_76 = i1.ɵnov(_v, 246)._isAriaDisabled();
-        _ck(_v, 244, 0, currVal_74, currVal_75, currVal_76);
-        var currVal_80 = true;
-        _ck(_v, 259, 0, currVal_80);
+        var currVal_56 = true;
+        _ck(_v, 235, 0, currVal_56);
     });
 }
 export function View_HomePageComponent_Host_0(_l) {
