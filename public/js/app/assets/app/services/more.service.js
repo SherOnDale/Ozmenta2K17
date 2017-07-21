@@ -42,7 +42,7 @@ var MoreService = (function () {
                 name: 'Paper Presentation',
                 type: 'Idea Express',
                 id: 'e24',
-                description: 'Title:<br>Advances in Computer Science<br>Mail your paper with name, college name and department to <a class="p-link" href="mailto:submission@ozmenta2k17.com">submission@ozmenta2k17.com</a><br>Last date for submission is August 1'
+                description: 'Title:<br>Advances in Computer Science<br>Mail your paper with name, college name and department to <a class="p-link" href="mailto:submission@ozmenta2k17.com">submission@ozmenta2k17.com</a><br>Last date for submission is August 1. <br>Format: IEEE <br> Members: Maximum 3'
             }, {
                 name: 'Capture The Flag',
                 type: 'Conquer It',

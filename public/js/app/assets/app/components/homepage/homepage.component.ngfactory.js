@@ -224,7 +224,7 @@ export function View_HomePageComponent_0(_l) {
         (_l()(), i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'h4', [['class',
                 'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[1, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['COLLEGE NAME'])), (_l()(),
             i1.ɵted(2, ['\n    '])), (_l()(), i1.ɵeld(0, null, 1, 2, 'p', [['class',
-                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[1, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['velammal Engineering College'])),
+                'mat-line'], ['md-line', '']], null, null, null, null, null)), i1.ɵdid(16384, [[1, 4]], 0, i8.MdLine, [], null, null), (_l()(), i1.ɵted(null, ['Velammal Engineering College'])),
         (_l()(), i1.ɵted(2, ['\n  '])), (_l()(), i1.ɵted(0, ['\n  '])), (_l()(), i1.ɵeld(0, null, 0, 25, 'md-list-item', [['class', 'mat-list-item'], ['role', 'listitem']], null, [[null, 'focus'], [null, 'blur']], function (_v, en, $event) {
             var ad = true;
             if (('focus' === en)) {
