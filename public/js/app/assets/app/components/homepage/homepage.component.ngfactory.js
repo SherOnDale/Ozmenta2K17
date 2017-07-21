@@ -50,7 +50,7 @@ export function View_HomePageComponent_0(_l) {
                 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null), i1.ɵdid(933888, null, 0, i2.ClassDirective, [i3.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
             i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(null, ['   \n    '])), (_l()(), i1.ɵeld(0, null, null, 13, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i5.FlexDirective, [i3.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i4.LayoutDirective],
             [3, i6.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
-            i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(16777216, null, null, 9, 'a', [['class', 'fab mat-fab'], ['href', 'http://inplanttraininginchennai.org.in/'],
+            i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(16777216, null, null, 9, 'a', [['class', 'fab mat-fab'], ['href', 'http://inplanttraining.org/'],
             ['md-fab', ''], ['mdTooltip', 'Implant Training']], [[1, 'disabled', 0], [1,
                 'aria-disabled', 0], [8, 'tabIndex', 0]], [[null, 'click'], [null,
                 'longpress'], [null, 'touchend']], function (_v, en, $event) {

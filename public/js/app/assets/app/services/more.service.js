@@ -11,7 +11,7 @@ var MoreService = (function () {
                 name: 'UI/UX Workshop',
                 type: 'Technical Workshop',
                 id: 'e11',
-                description: 'The workshop will focus on the basics of UI and UX design, the tools used and demos will be presented. We will further discuss on the industry standards, scope for UI/UX artists, the future of the domain, etc. It will be a fun-filled interative workshop conducted by the alumni of VEC.'
+                description: 'The workshop will focus on the basics of UI and UX design, the tools used and demos will be presented. We will further discuss on the industry standards, scope for UI/UX artists, the future of the domain, etc. It will be a fun-filled interative workshop conducted by the alumni of VEC.<br>Registration Fee: 200 Rupees<br><br>Certificates substantiating successful completeion of workshop<br>Timing: 9am to 12am'
             }, {
                 name: 'Competitive Programming',
                 type: 'Technical Workshop',
@@ -21,7 +21,7 @@ var MoreService = (function () {
                 name: 'Python Programming and Introduction to Flask',
                 type: 'Technical Workshop',
                 id: 'e13',
-                description: 'A brief introduction to Python with practical work covering various important concepts in Python allowing you to dive into Python world followed by a seminar about Flask, a Micro Web Development Framework to help in providing a path for developing web applications is Python'
+                description: 'A brief introduction to Python with practical work covering various important concepts in Python allowing you to dive into Python world followed by a seminar about Flask, a Micro Web Development Framework to help in providing a path for developing web applications is Python<br>Registration Fee: 250 Rupees<br>Prerequisites: Beginner Knowledge about programming<br>Certificates substantiating successful completeion of workshop<br>Timing: 9am to 12am'
             }];
         this.moreTEvents = [{
                 name: 'Workshops',
@@ -32,7 +32,7 @@ var MoreService = (function () {
                 name: 'Complete the Code',
                 type: 'Techie Raft',
                 id: 'e22',
-                description: "Find the value of x at any line. Complete the code by finding its e'x'"
+                description: "A logic error is a bug in a program that causes it to operate incorrectly, but not to terminate abnormally. No, It's not about debugging. We're jere to make programming simpler, We will provide you the program as well as the output. All you've to do is to complete the core logic with which the program can execute correctly. <br>Members: Maximum 2"
             }, {
                 name: 'Debugtron',
                 type: 'Bug Wizard',
@@ -63,7 +63,7 @@ var MoreService = (function () {
                 name: 'Connexions',
                 type: 'Non-Technical Event',
                 id: 'e32',
-                description: ' Syntax:  	&#123;Clue1, Clue2.. Clue n&#125; -> Eureka!<br>Example:  Committed -> Couch Potato => Bae_Calls_Me_Potato<br>Sounds familiar? Then, drop in with your mate to crack these clues.<br>PS: You dont have to be committed to participate :P'
+                description: "Are you the kind of person who's able to bring together all the teey tiny details that you notice? Then, drop in with your mater to crack the clues we provide<br>Members: 2"
             }, {
                 name: 'Meme Creation',
                 type: 'Non-Technical Event',
@@ -78,7 +78,7 @@ var MoreService = (function () {
                 name: 'Pictionary',
                 type: 'Non-Technical Event',
                 id: 'e35',
-                description: "Members: 3 <br> Description: Time to unleash the Picaso in you. Here's the opportunity where you can have all the fun in one place and prove your artistic talent too ;) (Not to worry if you're an amateur artist, you can still win :D)"
+                description: "Members: 2 <br> Description: Time to unleash the Picaso in you. Here's the opportunity where you can have all the fun in one place and prove your artistic talent too ;) (Not to worry if you're an amateur artist, you can still win :D)"
             }, {
                 name: 'Surprise Event',
                 type: 'Non-Technical Event',
