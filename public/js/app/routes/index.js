@@ -131,7 +131,9 @@ router.post('/activateUser', function (req, res, next) {
                     console.log("Message sent: " + response);
                 }
             });
-            return res.status(200);
+            return res.status(200).json({
+                message: 'Successfully Activated'
+            });
         });
     });
 });

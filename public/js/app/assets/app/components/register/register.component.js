@@ -76,9 +76,9 @@ var RegisterComponent = (function () {
             .subscribe(function (data) {
             localStorage.setItem('token', data.token);
             localStorage.setItem('userId', data.userId);
-            _this.snackBar.open(data.message, 'OK');
+            _this.snackBar.open('Verification Mail Sent', 'OK');
         }, function (error) {
-            _this.snackBar.open(error.message, 'OK');
+            _this.snackBar.open('Unable to register. Please try again later', 'OK');
         });
     };
     return RegisterComponent;

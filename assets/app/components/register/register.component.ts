@@ -75,10 +75,10 @@ export class RegisterComponent {
         data => {
           localStorage.setItem('token', data.token);
           localStorage.setItem('userId', data.userId);
-          this.snackBar.open(data.message, 'OK');
+          this.snackBar.open('Verification Mail Sent', 'OK');
         },
         error => {
-          this.snackBar.open(error.message, 'OK');
+          this.snackBar.open('Unable to register. Please try again later', 'OK');
         }
       );  
   }
