@@ -93,38 +93,6 @@ function View_RegisterEventComponent_6(_l) {
         _ck(_v, 3, 0, currVal_0, currVal_1);
     });
 }
-function View_RegisterEventComponent_7(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 2, 'h1', [['class',
-                'mat-dialog-title'], ['md-dialog-title', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogTitle, [], null, null), (_l()(), i1.ɵted(null, ['Validation']))], null, null);
-}
-function View_RegisterEventComponent_8(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 2, 'div', [['class',
-                'mat-dialog-content'], ['md-dialog-content', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogContent, [], null, null), (_l()(), i1.ɵted(null, ['Please login to register to this event']))], null, null);
-}
-function View_RegisterEventComponent_9(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 9, 'div', [['class',
-                'mat-dialog-actions'], ['md-dialog-actions', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i2.MdDialogActions, [], null, null), (_l()(), i1.ɵted(null, ['\n  '])),
-        (_l()(), i1.ɵeld(0, null, null, 5, 'button', [['class', 'mat-button'],
-            ['md-button', ''], ['md-dialog-close', 'ok'], ['type', 'button']], [[8, 'disabled',
-                0], [1, 'aria-label', 0]], [[null, 'click']], function (_v, en, $event) {
-            var ad = true;
-            if (('click' === en)) {
-                var pd_0 = (i1.ɵnov(_v, 7).dialogRef.close(i1.ɵnov(_v, 7).dialogResult) !== false);
-                ad = (pd_0 && ad);
-            }
-            return ad;
-        }, i3.View_MdButton_0, i3.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i2.MdPrefixRejector, [[2, i2.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i2.MdButton, [i1.Renderer2,
-            i1.ElementRef, i2.Platform, i2.FocusOriginMonitor], null, null),
-        i1.ɵdid(16384, null, 0, i2.MdButtonCssMatStyler, [], null, null), i1.ɵdid(16384, null, 0, i2.MdDialogClose, [i2.MdDialogRef], { dialogResult: [0, 'dialogResult'] }, null), (_l()(), i1.ɵted(0, ['OK'])),
-        (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
-        var currVal_2 = 'ok';
-        _ck(_v, 7, 0, currVal_2);
-    }, function (_ck, _v) {
-        var currVal_0 = (i1.ɵnov(_v, 5).disabled || null);
-        var currVal_1 = i1.ɵnov(_v, 7).ariaLabel;
-        _ck(_v, 3, 0, currVal_0, currVal_1);
-    });
-}
 export function View_RegisterEventComponent_0(_l) {
     return i1.ɵvid(0, [(_l()(), i1.ɵand(16777216, null, null, 1, null, View_RegisterEventComponent_1)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef,
             i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_RegisterEventComponent_2)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef,
@@ -132,11 +100,7 @@ export function View_RegisterEventComponent_0(_l) {
             i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_RegisterEventComponent_4)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef,
             i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_RegisterEventComponent_5)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef,
             i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_RegisterEventComponent_6)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef,
-            i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_RegisterEventComponent_7)), i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_RegisterEventComponent_8)),
-        i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0,
-                'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n'])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_RegisterEventComponent_9)),
-        i1.ɵdid(16384, null, 0, i4.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0,
-                'ngIf'] }, null)], function (_ck, _v) {
+            i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null)], function (_ck, _v) {
         var _co = _v.component;
         var currVal_0 = _co.isLoggedIn;
         _ck(_v, 1, 0, currVal_0);
@@ -150,12 +114,6 @@ export function View_RegisterEventComponent_0(_l) {
         _ck(_v, 13, 0, currVal_4);
         var currVal_5 = !_co.isLoggedIn;
         _ck(_v, 16, 0, currVal_5);
-        var currVal_6 = !_co.isLoggedIn;
-        _ck(_v, 18, 0, currVal_6);
-        var currVal_7 = !_co.isLoggedIn;
-        _ck(_v, 21, 0, currVal_7);
-        var currVal_8 = !_co.isLoggedIn;
-        _ck(_v, 24, 0, currVal_8);
     }, null);
 }
 export function View_RegisterEventComponent_Host_0(_l) {
