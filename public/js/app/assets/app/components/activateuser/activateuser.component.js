@@ -29,6 +29,8 @@ var ActivateUserComponent = (function () {
             console.log(body.token);
             _this.activateUser(bodyJson)
                 .subscribe(function (data) {
+                localStorage.setItem('token', data.token);
+                localStorage.setItem('userId', data.userId);
                 _this.router.navigate(['/']);
                 _this.snackBar.open('Thank You. Your account has been successfully verified', 'OK');
             }, function (error) {

@@ -74,8 +74,6 @@ var RegisterComponent = (function () {
         var password = user.password;
         this.userService.registerUser(user)
             .subscribe(function (data) {
-            localStorage.setItem('token', data.token);
-            localStorage.setItem('userId', data.userId);
             _this.snackBar.open('Verification Mail Sent', 'OK');
         }, function (error) {
             _this.snackBar.open('Unable to register. Please try again later', 'OK');

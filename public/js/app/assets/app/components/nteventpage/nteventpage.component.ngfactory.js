@@ -225,188 +225,416 @@ function View_NTEventPageComponent_12(_l) {
     });
 }
 export function View_NTEventPageComponent_0(_l) {
-    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 304, 'div', [['class',
+    return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, null, null, 316, 'div', [['class',
                 'container']], null, null, null, null, null)),
         i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers,
             i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
                 'classBase'] }, null), (_l()(), i1.ɵted(null, ['\n\n  '])),
-        (_l()(), i1.ɵeld(0, null, null, 149, 'div', [['fxFlexs', ''], ['fxLayout',
+        (_l()(), i1.ɵeld(0, null, null, 155, 'div', [['fxFlexs', ''], ['fxLayout',
                 'row'], ['fxLayout.sm', 'column'], ['fxLayout.xs', 'column']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i6.LayoutDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null),
-        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor,
+        (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 49, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor,
             i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective], [3, i8.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(), i1.ɵted(null, ['\n      '])),
-        (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)),
+        (_l()(), i1.ɵeld(0, null, null, 45, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)),
         i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCard, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers,
-            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
+            i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 19, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 9, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/photo.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_1)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null),
-        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_2)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
-            i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
-                ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
-                var ad = true;
-                var _co = _v.component;
-                if (('click' === en)) {
-                    var pd_0 = (_co.openDialog(_co.data[0].description) !== false);
-                    ad = (pd_0 && ad);
-                }
-                return ad;
-            }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵeld(0, null, null, 6, 'md-chip-list', [['class', 'mat-chip-list'],
+            ['role', 'listbox']], [[1, 'tabindex', 0]], [[null, 'focus'], [null,
+                'keydown']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 26).focus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('keydown' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 26)._keydown($event) !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i2.View_MdChipList_0, i2.RenderType_MdChipList)), i1.ɵdid(1228800, null, 1, i3.MdChipList, [], null, null), i1.ɵqud(603979776, 1, { chips: 1 }), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-chip', [['class', 'mat-chip'],
+            ['color', 'primary'], ['role', 'option'], ['selected', 'true'], ['tabindex', '-1']], [[2, 'mat-chip-selected', null], [1, 'disabled', 0], [1, 'aria-disabled',
+                0]], [[null, 'click'], [null, 'focus'], [null,
+                'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 30)._handleClick($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('focus' === en)) {
+                var pd_1 = ((i1.ɵnov(_v, 30)._hasFocus = true) !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_2 = ((i1.ɵnov(_v, 30)._hasFocus = false) !== false);
+                ad = (pd_2 && ad);
+            }
+            return ad;
+        }, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(147456, [[1, 4]], 0, i3.MdChip, [i1.Renderer2, i1.ElementRef], { color: [0, 'color'],
+            selected: [1, 'selected'] }, null), (_l()(), i1.ɵted(null, ['',
+            ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵted(2, ['\n        '])),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image', ''], ['src', '/images/photo.jpg']], null, null, null, null, null)),
+        i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_1)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
+            i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_2)),
+        i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0,
+                'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])),
+        (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
+            ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
+            var ad = true;
+            var _co = _v.component;
+            if (('click' === en)) {
+                var pd_0 = (_co.openDialog(_co.data[0].description) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2,
+            i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 49, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective],
             [3, i8.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
-            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 45, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
         i1.ɵdid(49152, null, 0, i3.MdCard, [], null, null),
         i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers,
             i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
                 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(),
-            i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)),
+            i1.ɵeld(0, null, 0, 19, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)),
         i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 9, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/connex.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_3)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null),
-        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_4)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
-            i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
-                ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
-                var ad = true;
-                var _co = _v.component;
-                if (('click' === en)) {
-                    var pd_0 = (_co.openDialog(_co.data[1].description) !== false);
-                    ad = (pd_0 && ad);
-                }
-                return ad;
-            }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵeld(0, null, null, 6, 'md-chip-list', [['class', 'mat-chip-list'],
+            ['role', 'listbox']], [[1, 'tabindex', 0]], [[null, 'focus'], [null,
+                'keydown']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 77).focus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('keydown' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 77)._keydown($event) !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i2.View_MdChipList_0, i2.RenderType_MdChipList)), i1.ɵdid(1228800, null, 1, i3.MdChipList, [], null, null), i1.ɵqud(603979776, 2, { chips: 1 }), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-chip', [['class', 'mat-chip'],
+            ['color', 'primary'], ['role', 'option'], ['selected', 'true'], ['tabindex', '-1']], [[2, 'mat-chip-selected', null], [1, 'disabled', 0], [1, 'aria-disabled',
+                0]], [[null, 'click'], [null, 'focus'], [null,
+                'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 81)._handleClick($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('focus' === en)) {
+                var pd_1 = ((i1.ɵnov(_v, 81)._hasFocus = true) !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_2 = ((i1.ɵnov(_v, 81)._hasFocus = false) !== false);
+                ad = (pd_2 && ad);
+            }
+            return ad;
+        }, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(147456, [[2, 4]], 0, i3.MdChip, [i1.Renderer2, i1.ElementRef], { color: [0, 'color'],
+            selected: [1, 'selected'] }, null), (_l()(), i1.ɵted(null, ['',
+            ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵted(2, ['\n        '])),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image', ''], ['src', '/images/connex.jpg']], null, null, null, null, null)),
+        i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_3)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
+            i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_4)),
+        i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0,
+                'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])),
+        (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
+            ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
+            var ad = true;
+            var _co = _v.component;
+            if (('click' === en)) {
+                var pd_0 = (_co.openDialog(_co.data[1].description) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2,
+            i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 49, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective],
             [3, i8.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
-            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 45, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
         i1.ɵdid(49152, null, 0, i3.MdCard, [], null, null),
         i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers,
             i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
                 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(),
-            i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)),
+            i1.ɵeld(0, null, 0, 19, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)),
         i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 9, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/meme.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_5)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null),
-        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_6)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
-            i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
-                ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
-                var ad = true;
-                var _co = _v.component;
-                if (('click' === en)) {
-                    var pd_0 = (_co.openDialog(_co.data[2].description) !== false);
-                    ad = (pd_0 && ad);
-                }
-                return ad;
-            }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 149, 'div', [['fxFlexs',
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵeld(0, null, null, 6, 'md-chip-list', [['class', 'mat-chip-list'],
+            ['role', 'listbox']], [[1, 'tabindex', 0]], [[null, 'focus'], [null,
+                'keydown']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 128).focus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('keydown' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 128)._keydown($event) !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i2.View_MdChipList_0, i2.RenderType_MdChipList)), i1.ɵdid(1228800, null, 1, i3.MdChipList, [], null, null), i1.ɵqud(603979776, 3, { chips: 1 }), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-chip', [['class', 'mat-chip'],
+            ['color', 'primary'], ['role', 'option'], ['selected', 'true'], ['tabindex', '-1']], [[2, 'mat-chip-selected', null], [1, 'disabled', 0], [1, 'aria-disabled',
+                0]], [[null, 'click'], [null, 'focus'], [null,
+                'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 132)._handleClick($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('focus' === en)) {
+                var pd_1 = ((i1.ɵnov(_v, 132)._hasFocus = true) !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_2 = ((i1.ɵnov(_v, 132)._hasFocus = false) !== false);
+                ad = (pd_2 && ad);
+            }
+            return ad;
+        }, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(147456, [[3, 4]], 0, i3.MdChip, [i1.Renderer2, i1.ElementRef], { color: [0, 'color'],
+            selected: [1, 'selected'] }, null), (_l()(), i1.ɵted(null, ['',
+            ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵted(2, ['\n        '])),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image', ''], ['src', '/images/meme.jpg']], null, null, null, null, null)),
+        i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_5)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
+            i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_6)),
+        i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0,
+                'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])),
+        (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
+            ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
+            var ad = true;
+            var _co = _v.component;
+            if (('click' === en)) {
+                var pd_0 = (_co.openDialog(_co.data[2].description) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2,
+            i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵeld(0, null, null, 155, 'div', [['fxFlexs',
                 ''], ['fxLayout', 'row'], ['fxLayout.sm', 'column'], ['fxLayout.xs', 'column']], null, null, null, null, null)),
         i1.ɵdid(737280, null, 0, i6.LayoutDirective, [i5.MediaMonitor, i1.ElementRef,
-            i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective],
+            i1.Renderer2], { layout: [0, 'layout'], layoutXs: [1, 'layoutXs'], layoutSm: [2, 'layoutSm'] }, null), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 49, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective],
             [3, i8.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
-            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 45, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
         i1.ɵdid(49152, null, 0, i3.MdCard, [], null, null),
         i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers,
             i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
                 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(),
-            i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)),
+            i1.ɵeld(0, null, 0, 19, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)),
         i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 9, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/gaming.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_7)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null),
-        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_8)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
-            i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
-                ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
-                var ad = true;
-                var _co = _v.component;
-                if (('click' === en)) {
-                    var pd_0 = (_co.openDialog(_co.data[3].description) !== false);
-                    ad = (pd_0 && ad);
-                }
-                return ad;
-            }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵeld(0, null, null, 6, 'md-chip-list', [['class', 'mat-chip-list'],
+            ['role', 'listbox']], [[1, 'tabindex', 0]], [[null, 'focus'], [null,
+                'keydown']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 183).focus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('keydown' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 183)._keydown($event) !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i2.View_MdChipList_0, i2.RenderType_MdChipList)), i1.ɵdid(1228800, null, 1, i3.MdChipList, [], null, null), i1.ɵqud(603979776, 4, { chips: 1 }), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-chip', [['class', 'mat-chip'],
+            ['color', 'primary'], ['role', 'option'], ['selected', 'true'], ['tabindex', '-1']], [[2, 'mat-chip-selected', null], [1, 'disabled', 0], [1, 'aria-disabled',
+                0]], [[null, 'click'], [null, 'focus'], [null,
+                'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 187)._handleClick($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('focus' === en)) {
+                var pd_1 = ((i1.ɵnov(_v, 187)._hasFocus = true) !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_2 = ((i1.ɵnov(_v, 187)._hasFocus = false) !== false);
+                ad = (pd_2 && ad);
+            }
+            return ad;
+        }, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(147456, [[4, 4]], 0, i3.MdChip, [i1.Renderer2, i1.ElementRef], { color: [0, 'color'],
+            selected: [1, 'selected'] }, null), (_l()(), i1.ɵted(null, ['',
+            ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵted(2, ['\n        '])),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image', ''], ['src', '/images/gaming.jpg']], null, null, null, null, null)),
+        i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_7)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
+            i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_8)),
+        i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0,
+                'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])),
+        (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
+            ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
+            var ad = true;
+            var _co = _v.component;
+            if (('click' === en)) {
+                var pd_0 = (_co.openDialog(_co.data[3].description) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2,
+            i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 49, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective],
             [3, i8.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
-            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 45, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
         i1.ɵdid(49152, null, 0, i3.MdCard, [], null, null),
         i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers,
             i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
                 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(),
-            i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)),
+            i1.ɵeld(0, null, 0, 19, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)),
         i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 9, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/pictionary.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_9)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null),
-        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_10)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
-            i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
-                ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
-                var ad = true;
-                var _co = _v.component;
-                if (('click' === en)) {
-                    var pd_0 = (_co.openDialog(_co.data[4].description) !== false);
-                    ad = (pd_0 && ad);
-                }
-                return ad;
-            }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 47, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective],
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵeld(0, null, null, 6, 'md-chip-list', [['class', 'mat-chip-list'],
+            ['role', 'listbox']], [[1, 'tabindex', 0]], [[null, 'focus'], [null,
+                'keydown']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 234).focus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('keydown' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 234)._keydown($event) !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i2.View_MdChipList_0, i2.RenderType_MdChipList)), i1.ɵdid(1228800, null, 1, i3.MdChipList, [], null, null), i1.ɵqud(603979776, 5, { chips: 1 }), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-chip', [['class', 'mat-chip'],
+            ['color', 'primary'], ['role', 'option'], ['selected', 'true'], ['tabindex', '-1']], [[2, 'mat-chip-selected', null], [1, 'disabled', 0], [1, 'aria-disabled',
+                0]], [[null, 'click'], [null, 'focus'], [null,
+                'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 238)._handleClick($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('focus' === en)) {
+                var pd_1 = ((i1.ɵnov(_v, 238)._hasFocus = true) !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_2 = ((i1.ɵnov(_v, 238)._hasFocus = false) !== false);
+                ad = (pd_2 && ad);
+            }
+            return ad;
+        }, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(147456, [[5, 4]], 0, i3.MdChip, [i1.Renderer2, i1.ElementRef], { color: [0, 'color'],
+            selected: [1, 'selected'] }, null), (_l()(), i1.ɵted(null, ['',
+            ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵted(2, ['\n        '])),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image', ''], ['src', '/images/pictionary.jpg']], null, null, null, null, null)),
+        i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_9)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
+            i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_10)),
+        i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0,
+                'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])),
+        (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
+            ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
+            var ad = true;
+            var _co = _v.component;
+            if (('click' === en)) {
+                var pd_0 = (_co.openDialog(_co.data[4].description) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2,
+            i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵeld(0, null, null, 49, 'div', [['fxFlex', '']], null, null, null, null, null)), i1.ɵdid(737280, null, 0, i7.FlexDirective, [i5.MediaMonitor, i1.ElementRef, i1.Renderer2, [3, i6.LayoutDirective],
             [3, i8.LayoutWrapDirective]], { flex: [0, 'flex'] }, null), (_l()(),
-            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 43, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+            i1.ɵted(null, ['\n      '])), (_l()(), i1.ɵeld(0, null, null, 45, 'md-card', [['class', 'card mat-card']], null, null, null, i2.View_MdCard_0, i2.RenderType_MdCard)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
         i1.ɵdid(49152, null, 0, i3.MdCard, [], null, null),
         i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers,
             i1.KeyValueDiffers, i1.ElementRef, i1.Renderer, i1.Renderer2], { classBase: [0,
                 'classBase'] }, null), (_l()(), i1.ɵted(0, ['\n        '])), (_l()(),
-            i1.ɵeld(0, null, 0, 17, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)),
+            i1.ɵeld(0, null, 0, 19, 'md-card-header', [['class', 'mat-card-header']], null, null, null, i2.View_MdCardHeader_0, i2.RenderType_MdCardHeader)),
         i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
             i1.ElementRef], null, null), i1.ɵdid(49152, null, 0, i3.MdCardHeader, [], null, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 0, 2, 'div', [['class', 'header-image mat-card-avatar'],
             ['md-card-avatar', '']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardAvatar, [], null, null), i1.ɵdid(933888, null, 0, i4.ClassDirective, [i5.MediaMonitor, i1.IterableDiffers, i1.KeyValueDiffers, i1.ElementRef, i1.Renderer,
-            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-title', [['class',
+            i1.Renderer2], { classBase: [0, 'classBase'] }, null), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 9, 'md-card-title', [['class',
                 'mat-card-title ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵeld(0, null, 1, 3, 'md-card-subtitle', [['class', 'mat-card-subtitle ']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardSubtitle, [], null, null), (_l()(), i1.ɵted(null, ['', ''])), (_l()(), i1.ɵted(2, ['\n        '])), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image',
-                ''], ['src', '/images/surprise.jpg']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null), (_l()(), i1.ɵted(0, ['\n        '])),
-        (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)),
-        i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE],
-            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_11)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null),
-        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_12)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
-            i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
-                ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
-                var ad = true;
-                var _co = _v.component;
-                if (('click' === en)) {
-                    var pd_0 = (_co.openDialog(_co.data[5].description) !== false);
-                    ad = (pd_0 && ad);
-                }
-                return ad;
-            }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2, i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null), i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
+            i1.ElementRef], null, null), i1.ɵdid(16384, null, 0, i3.MdCardTitle, [], null, null), (_l()(), i1.ɵeld(0, null, null, 6, 'md-chip-list', [['class', 'mat-chip-list'],
+            ['role', 'listbox']], [[1, 'tabindex', 0]], [[null, 'focus'], [null,
+                'keydown']], function (_v, en, $event) {
+            var ad = true;
+            if (('focus' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 285).focus() !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('keydown' === en)) {
+                var pd_1 = (i1.ɵnov(_v, 285)._keydown($event) !== false);
+                ad = (pd_1 && ad);
+            }
+            return ad;
+        }, i2.View_MdChipList_0, i2.RenderType_MdChipList)), i1.ɵdid(1228800, null, 1, i3.MdChipList, [], null, null), i1.ɵqud(603979776, 6, { chips: 1 }), (_l()(), i1.ɵeld(0, null, 0, 3, 'md-chip', [['class', 'mat-chip'],
+            ['color', 'primary'], ['role', 'option'], ['selected', 'true'], ['tabindex', '-1']], [[2, 'mat-chip-selected', null], [1, 'disabled', 0], [1, 'aria-disabled',
+                0]], [[null, 'click'], [null, 'focus'], [null,
+                'blur']], function (_v, en, $event) {
+            var ad = true;
+            if (('click' === en)) {
+                var pd_0 = (i1.ɵnov(_v, 289)._handleClick($event) !== false);
+                ad = (pd_0 && ad);
+            }
+            if (('focus' === en)) {
+                var pd_1 = ((i1.ɵnov(_v, 289)._hasFocus = true) !== false);
+                ad = (pd_1 && ad);
+            }
+            if (('blur' === en)) {
+                var pd_2 = ((i1.ɵnov(_v, 289)._hasFocus = false) !== false);
+                ad = (pd_2 && ad);
+            }
+            return ad;
+        }, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(147456, [[6, 4]], 0, i3.MdChip, [i1.Renderer2, i1.ElementRef], { color: [0, 'color'],
+            selected: [1, 'selected'] }, null), (_l()(), i1.ɵted(null, ['',
+            ''])), (_l()(), i1.ɵted(2, ['\n          '])), (_l()(), i1.ɵted(2, ['\n        '])),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 1, 'img', [['class', 'mat-card-image'], ['md-card-image', ''], ['src', '/images/surprise.jpg']], null, null, null, null, null)),
+        i1.ɵdid(16384, null, 0, i3.MdCardImage, [], null, null),
+        (_l()(), i1.ɵted(0, ['\n        '])), (_l()(), i1.ɵeld(0, null, 0, 15, 'md-card-actions', [['class', 'mat-card-actions']], null, null, null, null, null)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdCardActions, [], null, null),
+        (_l()(), i1.ɵted(null, ['\n          '])), (_l()(), i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_11)), i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0, 'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])), (_l()(),
+            i1.ɵand(16777216, null, null, 1, null, View_NTEventPageComponent_12)),
+        i1.ɵdid(16384, null, 0, i9.NgIf, [i1.ViewContainerRef, i1.TemplateRef], { ngIf: [0,
+                'ngIf'] }, null), (_l()(), i1.ɵted(null, ['\n          '])),
+        (_l()(), i1.ɵeld(0, null, null, 4, 'button', [['class', 'mat-button'],
+            ['md-button', '']], [[8, 'disabled', 0]], [[null, 'click']], function (_v, en, $event) {
+            var ad = true;
+            var _co = _v.component;
+            if (('click' === en)) {
+                var pd_0 = (_co.openDialog(_co.data[5].description) !== false);
+                ad = (pd_0 && ad);
+            }
+            return ad;
+        }, i2.View_MdButton_0, i2.RenderType_MdButton)), i1.ɵdid(16384, null, 0, i3.MdPrefixRejector, [[2, i3.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null), i1.ɵdid(180224, null, 0, i3.MdButton, [i1.Renderer2,
+            i1.ElementRef, i3.Platform, i3.FocusOriginMonitor], null, null),
+        i1.ɵdid(16384, null, 0, i3.MdButtonCssMatStyler, [], null, null), (_l()(), i1.ɵted(0, ['MORE'])), (_l()(), i1.ɵted(null, ['\n        '])), (_l()(), i1.ɵted(0, ['\n      '])), (_l()(), i1.ɵted(null, ['\n    '])), (_l()(), i1.ɵted(null, ['\n  '])), (_l()(), i1.ɵted(null, ['\n']))], function (_ck, _v) {
         var _co = _v.component;
         var currVal_0 = 'container';
         _ck(_v, 1, 0, currVal_0);
@@ -420,102 +648,144 @@ export function View_NTEventPageComponent_0(_l) {
         _ck(_v, 12, 0, currVal_5);
         var currVal_6 = 'header-image';
         _ck(_v, 20, 0, currVal_6);
-        var currVal_9 = !_co.nteventsRegistered.e31;
-        _ck(_v, 41, 0, currVal_9);
-        var currVal_10 = _co.nteventsRegistered.e31;
-        _ck(_v, 44, 0, currVal_10);
-        var currVal_12 = '';
-        _ck(_v, 56, 0, currVal_12);
-        var currVal_13 = 'card';
-        _ck(_v, 61, 0, currVal_13);
-        var currVal_14 = 'header-image';
-        _ck(_v, 69, 0, currVal_14);
-        var currVal_17 = !_co.nteventsRegistered.e32;
-        _ck(_v, 90, 0, currVal_17);
-        var currVal_18 = _co.nteventsRegistered.e32;
-        _ck(_v, 93, 0, currVal_18);
-        var currVal_20 = '';
-        _ck(_v, 105, 0, currVal_20);
-        var currVal_21 = 'card';
-        _ck(_v, 110, 0, currVal_21);
-        var currVal_22 = 'header-image';
-        _ck(_v, 118, 0, currVal_22);
-        var currVal_25 = !_co.nteventsRegistered.e33;
-        _ck(_v, 139, 0, currVal_25);
-        var currVal_26 = _co.nteventsRegistered.e33;
-        _ck(_v, 142, 0, currVal_26);
-        var currVal_28 = 'row';
-        var currVal_29 = 'column';
-        var currVal_30 = 'column';
-        _ck(_v, 155, 0, currVal_28, currVal_29, currVal_30);
-        var currVal_31 = '';
-        _ck(_v, 158, 0, currVal_31);
-        var currVal_32 = 'card';
-        _ck(_v, 163, 0, currVal_32);
-        var currVal_33 = 'header-image';
-        _ck(_v, 171, 0, currVal_33);
-        var currVal_36 = !_co.nteventsRegistered.e34;
-        _ck(_v, 192, 0, currVal_36);
-        var currVal_37 = _co.nteventsRegistered.e34;
-        _ck(_v, 195, 0, currVal_37);
-        var currVal_39 = '';
-        _ck(_v, 207, 0, currVal_39);
-        var currVal_40 = 'card';
-        _ck(_v, 212, 0, currVal_40);
-        var currVal_41 = 'header-image';
-        _ck(_v, 220, 0, currVal_41);
-        var currVal_44 = !_co.nteventsRegistered.e35;
-        _ck(_v, 241, 0, currVal_44);
-        var currVal_45 = _co.nteventsRegistered.e35;
-        _ck(_v, 244, 0, currVal_45);
-        var currVal_47 = '';
-        _ck(_v, 256, 0, currVal_47);
-        var currVal_48 = 'card';
-        _ck(_v, 261, 0, currVal_48);
-        var currVal_49 = 'header-image';
-        _ck(_v, 269, 0, currVal_49);
-        var currVal_52 = !_co.nteventsRegistered.e36;
-        _ck(_v, 290, 0, currVal_52);
-        var currVal_53 = _co.nteventsRegistered.e36;
-        _ck(_v, 293, 0, currVal_53);
+        var currVal_11 = 'primary';
+        var currVal_12 = 'true';
+        _ck(_v, 30, 0, currVal_11, currVal_12);
+        var currVal_14 = !_co.nteventsRegistered.e31;
+        _ck(_v, 43, 0, currVal_14);
+        var currVal_15 = _co.nteventsRegistered.e31;
+        _ck(_v, 46, 0, currVal_15);
+        var currVal_17 = '';
+        _ck(_v, 58, 0, currVal_17);
+        var currVal_18 = 'card';
+        _ck(_v, 63, 0, currVal_18);
+        var currVal_19 = 'header-image';
+        _ck(_v, 71, 0, currVal_19);
+        var currVal_24 = 'primary';
+        var currVal_25 = 'true';
+        _ck(_v, 81, 0, currVal_24, currVal_25);
+        var currVal_27 = !_co.nteventsRegistered.e32;
+        _ck(_v, 94, 0, currVal_27);
+        var currVal_28 = _co.nteventsRegistered.e32;
+        _ck(_v, 97, 0, currVal_28);
+        var currVal_30 = '';
+        _ck(_v, 109, 0, currVal_30);
+        var currVal_31 = 'card';
+        _ck(_v, 114, 0, currVal_31);
+        var currVal_32 = 'header-image';
+        _ck(_v, 122, 0, currVal_32);
+        var currVal_37 = 'primary';
+        var currVal_38 = 'true';
+        _ck(_v, 132, 0, currVal_37, currVal_38);
+        var currVal_40 = !_co.nteventsRegistered.e33;
+        _ck(_v, 145, 0, currVal_40);
+        var currVal_41 = _co.nteventsRegistered.e33;
+        _ck(_v, 148, 0, currVal_41);
+        var currVal_43 = 'row';
+        var currVal_44 = 'column';
+        var currVal_45 = 'column';
+        _ck(_v, 161, 0, currVal_43, currVal_44, currVal_45);
+        var currVal_46 = '';
+        _ck(_v, 164, 0, currVal_46);
+        var currVal_47 = 'card';
+        _ck(_v, 169, 0, currVal_47);
+        var currVal_48 = 'header-image';
+        _ck(_v, 177, 0, currVal_48);
+        var currVal_53 = 'primary';
+        var currVal_54 = 'true';
+        _ck(_v, 187, 0, currVal_53, currVal_54);
+        var currVal_56 = !_co.nteventsRegistered.e34;
+        _ck(_v, 200, 0, currVal_56);
+        var currVal_57 = _co.nteventsRegistered.e34;
+        _ck(_v, 203, 0, currVal_57);
+        var currVal_59 = '';
+        _ck(_v, 215, 0, currVal_59);
+        var currVal_60 = 'card';
+        _ck(_v, 220, 0, currVal_60);
+        var currVal_61 = 'header-image';
+        _ck(_v, 228, 0, currVal_61);
+        var currVal_66 = 'primary';
+        var currVal_67 = 'true';
+        _ck(_v, 238, 0, currVal_66, currVal_67);
+        var currVal_69 = !_co.nteventsRegistered.e35;
+        _ck(_v, 251, 0, currVal_69);
+        var currVal_70 = _co.nteventsRegistered.e35;
+        _ck(_v, 254, 0, currVal_70);
+        var currVal_72 = '';
+        _ck(_v, 266, 0, currVal_72);
+        var currVal_73 = 'card';
+        _ck(_v, 271, 0, currVal_73);
+        var currVal_74 = 'header-image';
+        _ck(_v, 279, 0, currVal_74);
+        var currVal_79 = 'primary';
+        var currVal_80 = 'true';
+        _ck(_v, 289, 0, currVal_79, currVal_80);
+        var currVal_82 = !_co.nteventsRegistered.e36;
+        _ck(_v, 302, 0, currVal_82);
+        var currVal_83 = _co.nteventsRegistered.e36;
+        _ck(_v, 305, 0, currVal_83);
     }, function (_ck, _v) {
         var _co = _v.component;
-        var currVal_7 = _co.data[0].name;
+        var currVal_7 = i1.ɵnov(_v, 26)._tabIndex;
         _ck(_v, 25, 0, currVal_7);
-        var currVal_8 = _co.data[0].type;
-        _ck(_v, 30, 0, currVal_8);
-        var currVal_11 = (i1.ɵnov(_v, 48).disabled || null);
-        _ck(_v, 46, 0, currVal_11);
-        var currVal_15 = _co.data[1].name;
-        _ck(_v, 74, 0, currVal_15);
-        var currVal_16 = _co.data[1].type;
-        _ck(_v, 79, 0, currVal_16);
-        var currVal_19 = (i1.ɵnov(_v, 97).disabled || null);
-        _ck(_v, 95, 0, currVal_19);
-        var currVal_23 = _co.data[2].name;
-        _ck(_v, 123, 0, currVal_23);
-        var currVal_24 = _co.data[2].type;
-        _ck(_v, 128, 0, currVal_24);
-        var currVal_27 = (i1.ɵnov(_v, 146).disabled || null);
-        _ck(_v, 144, 0, currVal_27);
-        var currVal_34 = _co.data[3].name;
-        _ck(_v, 176, 0, currVal_34);
-        var currVal_35 = _co.data[3].type;
-        _ck(_v, 181, 0, currVal_35);
-        var currVal_38 = (i1.ɵnov(_v, 199).disabled || null);
-        _ck(_v, 197, 0, currVal_38);
-        var currVal_42 = _co.data[4].name;
-        _ck(_v, 225, 0, currVal_42);
-        var currVal_43 = _co.data[4].type;
-        _ck(_v, 230, 0, currVal_43);
-        var currVal_46 = (i1.ɵnov(_v, 248).disabled || null);
-        _ck(_v, 246, 0, currVal_46);
-        var currVal_50 = _co.data[5].name;
-        _ck(_v, 274, 0, currVal_50);
-        var currVal_51 = _co.data[5].type;
-        _ck(_v, 279, 0, currVal_51);
-        var currVal_54 = (i1.ɵnov(_v, 297).disabled || null);
-        _ck(_v, 295, 0, currVal_54);
+        var currVal_8 = i1.ɵnov(_v, 30).selected;
+        var currVal_9 = (i1.ɵnov(_v, 30).disabled || null);
+        var currVal_10 = i1.ɵnov(_v, 30)._isAriaDisabled();
+        _ck(_v, 28, 0, currVal_8, currVal_9, currVal_10);
+        var currVal_13 = _co.data[0].name;
+        _ck(_v, 31, 0, currVal_13);
+        var currVal_16 = (i1.ɵnov(_v, 50).disabled || null);
+        _ck(_v, 48, 0, currVal_16);
+        var currVal_20 = i1.ɵnov(_v, 77)._tabIndex;
+        _ck(_v, 76, 0, currVal_20);
+        var currVal_21 = i1.ɵnov(_v, 81).selected;
+        var currVal_22 = (i1.ɵnov(_v, 81).disabled || null);
+        var currVal_23 = i1.ɵnov(_v, 81)._isAriaDisabled();
+        _ck(_v, 79, 0, currVal_21, currVal_22, currVal_23);
+        var currVal_26 = _co.data[1].name;
+        _ck(_v, 82, 0, currVal_26);
+        var currVal_29 = (i1.ɵnov(_v, 101).disabled || null);
+        _ck(_v, 99, 0, currVal_29);
+        var currVal_33 = i1.ɵnov(_v, 128)._tabIndex;
+        _ck(_v, 127, 0, currVal_33);
+        var currVal_34 = i1.ɵnov(_v, 132).selected;
+        var currVal_35 = (i1.ɵnov(_v, 132).disabled || null);
+        var currVal_36 = i1.ɵnov(_v, 132)._isAriaDisabled();
+        _ck(_v, 130, 0, currVal_34, currVal_35, currVal_36);
+        var currVal_39 = _co.data[2].name;
+        _ck(_v, 133, 0, currVal_39);
+        var currVal_42 = (i1.ɵnov(_v, 152).disabled || null);
+        _ck(_v, 150, 0, currVal_42);
+        var currVal_49 = i1.ɵnov(_v, 183)._tabIndex;
+        _ck(_v, 182, 0, currVal_49);
+        var currVal_50 = i1.ɵnov(_v, 187).selected;
+        var currVal_51 = (i1.ɵnov(_v, 187).disabled || null);
+        var currVal_52 = i1.ɵnov(_v, 187)._isAriaDisabled();
+        _ck(_v, 185, 0, currVal_50, currVal_51, currVal_52);
+        var currVal_55 = _co.data[3].name;
+        _ck(_v, 188, 0, currVal_55);
+        var currVal_58 = (i1.ɵnov(_v, 207).disabled || null);
+        _ck(_v, 205, 0, currVal_58);
+        var currVal_62 = i1.ɵnov(_v, 234)._tabIndex;
+        _ck(_v, 233, 0, currVal_62);
+        var currVal_63 = i1.ɵnov(_v, 238).selected;
+        var currVal_64 = (i1.ɵnov(_v, 238).disabled || null);
+        var currVal_65 = i1.ɵnov(_v, 238)._isAriaDisabled();
+        _ck(_v, 236, 0, currVal_63, currVal_64, currVal_65);
+        var currVal_68 = _co.data[4].name;
+        _ck(_v, 239, 0, currVal_68);
+        var currVal_71 = (i1.ɵnov(_v, 258).disabled || null);
+        _ck(_v, 256, 0, currVal_71);
+        var currVal_75 = i1.ɵnov(_v, 285)._tabIndex;
+        _ck(_v, 284, 0, currVal_75);
+        var currVal_76 = i1.ɵnov(_v, 289).selected;
+        var currVal_77 = (i1.ɵnov(_v, 289).disabled || null);
+        var currVal_78 = i1.ɵnov(_v, 289)._isAriaDisabled();
+        _ck(_v, 287, 0, currVal_76, currVal_77, currVal_78);
+        var currVal_81 = _co.data[5].name;
+        _ck(_v, 290, 0, currVal_81);
+        var currVal_84 = (i1.ɵnov(_v, 309).disabled || null);
+        _ck(_v, 307, 0, currVal_84);
     });
 }
 export function View_NTEventPageComponent_Host_0(_l) {

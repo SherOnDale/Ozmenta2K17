@@ -24,6 +24,8 @@ export class ActivateUserComponent implements OnInit {
       this.activateUser(bodyJson)
         .subscribe(
           data => {
+          localStorage.setItem('token', data.token);
+          localStorage.setItem('userId', data.userId);
             this.router.navigate(['/']);
             this.snackBar.open('Thank You. Your account has been successfully verified', 'OK');
           },

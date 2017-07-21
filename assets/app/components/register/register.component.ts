@@ -73,8 +73,6 @@ export class RegisterComponent {
     this.userService.registerUser(user)
       .subscribe(
         data => {
-          localStorage.setItem('token', data.token);
-          localStorage.setItem('userId', data.userId);
           this.snackBar.open('Verification Mail Sent', 'OK');
         },
         error => {

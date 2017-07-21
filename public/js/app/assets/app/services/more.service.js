@@ -29,34 +29,34 @@ var MoreService = (function () {
                 id: 'e21',
                 description: 'Click <a routerLink="/workshops" class="p-link"> here </a> to checkout our technical workshops'
             }, {
-                name: 'Techie Raft',
-                type: 'Complete the Code',
+                name: 'Complete the Code',
+                type: 'Techie Raft',
                 id: 'e22',
                 description: "Find the value of x at any line. Complete the code by finding its e'x'"
             }, {
-                name: 'Bug Wizard',
-                type: 'Debugging',
+                name: 'Debugtron',
+                type: 'Bug Wizard',
                 id: 'e23',
                 description: ' Detect the bug<br>Members: Maximum 2<br>Rounds: 2'
             }, {
-                name: 'Idea Express',
-                type: 'Paper Presentation',
+                name: 'Paper Presentation',
+                type: 'Idea Express',
                 id: 'e24',
                 description: 'Title:<br>Advances in Computer Science<br>Mail your paper with name, college name and department to <a class="p-link" href="mailto:submission@ozmenta2k17.com">submission@ozmenta2k17.com</a><br>Last date for submission is August 1'
             }, {
-                name: 'Conquer It',
-                type: 'Capture The Flag',
+                name: 'Capture The Flag',
+                type: 'Conquer It',
                 id: 'e25',
                 description: "Capture The Flag is an ethical hacking contest in which certain pieces of information called flags are hidden on servers, stored somewhere difficult to access. Oz-CTF is a intermediate level CTF, competition focusing on web application security, cryptography , reverse engineering and application security. Always wanted to learn hacking but don't know how where it all fits together ?? Oz-CTF is a good place to start. Happy hacking. FAQ <br>1. Is it a team or individual event  Ans : we would advise you to be a team of 3 (max) and you can go solo if you prefer 2. I am a complete beginner can I complete? Ans : yes , learning is the most important concept of this CTF and it is structured in such a way that newbies and experts find this interesting 3. Do I need laptop for CTF ? Ans : it is preferable to have laptop but we will provide systems in our lab, if you don't have one. 4. Do I have to be in velammal to participate ? Ans : yes , it is a local CTF so the server will be accessible only from our network Got something to clarify? Ping me at shivakishore@protonmail.com"
             }, {
-                name: 'Dummy App',
-                type: 'Mobile App Mock-Up',
+                name: 'Mobile App Mock-Up',
+                type: 'Dummy App',
                 id: 'e26',
                 description: 'Participants are suppossed to come up with an innovative idea for an app. They dont need to have the knowledge of coding/programming. They have to do a presentation explaining their app (if possible show the wireframes and screen mock ups). The judges will give marks based on the problem solving thought process, creativity and friendly user interface'
             }];
         this.moreNTEvents = [{
-                name: 'Steady Shot',
-                type: 'Photography',
+                name: 'Photography',
+                type: 'Steady Shot',
                 id: 'e31',
                 description: 'Master your aperture & freeze the juncture based on the given theme:<br>1.Beauty of Chennai<br>2.Wildlife<br>3.Natural Sceneries<br>4.Indoor Photography<br>Mail your photograph with name, college name and department to <a style="color:yellow;" md-button href="mailto:submission@ozmenta2k17.com">submission@ozmenta2k17.com</a> or DM your photographs to <a class="p-link" href="http://www.facebook.com/ozmenta2k17">OZmenta2K17 FB Page</a><br>Last date for submission is August 3'
             }, {
@@ -70,8 +70,8 @@ var MoreService = (function () {
                 id: 'e33',
                 description: 'Gear Up to showcase your Meme creation talent on OZmenta2K17<br>Three rounds will be conducted and the winners get exciting prizes'
             }, {
-                name: 'Race 2 Destiny',
-                type: 'Gaming',
+                name: 'Gaming',
+                type: 'Race 2 Destiny',
                 id: 'e34',
                 description: 'Are you a gamer? Are you up for some real challenges? Then enroll to this event and win attractive prizes!<br>PC Games: <br>1. FIFA 17<br>2. Call of Duty<br>3. Blur<br>4. NFS Most Wanted<br>Mobile Games: <br>1. Mini Miltia<br>Indoor Games: <br>1. Box Cricket<br>Entry fees for each game is 50 Rupees.<br>Entery fees for Box Cricket is 100 Rupees.<br>League-wise winners will be announced in Box Cricket'
             }, {
