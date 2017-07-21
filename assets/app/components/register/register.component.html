@@ -23,7 +23,7 @@
 </md-input-container>
 
 <md-autocomplete #auto2="mdAutocomplete">
-  <md-option *ngFor="let degree of degrees" [value]="degree.value">
+  <md-option *ngFor="let degree of degrees" [value]="degree.viewValue">
     {{degree.viewValue}}
   </md-option>
 </md-autocomplete>
@@ -33,7 +33,7 @@
 </md-input-container>
 
 <md-autocomplete #auto="mdAutocomplete">
-  <md-option *ngFor="let department of departments" [value]="department.value">
+  <md-option *ngFor="let department of departments" [value]="department.viewValue">
     {{department.viewValue}}
   </md-option>
 </md-autocomplete>
@@ -43,7 +43,7 @@
 </md-input-container>
 
 <md-autocomplete #auto3="mdAutocomplete">
-  <md-option *ngFor="let year of years" [value]="year.value">
+  <md-option *ngFor="let year of years" [value]="year.viewValue">
     {{year.viewValue}}
   </md-option>
 </md-autocomplete>

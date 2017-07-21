@@ -6,7 +6,7 @@ export class User {
               public phno: number,
               public cName: string,
               public dept: string,
-              public year: number,
+              public year: string,
               public degree: string) {
 
   }

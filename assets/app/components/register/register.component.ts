@@ -56,7 +56,7 @@ export class RegisterComponent {
       'password': [null, Validators.required]
     });
   }
-  addPost(post: {email: string, password: string, fName: string, lName: string, phno: number, cName: string, degree: string, dept: string, year: number}) {
+  addPost(post: {email: string, password: string, fName: string, lName: string, phno: number, cName: string, degree: string, dept: string, year: string}) {
     const user: User = {
       email: post.email,
       password: post.password,

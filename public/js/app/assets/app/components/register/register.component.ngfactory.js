@@ -85,7 +85,7 @@ function View_RegisterComponent_4(_l) {
         }, i5.View_MdOption_0, i5.RenderType_MdOption)), i1.ɵdid(49152, [[25, 4]], 0, i2.MdOption, [i1.ElementRef, [2, i2.MdOptgroup], [2, i2.MATERIAL_COMPATIBILITY_MODE]], { value: [0,
                 'value'] }, null), i1.ɵdid(16384, null, 0, i2.MdPrefixRejector, [[2, i2.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
         (_l()(), i1.ɵted(0, ['\n    ', '\n  ']))], function (_ck, _v) {
-        var currVal_8 = _v.context.$implicit.value;
+        var currVal_8 = _v.context.$implicit.viewValue;
         _ck(_v, 1, 0, currVal_8);
     }, function (_ck, _v) {
         var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex();
@@ -135,7 +135,7 @@ function View_RegisterComponent_6(_l) {
         }, i5.View_MdOption_0, i5.RenderType_MdOption)), i1.ɵdid(49152, [[32, 4]], 0, i2.MdOption, [i1.ElementRef, [2, i2.MdOptgroup], [2, i2.MATERIAL_COMPATIBILITY_MODE]], { value: [0,
                 'value'] }, null), i1.ɵdid(16384, null, 0, i2.MdPrefixRejector, [[2, i2.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
         (_l()(), i1.ɵted(0, ['\n    ', '\n  ']))], function (_ck, _v) {
-        var currVal_8 = _v.context.$implicit.value;
+        var currVal_8 = _v.context.$implicit.viewValue;
         _ck(_v, 1, 0, currVal_8);
     }, function (_ck, _v) {
         var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex();
@@ -185,7 +185,7 @@ function View_RegisterComponent_8(_l) {
         }, i5.View_MdOption_0, i5.RenderType_MdOption)), i1.ɵdid(49152, [[39, 4]], 0, i2.MdOption, [i1.ElementRef, [2, i2.MdOptgroup], [2, i2.MATERIAL_COMPATIBILITY_MODE]], { value: [0,
                 'value'] }, null), i1.ɵdid(16384, null, 0, i2.MdPrefixRejector, [[2, i2.MATERIAL_COMPATIBILITY_MODE], i1.ElementRef], null, null),
         (_l()(), i1.ɵted(0, ['\n    ', '\n  ']))], function (_ck, _v) {
-        var currVal_8 = _v.context.$implicit.value;
+        var currVal_8 = _v.context.$implicit.viewValue;
         _ck(_v, 1, 0, currVal_8);
     }, function (_ck, _v) {
         var currVal_0 = i1.ɵnov(_v, 1)._getTabIndex();
