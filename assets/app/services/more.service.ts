@@ -59,7 +59,7 @@ export class MoreService {
         name: 'Connexions',
         type: 'Non-Technical Event',
         id: 'e32',
-        description: "Are you the kind of person who's able to bring together all the teey tiny details that you notice? Then, drop in with your mater to crack the clues we provide<br>Members: 2"
+        description: "Are you the kind of person who's able to bring together all the teey tiny details that you notice? Then, drop in with your mate to crack the clues we provide<br>Members: 2"
     }, {
         name: 'Meme Creation',
         type: 'Non-Technical Event',
