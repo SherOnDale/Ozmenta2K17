@@ -38,7 +38,7 @@ export class MoreService {
         name: 'Paper Presentation',
         type: 'Idea Express',
         id: 'e24',
-        description: 'Title:<br>Advances in Computer Science<br>Mail your paper with name, college name and department to <a class="p-link" href="mailto:submission@ozmenta2k17.com">submission@ozmenta2k17.com</a><br>Last date for submission is August 1. <br>Format: IEEE <br> Members: Maximum 3'
+        description: 'Title:<br>Advances in Computer Science<br>Mail your paper with name, college name and department to <a class="p-link" href="mailto:submission@ozmenta2k17.com">submission@ozmenta2k17.com</a><br>Last date for submission is August 1. <br>Format: IEEE <br> Members: Maximum 3<br>Entry Fees: 500 Rupees'
     }, {
         name: 'Capture The Flag',
         type: 'Conquer It',
@@ -59,7 +59,7 @@ export class MoreService {
         name: 'Connexions',
         type: 'Non-Technical Event',
         id: 'e32',
-        description: "Are you the kind of person who's able to bring together all the teey tiny details that you notice? Then, drop in with your mater to crack the clues we provide<br>Members: 2"
+        description: "Are you the kind of person who's able to bring together all the teey tiny details that you notice? Then, drop in with your mate to crack the clues we provide<br>Members: 2"
     }, {
         name: 'Meme Creation',
         type: 'Non-Technical Event',
