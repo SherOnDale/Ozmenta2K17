@@ -72,7 +72,7 @@ var UserService = (function () {
         return localStorage.getItem('token') != null;
     };
     UserService.prototype.getToken = function () {
-        return this.activeUser.token;
+        return localStorage.getItem('token');
     };
     return UserService;
 }());

@@ -72,6 +72,6 @@ export class UserService {
     return localStorage.getItem('token') != null;
   }
   getToken() {
-    return this.activeUser.token;
+    return localStorage.getItem('token');
   }
 }
